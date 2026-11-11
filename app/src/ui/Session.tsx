@@ -88,6 +88,7 @@ export function Session({ kind, target }: { kind: SessionKind; target?: string }
   return (
     <div class="screen">
       <QuestionCard
+        key={index}
         q={q}
         mode={mode}
         index={index}

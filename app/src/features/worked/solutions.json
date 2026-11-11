@@ -1,0 +1,1258 @@
+[
+ {
+  "id": "T5D01",
+  "family": "ohm",
+  "want": "I",
+  "given": [],
+  "steps": [
+   {
+    "say": "Current is the letter I. Find I on the triangle and cover it with your finger.",
+    "expr": "I = ?"
+   },
+   {
+    "say": "E is left on top with R below it. Top over bottom means divide.",
+    "expr": "I = E / R"
+   }
+  ],
+  "result": null,
+  "answer": "I = E / R"
+ },
+ {
+  "id": "T5D02",
+  "family": "ohm",
+  "want": "E",
+  "given": [],
+  "steps": [
+   {
+    "say": "Voltage is the letter E. Find E on the triangle and cover it with your finger.",
+    "expr": "E = ?"
+   },
+   {
+    "say": "I and R are left side by side on the bottom row, so multiply them.",
+    "expr": "E = I × R"
+   }
+  ],
+  "result": null,
+  "answer": "E = I x R"
+ },
+ {
+  "id": "T5D03",
+  "family": "ohm",
+  "want": "R",
+  "given": [],
+  "steps": [
+   {
+    "say": "Resistance is the letter R. Find R on the triangle and cover it with your finger.",
+    "expr": "R = ?"
+   },
+   {
+    "say": "E is left on top with I below it. Top over bottom means divide.",
+    "expr": "R = E / I"
+   }
+  ],
+  "result": null,
+  "answer": "R = E / I"
+ },
+ {
+  "id": "T5D04",
+  "family": "ohm",
+  "want": "R",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 90,
+    "unit": "volts"
+   },
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 3,
+    "unit": "amperes"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for resistance (R). Write down what you are given.",
+    "expr": "E = 90 V\nI = 3 A\nR = ?"
+   },
+   {
+    "say": "Cover R on the triangle. E is left on top with I below it. Top over bottom means divide.",
+    "expr": "R = E / I"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "R = 90 / 3"
+   },
+   {
+    "say": "Divide.",
+    "expr": "90 / 3 = 30 ohms"
+   }
+  ],
+  "result": 30,
+  "answer": "30 ohms"
+ },
+ {
+  "id": "T5D05",
+  "family": "ohm",
+  "want": "R",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 12,
+    "unit": "volts"
+   },
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 1.5,
+    "unit": "amperes"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for resistance (R). Write down what you are given.",
+    "expr": "E = 12 V\nI = 1.5 A\nR = ?"
+   },
+   {
+    "say": "Cover R on the triangle. E is left on top with I below it. Top over bottom means divide.",
+    "expr": "R = E / I"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "R = 12 / 1.5"
+   },
+   {
+    "say": "Divide.",
+    "expr": "12 / 1.5 = 8 ohms"
+   }
+  ],
+  "result": 8,
+  "answer": "8 ohms"
+ },
+ {
+  "id": "T5D06",
+  "family": "ohm",
+  "want": "R",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 12,
+    "unit": "volts"
+   },
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 4,
+    "unit": "amperes"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for resistance (R). Write down what you are given.",
+    "expr": "E = 12 V\nI = 4 A\nR = ?"
+   },
+   {
+    "say": "Cover R on the triangle. E is left on top with I below it. Top over bottom means divide.",
+    "expr": "R = E / I"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "R = 12 / 4"
+   },
+   {
+    "say": "Divide.",
+    "expr": "12 / 4 = 3 ohms"
+   }
+  ],
+  "result": 3,
+  "answer": "3 ohms"
+ },
+ {
+  "id": "T5D07",
+  "family": "ohm",
+  "want": "I",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 120,
+    "unit": "volts"
+   },
+   {
+    "sym": "R",
+    "name": "resistance",
+    "value": 80,
+    "unit": "ohms"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for current (I). Write down what you are given.",
+    "expr": "E = 120 V\nR = 80 ohms\nI = ?"
+   },
+   {
+    "say": "Cover I on the triangle. E is left on top with R below it. Top over bottom means divide.",
+    "expr": "I = E / R"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "I = 120 / 80"
+   },
+   {
+    "say": "Divide.",
+    "expr": "120 / 80 = 1.5 amperes"
+   }
+  ],
+  "result": 1.5,
+  "answer": "1.5 amperes"
+ },
+ {
+  "id": "T5D08",
+  "family": "ohm",
+  "want": "I",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 200,
+    "unit": "volts"
+   },
+   {
+    "sym": "R",
+    "name": "resistance",
+    "value": 100,
+    "unit": "ohms"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for current (I). Write down what you are given.",
+    "expr": "E = 200 V\nR = 100 ohms\nI = ?"
+   },
+   {
+    "say": "Cover I on the triangle. E is left on top with R below it. Top over bottom means divide.",
+    "expr": "I = E / R"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "I = 200 / 100"
+   },
+   {
+    "say": "Divide.",
+    "expr": "200 / 100 = 2 amperes"
+   }
+  ],
+  "result": 2,
+  "answer": "2 amperes"
+ },
+ {
+  "id": "T5D09",
+  "family": "ohm",
+  "want": "I",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 240,
+    "unit": "volts"
+   },
+   {
+    "sym": "R",
+    "name": "resistance",
+    "value": 24,
+    "unit": "ohms"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for current (I). Write down what you are given.",
+    "expr": "E = 240 V\nR = 24 ohms\nI = ?"
+   },
+   {
+    "say": "Cover I on the triangle. E is left on top with R below it. Top over bottom means divide.",
+    "expr": "I = E / R"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "I = 240 / 24"
+   },
+   {
+    "say": "Divide.",
+    "expr": "240 / 24 = 10 amperes"
+   }
+  ],
+  "result": 10,
+  "answer": "10 amperes"
+ },
+ {
+  "id": "T5D10",
+  "family": "ohm",
+  "want": "E",
+  "given": [
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 0.5,
+    "unit": "amperes"
+   },
+   {
+    "sym": "R",
+    "name": "resistance",
+    "value": 2,
+    "unit": "ohms"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for voltage (E). Write down what you are given.",
+    "expr": "I = 0.5 A\nR = 2 ohms\nE = ?"
+   },
+   {
+    "say": "Cover E on the triangle. I and R are left side by side on the bottom row, so multiply them.",
+    "expr": "E = I × R"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "E = 0.5 × 2"
+   },
+   {
+    "say": "Multiply.",
+    "expr": "0.5 × 2 = 1 volt"
+   }
+  ],
+  "result": 1,
+  "answer": "1 volt"
+ },
+ {
+  "id": "T5D11",
+  "family": "ohm",
+  "want": "E",
+  "given": [
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 1,
+    "unit": "amperes"
+   },
+   {
+    "sym": "R",
+    "name": "resistance",
+    "value": 10,
+    "unit": "ohms"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for voltage (E). Write down what you are given.",
+    "expr": "I = 1 A\nR = 10 ohms\nE = ?"
+   },
+   {
+    "say": "Cover E on the triangle. I and R are left side by side on the bottom row, so multiply them.",
+    "expr": "E = I × R"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "E = 1 × 10"
+   },
+   {
+    "say": "Multiply.",
+    "expr": "1 × 10 = 10 volts"
+   }
+  ],
+  "result": 10,
+  "answer": "10 volts"
+ },
+ {
+  "id": "T5D12",
+  "family": "ohm",
+  "want": "E",
+  "given": [
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 2,
+    "unit": "amperes"
+   },
+   {
+    "sym": "R",
+    "name": "resistance",
+    "value": 10,
+    "unit": "ohms"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for voltage (E). Write down what you are given.",
+    "expr": "I = 2 A\nR = 10 ohms\nE = ?"
+   },
+   {
+    "say": "Cover E on the triangle. I and R are left side by side on the bottom row, so multiply them.",
+    "expr": "E = I × R"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "E = 2 × 10"
+   },
+   {
+    "say": "Multiply.",
+    "expr": "2 × 10 = 20 volts"
+   }
+  ],
+  "result": 20,
+  "answer": "20 volts"
+ },
+ {
+  "id": "T5C08",
+  "family": "power",
+  "want": "P",
+  "given": [],
+  "steps": [
+   {
+    "say": "Power is the letter P. Find P on the triangle and cover it with your finger.",
+    "expr": "P = ?"
+   },
+   {
+    "say": "I and E are left side by side on the bottom row, so multiply them.",
+    "expr": "P = I × E"
+   }
+  ],
+  "result": null,
+  "answer": "P = I x E"
+ },
+ {
+  "id": "T5C09",
+  "family": "power",
+  "want": "P",
+  "given": [
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 10,
+    "unit": "amperes"
+   },
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 13.8,
+    "unit": "volts"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for power (P). Write down what you are given.",
+    "expr": "I = 10 A\nE = 13.8 V\nP = ?"
+   },
+   {
+    "say": "Cover P on the triangle. I and E are left side by side on the bottom row, so multiply them.",
+    "expr": "P = I × E"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "P = 10 × 13.8"
+   },
+   {
+    "say": "Multiply.",
+    "expr": "10 × 13.8 = 138 watts"
+   }
+  ],
+  "result": 138,
+  "answer": "138 watts"
+ },
+ {
+  "id": "T5C10",
+  "family": "power",
+  "want": "P",
+  "given": [
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 2.5,
+    "unit": "amperes"
+   },
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 12,
+    "unit": "volts"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for power (P). Write down what you are given.",
+    "expr": "I = 2.5 A\nE = 12 V\nP = ?"
+   },
+   {
+    "say": "Cover P on the triangle. I and E are left side by side on the bottom row, so multiply them.",
+    "expr": "P = I × E"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "P = 2.5 × 12"
+   },
+   {
+    "say": "Multiply.",
+    "expr": "2.5 × 12 = 30 watts"
+   }
+  ],
+  "result": 30,
+  "answer": "30 watts"
+ },
+ {
+  "id": "T5C11",
+  "family": "power",
+  "want": "I",
+  "given": [
+   {
+    "sym": "P",
+    "name": "power",
+    "value": 120,
+    "unit": "watts"
+   },
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 12,
+    "unit": "volts"
+   }
+  ],
+  "steps": [
+   {
+    "say": "The question asks for current (I). Write down what you are given.",
+    "expr": "P = 120 W\nE = 12 V\nI = ?"
+   },
+   {
+    "say": "Cover I on the triangle. P is left on top with E below it. Top over bottom means divide.",
+    "expr": "I = P / E"
+   },
+   {
+    "say": "Put the numbers in place of the letters.",
+    "expr": "I = 120 / 12"
+   },
+   {
+    "say": "Divide.",
+    "expr": "120 / 12 = 10 amperes"
+   }
+  ],
+  "result": 10,
+  "answer": "10 amperes"
+ },
+ {
+  "id": "T4A01",
+  "family": "power",
+  "want": "P",
+  "given": [
+   {
+    "sym": "E",
+    "name": "voltage",
+    "value": 13.8,
+    "unit": "volts"
+   },
+   {
+    "sym": "I",
+    "name": "current",
+    "value": 12,
+    "unit": "amperes"
+   }
+  ],
+  "steps": [
+   {
+    "say": "A mobile radio runs from a vehicle electrical system, about 13.8 volts. That rules out the two 24-volt choices.",
+    "expr": "E = 13.8 V"
+   },
+   {
+    "say": "Now find the power each 13.8-volt supply can deliver. Cover P on the triangle: I and E are left side by side, so multiply.",
+    "expr": "P = I × E"
+   },
+   {
+    "say": "The 4-ampere supply gives barely more than the 50 watts going out. A transmitter also loses power as heat, so this is too small.",
+    "expr": "4 × 13.8 = 55.2 watts"
+   },
+   {
+    "say": "The 12-ampere supply gives plenty for 50 watts out plus the heat.",
+    "expr": "12 × 13.8 = 165.6 watts"
+   }
+  ],
+  "result": 165.6,
+  "answer": "13.8 volts at 12 amperes"
+ },
+ {
+  "id": "T5B01",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "A",
+    "name": "given",
+    "value": 1.5,
+    "unit": "amperes"
+   }
+  ],
+  "pic": {
+   "from": "base",
+   "to": "milli",
+   "fromUnit": "A",
+   "toUnit": "mA",
+   "value": "1.5"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: amperes is the base rung and milliamperes is on the milli rung. That is 1 rung down.",
+    "expr": "A → mA:  1 rung down"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going down to a smaller unit makes the number bigger, so the point moves right.",
+    "expr": "3 places to the right\nsame as × 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "1.5 A × 1000 = 1500 mA"
+   }
+  ],
+  "result": 1500,
+  "answer": "1500 milliamperes"
+ },
+ {
+  "id": "T5B02",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "Hz",
+    "name": "given",
+    "value": 1500000,
+    "unit": "hertz"
+   }
+  ],
+  "pic": {
+   "from": "base",
+   "to": "kilo",
+   "fromUnit": "Hz",
+   "toUnit": "kHz",
+   "value": "1,500,000"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: hertz is the base rung and kilohertz is on the kilo rung. That is 1 rung up.",
+    "expr": "Hz → kHz:  1 rung up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "3 places to the left\nsame as / 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "1,500,000 Hz / 1000 = 1500 kHz"
+   }
+  ],
+  "result": 1500,
+  "answer": "1500 kHz"
+ },
+ {
+  "id": "T5B03",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "kV",
+    "name": "given",
+    "value": 1,
+    "unit": "kilovolt"
+   }
+  ],
+  "pic": {
+   "from": "kilo",
+   "to": "base",
+   "fromUnit": "kV",
+   "toUnit": "V",
+   "value": "1"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: kilovolts is on the kilo rung and volts is the base rung. That is 1 rung down.",
+    "expr": "kV → V:  1 rung down"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going down to a smaller unit makes the number bigger, so the point moves right.",
+    "expr": "3 places to the right\nsame as × 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "1 kV × 1000 = 1000 V"
+   }
+  ],
+  "result": 1000,
+  "answer": "One thousand volts"
+ },
+ {
+  "id": "T5B04",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "µV",
+    "name": "given",
+    "value": 1,
+    "unit": "microvolt"
+   }
+  ],
+  "pic": {
+   "from": "micro",
+   "to": "base",
+   "fromUnit": "µV",
+   "toUnit": "V",
+   "value": "1"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: microvolts is on the micro rung and volts is the base rung. That is 2 rungs up.",
+    "expr": "µV → V:  2 rungs up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "6 places to the left\nsame as / 1,000,000"
+   },
+   {
+    "say": "Move the decimal point 6 places.",
+    "expr": "1 µV / 1,000,000 = 0.000001 V"
+   }
+  ],
+  "result": 1e-06,
+  "answer": "One one-millionth of a volt"
+ },
+ {
+  "id": "T5B05",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "mW",
+    "name": "given",
+    "value": 500,
+    "unit": "milliwatts"
+   }
+  ],
+  "pic": {
+   "from": "milli",
+   "to": "base",
+   "fromUnit": "mW",
+   "toUnit": "W",
+   "value": "500"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: milliwatts is on the milli rung and watts is the base rung. That is 1 rung up.",
+    "expr": "mW → W:  1 rung up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "3 places to the left\nsame as / 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "500 mW / 1000 = 0.5 W"
+   }
+  ],
+  "result": 0.5,
+  "answer": "0.5 watts"
+ },
+ {
+  "id": "T5B06",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "mA",
+    "name": "given",
+    "value": 3000,
+    "unit": "milliamperes"
+   }
+  ],
+  "pic": {
+   "from": "milli",
+   "to": "base",
+   "fromUnit": "mA",
+   "toUnit": "A",
+   "value": "3000"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: milliamperes is on the milli rung and amperes is the base rung. That is 1 rung up.",
+    "expr": "mA → A:  1 rung up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "3 places to the left\nsame as / 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "3000 mA / 1000 = 3 A"
+   }
+  ],
+  "result": 3,
+  "answer": "3 amperes"
+ },
+ {
+  "id": "T5B07",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "MHz",
+    "name": "given",
+    "value": 3.525,
+    "unit": "megahertz"
+   }
+  ],
+  "pic": {
+   "from": "mega",
+   "to": "kilo",
+   "fromUnit": "MHz",
+   "toUnit": "kHz",
+   "value": "3.525"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: megahertz is on the mega rung and kilohertz is on the kilo rung. That is 1 rung down.",
+    "expr": "MHz → kHz:  1 rung down"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going down to a smaller unit makes the number bigger, so the point moves right.",
+    "expr": "3 places to the right\nsame as × 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "3.525 MHz × 1000 = 3525 kHz"
+   }
+  ],
+  "result": 3525,
+  "answer": "3525 kHz"
+ },
+ {
+  "id": "T5B08",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "pF",
+    "name": "given",
+    "value": 1000000,
+    "unit": "picofarads"
+   }
+  ],
+  "pic": {
+   "from": "pico",
+   "to": "micro",
+   "fromUnit": "pF",
+   "toUnit": "µF",
+   "value": "1,000,000"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: picofarads is on the pico rung and microfarads is on the micro rung. That is 2 rungs up.",
+    "expr": "pF → µF:  2 rungs up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "6 places to the left\nsame as / 1,000,000"
+   },
+   {
+    "say": "Move the decimal point 6 places.",
+    "expr": "1,000,000 pF / 1,000,000 = 1 µF"
+   }
+  ],
+  "result": 1,
+  "answer": "1 microfarad"
+ },
+ {
+  "id": "T5B12",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "kHz",
+    "name": "given",
+    "value": 28400,
+    "unit": "kilohertz"
+   }
+  ],
+  "pic": {
+   "from": "kilo",
+   "to": "mega",
+   "fromUnit": "kHz",
+   "toUnit": "MHz",
+   "value": "28400"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: kilohertz is on the kilo rung and megahertz is on the mega rung. That is 1 rung up.",
+    "expr": "kHz → MHz:  1 rung up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "3 places to the left\nsame as / 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "28400 kHz / 1000 = 28.400 MHz"
+   }
+  ],
+  "result": 28.4,
+  "answer": "28.400 MHz"
+ },
+ {
+  "id": "T5B13",
+  "family": "prefix",
+  "given": [
+   {
+    "sym": "MHz",
+    "name": "given",
+    "value": 2425,
+    "unit": "megahertz"
+   }
+  ],
+  "pic": {
+   "from": "mega",
+   "to": "giga",
+   "fromUnit": "MHz",
+   "toUnit": "GHz",
+   "value": "2425"
+  },
+  "steps": [
+   {
+    "say": "Find both units on the ladder: megahertz is on the mega rung and gigahertz is on the giga rung. That is 1 rung up.",
+    "expr": "MHz → GHz:  1 rung up"
+   },
+   {
+    "say": "Each rung is 3 decimal places. Going up to a bigger unit makes the number smaller, so the point moves left.",
+    "expr": "3 places to the left\nsame as / 1000"
+   },
+   {
+    "say": "Move the decimal point 3 places.",
+    "expr": "2425 MHz / 1000 = 2.425 GHz"
+   }
+  ],
+  "result": 2.425,
+  "answer": "2.425 GHz"
+ },
+ {
+  "id": "T5B09",
+  "family": "decibel",
+  "given": [
+   {
+    "sym": "start power",
+    "name": "start power",
+    "value": 5,
+    "unit": "watts"
+   },
+   {
+    "sym": "end power",
+    "name": "end power",
+    "value": 10,
+    "unit": "watts"
+   }
+  ],
+  "pic": {
+   "from": 5,
+   "to": 10,
+   "hops": [
+    {
+     "factor": 2,
+     "db": 3
+    }
+   ]
+  },
+  "steps": [
+   {
+    "say": "Decibels compare two powers, so find the ratio first: end power divided by start power.",
+    "expr": "10 / 5 = 2"
+   },
+   {
+    "say": "The power doubled. On the ladder, doubling is one step of +3 dB.",
+    "expr": "× 2  is  +3 dB"
+   }
+  ],
+  "result": 3,
+  "answer": "3 dB"
+ },
+ {
+  "id": "T5B10",
+  "family": "decibel",
+  "given": [
+   {
+    "sym": "start power",
+    "name": "start power",
+    "value": 12,
+    "unit": "watts"
+   },
+   {
+    "sym": "end power",
+    "name": "end power",
+    "value": 3,
+    "unit": "watts"
+   }
+  ],
+  "pic": {
+   "from": 12,
+   "to": 3,
+   "hops": [
+    {
+     "factor": 0.5,
+     "db": -3
+    },
+    {
+     "factor": 0.5,
+     "db": -3
+    }
+   ]
+  },
+  "steps": [
+   {
+    "say": "Decibels compare two powers, so find the ratio first: end power divided by start power.",
+    "expr": "3 / 12 = 0.25 (one quarter)"
+   },
+   {
+    "say": "One quarter is two halvings in a row.",
+    "expr": "12 W → 6 W → 3 W"
+   },
+   {
+    "say": "On the ladder each halving is -3 dB. Decibels add up, and the minus sign means the power went down.",
+    "expr": "-3 dB + -3 dB = -6 dB"
+   }
+  ],
+  "result": -6,
+  "answer": "-6 dB"
+ },
+ {
+  "id": "T5B11",
+  "family": "decibel",
+  "given": [
+   {
+    "sym": "start power",
+    "name": "start power",
+    "value": 20,
+    "unit": "watts"
+   },
+   {
+    "sym": "end power",
+    "name": "end power",
+    "value": 200,
+    "unit": "watts"
+   }
+  ],
+  "pic": {
+   "from": 20,
+   "to": 200,
+   "hops": [
+    {
+     "factor": 10,
+     "db": 10
+    }
+   ]
+  },
+  "steps": [
+   {
+    "say": "Decibels compare two powers, so find the ratio first: end power divided by start power.",
+    "expr": "200 / 20 = 10"
+   },
+   {
+    "say": "The power is ten times bigger. On the ladder, ten times is one step of +10 dB.",
+    "expr": "× 10  is  +10 dB"
+   }
+  ],
+  "result": 10,
+  "answer": "10 dB"
+ },
+ {
+  "id": "T3B06",
+  "family": "wave",
+  "given": [],
+  "pic": {
+   "mhz": 146,
+   "meters": 2.05
+  },
+  "steps": [
+   {
+    "say": "Radio waves travel at about 300,000,000 meters per second. Wavelength is that speed divided by the frequency.",
+    "expr": "wavelength = speed / frequency"
+   },
+   {
+    "say": "Megahertz means millions of hertz. The millions cancel, so only 300 is left on top.",
+    "expr": "meters = 300 / MHz"
+   },
+   {
+    "say": "Test it on a band you know. 146 MHz should come out near 2 meters, and it does.",
+    "expr": "300 / 146 = 2.05 meters"
+   }
+  ],
+  "result": null,
+  "answer": "Wavelength in meters equals 300 divided by frequency in megahertz"
+ },
+ {
+  "id": "T1B04",
+  "family": "wave",
+  "given": [
+   {
+    "sym": "f",
+    "name": "frequency",
+    "value": 146.52,
+    "unit": "MHz"
+   }
+  ],
+  "pic": {
+   "mhz": 146.52,
+   "meters": 2.05
+  },
+  "steps": [
+   {
+    "say": "A band is named after its rough wavelength. Wavelength in meters is 300 divided by the frequency in megahertz.",
+    "expr": "meters = 300 / MHz"
+   },
+   {
+    "say": "Put in the frequency from the question.",
+    "expr": "300 / 146.52 = 2.05 meters"
+   },
+   {
+    "say": "Round to the nearest band name.",
+    "expr": "2.05 meters is about 2 meters"
+   }
+  ],
+  "result": 2,
+  "answer": "2 meters"
+ },
+ {
+  "id": "T1B03",
+  "family": "wave",
+  "given": [
+   {
+    "sym": "f",
+    "name": "frequency",
+    "value": 52.525,
+    "unit": "MHz"
+   }
+  ],
+  "pic": {
+   "mhz": 52.525,
+   "meters": 5.71
+  },
+  "steps": [
+   {
+    "say": "A band is named after its rough wavelength. Wavelength in meters is 300 divided by the frequency in megahertz. Try each choice.",
+    "expr": "meters = 300 / MHz"
+   },
+   {
+    "say": "Two choices land far from 6 meters.",
+    "expr": "300 / 28.50 = 10.5 m,   300 / 222.15 = 1.35 m"
+   },
+   {
+    "say": "Two choices land near 6 meters.",
+    "expr": "300 / 52.525 = 5.71 m,   300 / 49.00 = 6.12 m"
+   },
+   {
+    "say": "The 6-meter amateur band runs from 50 to 54 MHz. 49.00 MHz is just below it, so only one choice is inside the band.",
+    "expr": "50 MHz < 52.525 MHz < 54 MHz"
+   }
+  ],
+  "result": 52.525,
+  "answer": "52.525 MHz"
+ },
+ {
+  "id": "T9A08",
+  "family": "antenna",
+  "given": [
+   {
+    "sym": "λ",
+    "name": "wavelength",
+    "value": 2,
+    "unit": "meters"
+   },
+   {
+    "sym": "L",
+    "name": "antenna length",
+    "value": 19,
+    "unit": "inches"
+   }
+  ],
+  "pic": {
+   "meters": 2,
+   "fraction": 4,
+   "inches": 19.7
+  },
+  "steps": [
+   {
+    "say": "The band name gives the wavelength: on 2 meters one full wave is about 2 meters long.",
+    "expr": "wavelength = 2 meters"
+   },
+   {
+    "say": "Try one quarter of that.",
+    "expr": "2 / 4 = 0.5 meters"
+   },
+   {
+    "say": "Change meters to inches. One meter is about 39.4 inches.",
+    "expr": "0.5 × 39.4 = 19.7 inches"
+   },
+   {
+    "say": "That is close to 19 inches, so the antenna is a quarter-wave. A real antenna is trimmed a little shorter than this figure. A half-wave would be about twice as long.",
+    "expr": "19 inches is about 1/4 wavelength"
+   }
+  ],
+  "result": 19.7,
+  "answer": "It is a resonant quarter-wave"
+ },
+ {
+  "id": "T4A09",
+  "family": "ratio",
+  "given": [],
+  "pic": {
+   "kind": "battery"
+  },
+  "steps": [
+   {
+    "say": "A battery is rated in ampere-hours. That means amperes multiplied by hours.",
+    "expr": "ampere-hours = amperes × hours"
+   },
+   {
+    "say": "Divide the rating by the amperes your equipment draws on average. The amperes cancel and only hours are left.",
+    "expr": "ampere-hours / amperes = hours"
+   },
+   {
+    "say": "Practice example with made-up numbers: a 10 ampere-hour battery feeding an average of 2 amperes.",
+    "expr": "10 / 2 = 5 hours"
+   }
+  ],
+  "result": null,
+  "answer": "Divide the battery ampere-hour rating by the average current draw of the equipment"
+ },
+ {
+  "id": "T0C03",
+  "family": "ratio",
+  "given": [
+   {
+    "sym": "old",
+    "name": "old duty cycle",
+    "value": 100,
+    "unit": "percent"
+   },
+   {
+    "sym": "new",
+    "name": "new duty cycle",
+    "value": 50,
+    "unit": "percent"
+   }
+  ],
+  "pic": {
+   "kind": "duty",
+   "from": 100,
+   "to": 50
+  },
+  "steps": [
+   {
+    "say": "Duty cycle is the percentage of time the transmitter is on. Here it falls to half.",
+    "expr": "50 / 100 = 0.5"
+   },
+   {
+    "say": "RF exposure limits apply to the average over time. On for half the time means half the average exposure.",
+    "expr": "average exposure × 0.5"
+   },
+   {
+    "say": "So the level allowed while transmitting can go up by the inverse.",
+    "expr": "100 / 50 = 2"
+   }
+  ],
+  "result": 2,
+  "answer": "It increases by a factor of 2"
+ }
+]
