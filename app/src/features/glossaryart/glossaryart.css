@@ -1,0 +1,25 @@
+/* Glossary drawings: one house style. --ga-key is set by the page to the term's topic color. */
+.ga { width: 100%; max-width: 320px; height: auto; display: block; margin: 0 auto; }
+.ga * { fill: none; stroke: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.ga .ga-w { stroke: var(--muted); }
+.ga .ga-k { stroke: var(--ga-key, var(--accent)); }
+.ga .ga-s { stroke: var(--accent); }
+.ga .ga-fk { fill: var(--ga-key, var(--accent)); }
+.ga .ga-fs { fill: var(--accent); }
+.ga .ga-fw { fill: var(--muted); }
+.ga .ga-fbg { fill: var(--raised); }
+.ga .ga-good { stroke: var(--good); }
+.ga .ga-bad { stroke: var(--bad); }
+.ga .ga-fgood { fill: var(--good); }
+.ga .ga-fbad { fill: var(--bad); }
+.ga .ga-thick { stroke-width: 4; }
+.ga .ga-thin { stroke-width: 1.5; }
+.ga .ga-dash { stroke-dasharray: 5 5; }
+.ga .ga-soft { opacity: 0.25; }
+.ga text.ga-t { fill: var(--text); stroke: none; font-family: var(--font); font-size: 12px; font-weight: 500; }
+.ga text.ga-tk { fill: var(--ga-key, var(--accent)); }
+.ga text.ga-ts { fill: var(--accent); }
+.ga text.ga-tm { fill: var(--muted); }
+.ga text.ga-tb { font-weight: 700; }
+.ga text.ga-tl { font-size: 15px; font-weight: 700; }
+.ga text.ga-mono { font-family: var(--mono); }

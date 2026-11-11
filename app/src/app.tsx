@@ -2,6 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { lazy, Suspense } from 'preact/compat';
 import { Exams } from './ui/Exams';
 import { Glossary } from './ui/Glossary';
+import { GlossaryGallery } from './ui/GlossaryArt';
 import { Home } from './ui/Home';
 import { FeatureHost, Hub } from './ui/Hub';
 import { MapView } from './ui/MapView';
@@ -51,6 +52,8 @@ export function App() {
       return <Suspense fallback={loading}><Notebook /></Suspense>;
     case 'report':
       return <Suspense fallback={loading}><WeeklyReport /></Suspense>;
+    case 'glossary-art':
+      return <GlossaryGallery sub={arg} />;
     case 'glossary':
       return <Glossary />;
     case 'term':

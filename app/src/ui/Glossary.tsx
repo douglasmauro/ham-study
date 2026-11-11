@@ -4,6 +4,7 @@ import { TERMS, termStatus, type Term } from '../lib/glossary';
 import { TOPICS } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { useData } from '../lib/store';
+import { TermPicture, useGlossaryArt } from './GlossaryArt';
 import { Icon } from './Icon';
 
 const LABEL: Record<Status, string> = { weak: "Don't know yet", learning: 'Still learning', mastered: 'Know it', new: 'Not seen yet' };
@@ -24,6 +25,7 @@ export function Glossary() {
   const [filter, setFilter] = useState<Status | 'all'>('all');
   const [sort, setSort] = useState<'az' | 'weak'>('az');
   const [open, setOpen] = useState<string | null>(null);
+  const art = useGlossaryArt();
 
   const withStatus = useMemo(() => TERMS.map((t) => ({ t, s: termStatus(t, states) })), [states]);
   const counts = useMemo(() => {
@@ -65,13 +67,13 @@ export function Glossary() {
       {TERMS.length > 0 && !shown.length && <div class="card muted">No terms match.</div>}
 
       <div class="stack" style={{ gap: '8px' }}>
-        {shown.map(({ t, s }) => <TermRow t={t} s={s} open={open === t.id} onToggle={() => setOpen(open === t.id ? null : t.id)} states={states} />)}
+        {shown.map(({ t, s }) => <TermRow t={t} s={s} open={open === t.id} onToggle={() => setOpen(open === t.id ? null : t.id)} states={states} art={art} />)}
       </div>
     </div>
   );
 }
 
-function TermRow({ t, s, open, onToggle, states }: { t: Term; s: Status; open: boolean; onToggle: () => void; states: Record<string, { right: number; seen: number }> }) {
+function TermRow({ t, s, open, onToggle, states, art }: { t: Term; s: Status; open: boolean; onToggle: () => void; states: Record<string, { right: number; seen: number }>; art: ReturnType<typeof useGlossaryArt> }) {
   const topic = TOPICS[t.sub];
   const seen = t.questions.filter((id) => states[id]);
   const right = seen.reduce((a, id) => a + states[id].right, 0);
@@ -84,10 +86,12 @@ function TermRow({ t, s, open, onToggle, states }: { t: Term; s: Status; open: b
           <span style={{ fontWeight: 600, fontSize: '16px' }}>{t.term}</span>
           {!open && <span class="small muted" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t.def}</span>}
         </span>
+        {art?.[t.id] && <span class="small muted" aria-label="Has a picture" title="Has a picture"><Icon name="signal" size={16} /></span>}
         <span class="small" style={{ color: topic?.color, fontWeight: 600 }}>{t.sub}</span>
       </button>
       {open && (
         <div class="stack" style={{ padding: '0 14px 14px 48px', gap: '8px' }}>
+          <TermPicture t={t} art={art} />
           <span style={{ lineHeight: 1.5 }}>{t.def}</span>
           {t.more && <span style={{ color: 'var(--text-2)', lineHeight: 1.5 }}>{t.more}</span>}
           <span class="small" style={{ color: COLOR[s] === 'var(--tile-new)' ? 'var(--muted)' : COLOR[s], fontWeight: 600 }}>
