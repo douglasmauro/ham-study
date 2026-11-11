@@ -18,11 +18,20 @@ export function useGlossaryArt(): Record<string, TermArt> | null {
   return art;
 }
 
+/**
+ * The color of the thing a drawing defines: its topic color. Safety (T0) is the exception:
+ * its topic color is red, which drawings also use for hazards, so its key parts are drawn in
+ * the plain text color to keep "the thing defined" and "the danger" apart.
+ */
+function keyColor(sub: string): string | undefined {
+  return sub === 'T0' ? 'var(--text)' : TOPICS[sub]?.color;
+}
+
 export function TermPicture({ t, art }: { t: Term; art: Record<string, TermArt> | null }) {
   const A = art?.[t.id];
   if (!A) return null;
   return (
-    <div style={{ background: 'var(--bg)', borderRadius: '12px', padding: '8px', ['--ga-key' as string]: TOPICS[t.sub]?.color }}>
+    <div style={{ background: 'var(--bg)', borderRadius: '12px', padding: '8px', ['--ga-key' as string]: keyColor(t.sub) }}>
       <A />
     </div>
   );
