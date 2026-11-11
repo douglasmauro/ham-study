@@ -1,0 +1,324 @@
+{
+  "terms": [
+    {
+      "term": "Antenna",
+      "def": "The part of a station that turns the transmitter's electrical power into radio waves, and turns arriving radio waves back into electrical signals.",
+      "more": "An antenna cannot add power. It can only send the power it is given more strongly in some directions than in others.",
+      "questions": ["T9A01", "T9A03", "T9A06", "T9A11"]
+    },
+    {
+      "term": "Beam antenna",
+      "aka": ["beam", "directional antenna"],
+      "def": "An antenna that concentrates signals in one direction.",
+      "more": "A Yagi is a common beam antenna. Concentrating the signal one way is what gives a beam its gain.",
+      "questions": ["T9A01"]
+    },
+    {
+      "term": "Yagi",
+      "aka": ["Yagi antenna"],
+      "def": "A beam antenna with several parallel elements that focus the signal in one direction.",
+      "more": "Of the 5/8 wave vertical, isotropic, J pole and Yagi, the Yagi offers the greatest gain.",
+      "questions": ["T9A06"]
+    },
+    {
+      "term": "Antenna gain",
+      "aka": ["gain"],
+      "def": "The increase in signal strength in a specified direction compared to a reference antenna.",
+      "more": "Gain is not added power: the antenna sends more signal one way and less another. A Yagi has high gain, and a 5/8-wavelength whip has more gain than a 1/4-wave antenna.",
+      "questions": ["T9A06", "T9A09", "T9A11"]
+    },
+    {
+      "term": "Reference antenna",
+      "aka": ["isotropic antenna", "isotropic"],
+      "def": "A simple standard antenna that other antennas are compared with when stating their gain.",
+      "more": "Common references are a dipole and an isotropic antenna, a theoretical point that radiates equally in every direction.",
+      "questions": ["T9A11"]
+    },
+    {
+      "term": "Antenna loading",
+      "aka": ["loading", "inductive loading", "loading coil"],
+      "def": "Making a physically short antenna act electrically longer.",
+      "more": "One type of loading is inserting inductors (coils) in the radiating elements. A longer electrical length means a lower resonant frequency.",
+      "questions": ["T9A02"]
+    },
+    {
+      "term": "Inductor",
+      "aka": ["coil"],
+      "def": "A coil of wire that stores energy in a magnetic field.",
+      "more": "Inserting inductors in an antenna's radiating elements electrically lengthens the antenna. This is a type of antenna loading.",
+      "questions": ["T9A02"]
+    },
+    {
+      "term": "Radiating element",
+      "aka": ["element", "radiator"],
+      "def": "The part of an antenna, usually a wire, rod or tube, that sends out and picks up radio waves.",
+      "more": "Inductors can be inserted in radiating elements to make a short antenna electrically longer.",
+      "questions": ["T9A02"]
+    },
+    {
+      "term": "Polarization",
+      "aka": ["antenna polarization"],
+      "def": "The direction in which the electric field of an antenna's radio wave points, such as vertical or horizontal.",
+      "more": "It is described by the orientation of the electric field, not the magnetic field. An upright element gives vertical polarization.",
+      "questions": ["T9A03"]
+    },
+    {
+      "term": "Electric field",
+      "def": "One of the two fields that make up a radio wave; the other is the magnetic field, at right angles to it.",
+      "more": "The orientation of the electric field is what describes an antenna's polarization.",
+      "questions": ["T9A03"]
+    },
+    {
+      "term": "Rubber duck antenna",
+      "aka": ["rubber duck", "short flexible antenna", "flexible antenna"],
+      "def": "The short flexible antenna supplied with a handheld radio.",
+      "more": "Compared with a full-sized quarter-wave antenna its disadvantage is low efficiency.",
+      "questions": ["T9A04"]
+    },
+    {
+      "term": "Antenna efficiency",
+      "aka": ["efficiency", "low efficiency"],
+      "def": "How much of the power fed to an antenna is actually radiated as radio waves instead of being lost.",
+      "more": "A handheld radio's short flexible antenna has low efficiency compared with a full-sized quarter-wave antenna.",
+      "questions": ["T9A04"]
+    },
+    {
+      "term": "Handheld transceiver",
+      "aka": ["handheld", "HT", "handheld radio"],
+      "def": "A small portable radio that transmits and receives and is held in the hand.",
+      "more": "Its short flexible antenna has low efficiency. Used inside a vehicle without an external antenna, its signal strength is reduced by the shielding effect of the vehicle.",
+      "questions": ["T9A04", "T9A07"]
+    },
+    {
+      "term": "Shielding",
+      "aka": ["shielding effect"],
+      "def": "The blocking of radio signals by metal that surrounds the antenna.",
+      "more": "A vehicle's body shields a handheld used inside it, so signal strength is reduced. An externally mounted antenna avoids this.",
+      "questions": ["T9A07"]
+    },
+    {
+      "term": "Quarter-wave antenna",
+      "aka": ["quarter-wave vertical", "1/4-wave antenna", "quarter wavelength"],
+      "def": "An antenna whose radiating element is about one quarter of a wavelength long.",
+      "more": "On 2 meters a resonant quarter-wave vertical is about 19 inches long. A 5/8-wavelength whip has more gain than a 1/4-wave antenna.",
+      "questions": ["T9A04", "T9A08", "T9A09"]
+    },
+    {
+      "term": "Vertical antenna",
+      "aka": ["vertical"],
+      "def": "An antenna with a single upright radiating element.",
+      "more": "A 19-inch vertical is often used on 2 meters because it is a resonant quarter-wave.",
+      "questions": ["T9A08"]
+    },
+    {
+      "term": "5/8-wave antenna",
+      "aka": ["5/8-wavelength whip", "5/8 wave vertical"],
+      "def": "A vertical antenna whose element is five eighths of a wavelength long.",
+      "more": "For VHF or UHF mobile service its advantage over a 1/4-wave antenna is that it has more gain.",
+      "questions": ["T9A09"]
+    },
+    {
+      "term": "Whip antenna",
+      "aka": ["whip", "mobile whip"],
+      "def": "A thin, flexible rod antenna, commonly mounted on vehicles.",
+      "more": "A 5/8-wavelength whip has more gain than a 1/4-wave antenna for VHF or UHF mobile service.",
+      "questions": ["T9A09"]
+    },
+    {
+      "term": "Mobile",
+      "aka": ["mobile service", "mobile station"],
+      "def": "Operating a radio from a vehicle.",
+      "more": "Mobile stations use an antenna mounted outside the vehicle, because the vehicle's body shields an antenna inside it and reduces signal strength.",
+      "questions": ["T9A07", "T9A09"]
+    },
+    {
+      "term": "Resonant frequency",
+      "aka": ["resonance", "resonant"],
+      "def": "The frequency at which an antenna's length suits the wavelength, so the antenna works naturally there.",
+      "more": "Shortening a dipole increases its resonant frequency. A 19-inch vertical is a resonant quarter-wave on 2 meters.",
+      "questions": ["T9A05", "T9A08"]
+    },
+    {
+      "term": "Dipole",
+      "aka": ["dipole antenna", "half-wave dipole"],
+      "def": "A simple antenna made of a straight wire or rod, usually half a wavelength long, fed at its center.",
+      "more": "A half-wave dipole radiates the strongest signal broadside to the antenna. Shortening a dipole increases its resonant frequency.",
+      "questions": ["T9A05", "T9A10"]
+    },
+    {
+      "term": "Broadside",
+      "def": "At right angles to the length of an antenna wire.",
+      "more": "A half-wave dipole radiates its strongest signal broadside to the antenna, and least off its ends.",
+      "questions": ["T9A10"]
+    },
+    {
+      "term": "Radiation pattern",
+      "aka": ["antenna pattern"],
+      "def": "A description of how strongly an antenna radiates in each direction.",
+      "more": "A half-wave dipole's pattern is strongest broadside to the antenna. A beam antenna's pattern is concentrated in one direction.",
+      "questions": ["T9A01", "T9A10"]
+    },
+    {
+      "term": "Wavelength",
+      "def": "The distance a radio wave travels during one complete cycle.",
+      "more": "Antenna lengths are given as fractions of a wavelength, such as quarter-wave, half-wave and 5/8-wave. A quarter wavelength on 2 meters is about 19 inches.",
+      "questions": ["T9A08", "T9A09"]
+    },
+    {
+      "term": "2-meter band",
+      "aka": ["2 meters"],
+      "def": "The amateur VHF band with a wavelength of about 2 meters.",
+      "more": "A 19-inch vertical antenna is often used on this band because it is a resonant quarter-wave.",
+      "questions": ["T9A08"]
+    },
+    {
+      "term": "Feed line",
+      "aka": ["transmission line", "feedline"],
+      "def": "The cable that carries radio signals between the radio and the antenna.",
+      "more": "Coaxial cable is the most common type. Air-insulated hardline has the lowest loss. A loose connection in the feed line can cause erratic changes in SWR.",
+      "questions": ["T9B03", "T9B08", "T9B09", "T9B11", "T9B12"]
+    },
+    {
+      "term": "Coaxial cable",
+      "aka": ["coax"],
+      "def": "A feed line with a center wire surrounded by insulation and an outer metal shield.",
+      "more": "It is the most common feed line because it is easy to use and needs few special installation considerations. The most common impedance is 50 ohms. Loss increases as frequency increases.",
+      "questions": ["T9B02", "T9B03", "T9B05", "T9B08", "T9B10"]
+    },
+    {
+      "term": "Impedance",
+      "aka": ["characteristic impedance"],
+      "def": "The opposition a circuit, cable or antenna presents to alternating current, measured in ohms.",
+      "more": "The most common impedance of coaxial cable in amateur radio is 50 ohms. An antenna tuner matches the antenna system impedance to the transceiver's output impedance.",
+      "questions": ["T9B02", "T9B04"]
+    },
+    {
+      "term": "Ohm",
+      "aka": ["ohms"],
+      "def": "The unit used to measure resistance and impedance.",
+      "more": "The most common coaxial cable used in amateur radio has an impedance of 50 ohms.",
+      "questions": ["T9B02"]
+    },
+    {
+      "term": "Antenna tuner",
+      "aka": ["antenna coupler", "tuner", "transmatch"],
+      "def": "A device placed between the radio and the antenna system that changes the impedance the radio sees.",
+      "more": "Its major function is to match the antenna system impedance to the transceiver's output impedance.",
+      "questions": ["T9B04"]
+    },
+    {
+      "term": "Impedance matching",
+      "aka": ["match", "matching", "mismatch"],
+      "def": "Making the impedance of one part of the antenna system equal to that of the part it connects to, so power passes between them without being reflected.",
+      "more": "SWR measures how well a load is matched to a transmission line. An antenna tuner matches the antenna system to the transceiver.",
+      "questions": ["T9B04", "T9B12"]
+    },
+    {
+      "term": "Transceiver",
+      "def": "A radio that combines a transmitter and a receiver in one unit.",
+      "more": "An antenna tuner matches the antenna system impedance to the transceiver's output impedance.",
+      "questions": ["T9B04"]
+    },
+    {
+      "term": "SWR",
+      "aka": ["standing wave ratio"],
+      "def": "Standing wave ratio: a measure of how well a load is matched to a transmission line.",
+      "more": "A perfect match is 1:1. High SWR is a source of loss in coaxial feed line. Erratic changes in SWR can be caused by a loose connection in the antenna or feed line.",
+      "questions": ["T9B08", "T9B09", "T9B12"]
+    },
+    {
+      "term": "Load",
+      "def": "Whatever is connected to the far end of a feed line and receives the power, usually the antenna.",
+      "more": "SWR is a measure of how well the load is matched to the transmission line.",
+      "questions": ["T9B12"]
+    },
+    {
+      "term": "Feed line loss",
+      "aka": ["loss", "cable loss", "attenuation"],
+      "def": "Signal power that is wasted, mostly as heat, inside the feed line instead of reaching the antenna or the receiver.",
+      "more": "Loss in coax increases with frequency. Water in connectors, high SWR and multiple connectors all add loss. RG-213 has less loss than RG-58, and air-insulated hardline has the lowest loss.",
+      "questions": ["T9B05", "T9B08", "T9B10", "T9B11"]
+    },
+    {
+      "term": "Frequency",
+      "def": "The number of complete cycles a radio wave makes each second, measured in hertz.",
+      "more": "Shortening a dipole increases its resonant frequency. As the frequency of a signal in coaxial cable is increased, the loss increases.",
+      "questions": ["T9A05", "T9B05"]
+    },
+    {
+      "term": "RF connector",
+      "aka": ["connector", "coax connector"],
+      "def": "A plug or socket that joins a coaxial cable to a radio, an antenna or another cable.",
+      "more": "Common types are PL-259, BNC and Type N. Outdoors they should be carefully taped for weather protection. Multiple connectors in a line add loss.",
+      "questions": ["T9B01", "T9B06", "T9B07", "T9B08"]
+    },
+    {
+      "term": "PL-259",
+      "aka": ["PL259", "UHF connector"],
+      "def": "A threaded, screw-on coaxial cable plug.",
+      "more": "PL-259 connectors are commonly used at HF and VHF frequencies. They are not watertight and are not a bayonet type, so tape them carefully outdoors.",
+      "questions": ["T9B01", "T9B07"]
+    },
+    {
+      "term": "BNC",
+      "aka": ["BNC connector"],
+      "def": "A small bayonet-type coaxial cable connector that locks with a push and a twist.",
+      "more": "Like PL-259 and Type N connectors, it should be carefully taped for weather protection when used outdoors.",
+      "questions": ["T9B01"]
+    },
+    {
+      "term": "Type N",
+      "aka": ["N connector", "Type N connector"],
+      "def": "A threaded coaxial cable connector designed to work well at UHF and higher frequencies.",
+      "more": "It is the connector type most suitable for frequencies above 400 MHz. It should still be carefully taped for weather protection outdoors.",
+      "questions": ["T9B01", "T9B06"]
+    },
+    {
+      "term": "Weatherproofing",
+      "aka": ["weather protection", "water intrusion"],
+      "def": "Sealing outdoor connectors, for example with tape, so that water cannot get in.",
+      "more": "PL-259, BNC and Type N connectors should all be carefully taped outdoors. Water intrusion into coaxial connectors is a source of feed line loss.",
+      "questions": ["T9B01", "T9B08"]
+    },
+    {
+      "term": "RG-58",
+      "def": "A thin, flexible type of 50-ohm coaxial cable.",
+      "more": "It has more loss at a given frequency than the thicker RG-213.",
+      "questions": ["T9B10"]
+    },
+    {
+      "term": "RG-213",
+      "def": "A thick type of 50-ohm coaxial cable.",
+      "more": "It has less loss at a given frequency than the thinner RG-58.",
+      "questions": ["T9B10"]
+    },
+    {
+      "term": "Hardline",
+      "aka": ["air-insulated hardline"],
+      "def": "A stiff coaxial feed line with a solid metal outer shield.",
+      "more": "Air-insulated hardline has the lowest loss of the common feed line types, lower than flexible 50-ohm or 75-ohm coax.",
+      "questions": ["T9B11"]
+    },
+    {
+      "term": "HF",
+      "aka": ["high frequency"],
+      "def": "High frequency: the part of the radio spectrum from 3 to 30 MHz.",
+      "more": "PL-259 connectors are commonly used at HF and VHF frequencies.",
+      "questions": ["T9B07"]
+    },
+    {
+      "term": "VHF",
+      "aka": ["very high frequency"],
+      "def": "Very high frequency: the part of the radio spectrum from 30 MHz to 300 MHz.",
+      "more": "PL-259 connectors are commonly used at HF and VHF. For VHF mobile use, a 5/8-wavelength whip has more gain than a 1/4-wave antenna.",
+      "questions": ["T9A07", "T9A09", "T9B07"]
+    },
+    {
+      "term": "UHF",
+      "aka": ["ultra high frequency"],
+      "def": "Ultra high frequency: the part of the radio spectrum from 300 to 3000 MHz.",
+      "more": "Above 400 MHz the Type N connector is the most suitable RF connector. Coax loss is higher at UHF than at lower frequencies.",
+      "questions": ["T9A09", "T9B06"]
+    }
+  ]
+}

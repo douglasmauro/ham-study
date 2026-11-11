@@ -1,0 +1,716 @@
+{
+  "terms": [
+    {
+      "term": "Receiver",
+      "def": "The part of a radio that picks out a radio signal and turns it into sound or data you can use.",
+      "more": "Two key qualities are sensitivity (detecting weak signals) and selectivity (separating signals that are close together).",
+      "questions": [
+        "T7A01",
+        "T7A02",
+        "T7A04",
+        "T7B02",
+        "T7B05"
+      ]
+    },
+    {
+      "term": "Sensitivity",
+      "aka": [
+        "receiver sensitivity"
+      ],
+      "def": "The ability of a receiver to detect the presence of a signal.",
+      "more": "A more sensitive receiver hears weaker signals. Do not confuse it with selectivity, which is separating one signal from others.",
+      "questions": [
+        "T7A01"
+      ]
+    },
+    {
+      "term": "Selectivity",
+      "aka": [
+        "receiver selectivity"
+      ],
+      "def": "The ability of a receiver to discriminate between multiple signals.",
+      "more": "It lets the receiver pick out the wanted signal from others close by in frequency. Do not confuse it with sensitivity, which is detecting weak signals.",
+      "questions": [
+        "T7A04"
+      ]
+    },
+    {
+      "term": "Transmitter",
+      "def": "The part of a radio that generates the radio signal that is sent to the antenna.",
+      "more": "Combined with a receiver in one unit it is called a transceiver.",
+      "questions": [
+        "T7A02",
+        "T7C05"
+      ]
+    },
+    {
+      "term": "Transceiver",
+      "aka": [
+        "rig",
+        "radio"
+      ],
+      "def": "A device that combines a receiver and a transmitter.",
+      "more": "Do not confuse it with a transverter, which converts a transceiver's signals to another band.",
+      "questions": [
+        "T7A02",
+        "T7A06",
+        "T7A07",
+        "T7A10",
+        "T7A11",
+        "T7B01",
+        "T7B04",
+        "T7B07"
+      ]
+    },
+    {
+      "term": "Mixer",
+      "def": "A circuit used to convert a signal from one frequency to another.",
+      "more": "It combines two signals and produces new signals at the sum and the difference of their frequencies.",
+      "questions": [
+        "T7A03"
+      ]
+    },
+    {
+      "term": "Oscillator",
+      "def": "A circuit that generates a signal at a specific frequency.",
+      "more": "A VFO is an oscillator whose frequency you can change.",
+      "questions": [
+        "T7A05",
+        "T7A11"
+      ]
+    },
+    {
+      "term": "VFO",
+      "aka": [
+        "variable frequency oscillator"
+      ],
+      "def": "Variable frequency oscillator: the tunable circuit in a transceiver that sets the receive and transmit frequency.",
+      "more": "Turning the tuning knob adjusts it.",
+      "questions": [
+        "T7A11"
+      ]
+    },
+    {
+      "term": "Transverter",
+      "def": "A device that converts the RF input and output of a transceiver to another band.",
+      "more": "It lets a radio be used on a band it does not cover itself. Do not confuse it with a transceiver.",
+      "questions": [
+        "T7A06"
+      ]
+    },
+    {
+      "term": "Band",
+      "aka": [
+        "amateur band",
+        "2-meter band",
+        "2 meters"
+      ],
+      "def": "A range of frequencies set aside for a particular use, such as the amateur 2-meter band.",
+      "more": "A transverter moves a transceiver's signals to another band. A strong station on a nearby band, such as FM broadcast near 2 meters, can interfere with a receiver.",
+      "questions": [
+        "T7A06",
+        "T7B07"
+      ]
+    },
+    {
+      "term": "PTT",
+      "aka": [
+        "push-to-talk",
+        "push to talk"
+      ],
+      "def": "Push-to-talk: the control that switches a transceiver from receive to transmit.",
+      "more": "The PTT input switches the transceiver from receive to transmit when it is grounded.",
+      "questions": [
+        "T7A07"
+      ]
+    },
+    {
+      "term": "Modulation",
+      "def": "Combining speech or other information with an RF carrier signal.",
+      "more": "It is done by varying the carrier's amplitude, frequency or phase.",
+      "questions": [
+        "T7A08"
+      ]
+    },
+    {
+      "term": "Carrier",
+      "aka": [
+        "RF carrier",
+        "carrier signal"
+      ],
+      "def": "A plain, steady radio signal that carries no information until it is modulated.",
+      "more": "Combining speech with an RF carrier is called modulation.",
+      "questions": [
+        "T7A08"
+      ]
+    },
+    {
+      "term": "RF power amplifier",
+      "aka": [
+        "power amplifier",
+        "amplifier",
+        "amp",
+        "linear amplifier"
+      ],
+      "def": "A device added to the output of a transceiver to increase the transmitted output power.",
+      "more": "Some VHF power amplifiers have an SSB or CW-FM switch, which sets the amplifier for proper operation in the selected mode.",
+      "questions": [
+        "T7A09",
+        "T7A10"
+      ]
+    },
+    {
+      "term": "SSB",
+      "aka": [
+        "single sideband",
+        "single-sideband"
+      ],
+      "def": "Single sideband: a voice mode in which the strength of the signal varies with your voice.",
+      "more": "An amplifier must be set for the mode in use, so some VHF power amplifiers have a switch for SSB or CW-FM.",
+      "questions": [
+        "T7A09"
+      ]
+    },
+    {
+      "term": "CW",
+      "aka": [
+        "continuous wave",
+        "Morse code"
+      ],
+      "def": "Continuous wave: sending Morse code by switching a radio signal on and off.",
+      "more": "Some VHF power amplifiers have a switch for SSB or CW-FM that sets the amplifier for proper operation in the selected mode.",
+      "questions": [
+        "T7A09"
+      ]
+    },
+    {
+      "term": "FM",
+      "aka": [
+        "frequency modulation"
+      ],
+      "def": "Frequency modulation: a way of sending voice by varying the frequency of the radio signal.",
+      "more": "Louder audio makes an FM signal swing farther in frequency. That swing is called deviation.",
+      "questions": [
+        "T7A09",
+        "T7B01",
+        "T7B10"
+      ]
+    },
+    {
+      "term": "Deviation",
+      "aka": [
+        "over-deviation",
+        "over-deviating",
+        "overdeviation"
+      ],
+      "def": "How far an FM signal swings in frequency as you speak.",
+      "more": "Speaking too loudly or too close to the microphone causes over-deviation and distorted audio. The cure is to talk farther away from the microphone.",
+      "questions": [
+        "T7B01",
+        "T7B10"
+      ]
+    },
+    {
+      "term": "Radio frequency interference",
+      "aka": [
+        "RFI",
+        "interference"
+      ],
+      "def": "Unwanted radio energy that disturbs the reception of a radio, TV or other device.",
+      "more": "Fundamental overload, harmonics and spurious emissions can all cause it.",
+      "questions": [
+        "T7B02",
+        "T7B03",
+        "T7B05",
+        "T7B06",
+        "T7B07",
+        "T7B08",
+        "T7B09"
+      ]
+    },
+    {
+      "term": "Fundamental overload",
+      "aka": [
+        "receiver overload",
+        "front-end overload"
+      ],
+      "def": "Interference that happens when a receiver is unable to reject a strong signal from outside the band it is tuned to.",
+      "more": "The weakness is in the receiver, not the transmitter. It is why a broadcast AM or FM radio may pick up an amateur transmission. The cure is a filter at the affected receiver.",
+      "questions": [
+        "T7B02",
+        "T7B03",
+        "T7B05"
+      ]
+    },
+    {
+      "term": "Harmonics",
+      "aka": [
+        "harmonic"
+      ],
+      "def": "Unwanted signals at whole-number multiples of the frequency a transmitter is meant to be on.",
+      "more": "They are one possible cause of radio frequency interference.",
+      "questions": [
+        "T7B03"
+      ]
+    },
+    {
+      "term": "Spurious emissions",
+      "aka": [
+        "spurious emission",
+        "spurs"
+      ],
+      "def": "Unwanted signals that a transmitter puts out on frequencies outside its intended transmission.",
+      "more": "They are one possible cause of radio frequency interference.",
+      "questions": [
+        "T7B03"
+      ]
+    },
+    {
+      "term": "Solid-state",
+      "aka": [
+        "solid state"
+      ],
+      "def": "Built with transistors and other semiconductor parts instead of vacuum tubes.",
+      "more": "Most solid-state transmitters reduce output power when SWR is high, to protect the RF output amplifier transistors.",
+      "questions": [
+        "T7B04",
+        "T7C05"
+      ]
+    },
+    {
+      "term": "SWR",
+      "aka": [
+        "standing wave ratio"
+      ],
+      "def": "Standing wave ratio: a measure of how well the impedance of the antenna matches the feed line.",
+      "more": "1:1 is a perfect match. A higher reading such as 4:1 means an impedance mismatch. High SWR can make a solid-state transceiver reduce its output power.",
+      "questions": [
+        "T7B04",
+        "T7C04",
+        "T7C05",
+        "T7C06",
+        "T7C08"
+      ]
+    },
+    {
+      "term": "Filter",
+      "def": "A circuit that lets some frequencies pass and blocks others.",
+      "more": "A filter at the antenna input of an affected receiver can block an amateur signal that is causing interference.",
+      "questions": [
+        "T7B05",
+        "T7B07"
+      ]
+    },
+    {
+      "term": "Band-reject filter",
+      "aka": [
+        "notch filter",
+        "band-stop filter"
+      ],
+      "def": "A filter that blocks one range of frequencies and lets the rest pass.",
+      "more": "Installing one can reduce interference to a 2-meter transceiver from a nearby commercial FM station.",
+      "questions": [
+        "T7B07"
+      ]
+    },
+    {
+      "term": "Harmful interference",
+      "def": "Interference that seriously disturbs or repeatedly interrupts radio communication.",
+      "more": "If a neighbor's device causes it to your station: work with the neighbor to find the device, politely explain that FCC rules prohibit it, and check your own station.",
+      "questions": [
+        "T7B08"
+      ]
+    },
+    {
+      "term": "FCC",
+      "aka": [
+        "Federal Communications Commission"
+      ],
+      "def": "Federal Communications Commission: the United States government agency that makes and enforces the rules for radio.",
+      "more": "FCC rules prohibit the use of devices that cause harmful interference.",
+      "questions": [
+        "T7B08"
+      ]
+    },
+    {
+      "term": "Good amateur practice",
+      "def": "Setting up and operating a station carefully and correctly, the way a responsible amateur is expected to.",
+      "more": "When interference is reported, first make sure your own station is working properly and meets these standards.",
+      "questions": [
+        "T7B08"
+      ]
+    },
+    {
+      "term": "Coaxial cable",
+      "aka": [
+        "coax"
+      ],
+      "def": "A feed line made of a center conductor surrounded by insulation, an outer metal shield and a protective jacket.",
+      "more": "Moisture contamination causes coax to fail. The jacket should resist ultraviolet light, which can damage it and let water in.",
+      "questions": [
+        "T7B09",
+        "T7C09",
+        "T7C10",
+        "T7C11"
+      ]
+    },
+    {
+      "term": "Coaxial connector",
+      "aka": [
+        "coax connector",
+        "connector"
+      ],
+      "def": "The fitting on the end of a coaxial cable that joins it to equipment or to another cable.",
+      "more": "The first step in resolving interference to coaxial cable TV is to be sure all TV feed line coaxial connectors are installed properly.",
+      "questions": [
+        "T7B09"
+      ]
+    },
+    {
+      "term": "Repeater",
+      "def": "A station that receives a signal and retransmits it at the same time, so that stations can reach farther.",
+      "more": "Distorted or unintelligible audio through an FM repeater can come from being slightly off frequency, speaking too loudly or too close to the microphone, or a bad location.",
+      "questions": [
+        "T7B10"
+      ]
+    },
+    {
+      "term": "Off frequency",
+      "aka": [
+        "off-frequency"
+      ],
+      "def": "Transmitting or receiving a little above or below the frequency you are supposed to be on.",
+      "more": "A transmitter that is slightly off frequency can sound distorted or unintelligible through an FM repeater.",
+      "questions": [
+        "T7B10"
+      ]
+    },
+    {
+      "term": "Ferrite choke",
+      "aka": [
+        "ferrite",
+        "clip-on ferrite",
+        "choke"
+      ],
+      "def": "A piece of ferrite material placed around a cable to block unwanted RF from travelling along it.",
+      "more": "A clip-on ferrite choke on the microphone cable can cure distorted voice transmissions by keeping the transmitted signal from feeding back into the transmitter.",
+      "questions": [
+        "T7B11"
+      ]
+    },
+    {
+      "term": "Dummy load",
+      "aka": [
+        "dummy antenna",
+        "non-inductive resistor"
+      ],
+      "def": "A device connected to a transmitter in place of an antenna that turns the transmitter's power into heat.",
+      "more": "Its primary purpose is to prevent transmitting signals over the air when making tests. A typical one is a 50-ohm non-inductive resistor mounted on a heat sink.",
+      "questions": [
+        "T7C01",
+        "T7C03"
+      ]
+    },
+    {
+      "term": "Heat sink",
+      "aka": [
+        "heatsink"
+      ],
+      "def": "A piece of metal that carries heat away from an electronic part so that the part does not overheat.",
+      "more": "The resistor in an RF dummy load is mounted on one.",
+      "questions": [
+        "T7C03"
+      ]
+    },
+    {
+      "term": "Ohm",
+      "aka": [
+        "ohms"
+      ],
+      "def": "The unit of resistance and of impedance.",
+      "more": "A typical RF dummy load is a 50-ohm resistor. Resistance in ohms is measured with an ohmmeter.",
+      "questions": [
+        "T7C03"
+      ]
+    },
+    {
+      "term": "Antenna analyzer",
+      "aka": [
+        "antenna analyser"
+      ],
+      "def": "An instrument that shows how an antenna behaves at different frequencies, including its SWR.",
+      "more": "It is used to determine if an antenna is resonant at the desired operating frequency.",
+      "questions": [
+        "T7C02"
+      ]
+    },
+    {
+      "term": "Resonant",
+      "aka": [
+        "resonance",
+        "resonant frequency"
+      ],
+      "def": "Describes an antenna that is tuned to the frequency in use, so that its feed point acts like a pure resistance.",
+      "more": "An antenna analyzer is used to find out whether an antenna is resonant at the desired operating frequency.",
+      "questions": [
+        "T7C02"
+      ]
+    },
+    {
+      "term": "Antenna",
+      "def": "The part of a station that turns the transmitter's RF power into radio waves and picks up radio waves for the receiver.",
+      "more": "A dummy load takes its place for tests. An SWR of 1:1 means a perfect impedance match between the antenna and the feed line.",
+      "questions": [
+        "T7C01",
+        "T7C02",
+        "T7C04"
+      ]
+    },
+    {
+      "term": "SWR meter",
+      "aka": [
+        "SWR bridge",
+        "standing wave ratio meter"
+      ],
+      "def": "An instrument that shows how well the impedance of the antenna matches the feed line.",
+      "more": "A reading of 1:1 indicates a perfect impedance match. A reading of 4:1 indicates an impedance mismatch.",
+      "questions": [
+        "T7C04",
+        "T7C06"
+      ]
+    },
+    {
+      "term": "Impedance match",
+      "aka": [
+        "impedance matching",
+        "impedance mismatch",
+        "match",
+        "mismatch"
+      ],
+      "def": "The condition where two connected things, such as an antenna and its feed line, have the same impedance, so power passes between them without being reflected.",
+      "more": "An SWR of 1:1 shows a perfect match. A higher reading such as 4:1 shows a mismatch.",
+      "questions": [
+        "T7C04",
+        "T7C06"
+      ]
+    },
+    {
+      "term": "Feed line",
+      "aka": [
+        "feedline",
+        "transmission line"
+      ],
+      "def": "The cable that carries radio signals between a radio and its antenna.",
+      "more": "Power lost in a feed line is converted into heat.",
+      "questions": [
+        "T7C04",
+        "T7C07"
+      ]
+    },
+    {
+      "term": "Feed line loss",
+      "aka": [
+        "line loss",
+        "cable loss",
+        "loss"
+      ],
+      "def": "The part of a signal's power that is used up inside the feed line instead of reaching the other end.",
+      "more": "The lost power is converted into heat. Foam-dielectric coaxial cable has less loss per foot than solid-dielectric cable.",
+      "questions": [
+        "T7C07",
+        "T7C11"
+      ]
+    },
+    {
+      "term": "Directional wattmeter",
+      "aka": [
+        "wattmeter",
+        "directional power meter"
+      ],
+      "def": "An instrument that measures the RF power travelling toward the antenna and the power reflected back from it.",
+      "more": "It can be used to determine SWR, which is worked out from the forward and reflected power readings.",
+      "questions": [
+        "T7C08"
+      ]
+    },
+    {
+      "term": "Moisture contamination",
+      "aka": [
+        "water in coax",
+        "water ingress"
+      ],
+      "def": "Water getting inside a cable.",
+      "more": "It causes failure of coaxial cables. Water can enter through a jacket damaged by ultraviolet light.",
+      "questions": [
+        "T7C09",
+        "T7C10"
+      ]
+    },
+    {
+      "term": "Outer jacket",
+      "aka": [
+        "jacket",
+        "cable jacket",
+        "UV-resistant jacket",
+        "ultraviolet light",
+        "UV"
+      ],
+      "def": "The outside plastic covering of a coaxial cable, which protects the parts inside.",
+      "more": "It should be resistant to ultraviolet light, because ultraviolet light can damage the jacket and allow water to enter the cable.",
+      "questions": [
+        "T7C10"
+      ]
+    },
+    {
+      "term": "Dielectric",
+      "aka": [
+        "foam dielectric",
+        "solid dielectric",
+        "foam-dielectric"
+      ],
+      "def": "The insulation between the center conductor and the shield of a coaxial cable.",
+      "more": "Foam-dielectric coaxial cable has less loss per foot than solid-dielectric cable.",
+      "questions": [
+        "T7C11"
+      ]
+    },
+    {
+      "term": "Electric potential",
+      "aka": [
+        "voltage",
+        "potential",
+        "electromotive force"
+      ],
+      "def": "Another name for voltage: the electrical push between two points, measured in volts.",
+      "more": "It is measured with a voltmeter, connected in parallel with the component.",
+      "questions": [
+        "T7D01",
+        "T7D02",
+        "T7D06",
+        "T7D07"
+      ]
+    },
+    {
+      "term": "Voltmeter",
+      "def": "An instrument that measures electric potential, which is voltage.",
+      "more": "It is connected in parallel with the component to measure the voltage applied to it.",
+      "questions": [
+        "T7D01",
+        "T7D02"
+      ]
+    },
+    {
+      "term": "Current",
+      "aka": [
+        "electric current"
+      ],
+      "def": "The flow of electricity through a circuit, measured in amperes.",
+      "more": "It is measured with an ammeter, or a multimeter set for current, connected in series with the component.",
+      "questions": [
+        "T7D03",
+        "T7D04",
+        "T7D05"
+      ]
+    },
+    {
+      "term": "Ammeter",
+      "def": "An instrument that measures electric current.",
+      "more": "It is connected in series, so that the current flows through the meter.",
+      "questions": [
+        "T7D04"
+      ]
+    },
+    {
+      "term": "Resistance",
+      "def": "Opposition to the flow of electric current, measured in ohms.",
+      "more": "It is measured with an ohmmeter or a multimeter, and only when the circuit is not powered.",
+      "questions": [
+        "T7D05",
+        "T7D06",
+        "T7D07",
+        "T7D10",
+        "T7D11"
+      ]
+    },
+    {
+      "term": "Ohmmeter",
+      "def": "An instrument that measures resistance.",
+      "more": "It works by applying a small current and measuring the resulting voltage. Make sure the circuit is not powered before measuring in-circuit resistance.",
+      "questions": [
+        "T7D05",
+        "T7D10",
+        "T7D11"
+      ]
+    },
+    {
+      "term": "Multimeter",
+      "aka": [
+        "multi-meter",
+        "VOM",
+        "DMM"
+      ],
+      "def": "A test instrument that combines several meters in one, measuring voltage, current and resistance.",
+      "more": "To measure current it is connected in series. Trying to measure voltage while it is on the resistance setting can damage it.",
+      "questions": [
+        "T7D03",
+        "T7D06",
+        "T7D07"
+      ]
+    },
+    {
+      "term": "Parallel connection",
+      "aka": [
+        "in parallel",
+        "parallel"
+      ],
+      "def": "Connecting a meter or part across a component, with one lead on each end, without breaking the circuit.",
+      "more": "A voltmeter is connected in parallel. This differs from series, used to measure current, where the meter is inserted in the current path.",
+      "questions": [
+        "T7D02"
+      ]
+    },
+    {
+      "term": "Series connection",
+      "aka": [
+        "in series",
+        "series"
+      ],
+      "def": "Connecting a meter or part into the path of the current, so that all the current flows through it.",
+      "more": "A multimeter set to measure current is connected in series. This differs from parallel, used to measure voltage, where the meter goes across the component.",
+      "questions": [
+        "T7D03"
+      ]
+    },
+    {
+      "term": "Acid-core solder",
+      "aka": [
+        "acid core solder",
+        "solder"
+      ],
+      "def": "Solder with a corrosive acid flux inside it.",
+      "more": "It should not be used for radio and electronic work. Rosin-core solder is the usual choice for electronics.",
+      "questions": [
+        "T7D08"
+      ]
+    },
+    {
+      "term": "Cold solder joint",
+      "aka": [
+        "cold joint"
+      ],
+      "def": "A poor solder connection in which the solder did not flow and bond properly.",
+      "more": "A cold tin-lead solder joint has a rough or lumpy surface. A good one looks bright or shiny.",
+      "questions": [
+        "T7D09"
+      ]
+    },
+    {
+      "term": "Capacitor",
+      "def": "A component that stores electrical energy as it charges.",
+      "more": "An ohmmeter connected across a large, discharged capacitor shows increasing resistance with time, as the capacitor charges.",
+      "questions": [
+        "T7D10"
+      ]
+    }
+  ]
+}

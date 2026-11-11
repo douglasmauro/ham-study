@@ -1,0 +1,322 @@
+{
+  "terms": [
+    {
+      "term": "Propagation",
+      "aka": ["radio wave propagation"],
+      "def": "The way radio waves travel from the transmitting antenna to the receiving antenna.",
+      "more": "Signals can travel in a straight line, by reflection, by bending in the atmosphere or by way of the ionosphere. Which one applies depends mostly on frequency.",
+      "questions": ["T3A01", "T3A06", "T3A08", "T3A09", "T3A10", "T3C01", "T3C02", "T3C04", "T3C06", "T3C09"]
+    },
+    {
+      "term": "Multipath propagation",
+      "aka": ["multipath", "multi-path propagation"],
+      "def": "A signal reaching the receiver by more than one route at the same time, for example directly and by bouncing off buildings or hills.",
+      "more": "The copies cancel in some spots and reinforce in others, so VHF strength can change when an antenna moves a few feet. It causes picket fencing on mobile signals and is likely to raise error rates on data.",
+      "questions": ["T3A01", "T3A06", "T3A08", "T3A10"]
+    },
+    {
+      "term": "Picket fencing",
+      "aka": ["mobile flutter"],
+      "def": "Rapid flutter heard on the signal of a moving station.",
+      "more": "It is caused by multipath propagation: the vehicle passes quickly through spots where the signal copies cancel and spots where they reinforce.",
+      "questions": ["T3A06"]
+    },
+    {
+      "term": "Fading",
+      "aka": ["irregular fading"],
+      "def": "A received signal getting weaker and stronger over time.",
+      "more": "Irregular fading of signals that come by way of the ionosphere is likely caused by random combining of signals arriving via different paths.",
+      "questions": ["T3A08"]
+    },
+    {
+      "term": "Signal strength",
+      "def": "How strong a radio signal is when it arrives at the receiver.",
+      "more": "Multipath can make VHF signal strength vary greatly over a few feet. Cross-polarized antennas on a line-of-sight path reduce received signal strength.",
+      "questions": ["T3A01", "T3A04"]
+    },
+    {
+      "term": "Absorption",
+      "def": "The loss of radio signal energy as it is soaked up by something in its path.",
+      "more": "Vegetation absorbs UHF and microwave signals, which leads to poor reception of weak signals.",
+      "questions": ["T3A02"]
+    },
+    {
+      "term": "Precipitation",
+      "aka": ["rain", "fog", "rain fade"],
+      "def": "Water falling from the sky, such as rain or snow.",
+      "more": "Precipitation might decrease range at microwave frequencies. Fog or rain has little effect on 10-meter and 6-meter band signals.",
+      "questions": ["T3A07", "T3A12"]
+    },
+    {
+      "term": "Microwave",
+      "aka": ["microwaves", "microwave frequencies"],
+      "def": "Radio waves of very high frequency and very short wavelength, above the UHF range.",
+      "more": "Vegetation absorbs microwave signals, and precipitation might decrease their range.",
+      "questions": ["T3A02", "T3A07"]
+    },
+    {
+      "term": "Polarization",
+      "aka": ["antenna polarization"],
+      "def": "The direction in which the electric field of a radio wave points, such as vertical or horizontal.",
+      "more": "It is defined by the orientation of the electric field, not the magnetic field. An antenna with vertical elements produces a vertically polarized wave.",
+      "questions": ["T3A03", "T3A04", "T3A09", "T3B02"]
+    },
+    {
+      "term": "Horizontal polarization",
+      "aka": ["horizontally polarized"],
+      "def": "A radio wave whose electric field is parallel to the ground, as made by an antenna with elements parallel to the ground.",
+      "more": "Horizontal polarization is normally used for long-distance CW and SSB contacts on the VHF and UHF bands.",
+      "questions": ["T3A03", "T3A09"]
+    },
+    {
+      "term": "Vertical polarization",
+      "aka": ["vertically polarized"],
+      "def": "A radio wave whose electric field is at right angles to the ground, as made by an antenna with upright elements.",
+      "more": "Signals returned by the ionosphere are elliptically polarized, so either vertically or horizontally polarized antennas may be used for them.",
+      "questions": ["T3A09"]
+    },
+    {
+      "term": "Cross-polarization",
+      "aka": ["cross polarization", "cross-polarized"],
+      "def": "A mismatch where the receiving antenna is oriented differently from the wave's polarization, for example one antenna vertical and the other horizontal.",
+      "more": "Over a line-of-sight VHF or UHF path, cross-polarization reduces the received signal strength.",
+      "questions": ["T3A04"]
+    },
+    {
+      "term": "Elliptical polarization",
+      "aka": ["elliptically polarized"],
+      "def": "A wave whose electric field keeps turning instead of holding one direction, giving a changing mix of vertical and horizontal.",
+      "more": "Signals propagated by the ionosphere are elliptically polarized, so either vertically or horizontally polarized antennas may be used for transmission or reception.",
+      "questions": ["T3A09"]
+    },
+    {
+      "term": "CW",
+      "aka": ["continuous wave", "Morse code"],
+      "def": "Continuous wave: Morse code sent by switching a radio signal on and off.",
+      "more": "Long-distance CW contacts on the VHF and UHF bands normally use horizontal antenna polarization.",
+      "questions": ["T3A03"]
+    },
+    {
+      "term": "SSB",
+      "aka": ["single sideband"],
+      "def": "Single sideband: a voice mode that uses less bandwidth than FM and works well for weak signals.",
+      "more": "Long-distance SSB contacts on the VHF and UHF bands normally use horizontal antenna polarization.",
+      "questions": ["T3A03"]
+    },
+    {
+      "term": "Line of sight",
+      "aka": ["line-of-sight path", "direct path"],
+      "def": "A straight, unblocked path between the transmitting antenna and the receiving antenna.",
+      "more": "On a line-of-sight VHF or UHF path the antennas should have the same polarization. If the direct path is blocked, a reflected path may still work.",
+      "questions": ["T3A04", "T3A05"]
+    },
+    {
+      "term": "Reflection",
+      "aka": ["reflect", "reflected path", "bounce"],
+      "def": "A radio wave bouncing off something, such as a building or a hill, and continuing in a new direction.",
+      "more": "If obstructions block the direct path to a repeater, try to find a path that reflects your signal to it. The ionosphere can reflect HF radio waves.",
+      "questions": ["T3A05", "T3A11"]
+    },
+    {
+      "term": "Beam antenna",
+      "aka": ["directional antenna", "beam"],
+      "def": "An antenna that concentrates signals in one direction instead of sending them equally all around.",
+      "more": "With a directional antenna you can aim at a surface that reflects your signal to a repeater when the direct path is blocked.",
+      "questions": ["T3A05"]
+    },
+    {
+      "term": "Repeater",
+      "def": "A station that receives a signal and retransmits it at the same time, usually from a high location, to extend the range of other stations.",
+      "more": "If buildings block the direct path to a distant repeater, a directional antenna may reach it by a reflected path.",
+      "questions": ["T3A05"]
+    },
+    {
+      "term": "Error rate",
+      "aka": ["data errors", "bit error rate"],
+      "def": "How often the pieces of a data transmission are received wrongly.",
+      "more": "Multipath propagation is likely to increase error rates on data transmissions.",
+      "questions": ["T3A10"]
+    },
+    {
+      "term": "Ionosphere",
+      "aka": ["ionospheric propagation", "skip"],
+      "def": "The upper region of the atmosphere, electrically charged by the Sun, that can return radio waves to Earth.",
+      "more": "It can reflect HF radio waves, so long-distance contacts are far more common on HF. UHF signals are usually not propagated by the ionosphere.",
+      "questions": ["T3A08", "T3A09", "T3A11", "T3C01", "T3C02", "T3C10"]
+    },
+    {
+      "term": "F region",
+      "aka": ["F layer", "F2 region"],
+      "def": "A high region of the ionosphere that returns radio signals to Earth over long distances.",
+      "more": "At the peak of the sunspot cycle it may carry 6 and 10 meter signals long distances. The best time on 10 meters is from dawn to shortly after sunset during high sunspot activity.",
+      "questions": ["T3C09", "T3C10"]
+    },
+    {
+      "term": "Sunspot cycle",
+      "aka": ["sunspot activity", "sunspots", "solar cycle"],
+      "def": "The regular rise and fall in the number of dark spots on the Sun, which shows how active the Sun is.",
+      "more": "High sunspot activity strengthens the F region. During the peak of the cycle, 6 and 10 meters may provide long-distance communication.",
+      "questions": ["T3C09", "T3C10"]
+    },
+    {
+      "term": "Electromagnetic wave",
+      "aka": ["radio wave", "radio waves"],
+      "def": "A wave made of an electric field and a magnetic field travelling together through space. Radio waves and light are both this kind of wave.",
+      "more": "The two fields are at right angles to each other. In free space all radio waves travel at the speed of light, whatever their frequency.",
+      "questions": ["T3B01", "T3B02", "T3B03", "T3B04", "T3B11", "T3B12"]
+    },
+    {
+      "term": "Electric field",
+      "def": "One of the two components of a radio wave; the invisible force that acts on electric charges.",
+      "more": "It is at right angles to the magnetic field. The orientation of the electric field defines the wave's polarization.",
+      "questions": ["T3B01", "T3B02", "T3B03"]
+    },
+    {
+      "term": "Magnetic field",
+      "def": "One of the two components of a radio wave; the invisible force that acts on magnets and moving charges.",
+      "more": "It is at right angles to the electric field. It is not the field used to name the wave's polarization.",
+      "questions": ["T3B01", "T3B03"]
+    },
+    {
+      "term": "Free space",
+      "def": "Empty space with nothing in the way to slow or block a radio wave.",
+      "more": "In free space every radio wave travels at the speed of light, about 300,000,000 meters per second, whatever its frequency.",
+      "questions": ["T3B04", "T3B11", "T3B12"]
+    },
+    {
+      "term": "Speed of light",
+      "aka": ["velocity of a radio wave", "velocity"],
+      "def": "The speed at which light and radio waves travel through free space.",
+      "more": "It is approximately 300,000,000 meters per second. All radio frequencies travel at this same velocity in free space.",
+      "questions": ["T3B04", "T3B11", "T3B12"]
+    },
+    {
+      "term": "Wavelength",
+      "def": "The distance a radio wave travels during one complete cycle.",
+      "more": "Wavelength gets shorter as frequency increases. Wavelength in meters equals 300 divided by frequency in megahertz. Amateur bands are identified by their approximate wavelength in meters.",
+      "questions": ["T3B05", "T3B06", "T3B07"]
+    },
+    {
+      "term": "Frequency",
+      "def": "The number of complete cycles a radio wave makes each second, measured in hertz.",
+      "more": "As frequency increases, wavelength gets shorter. Frequency does not change the speed of the wave in free space.",
+      "questions": ["T3B05", "T3B06", "T3B07", "T3B12"]
+    },
+    {
+      "term": "MHz",
+      "aka": ["megahertz"],
+      "def": "Megahertz: a unit of frequency equal to one million hertz, or one million cycles per second.",
+      "more": "Wavelength in meters equals 300 divided by frequency in megahertz. HF is 3 to 30 MHz, VHF is 30 to 300 MHz and UHF is 300 to 3000 MHz.",
+      "questions": ["T3B06", "T3B08", "T3B09", "T3B10"]
+    },
+    {
+      "term": "Band",
+      "aka": ["amateur band", "amateur radio band"],
+      "def": "A range of frequencies set aside for a particular use, such as amateur radio.",
+      "more": "Amateur bands are identified by frequency and also by their approximate wavelength in meters, for example the 2-meter band.",
+      "questions": ["T3B07"]
+    },
+    {
+      "term": "HF",
+      "aka": ["high frequency"],
+      "def": "High frequency: the part of the radio spectrum from 3 to 30 MHz.",
+      "more": "Long-distance propagation by the ionosphere is far more common on HF than on VHF and higher frequencies.",
+      "questions": ["T3A11", "T3B10", "T3C02"]
+    },
+    {
+      "term": "VHF",
+      "aka": ["very high frequency"],
+      "def": "Very high frequency: the part of the radio spectrum from 30 MHz to 300 MHz.",
+      "more": "It is the range just above HF and just below UHF. VHF signals normally travel a little beyond line of sight, to the radio horizon.",
+      "questions": ["T3A01", "T3A03", "T3A04", "T3B08", "T3C02", "T3C03", "T3C06", "T3C11"]
+    },
+    {
+      "term": "UHF",
+      "aka": ["ultra high frequency"],
+      "def": "Ultra high frequency: the part of the radio spectrum from 300 to 3000 MHz.",
+      "more": "It is the range just above VHF. UHF signals are usually not propagated by the ionosphere, so simplex UHF signals are rarely heard beyond the radio horizon.",
+      "questions": ["T3A02", "T3A03", "T3A04", "T3B09", "T3C01", "T3C06", "T3C11"]
+    },
+    {
+      "term": "10-meter band",
+      "aka": ["10 meters"],
+      "def": "The amateur band with a wavelength of about 10 meters, at the top of the HF range.",
+      "more": "Best for long distance via the F region from dawn to shortly after sunset during high sunspot activity. Sporadic E can also bring strong signals. Fog or rain has little effect.",
+      "questions": ["T3A12", "T3C04", "T3C09", "T3C10"]
+    },
+    {
+      "term": "6-meter band",
+      "aka": ["6 meters"],
+      "def": "The amateur band with a wavelength of about 6 meters, at the bottom of the VHF range.",
+      "more": "It is the band best suited to meteor scatter. It can open by sporadic E, and by the F region during the peak of the sunspot cycle. Fog or rain has little effect.",
+      "questions": ["T3A12", "T3C04", "T3C07", "T3C10"]
+    },
+    {
+      "term": "2-meter band",
+      "aka": ["2 meters"],
+      "def": "The amateur VHF band with a wavelength of about 2 meters.",
+      "more": "Sporadic E is the propagation most commonly associated with occasional strong 2-meter signals from beyond the radio horizon.",
+      "questions": ["T3C04"]
+    },
+    {
+      "term": "Radio horizon",
+      "def": "The distance at which the curve of the Earth blocks direct radio signals between two stations.",
+      "more": "For VHF and UHF it is more distant than the visual horizon, because the atmosphere refracts radio waves slightly. Simplex UHF signals are rarely heard beyond it.",
+      "questions": ["T3C01", "T3C04", "T3C11"]
+    },
+    {
+      "term": "Simplex",
+      "def": "Communicating directly from one station to another, without a repeater.",
+      "more": "Simplex UHF signals are rarely heard beyond their radio horizon because UHF signals are usually not propagated by the ionosphere.",
+      "questions": ["T3C01"]
+    },
+    {
+      "term": "Refraction",
+      "aka": ["refract", "bending"],
+      "def": "The bending of a radio wave as it passes through the atmosphere.",
+      "more": "The atmosphere refracts radio waves slightly, which is why the radio horizon for VHF and UHF signals is more distant than the visual horizon.",
+      "questions": ["T3C11"]
+    },
+    {
+      "term": "Auroral backscatter",
+      "aka": ["aurora", "auroral propagation"],
+      "def": "VHF signals reflected from an aurora, the glowing curtain of charged particles seen in the sky toward the poles.",
+      "more": "Signals received this way are distorted, with a characteristic raspy sound.",
+      "questions": ["T3C03"]
+    },
+    {
+      "term": "Sporadic E",
+      "aka": ["Es", "sporadic-E"],
+      "def": "Propagation by occasional dense patches of charged gas in the E region of the ionosphere.",
+      "more": "It is the type most commonly associated with occasional strong signals on the 10-, 6- and 2-meter bands from beyond the radio horizon.",
+      "questions": ["T3C04"]
+    },
+    {
+      "term": "Knife-edge diffraction",
+      "aka": ["diffraction"],
+      "def": "The bending of radio waves over a sharp edge, such as a ridge or the edge of a building.",
+      "more": "It may allow signals to travel beyond obstructions between the transmitting and receiving stations.",
+      "questions": ["T3C05"]
+    },
+    {
+      "term": "Tropospheric ducting",
+      "aka": ["ducting", "tropo", "troposphere"],
+      "def": "VHF and UHF signals being trapped and guided along the Earth by layers of air in the troposphere, the lowest part of the atmosphere.",
+      "more": "It allows over-the-horizon VHF and UHF contacts to about 300 miles on a regular basis. It is caused by temperature inversions in the atmosphere.",
+      "questions": ["T3C06", "T3C08"]
+    },
+    {
+      "term": "Temperature inversion",
+      "aka": ["inversion"],
+      "def": "A weather condition where a layer of warm air sits above cooler air, the reverse of the normal arrangement.",
+      "more": "Temperature inversions in the atmosphere cause tropospheric ducting.",
+      "questions": ["T3C08"]
+    },
+    {
+      "term": "Meteor scatter",
+      "def": "Communication by reflecting signals off the short-lived trails of charged gas left by meteors burning up in the atmosphere.",
+      "more": "The 6-meter band is best suited for meteor scatter.",
+      "questions": ["T3C07"]
+    }
+  ]
+}

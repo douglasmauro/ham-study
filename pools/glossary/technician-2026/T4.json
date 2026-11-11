@@ -1,0 +1,350 @@
+{
+  "terms": [
+    {
+      "term": "Transceiver",
+      "aka": ["rig", "radio"],
+      "def": "A radio that combines a transmitter and a receiver in one unit.",
+      "more": "A mobile transceiver is one made to be used in a vehicle. A multimode transceiver can work in several modes, such as FM, SSB and CW.",
+      "questions": ["T4A01", "T4A03", "T4A04", "T4A07", "T4A10", "T4A11", "T4B02", "T4B05", "T4B08", "T4B09", "T4B11"]
+    },
+    {
+      "term": "Power supply",
+      "aka": ["DC power supply"],
+      "def": "Equipment that provides the DC voltage and current a radio needs to run.",
+      "more": "It is rated in volts and amperes. A typical 50-watt mobile FM transceiver needs 13.8 volts at 12 amperes, because the radio draws much more power than it sends out.",
+      "questions": ["T4A01"]
+    },
+    {
+      "term": "Volt",
+      "aka": ["V", "volts", "voltage"],
+      "def": "The unit of voltage, the electrical push that makes current flow.",
+      "more": "Mobile radios are built for a vehicle's 12-volt electrical system, so a suitable power supply is rated 13.8 volts.",
+      "questions": ["T4A01", "T4A11"]
+    },
+    {
+      "term": "Ampere",
+      "aka": ["amp", "amps", "A", "amperes"],
+      "def": "The unit of electric current, the amount of electricity flowing.",
+      "more": "A power supply must be able to deliver enough amperes for the radio. A typical 50-watt mobile FM transceiver needs a 12-ampere supply.",
+      "questions": ["T4A01", "T4A09"]
+    },
+    {
+      "term": "Watt",
+      "aka": ["W", "watts"],
+      "def": "The unit of power, the rate at which energy is used or sent out.",
+      "more": "Volts times amperes gives watts. A transmitter takes more watts from its supply than it sends out as RF, because some is lost as heat.",
+      "questions": ["T4A01"]
+    },
+    {
+      "term": "FM",
+      "aka": ["frequency modulation"],
+      "def": "Frequency modulation: a way of sending voice by varying the frequency of the radio signal.",
+      "more": "It is the usual mode for handheld and mobile radios and repeaters. An FM signal received slightly off frequency sounds distorted.",
+      "questions": ["T4A01", "T4B03", "T4B04", "T4B05"]
+    },
+    {
+      "term": "SWR",
+      "aka": ["standing wave ratio"],
+      "def": "Standing wave ratio: a measure of how well the antenna system is matched to the feed line.",
+      "more": "It is read with an SWR meter placed in the feed line.",
+      "questions": ["T4A02"]
+    },
+    {
+      "term": "SWR meter",
+      "aka": ["SWR bridge", "standing wave ratio meter"],
+      "def": "An instrument that shows how well the antenna system is matched to the feed line.",
+      "more": "When choosing one, consider the frequency and power level at which the measurements will be made. It only measures the match; it cannot correct a poor one.",
+      "questions": ["T4A02"]
+    },
+    {
+      "term": "Frequency",
+      "aka": ["operating frequency"],
+      "def": "How many times per second a radio wave repeats; it is the number you tune the radio to.",
+      "more": "The operating frequency of a transceiver can be entered with the keypad or the VFO knob. Test instruments such as SWR meters are built for a certain frequency range.",
+      "questions": ["T4A02", "T4B02", "T4B04", "T4B05"]
+    },
+    {
+      "term": "DC",
+      "aka": ["direct current"],
+      "def": "Direct current: electricity that flows steadily in one direction, as from a battery or a radio power supply.",
+      "more": "A transceiver's DC power connection uses short, heavy-gauge wires.",
+      "questions": ["T4A03"]
+    },
+    {
+      "term": "Voltage drop",
+      "def": "The voltage lost along a wire because the wire has resistance and current is flowing through it.",
+      "more": "A radio draws its highest current when transmitting. Short, heavy-gauge DC power wires keep the loss small.",
+      "questions": ["T4A03"]
+    },
+    {
+      "term": "Heavy-gauge wire",
+      "aka": ["wire gauge", "thick wire"],
+      "def": "Thick wire, which has less resistance than thin wire of the same length.",
+      "more": "Short, heavy-gauge wires are used for a transceiver's DC power connection to minimize voltage drop when transmitting.",
+      "questions": ["T4A03"]
+    },
+    {
+      "term": "FT8",
+      "def": "A weak-signal digital mode in which computer software turns short messages into audio tones and decodes the tones that are received.",
+      "more": "The transceiver's audio input and output are connected to the audio output and input of a computer running FT8 software.",
+      "questions": ["T4A04"]
+    },
+    {
+      "term": "Digital mode",
+      "aka": ["digital modes", "data mode"],
+      "def": "A way of communicating in which a computer or digital radio sends information as data instead of plain analog voice.",
+      "more": "With a computer, the radio and computer trade audio: for example the transceiver's speaker connector goes to the computer's line in.",
+      "questions": ["T4A04", "T4A06", "T4A07", "T4A10"]
+    },
+    {
+      "term": "Computer-radio interface",
+      "aka": ["sound card interface", "digital interface"],
+      "def": "The connections between a computer and a radio that let the computer operate digital modes through the radio.",
+      "more": "It carries three signals: receive audio, transmit audio, and transmitter keying.",
+      "questions": ["T4A04", "T4A06", "T4A07"]
+    },
+    {
+      "term": "Transmitter keying",
+      "aka": ["keying"],
+      "def": "Switching a radio from receive to transmit.",
+      "more": "It is one of the three signals in a computer-radio interface for digital modes, along with receive audio and transmit audio.",
+      "questions": ["T4A06"]
+    },
+    {
+      "term": "Line in",
+      "aka": ["line input", "audio input", "line out"],
+      "def": "The audio input connector on a computer, where sound from another device is fed in.",
+      "more": "For digital modes the computer's line in connects to the transceiver's speaker connector, so the computer hears what the radio receives. Line out is the computer's audio output.",
+      "questions": ["T4A07"]
+    },
+    {
+      "term": "Speaker connector",
+      "aka": ["speaker jack", "audio output"],
+      "def": "The connector on a transceiver where received audio comes out for an external speaker or other device.",
+      "more": "It is an audio output, so for digital modes it connects to an audio input: the computer's line in.",
+      "questions": ["T4A07"]
+    },
+    {
+      "term": "RF",
+      "aka": ["radio frequency"],
+      "def": "Radio frequency: the kind of electrical energy a transmitter makes and an antenna radiates as radio waves.",
+      "more": "RF power flows from the transmitter through the feed line to the antenna. RF current travels on the surface of a conductor.",
+      "questions": ["T4A05", "T4A08"]
+    },
+    {
+      "term": "RF power meter",
+      "aka": ["wattmeter", "power meter"],
+      "def": "An instrument that measures the radio-frequency power a transmitter is sending toward the antenna.",
+      "more": "It is installed in the feed line, between the transmitter and the antenna.",
+      "questions": ["T4A05"]
+    },
+    {
+      "term": "Feed line",
+      "aka": ["feedline", "transmission line"],
+      "def": "The cable that carries radio signals between a radio and its antenna.",
+      "more": "Meters that measure RF power are installed in the feed line, between the transmitter and the antenna.",
+      "questions": ["T4A05"]
+    },
+    {
+      "term": "Antenna",
+      "def": "The part of a station that turns the transmitter's RF power into radio waves and picks up radio waves for the receiver.",
+      "more": "It is connected to the radio by the feed line.",
+      "questions": ["T4A05"]
+    },
+    {
+      "term": "Bonding",
+      "aka": ["RF bonding"],
+      "def": "Connecting pieces of station equipment together with a conductor so that they all stay at the same voltage.",
+      "more": "Flat copper strap is the preferred conductor for bonding at RF.",
+      "questions": ["T4A08"]
+    },
+    {
+      "term": "Flat copper strap",
+      "aka": ["copper strap", "ground strap"],
+      "def": "A wide, flat strip of copper used as a conductor.",
+      "more": "It is the preferred conductor for bonding at RF, because its large surface gives RF current an easy path.",
+      "questions": ["T4A08"]
+    },
+    {
+      "term": "Ampere-hour",
+      "aka": ["Ah", "amp-hour", "ampere-hour rating"],
+      "def": "The unit of battery capacity: how much current a battery can deliver multiplied by how long it can deliver it.",
+      "more": "To find how long a battery can power equipment, divide its ampere-hour rating by the average current draw of the equipment.",
+      "questions": ["T4A09"]
+    },
+    {
+      "term": "Current draw",
+      "aka": ["current consumption"],
+      "def": "The amount of current, in amperes, that a piece of equipment takes from its battery or power supply.",
+      "more": "Battery run time is the ampere-hour rating divided by the average current draw, not the peak.",
+      "questions": ["T4A09"]
+    },
+    {
+      "term": "Hotspot",
+      "aka": ["digital mode hotspot", "digital hotspot"],
+      "def": "A small, very low power device that links nearby digital transceivers to a digital voice or data network.",
+      "more": "Your radio talks to the hotspot over a short radio hop, and the hotspot usually reaches the network through the internet.",
+      "questions": ["T4A10"]
+    },
+    {
+      "term": "Digital voice",
+      "aka": ["DV"],
+      "def": "Voice that the radio converts into digital data before sending it.",
+      "more": "DMR and D-STAR are digital voice systems. A hotspot can connect nearby transceivers to a digital voice network.",
+      "questions": ["T4A10", "T4B09", "T4B11"]
+    },
+    {
+      "term": "Negative power return",
+      "aka": ["negative lead", "ground return"],
+      "def": "The negative wire of a radio's DC power cable, which carries the current back to the battery.",
+      "more": "In a vehicle, connect it at the 12-volt battery chassis ground, not to just any metal part.",
+      "questions": ["T4A11"]
+    },
+    {
+      "term": "Chassis ground",
+      "aka": ["battery chassis ground", "vehicle ground"],
+      "def": "The point where a vehicle's battery negative lead is fastened to the metal body of the vehicle.",
+      "more": "The negative power return of a mobile transceiver should be connected at the 12-volt battery chassis ground.",
+      "questions": ["T4A11"]
+    },
+    {
+      "term": "Electronic keyer",
+      "aka": ["keyer"],
+      "def": "A device that assists in manual sending of Morse code.",
+      "more": "It forms evenly timed dits and dahs while the operator works a pair of paddles.",
+      "questions": ["T4A12"]
+    },
+    {
+      "term": "Morse code",
+      "aka": ["CW", "code"],
+      "def": "A code that spells out letters and numbers as patterns of short and long signals, called dits and dahs.",
+      "more": "An electronic keyer helps an operator send it by hand.",
+      "questions": ["T4A12"]
+    },
+    {
+      "term": "Microphone gain",
+      "aka": ["mic gain"],
+      "def": "The control that sets how strongly the sound from your microphone drives the transmitter.",
+      "more": "Excessive microphone gain on SSB causes distorted transmitted audio.",
+      "questions": ["T4B01"]
+    },
+    {
+      "term": "SSB",
+      "aka": ["single sideband", "single-sideband"],
+      "def": "Single sideband: a voice mode that sends only one of the two sidebands of an AM signal.",
+      "more": "A 2400 Hz receive filter suits SSB. If a received SSB voice sounds too high or low in pitch, adjust the RIT or clarifier.",
+      "questions": ["T4B01", "T4B06", "T4B10"]
+    },
+    {
+      "term": "VFO",
+      "aka": ["variable frequency oscillator", "tuning knob", "VFO knob"],
+      "def": "Variable frequency oscillator: the tuning control of a transceiver, which you turn to change the operating frequency.",
+      "more": "The operating frequency can be entered with the keypad or the VFO knob.",
+      "questions": ["T4B02"]
+    },
+    {
+      "term": "Squelch",
+      "aka": ["squelch threshold"],
+      "def": "A receiver control that mutes the speaker until a signal stronger than a set threshold arrives.",
+      "more": "To hear a weak FM signal, set the squelch threshold so that the receiver output audio is on all the time.",
+      "questions": ["T4B03"]
+    },
+    {
+      "term": "Off frequency",
+      "aka": ["mistuned", "off-frequency"],
+      "def": "Tuned a little above or below the frequency that the signal is actually on.",
+      "more": "An FM signal received slightly off frequency sounds distorted. On SSB, mistuning makes the voice pitch too high or too low instead.",
+      "questions": ["T4B04", "T4B06"]
+    },
+    {
+      "term": "Scanning",
+      "aka": ["scan", "scanning function"],
+      "def": "A transceiver function that tunes through a range of frequencies to check for activity.",
+      "more": "The radio steps through frequencies or memory channels by itself and stops when it hears a signal.",
+      "questions": ["T4B05"]
+    },
+    {
+      "term": "RIT",
+      "aka": ["receiver incremental tuning", "clarifier"],
+      "def": "Receiver incremental tuning: a control that shifts only the receive frequency slightly, leaving the transmit frequency where it is.",
+      "more": "Also called a clarifier. Use it when the voice pitch of an SSB signal seems too high or too low.",
+      "questions": ["T4B06"]
+    },
+    {
+      "term": "CQ",
+      "aka": ["CQ call", "calling CQ"],
+      "def": "A general call that invites any station to answer.",
+      "more": "If the voice of an SSB station answering your CQ sounds too high or low, adjust the RIT or clarifier instead of moving your transmit frequency.",
+      "questions": ["T4B06"]
+    },
+    {
+      "term": "DMR",
+      "aka": ["digital mobile radio"],
+      "def": "Digital Mobile Radio: a digital voice system in which many groups of users share the same repeaters.",
+      "more": "A DMR radio is set up by loading a code plug. A specific group of stations is selected by entering that group's identification code.",
+      "questions": ["T4B07", "T4B09"]
+    },
+    {
+      "term": "Code plug",
+      "aka": ["codeplug"],
+      "def": "The configuration data loaded onto a DMR radio so that it can access repeaters and talkgroups.",
+      "more": "It is a file of settings, not a physical plug or cable.",
+      "questions": ["T4B07"]
+    },
+    {
+      "term": "Talkgroup",
+      "aka": ["talk group", "group identification code"],
+      "def": "A named or numbered group of stations on a DMR network that hear each other's transmissions.",
+      "more": "You select a specific group on a DMR transceiver by entering the group's identification code.",
+      "questions": ["T4B07", "T4B09"]
+    },
+    {
+      "term": "Repeater",
+      "def": "A station that receives a signal and retransmits it at the same time, so that stations can reach farther.",
+      "more": "A DMR code plug holds the settings a radio needs to access repeaters and talkgroups.",
+      "questions": ["T4B07"]
+    },
+    {
+      "term": "Receiver filter bandwidth",
+      "aka": ["filter bandwidth", "bandwidth", "receive filter"],
+      "def": "The width of the slice of frequencies that a receiver's filter lets through.",
+      "more": "Choosing a bandwidth that matches the mode reduces noise and interference. For SSB, 2400 Hz gives the best signal-to-noise ratio.",
+      "questions": ["T4B08", "T4B10"]
+    },
+    {
+      "term": "Mode",
+      "aka": ["operating mode", "multimode"],
+      "def": "The method used to put information on a radio signal, such as FM, SSB or CW.",
+      "more": "Each mode takes up a different width of spectrum, so a multimode transceiver offers a choice of receiver filter bandwidths.",
+      "questions": ["T4B08"]
+    },
+    {
+      "term": "Signal-to-noise ratio",
+      "aka": ["SNR", "S/N"],
+      "def": "A comparison of how strong the wanted signal is with how strong the background noise is.",
+      "more": "A receive filter just wide enough for the signal gives the best ratio. For SSB that is 2400 Hz.",
+      "questions": ["T4B10"]
+    },
+    {
+      "term": "Hertz",
+      "aka": ["Hz"],
+      "def": "The unit of frequency: one hertz is one cycle per second.",
+      "more": "Filter bandwidths are given in hertz. A 2400 Hz filter is the best fit for SSB reception.",
+      "questions": ["T4B10"]
+    },
+    {
+      "term": "D-STAR",
+      "aka": ["DSTAR"],
+      "def": "A digital voice system for amateur radio that sends data, including your identity, along with your voice.",
+      "more": "Your call sign must be programmed into a D-STAR transceiver before transmitting.",
+      "questions": ["T4B11"]
+    },
+    {
+      "term": "Call sign",
+      "aka": ["callsign", "call"],
+      "def": "The unique set of letters and numbers that the FCC assigns to identify a licensed station.",
+      "more": "It must be programmed into a D-STAR digital transceiver before transmitting.",
+      "questions": ["T4B11"]
+    }
+  ]
+}
