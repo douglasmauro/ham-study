@@ -90,7 +90,6 @@ function TermRow({ t, s, open, onToggle, states }: { t: Term; s: Status; open: b
         <div class="stack" style={{ padding: '0 14px 14px 48px', gap: '8px' }}>
           <span style={{ lineHeight: 1.5 }}>{t.def}</span>
           {t.more && <span style={{ color: 'var(--text-2)', lineHeight: 1.5 }}>{t.more}</span>}
-          {t.aka && <span class="small muted">Also called: {t.aka.join(', ')}</span>}
           <span class="small" style={{ color: COLOR[s] === 'var(--tile-new)' ? 'var(--muted)' : COLOR[s], fontWeight: 600 }}>
             {LABEL[s]} · {tries ? `${right} right in ${tries} tries on ` : ''}{t.questions.length} exam question{t.questions.length === 1 ? '' : 's'}{seen.length < t.questions.length && tries ? ` (${seen.length} seen)` : ''}
           </span>

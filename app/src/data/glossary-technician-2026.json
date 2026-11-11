@@ -1,1 +1,5896 @@
-[]
+[
+ {
+  "id": "10-meter-band",
+  "term": "10-meter band",
+  "def": "The amateur HF band from 28.000 to 29.700 MHz.",
+  "sub": "T1",
+  "questions": [
+   "T1A06",
+   "T1B01",
+   "T1B05",
+   "T1B06",
+   "T3A12",
+   "T3C04",
+   "T3C09",
+   "T3C10",
+   "T8A06"
+  ],
+  "aka": [
+   "10 meters",
+   "28 MHz",
+   "ten meters"
+  ],
+  "more": "It is the only HF band where Technicians have phone privileges: 28.300 to 28.500 MHz. Automatically controlled beacons are found from 28.200 to 28.300 MHz."
+ },
+ {
+  "id": "2-meter-band",
+  "term": "2-meter band",
+  "def": "The amateur VHF band from 144 to 148 MHz.",
+  "sub": "T1",
+  "questions": [
+   "T1B04",
+   "T1B05",
+   "T1B07",
+   "T2A01",
+   "T2A02",
+   "T3C04",
+   "T8B08",
+   "T9A08"
+  ],
+  "aka": [
+   "144 MHz",
+   "2 meters",
+   "two meters"
+  ],
+  "more": "146.52 MHz is in this band. The segment 144.0 to 144.1 MHz is limited to CW only."
+ },
+ {
+  "id": "5-8-wave-antenna",
+  "term": "5/8-wave antenna",
+  "def": "A vertical antenna whose element is five eighths of a wavelength long.",
+  "sub": "T9",
+  "questions": [
+   "T9A09"
+  ],
+  "aka": [
+   "5/8-wavelength whip",
+   "5/8 wave vertical"
+  ],
+  "more": "For VHF or UHF mobile service its advantage over a 1/4-wave antenna is that it has more gain."
+ },
+ {
+  "id": "6-meter-band",
+  "term": "6-meter band",
+  "def": "The amateur band with a wavelength of about 6 meters, at the bottom of the VHF range.",
+  "sub": "T3",
+  "questions": [
+   "T1B03",
+   "T1B05",
+   "T1B07",
+   "T3A12",
+   "T3C04",
+   "T3C07",
+   "T3C10"
+  ],
+  "aka": [
+   "50 MHz",
+   "6 meters",
+   "six meters"
+  ],
+  "more": "It is the band best suited to meteor scatter. It can open by sporadic E, and by the F region during the peak of the sunspot cycle. Fog or rain has little effect."
+ },
+ {
+  "id": "70-centimeter-band",
+  "term": "70-centimeter band",
+  "def": "The amateur UHF band from 420 to 450 MHz.",
+  "sub": "T2",
+  "questions": [
+   "T2A03",
+   "T8B08"
+  ],
+  "aka": [
+   "440 MHz",
+   "70 centimeters",
+   "70 cm"
+  ],
+  "more": "A common repeater offset here is plus or minus 5 MHz."
+ },
+ {
+  "id": "absorption",
+  "term": "Absorption",
+  "def": "The loss of radio signal energy as it is soaked up by something in its path.",
+  "sub": "T3",
+  "questions": [
+   "T3A02"
+  ],
+  "more": "Vegetation absorbs UHF and microwave signals, which leads to poor reception of weak signals."
+ },
+ {
+  "id": "ac",
+  "term": "AC",
+  "def": "Alternating current: current that alternates between positive and negative directions.",
+  "sub": "T5",
+  "questions": [
+   "T5A04",
+   "T5A09",
+   "T5A11",
+   "T5C12",
+   "T6D01",
+   "T6D06",
+   "T0A03",
+   "T0A06",
+   "T0A08"
+  ],
+  "aka": [
+   "120 V AC",
+   "alternating current",
+   "household power"
+  ],
+  "more": "Current that only goes between one direction and zero never reverses, so it is not AC. The opposition to AC is called impedance."
+ },
+ {
+  "id": "acid-core-solder",
+  "term": "Acid-core solder",
+  "def": "Solder with a corrosive acid flux inside it.",
+  "sub": "T7",
+  "questions": [
+   "T7D08"
+  ],
+  "more": "It should not be used for radio and electronic work. Rosin-core solder is the usual choice for electronics."
+ },
+ {
+  "id": "am",
+  "term": "AM",
+  "def": "Amplitude modulation: a way of carrying voice by varying the strength of the radio signal.",
+  "sub": "T8",
+  "questions": [
+   "T8A01"
+  ],
+  "aka": [
+   "amplitude modulation"
+  ],
+  "more": "A full AM signal has a carrier and two sidebands. Single sideband (SSB) is a form of amplitude modulation."
+ },
+ {
+  "id": "amateur-radio-service",
+  "term": "Amateur Radio Service",
+  "def": "The licensed, non-commercial radio service in which people communicate, experiment and train themselves in radio.",
+  "sub": "T1",
+  "questions": [
+   "T1A01",
+   "T1C03"
+  ],
+  "aka": [
+   "ham radio",
+   "amateur radio",
+   "Basis and Purpose"
+  ],
+  "more": "Its Basis and Purpose includes advancing skills in the technical and communication phases of the radio art. Contacts must fit these purposes or be remarks of a personal character."
+ },
+ {
+  "id": "amateur-satellite",
+  "term": "Amateur satellite",
+  "def": "A spacecraft in orbit that carries amateur radio equipment, such as a relay for amateur signals.",
+  "sub": "T8",
+  "questions": [
+   "T8B01",
+   "T8B02",
+   "T8B03",
+   "T8B04",
+   "T8B05",
+   "T8B06",
+   "T8B07",
+   "T8B08",
+   "T8B09",
+   "T8B10",
+   "T8B11",
+   "T8B12"
+  ],
+  "aka": [
+   "satellite",
+   "amateur radio satellite"
+  ],
+  "more": "Amateur satellites commonly use SSB, FM, and CW or data. Anyone may receive their telemetry."
+ },
+ {
+  "id": "ammeter",
+  "term": "Ammeter",
+  "def": "An instrument that measures electric current.",
+  "sub": "T7",
+  "questions": [
+   "T7D04"
+  ],
+  "more": "It is connected in series, so that the current flows through the meter."
+ },
+ {
+  "id": "ampere",
+  "term": "Ampere",
+  "def": "The unit of electrical current.",
+  "sub": "T5",
+  "questions": [
+   "T4A01",
+   "T4A09",
+   "T5A01",
+   "T5B01",
+   "T5B06",
+   "T5C11",
+   "T5D07",
+   "T5D08",
+   "T5D09"
+  ],
+  "aka": [
+   "A",
+   "amp",
+   "amperes",
+   "amps"
+  ],
+  "more": "Often shortened to amp, symbol A. One ampere is 1000 milliamperes."
+ },
+ {
+  "id": "ampere-hour",
+  "term": "Ampere-hour",
+  "def": "The unit of battery capacity: how much current a battery can deliver multiplied by how long it can deliver it.",
+  "sub": "T4",
+  "questions": [
+   "T4A09"
+  ],
+  "aka": [
+   "Ah",
+   "amp-hour",
+   "ampere-hour rating"
+  ],
+  "more": "To find how long a battery can power equipment, divide its ampere-hour rating by the average current draw of the equipment."
+ },
+ {
+  "id": "amplifier",
+  "term": "Amplifier",
+  "def": "A circuit that makes a signal larger.",
+  "sub": "T6",
+  "questions": [
+   "T6B11"
+  ],
+  "more": "How much larger is called its gain."
+ },
+ {
+  "id": "anode",
+  "term": "Anode",
+  "def": "One of the two electrodes of a diode; the other is the cathode.",
+  "sub": "T6",
+  "questions": [
+   "T6B09"
+  ],
+  "more": "When a diode conducts, current is said to flow in at the anode and out at the cathode."
+ },
+ {
+  "id": "antenna",
+  "term": "Antenna",
+  "def": "The part of a station that turns the transmitter's RF power into radio waves and picks up radio waves for the receiver.",
+  "sub": "T7",
+  "questions": [
+   "T4A05",
+   "T6C11",
+   "T7C01",
+   "T7C02",
+   "T7C04",
+   "T9A01",
+   "T9A03",
+   "T9A06",
+   "T9A11",
+   "T0B04",
+   "T0B06",
+   "T0B09",
+   "T0B11",
+   "T0C04",
+   "T0C07",
+   "T0C08",
+   "T0C09"
+  ],
+  "more": "A dummy load takes its place for tests. An SWR of 1:1 means a perfect impedance match between the antenna and the feed line."
+ },
+ {
+  "id": "antenna-analyzer",
+  "term": "Antenna analyzer",
+  "def": "An instrument that shows how an antenna behaves at different frequencies, including its SWR.",
+  "sub": "T7",
+  "questions": [
+   "T7C02"
+  ],
+  "aka": [
+   "antenna analyser"
+  ],
+  "more": "It is used to determine if an antenna is resonant at the desired operating frequency."
+ },
+ {
+  "id": "antenna-efficiency",
+  "term": "Antenna efficiency",
+  "def": "How much of the power fed to an antenna is actually radiated as radio waves instead of being lost.",
+  "sub": "T9",
+  "questions": [
+   "T9A04"
+  ],
+  "aka": [
+   "efficiency",
+   "low efficiency"
+  ],
+  "more": "A handheld radio's short flexible antenna has low efficiency compared with a full-sized quarter-wave antenna."
+ },
+ {
+  "id": "antenna-gain",
+  "term": "Antenna gain",
+  "def": "The increase in signal strength in a specified direction compared to a reference antenna.",
+  "sub": "T9",
+  "questions": [
+   "T9A06",
+   "T9A09",
+   "T9A11"
+  ],
+  "aka": [
+   "gain"
+  ],
+  "more": "Gain is not added power: the antenna sends more signal one way and less another. A Yagi has high gain, and a 5/8-wavelength whip has more gain than a 1/4-wave antenna."
+ },
+ {
+  "id": "antenna-loading",
+  "term": "Antenna loading",
+  "def": "Making a physically short antenna act electrically longer.",
+  "sub": "T9",
+  "questions": [
+   "T9A02"
+  ],
+  "aka": [
+   "loading",
+   "inductive loading",
+   "loading coil"
+  ],
+  "more": "One type of loading is inserting inductors (coils) in the radiating elements. A longer electrical length means a lower resonant frequency."
+ },
+ {
+  "id": "antenna-tuner",
+  "term": "Antenna tuner",
+  "def": "A device placed between the radio and the antenna system that changes the impedance the radio sees.",
+  "sub": "T9",
+  "questions": [
+   "T9B04"
+  ],
+  "aka": [
+   "antenna coupler",
+   "tuner",
+   "transmatch"
+  ],
+  "more": "Its major function is to match the antenna system impedance to the transceiver's output impedance."
+ },
+ {
+  "id": "aprs",
+  "term": "APRS",
+  "def": "Automatic Packet Reporting System: a packet radio system that sends short data such as a station's position, shown to others on a map.",
+  "sub": "T8",
+  "questions": [
+   "T8D03",
+   "T8D05"
+  ],
+  "aka": [
+   "Automatic Packet Reporting System"
+  ],
+  "more": "It can carry GPS position data, text messages and weather data. Its use is real-time tactical digital communications together with a map showing the locations of stations."
+ },
+ {
+  "id": "ares",
+  "term": "ARES",
+  "def": "Amateur Radio Emergency Service: a group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service.",
+  "sub": "T2",
+  "questions": [
+   "T2C06"
+  ],
+  "aka": [
+   "Amateur Radio Emergency Service"
+  ],
+  "more": "Unlike RACES, it does not require certification by a civil defense agency. FCC rules still apply to its operations."
+ },
+ {
+  "id": "arq",
+  "term": "ARQ",
+  "def": "Automatic repeat request: an error correction method in which the receiving station detects errors and sends a request for retransmission.",
+  "sub": "T8",
+  "questions": [
+   "T8D08",
+   "T8D11"
+  ],
+  "aka": [
+   "automatic repeat request"
+  ],
+  "more": "Packet radio uses it: a packet received with errors is sent again."
+ },
+ {
+  "id": "auroral-backscatter",
+  "term": "Auroral backscatter",
+  "def": "VHF signals reflected from an aurora, the glowing curtain of charged particles seen in the sky toward the poles.",
+  "sub": "T3",
+  "questions": [
+   "T3C03"
+  ],
+  "aka": [
+   "aurora",
+   "auroral propagation"
+  ],
+  "more": "Signals received this way are distorted, with a characteristic raspy sound."
+ },
+ {
+  "id": "automatic-control",
+  "term": "Automatic control",
+  "def": "Operation in which devices and procedures control a station so that no control operator needs to be present at the control point.",
+  "sub": "T1",
+  "questions": [
+   "T1A06",
+   "T1E01",
+   "T1E08"
+  ],
+  "aka": [
+   "automatically controlled"
+  ],
+  "more": "Repeater operation is an example. The station still has a control operator: a station may never transmit without one."
+ },
+ {
+  "id": "auxiliary-station",
+  "term": "Auxiliary station",
+  "def": "A station that sends point-to-point communications within a system of cooperating amateur stations.",
+  "sub": "T1",
+  "questions": [
+   "T1A08",
+   "T1A09",
+   "T1D07"
+  ],
+  "more": "Example: a one-way link between a remote repeater receiver and the main repeater transmitter. It does not mean a spare or backup radio."
+ },
+ {
+  "id": "averaging-time",
+  "term": "Averaging time",
+  "def": "The period of time over which RF exposure is averaged when checking it against the limits.",
+  "sub": "T0",
+  "questions": [
+   "T0C11"
+  ],
+  "more": "Duty cycle is the percentage of the averaging time during which the transmitter is transmitting."
+ },
+ {
+  "id": "azimuth",
+  "term": "Azimuth",
+  "def": "The compass direction in which to point an antenna, measured in degrees around the horizon.",
+  "sub": "T8",
+  "questions": [
+   "T8B03"
+  ],
+  "more": "A satellite tracking program gives the azimuth for the start, maximum altitude and end of a pass. Compare elevation, the angle above the horizon."
+ },
+ {
+  "id": "band",
+  "term": "Band",
+  "def": "A range of frequencies set aside for a radio service, usually named by its approximate wavelength.",
+  "sub": "T1",
+  "questions": [
+   "T1B03",
+   "T1B04",
+   "T1B09",
+   "T3B07",
+   "T7A06",
+   "T7B07"
+  ],
+  "aka": [
+   "2 meters",
+   "2-meter band",
+   "amateur band",
+   "amateur radio band",
+   "frequency band"
+  ],
+  "more": "Examples: the 6-meter band is 50 to 54 MHz and the 2-meter band is 144 to 148 MHz. Your whole signal must stay inside the band."
+ },
+ {
+  "id": "band-edge",
+  "term": "Band edge",
+  "def": "The upper or lower frequency limit of an amateur band or sub-band.",
+  "sub": "T1",
+  "questions": [
+   "T1B09"
+  ],
+  "aka": [
+   "band limit",
+   "sub-band edge",
+   "frequency drift"
+  ],
+  "more": "Do not transmit exactly at the edge: allow for display calibration error, for modulation sidebands that extend beyond your dial frequency, and for transmitter frequency drift."
+ },
+ {
+  "id": "band-plan",
+  "term": "Band plan",
+  "def": "A voluntary guideline for using different modes or activities within an amateur band.",
+  "sub": "T2",
+  "questions": [
+   "T2A10",
+   "T2B09"
+  ],
+  "more": "It goes beyond the privileges established by the FCC. VHF/UHF band plans designate simplex channels, for example."
+ },
+ {
+  "id": "band-reject-filter",
+  "term": "Band-reject filter",
+  "def": "A filter that blocks one range of frequencies and lets the rest pass.",
+  "sub": "T7",
+  "questions": [
+   "T7B07"
+  ],
+  "aka": [
+   "notch filter",
+   "band-stop filter"
+  ],
+  "more": "Installing one can reduce interference to a 2-meter transceiver from a nearby commercial FM station."
+ },
+ {
+  "id": "bandwidth",
+  "term": "Bandwidth",
+  "def": "How much room a signal takes up on a band, measured in hertz from its lowest to its highest frequency.",
+  "sub": "T8",
+  "questions": [
+   "T8A05",
+   "T8A07",
+   "T8A08",
+   "T8A09",
+   "T8A10",
+   "T8A11"
+  ],
+  "more": "Approximate values to remember: CW 150 Hz (the narrowest), SSB voice 3 kHz, FM voice on VHF repeaters 10 to 15 kHz, AM fast-scan TV about 6 MHz."
+ },
+ {
+  "id": "battery",
+  "term": "Battery",
+  "def": "A source of electrical energy that makes voltage by a chemical reaction.",
+  "sub": "T6",
+  "questions": [
+   "T6A10",
+   "T6A11",
+   "T6C05"
+  ],
+  "more": "Some chemistries are rechargeable and some are not. Its schematic symbol is a stack of alternating long and short parallel lines."
+ },
+ {
+  "id": "beacon",
+  "term": "Beacon",
+  "def": "A station that transmits on its own so that others can check radio propagation or carry out related experiments.",
+  "sub": "T1",
+  "questions": [
+   "T1A06"
+  ],
+  "aka": [
+   "propagation beacon",
+   "beacon station"
+  ],
+  "more": "On HF, automatically controlled beacons are found on 10 meters between 28.200 MHz and 28.300 MHz."
+ },
+ {
+  "id": "beam-antenna",
+  "term": "Beam antenna",
+  "def": "An antenna that concentrates signals in one direction instead of sending them equally all around.",
+  "sub": "T3",
+  "questions": [
+   "T3A05",
+   "T9A01"
+  ],
+  "aka": [
+   "beam",
+   "directional antenna"
+  ],
+  "more": "With a directional antenna you can aim at a surface that reflects your signal to a repeater when the direct path is blocked."
+ },
+ {
+  "id": "bipolar-junction-transistor",
+  "term": "Bipolar junction transistor",
+  "def": "The type of transistor whose three electrodes are called the emitter, base and collector.",
+  "sub": "T6",
+  "questions": [
+   "T6B12"
+  ],
+  "aka": [
+   "BJT",
+   "bipolar transistor"
+  ],
+  "more": "Compare the field-effect transistor (FET), which has a gate, drain and source."
+ },
+ {
+  "id": "bnc",
+  "term": "BNC",
+  "def": "A small bayonet-type coaxial cable connector that locks with a push and a twist.",
+  "sub": "T9",
+  "questions": [
+   "T9B01"
+  ],
+  "aka": [
+   "BNC connector"
+  ],
+  "more": "Like PL-259 and Type N connectors, it should be carefully taped for weather protection when used outdoors."
+ },
+ {
+  "id": "bonding",
+  "term": "Bonding",
+  "def": "Joining ground rods, earth connections or metal structures together with heavy wire or conductive strap.",
+  "sub": "T0",
+  "questions": [
+   "T4A08",
+   "T0A09",
+   "T0B08"
+  ],
+  "aka": [
+   "bond",
+   "bonded",
+   "RF bonding"
+  ],
+  "more": "All external ground rods or earth connections should be bonded together. Tower ground rods are bonded to the tower and to each other."
+ },
+ {
+  "id": "broadcasting",
+  "term": "Broadcasting",
+  "def": "Transmissions intended for reception by the general public.",
+  "sub": "T1",
+  "questions": [
+   "T1D02",
+   "T1D09",
+   "T1D10"
+  ],
+  "aka": [
+   "broadcast"
+  ],
+  "more": "Amateurs may not broadcast. Supporting broadcasting or news gathering is allowed only when directly related to the immediate safety of human life or protection of property and no other means is available."
+ },
+ {
+  "id": "broadside",
+  "term": "Broadside",
+  "def": "At right angles to the length of an antenna wire.",
+  "sub": "T9",
+  "questions": [
+   "T9A10"
+  ],
+  "more": "A half-wave dipole radiates its strongest signal broadside to the antenna, and least off its ends."
+ },
+ {
+  "id": "business-communications",
+  "term": "Business communications",
+  "def": "Using amateur radio for trade, sales or an employer's benefit, which the rules prohibit.",
+  "sub": "T1",
+  "questions": [
+   "T1D05"
+  ],
+  "aka": [
+   "commercial use",
+   "equipment for sale or trade"
+  ],
+  "more": "Exception: you may notify other amateurs of equipment for sale or trade when it is amateur radio equipment and you do not do it on a regular basis."
+ },
+ {
+  "id": "call-sign",
+  "term": "Call sign",
+  "def": "The unique set of letters and a digit that the FCC assigns to identify a licensed station.",
+  "sub": "T1",
+  "questions": [
+   "T1C02",
+   "T1C05",
+   "T1F02",
+   "T1F03",
+   "T1F04",
+   "T1F05",
+   "T1F06",
+   "T2A04",
+   "T2A05",
+   "T2A06",
+   "T2A09",
+   "T4B11",
+   "T8C04",
+   "T8C10",
+   "T8D08"
+  ],
+  "aka": [
+   "call",
+   "callsign"
+  ],
+  "more": "Send it at least every 10 minutes during and at the end of a communication. On phone, give it in English, by voice or by CW."
+ },
+ {
+  "id": "capacitance",
+  "term": "Capacitance",
+  "def": "The ability to store energy in an electric field.",
+  "sub": "T5",
+  "questions": [
+   "T5C01",
+   "T5C02"
+  ],
+  "more": "Measured in farads. It is the property of a capacitor. Compare inductance, which stores energy in a magnetic field."
+ },
+ {
+  "id": "capacitor",
+  "term": "Capacitor",
+  "def": "A component made of conductive surfaces separated by an insulator, which stores energy in an electric field.",
+  "sub": "T6",
+  "questions": [
+   "T6A04",
+   "T6A05",
+   "T6C06",
+   "T6D08",
+   "T6D11",
+   "T7D10",
+   "T0A06",
+   "T0A11"
+  ],
+  "aka": [
+   "filter capacitor"
+  ],
+  "more": "Combined with an inductor it makes a resonant circuit. Compare the inductor, which stores energy in a magnetic field."
+ },
+ {
+  "id": "capture-effect",
+  "term": "Capture effect",
+  "def": "The way an FM receiver locks onto the strongest signal on a channel and hides the weaker ones.",
+  "sub": "T8",
+  "questions": [
+   "T8A12"
+  ],
+  "more": "This is why a disadvantage of FM compared with single sideband is that only one signal can be received at a time."
+ },
+ {
+  "id": "carbon-zinc",
+  "term": "Carbon-zinc",
+  "def": "A battery chemistry that is not rechargeable.",
+  "sub": "T6",
+  "questions": [
+   "T6A11"
+  ],
+  "more": "It is the one to pick when asked which chemistry is not rechargeable."
+ },
+ {
+  "id": "carrier",
+  "term": "Carrier",
+  "def": "A plain, steady radio signal that carries no information until it is modulated.",
+  "sub": "T7",
+  "questions": [
+   "T7A08"
+  ],
+  "aka": [
+   "RF carrier",
+   "carrier signal"
+  ],
+  "more": "Combining speech with an RF carrier is called modulation."
+ },
+ {
+  "id": "cathode",
+  "term": "Cathode",
+  "def": "One of the two electrodes of a diode; the other is the anode.",
+  "sub": "T6",
+  "questions": [
+   "T6B06",
+   "T6B09"
+  ],
+  "more": "The cathode lead of a semiconductor diode is often marked on the package with a stripe."
+ },
+ {
+  "id": "chassis-ground",
+  "term": "Chassis ground",
+  "def": "The point where a vehicle's battery negative lead is fastened to the metal body of the vehicle.",
+  "sub": "T4",
+  "questions": [
+   "T4A11"
+  ],
+  "aka": [
+   "battery chassis ground",
+   "vehicle ground"
+  ],
+  "more": "The negative power return of a mobile transceiver should be connected at the 12-volt battery chassis ground."
+ },
+ {
+  "id": "check",
+  "term": "Check",
+  "def": "In a radiogram header, the number of words or word equivalents in the text portion of the message.",
+  "sub": "T2",
+  "questions": [
+   "T2C11"
+  ],
+  "aka": [
+   "word count",
+   "message check"
+  ],
+  "more": "The receiving operator counts the words copied and compares the count with it to confirm that nothing was lost."
+ },
+ {
+  "id": "check-in",
+  "term": "Check-in",
+  "def": "Announcing your station to the net control station so that you are counted as taking part in a net.",
+  "sub": "T2",
+  "questions": [
+   "T2C02"
+  ],
+  "aka": [
+   "checking in"
+  ],
+  "more": "The net control station directs communications between the stations checking in."
+ },
+ {
+  "id": "checksum",
+  "term": "Checksum",
+  "def": "A number worked out from a block of data and sent with it, so the receiver can tell whether the data arrived with errors.",
+  "sub": "T8",
+  "questions": [
+   "T8D08"
+  ],
+  "more": "Packet radio transmissions include a checksum that permits error detection."
+ },
+ {
+  "id": "circuit",
+  "term": "Circuit",
+  "def": "A complete path of connected parts that current can flow around.",
+  "sub": "T5",
+  "questions": [
+   "T5A03",
+   "T5D13",
+   "T5D14"
+  ],
+  "more": "Parts can be connected in series (one path) or in parallel (side by side)."
+ },
+ {
+  "id": "circuit-breaker",
+  "term": "Circuit breaker",
+  "def": "A switch that opens by itself to cut off power when too much current flows, and can be reset afterwards.",
+  "sub": "T0",
+  "questions": [
+   "T0A08"
+  ],
+  "aka": [
+   "breaker"
+  ],
+  "more": "Like a fuse, in a 120 V AC power circuit it is installed in series with the hot conductor only."
+ },
+ {
+  "id": "climbing-harness",
+  "term": "Climbing harness",
+  "def": "Safety gear worn by a tower climber and attached to the tower to stop a fall.",
+  "sub": "T0",
+  "questions": [
+   "T0B02"
+  ],
+  "aka": [
+   "safety harness",
+   "fall protection",
+   "tie-off"
+  ],
+  "more": "Tower climbing requires all three: sufficient training on safe climbing techniques, appropriate tie-off to the tower at all times, and always wearing an approved climbing harness."
+ },
+ {
+  "id": "club-station",
+  "term": "Club station",
+  "def": "An amateur station licensed to a club instead of to an individual, with its own call sign.",
+  "sub": "T1",
+  "questions": [
+   "T1F11"
+  ],
+  "aka": [
+   "club station license",
+   "club call sign"
+  ],
+  "more": "For a club station license grant, the club must have at least four members."
+ },
+ {
+  "id": "coaxial-cable",
+  "term": "Coaxial cable",
+  "def": "A feed line with a center wire surrounded by insulation and an outer metal shield.",
+  "sub": "T9",
+  "questions": [
+   "T7B09",
+   "T7C09",
+   "T7C10",
+   "T7C11",
+   "T9B02",
+   "T9B03",
+   "T9B05",
+   "T9B08",
+   "T9B10"
+  ],
+  "aka": [
+   "coax"
+  ],
+  "more": "It is the most common feed line because it is easy to use and needs few special installation considerations. The most common impedance is 50 ohms. Loss increases as frequency increases."
+ },
+ {
+  "id": "coaxial-connector",
+  "term": "Coaxial connector",
+  "def": "The fitting on the end of a coaxial cable that joins it to equipment or to another cable.",
+  "sub": "T7",
+  "questions": [
+   "T7B09"
+  ],
+  "aka": [
+   "coax connector",
+   "connector"
+  ],
+  "more": "The first step in resolving interference to coaxial cable TV is to be sure all TV feed line coaxial connectors are installed properly."
+ },
+ {
+  "id": "code-plug",
+  "term": "Code plug",
+  "def": "The configuration data loaded onto a DMR radio so that it can access repeaters and talkgroups.",
+  "sub": "T4",
+  "questions": [
+   "T4B07"
+  ],
+  "aka": [
+   "codeplug"
+  ],
+  "more": "It is a file of settings, not a physical plug or cable."
+ },
+ {
+  "id": "cold-solder-joint",
+  "term": "Cold solder joint",
+  "def": "A poor solder connection in which the solder did not flow and bond properly.",
+  "sub": "T7",
+  "questions": [
+   "T7D09"
+  ],
+  "aka": [
+   "cold joint"
+  ],
+  "more": "A cold tin-lead solder joint has a rough or lumpy surface. A good one looks bright or shiny."
+ },
+ {
+  "id": "color-code",
+  "term": "Color code",
+  "def": "An access code that must be programmed into a DMR transmitter to access a specific repeater.",
+  "sub": "T2",
+  "questions": [
+   "T2B12"
+  ],
+  "aka": [
+   "digital color code",
+   "DMR color code"
+  ],
+  "more": "It plays a role like the CTCSS tone on an FM repeater: without the matching code the repeater does not respond."
+ },
+ {
+  "id": "compensation",
+  "term": "Compensation",
+  "def": "Payment received for operating an amateur station.",
+  "sub": "T1",
+  "questions": [
+   "T1D08"
+  ],
+  "aka": [
+   "pay",
+   "payment for operating"
+  ],
+  "more": "A control operator generally may not be paid to operate. One exception is when the communication is part of classroom instruction at an educational institution."
+ },
+ {
+  "id": "component",
+  "term": "Component",
+  "def": "A single part of an electronic circuit, such as a resistor, capacitor or transistor.",
+  "sub": "T6",
+  "questions": [
+   "T6C12",
+   "T6D09"
+  ],
+  "more": "A schematic shows accurately how components are connected."
+ },
+ {
+  "id": "computer-radio-interface",
+  "term": "Computer-radio interface",
+  "def": "The connections between a computer and a radio that let the computer operate digital modes through the radio.",
+  "sub": "T4",
+  "questions": [
+   "T4A04",
+   "T4A06",
+   "T4A07"
+  ],
+  "aka": [
+   "sound card interface",
+   "digital interface"
+  ],
+  "more": "It carries three signals: receive audio, transmit audio, and transmitter keying."
+ },
+ {
+  "id": "conductor",
+  "term": "Conductor",
+  "def": "A material that lets electric current flow through it easily.",
+  "sub": "T5",
+  "questions": [
+   "T5A07"
+  ],
+  "more": "Metals are generally good conductors because they have many free electrons."
+ },
+ {
+  "id": "contesting",
+  "term": "Contesting",
+  "def": "An operating activity in which you contact as many stations as possible during a specified period.",
+  "sub": "T8",
+  "questions": [
+   "T8C03",
+   "T8C04"
+  ],
+  "aka": [
+   "contest",
+   "radiosport"
+  ],
+  "more": "Good practice is to send only the minimum information needed for proper identification and the contest exchange, the short piece of information the contest asks you to trade."
+ },
+ {
+  "id": "control-operator",
+  "term": "Control operator",
+  "def": "An amateur operator designated by a station's licensee to be responsible for its transmissions and for FCC rules compliance at that station.",
+  "sub": "T1",
+  "questions": [
+   "T1A10",
+   "T1D08",
+   "T1E01",
+   "T1E02",
+   "T1E03",
+   "T1E04",
+   "T1E05",
+   "T1E06",
+   "T1E07",
+   "T1E11",
+   "T1F10",
+   "T2C09"
+  ],
+  "more": "A station may never transmit without one. Their license class sets the frequency privileges. They share responsibility for proper operation with the station licensee."
+ },
+ {
+  "id": "control-point",
+  "term": "Control point",
+  "def": "The location at which the control operator function is performed.",
+  "sub": "T1",
+  "questions": [
+   "T1E05"
+  ],
+  "more": "It is not defined by where the antenna or the transmitting apparatus is located."
+ },
+ {
+  "id": "cq",
+  "term": "CQ",
+  "def": "A general call that means \"calling any station\".",
+  "sub": "T2",
+  "questions": [
+   "T2A05",
+   "T2A06",
+   "T2A08",
+   "T4B06"
+  ],
+  "aka": [
+   "calling CQ",
+   "CQ call",
+   "general call"
+  ],
+  "more": "To answer one, transmit the other station's call sign followed by your own. On a repeater it is customary to say your call sign and \"listening\" instead."
+ },
+ {
+  "id": "crank-up-tower",
+  "term": "Crank-up tower",
+  "def": "A tower made of sections that slide inside each other so it can be raised and lowered.",
+  "sub": "T0",
+  "questions": [
+   "T0B07"
+  ],
+  "aka": [
+   "telescoping tower"
+  ],
+  "more": "It must not be climbed unless it is retracted, or mechanical safety locking devices have been installed."
+ },
+ {
+  "id": "cross-polarization",
+  "term": "Cross-polarization",
+  "def": "A mismatch where the receiving antenna is oriented differently from the wave's polarization, for example one antenna vertical and the other horizontal.",
+  "sub": "T3",
+  "questions": [
+   "T3A04"
+  ],
+  "aka": [
+   "cross-polarized"
+  ],
+  "more": "Over a line-of-sight VHF or UHF path, cross-polarization reduces the received signal strength."
+ },
+ {
+  "id": "ctcss",
+  "term": "CTCSS",
+  "def": "Continuous Tone-Coded Squelch System: a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver.",
+  "sub": "T2",
+  "questions": [
+   "T2B02",
+   "T2B04"
+  ],
+  "aka": [
+   "Continuous Tone-Coded Squelch System",
+   "sub-audible tone",
+   "PL tone",
+   "tone"
+  ],
+  "more": "Many repeaters require one. Using the wrong CTCSS tone is one reason you may be unable to access a repeater whose output you can hear."
+ },
+ {
+  "id": "current",
+  "term": "Current",
+  "def": "The flow of electrons through a circuit.",
+  "sub": "T5",
+  "questions": [
+   "T5A01",
+   "T5A03",
+   "T5A05",
+   "T5C11",
+   "T5D01",
+   "T5D07",
+   "T5D08",
+   "T5D09",
+   "T5D13",
+   "T6A01",
+   "T6B02",
+   "T6D10",
+   "T7D03",
+   "T7D04",
+   "T7D05",
+   "T0A02",
+   "T0A05"
+  ],
+  "aka": [
+   "amp",
+   "ampere",
+   "amperes",
+   "electric current",
+   "electrical current",
+   "electron flow",
+   "I"
+  ],
+  "more": "Measured in amperes. In formulas it is written I. A difference in voltage is what makes it flow."
+ },
+ {
+  "id": "current-draw",
+  "term": "Current draw",
+  "def": "The amount of current, in amperes, that a piece of equipment takes from its battery or power supply.",
+  "sub": "T4",
+  "questions": [
+   "T4A09"
+  ],
+  "aka": [
+   "current consumption"
+  ],
+  "more": "Battery run time is the ampere-hour rating divided by the average current draw, not the peak."
+ },
+ {
+  "id": "cw",
+  "term": "CW",
+  "def": "Continuous wave: Morse code sent by switching a transmitter's signal on and off.",
+  "sub": "T1",
+  "questions": [
+   "T1B07",
+   "T1F05",
+   "T3A03",
+   "T7A09",
+   "T8A05",
+   "T8A11",
+   "T8B04",
+   "T8D09"
+  ],
+  "aka": [
+   "continuous wave",
+   "Morse code"
+  ],
+  "more": "50.0 to 50.1 MHz and 144.0 to 144.1 MHz are limited to CW only. A phone station may send its call sign by CW or by phone."
+ },
+ {
+  "id": "cycle",
+  "term": "Cycle",
+  "def": "One complete swing of an alternating current: one way, then the other, back to the start.",
+  "sub": "T5",
+  "questions": [
+   "T5A04"
+  ],
+  "more": "The number of complete cycles each second is the frequency."
+ },
+ {
+  "id": "d-star",
+  "term": "D-STAR",
+  "def": "A digital voice system for amateur radio that sends data, including your identity, along with your voice.",
+  "sub": "T4",
+  "questions": [
+   "T4B11"
+  ],
+  "aka": [
+   "DSTAR"
+  ],
+  "more": "Your call sign must be programmed into a D-STAR transceiver before transmitting."
+ },
+ {
+  "id": "dc",
+  "term": "DC",
+  "def": "Direct current: electricity that flows steadily in one direction, as from a battery or a radio power supply.",
+  "sub": "T4",
+  "questions": [
+   "T4A03",
+   "T5A11",
+   "T6A01",
+   "T6D01"
+  ],
+  "aka": [
+   "direct current"
+  ],
+  "more": "A transceiver's DC power connection uses short, heavy-gauge wires."
+ },
+ {
+  "id": "dcs",
+  "term": "DCS",
+  "def": "Digital Coded Squelch: a digital code sent with your signal that a receiver or repeater must see before it opens.",
+  "sub": "T2",
+  "questions": [
+   "T2B04"
+  ],
+  "aka": [
+   "Digital Coded Squelch",
+   "DCS code"
+  ],
+  "more": "Using the wrong DCS code is one reason you may be unable to access a repeater whose output you can hear."
+ },
+ {
+  "id": "decibel",
+  "term": "Decibel",
+  "def": "A unit for comparing two power levels by their ratio rather than by their difference.",
+  "sub": "T5",
+  "questions": [
+   "T5B09",
+   "T5B10",
+   "T5B11"
+  ],
+  "aka": [
+   "dB",
+   "decibels"
+  ],
+  "more": "Written dB. Double the power is about 3 dB, one quarter of the power is about -6 dB, and ten times the power is 10 dB."
+ },
+ {
+  "id": "deviation",
+  "term": "Deviation",
+  "def": "How far an FM signal swings in frequency as you speak.",
+  "sub": "T7",
+  "questions": [
+   "T2B05",
+   "T7B01",
+   "T7B10"
+  ],
+  "aka": [
+   "FM deviation",
+   "over-deviating",
+   "over-deviation",
+   "overdeviation"
+  ],
+  "more": "Speaking too loudly or too close to the microphone causes over-deviation and distorted audio. The cure is to talk farther away from the microphone."
+ },
+ {
+  "id": "dielectric",
+  "term": "Dielectric",
+  "def": "The insulation between the center conductor and the shield of a coaxial cable.",
+  "sub": "T7",
+  "questions": [
+   "T7C11"
+  ],
+  "aka": [
+   "foam dielectric",
+   "solid dielectric",
+   "foam-dielectric"
+  ],
+  "more": "Foam-dielectric coaxial cable has less loss per foot than solid-dielectric cable."
+ },
+ {
+  "id": "digital-mode",
+  "term": "Digital mode",
+  "def": "A way of communicating in which a computer or digital radio sends information as data instead of plain analog voice.",
+  "sub": "T4",
+  "questions": [
+   "T1B05",
+   "T4A04",
+   "T4A06",
+   "T4A07",
+   "T4A10",
+   "T8D01",
+   "T8D02",
+   "T8D10"
+  ],
+  "aka": [
+   "data mode",
+   "digital",
+   "digital communications mode",
+   "digital modes"
+  ],
+  "more": "With a computer, the radio and computer trade audio: for example the transceiver's speaker connector goes to the computer's line in."
+ },
+ {
+  "id": "digital-voice",
+  "term": "Digital voice",
+  "def": "Voice that the radio converts into digital data before sending it.",
+  "sub": "T4",
+  "questions": [
+   "T4A10",
+   "T4B09",
+   "T4B11"
+  ],
+  "aka": [
+   "DV"
+  ],
+  "more": "DMR and D-STAR are digital voice systems. A hotspot can connect nearby transceivers to a digital voice network."
+ },
+ {
+  "id": "diode",
+  "term": "Diode",
+  "def": "A component that allows current to flow in only one direction.",
+  "sub": "T6",
+  "questions": [
+   "T6B01",
+   "T6B02",
+   "T6B06",
+   "T6B09"
+  ],
+  "more": "Its two electrodes are the anode and the cathode. The cathode lead is often marked with a stripe on the package."
+ },
+ {
+  "id": "dipole",
+  "term": "Dipole",
+  "def": "A simple antenna made of a straight wire or rod, usually half a wavelength long, fed at its center.",
+  "sub": "T9",
+  "questions": [
+   "T9A05",
+   "T9A10"
+  ],
+  "aka": [
+   "dipole antenna",
+   "half-wave dipole"
+  ],
+  "more": "A half-wave dipole radiates the strongest signal broadside to the antenna. Shortening a dipole increases its resonant frequency."
+ },
+ {
+  "id": "directional-antenna",
+  "term": "Directional antenna",
+  "def": "An antenna that sends and receives better in one direction than in others.",
+  "sub": "T8",
+  "questions": [
+   "T8C02"
+  ],
+  "aka": [
+   "beam antenna"
+  ],
+  "more": "Turning it shows which way a signal is coming from, so it is useful for a hidden transmitter hunt."
+ },
+ {
+  "id": "directional-wattmeter",
+  "term": "Directional wattmeter",
+  "def": "An instrument that measures the RF power travelling toward the antenna and the power reflected back from it.",
+  "sub": "T7",
+  "questions": [
+   "T7C08"
+  ],
+  "aka": [
+   "wattmeter",
+   "directional power meter"
+  ],
+  "more": "It can be used to determine SWR, which is worked out from the forward and reflected power readings."
+ },
+ {
+  "id": "dmr",
+  "term": "DMR",
+  "def": "Digital Mobile Radio: a digital voice system used on some amateur repeaters.",
+  "sub": "T2",
+  "questions": [
+   "T2B07",
+   "T2B12",
+   "T2B14",
+   "T4B07",
+   "T4B09",
+   "T8D07"
+  ],
+  "aka": [
+   "Digital Mobile Radio",
+   "digital mobile radio"
+  ],
+  "more": "It uses talkgroups to organize radio traffic and a color code that your transmitter must send to access a specific repeater."
+ },
+ {
+  "id": "doppler-shift",
+  "term": "Doppler shift",
+  "def": "An observed change in signal frequency caused by relative motion between the satellite and the Earth station.",
+  "sub": "T8",
+  "questions": [
+   "T8B03",
+   "T8B07"
+  ],
+  "aka": [
+   "Doppler effect"
+  ],
+  "more": "It changes the frequency you observe, not the signal strength. Satellite tracking programs show the apparent frequency including this effect."
+ },
+ {
+  "id": "downlink",
+  "term": "Downlink",
+  "def": "The signal path from a satellite down to a station on the ground, or the frequency used for it.",
+  "sub": "T8",
+  "questions": [
+   "T8B08",
+   "T8B12"
+  ],
+  "more": "In a satellite mode name the downlink band comes second. Your signal strength on the downlink should be about the same as the beacon."
+ },
+ {
+  "id": "dtmf",
+  "term": "DTMF",
+  "def": "Dual-Tone Multi-Frequency: signaling that sends two audio tones at the same time for each key pressed on a keypad.",
+  "sub": "T2",
+  "questions": [
+   "T2B06",
+   "T8C06"
+  ],
+  "aka": [
+   "dual-tone multi-frequency",
+   "Dual-Tone Multi-Frequency",
+   "keypad tones",
+   "touch tones"
+  ],
+  "more": "It is the type of signaling to a repeater that uses two simultaneous audio tones. CTCSS, in contrast, is one continuous sub-audible tone."
+ },
+ {
+  "id": "dummy-load",
+  "term": "Dummy load",
+  "def": "A device connected to a transmitter in place of an antenna that turns the transmitter's power into heat.",
+  "sub": "T7",
+  "questions": [
+   "T7C01",
+   "T7C03"
+  ],
+  "aka": [
+   "dummy antenna"
+  ],
+  "more": "Its primary purpose is to prevent transmitting signals over the air when making tests. A typical one is a 50-ohm non-inductive resistor mounted on a heat sink."
+ },
+ {
+  "id": "duty-cycle",
+  "term": "Duty cycle",
+  "def": "The percentage of time that a transmitter is transmitting.",
+  "sub": "T0",
+  "questions": [
+   "T0C03",
+   "T0C10",
+   "T0C11"
+  ],
+  "more": "It affects the average exposure to RF radiation. A lower duty cycle means lower average exposure: going from 100 to 50 percent raises the allowable power density by a factor of 2."
+ },
+ {
+  "id": "earth-moon-earth",
+  "term": "Earth-Moon-Earth",
+  "def": "Making contacts by bouncing radio signals off the Moon.",
+  "sub": "T8",
+  "questions": [
+   "T8D10"
+  ],
+  "aka": [
+   "EME",
+   "moonbounce"
+  ],
+  "more": "The returning signals are extremely weak. It is one of the activities supported by digital modes in the WSJT-X software suite."
+ },
+ {
+  "id": "echolink",
+  "term": "EchoLink",
+  "def": "An internet linking system that lets a licensed amateur transmit through a repeater from a computer or phone, without using a radio to start the transmission.",
+  "sub": "T8",
+  "questions": [
+   "T8C09",
+   "T8C10"
+  ],
+  "more": "Before using it you must register your call sign and provide proof of license."
+ },
+ {
+  "id": "electric-field",
+  "term": "Electric field",
+  "def": "One of the two components of a radio wave; the invisible force that acts on electric charges.",
+  "sub": "T3",
+  "questions": [
+   "T3B01",
+   "T3B02",
+   "T3B03",
+   "T5C01",
+   "T6A04",
+   "T9A03"
+  ],
+  "more": "It is at right angles to the magnetic field. The orientation of the electric field defines the wave's polarization."
+ },
+ {
+  "id": "electric-potential",
+  "term": "Electric potential",
+  "def": "Another name for voltage: the electrical push between two points, measured in volts.",
+  "sub": "T7",
+  "questions": [
+   "T7D01",
+   "T7D02",
+   "T7D06",
+   "T7D07"
+  ],
+  "aka": [
+   "voltage",
+   "potential",
+   "electromotive force"
+  ],
+  "more": "It is measured with a voltmeter, connected in parallel with the component."
+ },
+ {
+  "id": "electrical-shock",
+  "term": "Electrical shock",
+  "def": "What happens when electrical current flows through the body.",
+  "sub": "T0",
+  "questions": [
+   "T0A02",
+   "T0A06"
+  ],
+  "aka": [
+   "electric shock",
+   "shock"
+  ],
+  "more": "Current in the body may heat tissue, disrupt the electrical functions of cells and cause involuntary muscle contractions. Guard against it with grounding and by discharging capacitors."
+ },
+ {
+  "id": "electrode",
+  "term": "Electrode",
+  "def": "A terminal through which current enters or leaves a device such as a diode or a transistor.",
+  "sub": "T6",
+  "questions": [
+   "T6B09",
+   "T6B12"
+  ],
+  "more": "Diode: anode and cathode. Bipolar junction transistor: emitter, base and collector. Field-effect transistor: gate, drain and source."
+ },
+ {
+  "id": "electromagnetic-wave",
+  "term": "Electromagnetic wave",
+  "def": "A wave made of an electric field and a magnetic field travelling together through space. Radio waves and light are both this kind of wave.",
+  "sub": "T3",
+  "questions": [
+   "T3B01",
+   "T3B02",
+   "T3B03",
+   "T3B04",
+   "T3B11",
+   "T3B12"
+  ],
+  "aka": [
+   "radio wave",
+   "radio waves"
+  ],
+  "more": "The two fields are at right angles to each other. In free space all radio waves travel at the speed of light, whatever their frequency."
+ },
+ {
+  "id": "electron",
+  "term": "Electron",
+  "def": "A tiny negatively charged particle; moving electrons are what make up an electric current.",
+  "sub": "T5",
+  "questions": [
+   "T5A03",
+   "T5A05",
+   "T5A07"
+  ],
+  "more": "Metals conduct well because they have many free electrons."
+ },
+ {
+  "id": "electronic-keyer",
+  "term": "Electronic keyer",
+  "def": "A device that assists in manual sending of Morse code.",
+  "sub": "T4",
+  "questions": [
+   "T4A12"
+  ],
+  "aka": [
+   "keyer"
+  ],
+  "more": "It forms evenly timed dits and dahs while the operator works a pair of paddles."
+ },
+ {
+  "id": "elevation",
+  "term": "Elevation",
+  "def": "The angle above the horizon at which to point an antenna.",
+  "sub": "T8",
+  "questions": [
+   "T8B03"
+  ],
+  "more": "A satellite tracking program gives the elevation for the start, maximum altitude and end of a pass. Compare azimuth, the compass direction."
+ },
+ {
+  "id": "elliptical-polarization",
+  "term": "Elliptical polarization",
+  "def": "A wave whose electric field keeps turning instead of holding one direction, giving a changing mix of vertical and horizontal.",
+  "sub": "T3",
+  "questions": [
+   "T3A09"
+  ],
+  "aka": [
+   "elliptically polarized"
+  ],
+  "more": "Signals propagated by the ionosphere are elliptically polarized, so either vertically or horizontally polarized antennas may be used for transmission or reception."
+ },
+ {
+  "id": "email-address-requirement",
+  "term": "Email address requirement",
+  "def": "The rule that you must keep a working email address on file with the FCC so it can reach you.",
+  "sub": "T1",
+  "questions": [
+   "T1A04",
+   "T1C04"
+  ],
+  "aka": [
+   "FCC email",
+   "revocation",
+   "suspension"
+  ],
+  "more": "If the FCC cannot reach you by email, the result may be revocation of the station license or suspension of the operator license."
+ },
+ {
+  "id": "emergency-communications",
+  "term": "Emergency communications",
+  "def": "Communications needed when human life is in immediate danger or property needs immediate protection.",
+  "sub": "T2",
+  "questions": [
+   "T2C07",
+   "T2C09"
+  ],
+  "aka": [
+   "emergency",
+   "immediate safety of human life"
+  ],
+  "more": "In such situations a control operator may operate outside the frequency privileges of their license class. In a net, reporting an emergency is the one reason to transmit without being directed."
+ },
+ {
+  "id": "emitter-base-and-collector",
+  "term": "Emitter, base and collector",
+  "def": "The names of the three electrodes of a bipolar junction transistor.",
+  "sub": "T6",
+  "questions": [
+   "T6B12"
+  ],
+  "aka": [
+   "emitter",
+   "base",
+   "collector"
+  ],
+  "more": "Do not mix them up with gate, drain and source, which belong to a field-effect transistor."
+ },
+ {
+  "id": "encoded-messages",
+  "term": "Encoded messages",
+  "def": "Messages changed by a code so that people listening cannot understand what they mean.",
+  "sub": "T1",
+  "questions": [
+   "T1D03"
+  ],
+  "aka": [
+   "encryption",
+   "codes and ciphers",
+   "obscured meaning"
+  ],
+  "more": "Transmitting messages encoded to obscure their meaning is allowed only when sending control commands to space stations or model craft."
+ },
+ {
+  "id": "energy",
+  "term": "Energy",
+  "def": "The capacity to do work; in a circuit it is what the source supplies and what the parts use or store.",
+  "sub": "T5",
+  "questions": [
+   "T5A10",
+   "T5C01",
+   "T5C03"
+  ],
+  "more": "Power is the rate at which energy is used. A capacitor stores energy in an electric field and an inductor stores it in a magnetic field."
+ },
+ {
+  "id": "erp",
+  "term": "ERP",
+  "def": "Effective radiated power: a measure of how strong a station's signal is in its best direction, counting both the transmitter power and the antenna gain.",
+  "sub": "T8",
+  "questions": [
+   "T8B02"
+  ],
+  "aka": [
+   "effective radiated power"
+  ],
+  "more": "Using excessive effective radiated power on a satellite uplink blocks access by other users."
+ },
+ {
+  "id": "error-rate",
+  "term": "Error rate",
+  "def": "How often the pieces of a data transmission are received wrongly.",
+  "sub": "T3",
+  "questions": [
+   "T3A10"
+  ],
+  "aka": [
+   "data errors",
+   "bit error rate"
+  ],
+  "more": "Multipath propagation is likely to increase error rates on data transmissions."
+ },
+ {
+  "id": "f-region",
+  "term": "F region",
+  "def": "A high region of the ionosphere that returns radio signals to Earth over long distances.",
+  "sub": "T3",
+  "questions": [
+   "T3C09",
+   "T3C10"
+  ],
+  "aka": [
+   "F layer",
+   "F2 region"
+  ],
+  "more": "At the peak of the sunspot cycle it may carry 6 and 10 meter signals long distances. The best time on 10 meters is from dawn to shortly after sunset during high sunspot activity."
+ },
+ {
+  "id": "fading",
+  "term": "Fading",
+  "def": "A received signal getting weaker and stronger over time.",
+  "sub": "T3",
+  "questions": [
+   "T3A08"
+  ],
+  "aka": [
+   "irregular fading"
+  ],
+  "more": "Irregular fading of signals that come by way of the ionosphere is likely caused by random combining of signals arriving via different paths."
+ },
+ {
+  "id": "farad",
+  "term": "Farad",
+  "def": "The unit of capacitance.",
+  "sub": "T5",
+  "questions": [
+   "T5B08",
+   "T5C02"
+  ],
+  "aka": [
+   "farads",
+   "F"
+  ],
+  "more": "Real parts are usually marked in microfarads or picofarads. Do not confuse it with the henry, the unit of inductance."
+ },
+ {
+  "id": "fast-scan-tv",
+  "term": "Fast-scan TV",
+  "def": "Amateur television that sends full-motion video, like analog broadcast TV.",
+  "sub": "T8",
+  "questions": [
+   "T8A10",
+   "T8D04"
+  ],
+  "aka": [
+   "ATV",
+   "amateur television"
+  ],
+  "more": "An AM fast-scan TV transmission is about 6 MHz wide. NTSC is an analog fast-scan color TV signal."
+ },
+ {
+  "id": "fcc",
+  "term": "FCC",
+  "def": "Federal Communications Commission: the US government agency that regulates and enforces the rules for the Amateur Radio Service and grants the licenses.",
+  "sub": "T1",
+  "questions": [
+   "T1A02",
+   "T1A04",
+   "T1A05",
+   "T1C04",
+   "T1C10",
+   "T1F01",
+   "T7B08",
+   "T0C06",
+   "T0C13"
+  ],
+  "aka": [
+   "Federal Communications Commission"
+  ],
+  "more": "It contacts you by email, so you must keep a working email address on file. Its representatives may ask to inspect your station at any time."
+ },
+ {
+  "id": "feed-line",
+  "term": "Feed line",
+  "def": "The cable that carries radio signals between the radio and the antenna.",
+  "sub": "T9",
+  "questions": [
+   "T4A05",
+   "T7C04",
+   "T7C07",
+   "T9B03",
+   "T9B08",
+   "T9B09",
+   "T9B11",
+   "T9B12",
+   "T0A07"
+  ],
+  "aka": [
+   "coax",
+   "coaxial cable",
+   "coaxial feed line",
+   "feedline",
+   "transmission line"
+  ],
+  "more": "Coaxial cable is the most common type. Air-insulated hardline has the lowest loss. A loose connection in the feed line can cause erratic changes in SWR."
+ },
+ {
+  "id": "feed-line-loss",
+  "term": "Feed line loss",
+  "def": "Signal power that is wasted, mostly as heat, inside the feed line instead of reaching the antenna or the receiver.",
+  "sub": "T9",
+  "questions": [
+   "T7C07",
+   "T7C11",
+   "T9B05",
+   "T9B08",
+   "T9B10",
+   "T9B11"
+  ],
+  "aka": [
+   "attenuation",
+   "cable loss",
+   "line loss",
+   "loss"
+  ],
+  "more": "Loss in coax increases with frequency. Water in connectors, high SWR and multiple connectors all add loss. RG-213 has less loss than RG-58, and air-insulated hardline has the lowest loss."
+ },
+ {
+  "id": "ferrite-choke",
+  "term": "Ferrite choke",
+  "def": "A piece of ferrite material placed around a cable to block unwanted RF from travelling along it.",
+  "sub": "T7",
+  "questions": [
+   "T7B11"
+  ],
+  "aka": [
+   "ferrite",
+   "clip-on ferrite",
+   "choke"
+  ],
+  "more": "A clip-on ferrite choke on the microphone cable can cure distorted voice transmissions by keeping the transmitted signal from feeding back into the transmitter."
+ },
+ {
+  "id": "fet",
+  "term": "FET",
+  "def": "Field-effect transistor: the type of transistor that has a gate, a drain and a source.",
+  "sub": "T6",
+  "questions": [
+   "T6B05",
+   "T6B08"
+  ],
+  "aka": [
+   "field-effect transistor",
+   "field effect transistor"
+  ],
+  "more": "Compare the bipolar junction transistor, whose electrodes are the emitter, base and collector."
+ },
+ {
+  "id": "filter",
+  "term": "Filter",
+  "def": "A circuit that lets some frequencies pass and blocks others.",
+  "sub": "T7",
+  "questions": [
+   "T7B05",
+   "T7B07"
+  ],
+  "more": "A filter at the antenna input of an affected receiver can block an amateur signal that is causing interference."
+ },
+ {
+  "id": "flat-copper-strap",
+  "term": "Flat copper strap",
+  "def": "A wide, flat strip of copper used as a conductor.",
+  "sub": "T4",
+  "questions": [
+   "T4A08"
+  ],
+  "aka": [
+   "copper strap",
+   "ground strap"
+  ],
+  "more": "It is the preferred conductor for bonding at RF, because its large surface gives RF current an easy path."
+ },
+ {
+  "id": "fm",
+  "term": "FM",
+  "def": "Frequency modulation: a way of sending voice by varying the frequency of the radio signal.",
+  "sub": "T4",
+  "questions": [
+   "T2A02",
+   "T2B05",
+   "T4A01",
+   "T4B03",
+   "T4B04",
+   "T4B05",
+   "T7A09",
+   "T7B01",
+   "T7B10",
+   "T8A02",
+   "T8A04",
+   "T8A07",
+   "T8A09",
+   "T8A12",
+   "T8B04"
+  ],
+  "aka": [
+   "frequency modulation"
+  ],
+  "more": "It is the usual mode for handheld and mobile radios and repeaters. An FM signal received slightly off frequency sounds distorted."
+ },
+ {
+  "id": "forward-current",
+  "term": "Forward current",
+  "def": "Current flowing through a diode in the direction in which it conducts.",
+  "sub": "T6",
+  "questions": [
+   "T6B07"
+  ],
+  "more": "Forward current is what makes an LED emit light."
+ },
+ {
+  "id": "forward-voltage-drop",
+  "term": "Forward voltage drop",
+  "def": "The small voltage lost across a diode while it is conducting.",
+  "sub": "T6",
+  "questions": [
+   "T6B01"
+  ],
+  "more": "It is lower in some diode types than in others."
+ },
+ {
+  "id": "free-space",
+  "term": "Free space",
+  "def": "Empty space with nothing in the way to slow or block a radio wave.",
+  "sub": "T3",
+  "questions": [
+   "T3B04",
+   "T3B11",
+   "T3B12"
+  ],
+  "more": "In free space every radio wave travels at the speed of light, about 300,000,000 meters per second, whatever its frequency."
+ },
+ {
+  "id": "frequency",
+  "term": "Frequency",
+  "def": "The number of times a radio wave vibrates each second, which is the place on the dial where a signal is found.",
+  "sub": "T2",
+  "questions": [
+   "T1B03",
+   "T1B04",
+   "T1B09",
+   "T2A07",
+   "T2A11",
+   "T2B08",
+   "T2B11",
+   "T3B05",
+   "T3B06",
+   "T3B07",
+   "T3B12",
+   "T4A02",
+   "T4B02",
+   "T4B04",
+   "T4B05",
+   "T5A04",
+   "T5A06",
+   "T9A05",
+   "T9B05",
+   "T0C02",
+   "T0C04",
+   "T0C05"
+  ],
+  "aka": [
+   "megahertz",
+   "MHz",
+   "operating frequency"
+  ],
+  "more": "It is measured in hertz. No station owns a frequency: two stations interfering on the same one should negotiate continued use of it."
+ },
+ {
+  "id": "frequency-coordinator",
+  "term": "Frequency coordinator",
+  "def": "A volunteer person or group that recommends transmit and receive channels for repeater and auxiliary stations, to keep them from interfering.",
+  "sub": "T1",
+  "questions": [
+   "T1A08",
+   "T1A09"
+  ],
+  "aka": [
+   "Volunteer Frequency Coordinator"
+  ],
+  "more": "It is recognized by local amateurs, and selected by the amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations. The FCC does not appoint it."
+ },
+ {
+  "id": "frequency-privileges",
+  "term": "Frequency privileges",
+  "def": "The frequencies on which a licensed operator is allowed to transmit, set by license class.",
+  "sub": "T2",
+  "questions": [
+   "T2C09"
+  ],
+  "aka": [
+   "privileges"
+  ],
+  "more": "You may operate outside them only in situations involving the immediate safety of human life or protection of property."
+ },
+ {
+  "id": "ft8",
+  "term": "FT8",
+  "def": "A popular digital mode for making contacts with weak signals.",
+  "sub": "T1",
+  "questions": [
+   "T1B05",
+   "T4A04",
+   "T8D01",
+   "T8D02"
+  ],
+  "more": "Technicians are authorized to use it on frequencies in the 10-meter, 6-meter and 2-meter bands."
+ },
+ {
+  "id": "fundamental-overload",
+  "term": "Fundamental overload",
+  "def": "Interference that happens when a receiver is unable to reject a strong signal from outside the band it is tuned to.",
+  "sub": "T7",
+  "questions": [
+   "T7B02",
+   "T7B03",
+   "T7B05"
+  ],
+  "aka": [
+   "receiver overload",
+   "front-end overload"
+  ],
+  "more": "The weakness is in the receiver, not the transmitter. It is why a broadcast AM or FM radio may pick up an amateur transmission. The cure is a filter at the affected receiver."
+ },
+ {
+  "id": "fuse",
+  "term": "Fuse",
+  "def": "A safety part containing a thin piece of metal that melts and breaks the circuit when too much current flows.",
+  "sub": "T0",
+  "questions": [
+   "T0A04",
+   "T0A05",
+   "T0A08"
+  ],
+  "more": "Its purpose is to remove power in case of an overload. It does not prevent shocks. Never replace a fuse with a higher-rated one: excessive current could cause a fire."
+ },
+ {
+  "id": "gain",
+  "term": "Gain",
+  "def": "How much larger a signal is at the output of an amplifier than at its input.",
+  "sub": "T6",
+  "questions": [
+   "T6B10",
+   "T6B11"
+  ],
+  "aka": [
+   "power gain",
+   "voltage gain",
+   "current gain"
+  ],
+  "more": "It can be stated as output relative to input for voltage, for current or for power. A transistor can provide power gain."
+ },
+ {
+  "id": "gate-drain-and-source",
+  "term": "Gate, drain and source",
+  "def": "The names of the three electrodes of a field-effect transistor.",
+  "sub": "T6",
+  "questions": [
+   "T6B05"
+  ],
+  "aka": [
+   "gate",
+   "drain",
+   "source"
+  ],
+  "more": "Do not mix them up with emitter, base and collector, which belong to a bipolar junction transistor."
+ },
+ {
+  "id": "gateway",
+  "term": "Gateway",
+  "def": "An amateur radio station that connects other amateur stations to the internet.",
+  "sub": "T8",
+  "questions": [
+   "T8C11"
+  ],
+  "more": "A repeater retransmits signals by radio and a digipeater retransmits data packets by radio. Only the gateway is defined by its link to the internet."
+ },
+ {
+  "id": "ghz",
+  "term": "GHz",
+  "def": "Gigahertz: one billion hertz, or 1000 megahertz.",
+  "sub": "T5",
+  "questions": [
+   "T5B13"
+  ],
+  "aka": [
+   "gigahertz"
+  ],
+  "more": "Divide MHz by 1000 to get GHz: 2425 MHz = 2.425 GHz."
+ },
+ {
+  "id": "giga",
+  "term": "Giga",
+  "def": "The metric prefix meaning one billion.",
+  "sub": "T5",
+  "questions": [
+   "T5B13"
+  ],
+  "aka": [
+   "G"
+  ],
+  "more": "Written as a capital G. 1 GHz = 1000 MHz, so 2425 MHz = 2.425 GHz."
+ },
+ {
+  "id": "good-amateur-practice",
+  "term": "Good amateur practice",
+  "def": "Setting up and operating a station carefully and correctly, the way a responsible amateur is expected to.",
+  "sub": "T7",
+  "questions": [
+   "T7B08"
+  ],
+  "more": "When interference is reported, first make sure your own station is working properly and meets these standards."
+ },
+ {
+  "id": "grace-period",
+  "term": "Grace period",
+  "def": "The time after a license expires during which it can still be renewed without taking the exam again.",
+  "sub": "T1",
+  "questions": [
+   "T1C09",
+   "T1C11"
+  ],
+  "more": "It lasts two years. You may not transmit during it: you must wait until the license has been renewed."
+ },
+ {
+  "id": "grid-locator",
+  "term": "Grid locator",
+  "def": "A letter-number designator assigned to a geographic location.",
+  "sub": "T8",
+  "questions": [
+   "T8C05"
+  ],
+  "aka": [
+   "grid square",
+   "Maidenhead locator",
+   "grid"
+  ],
+  "more": "It is a short code that names an area on a map of the Earth. It is not an instrument and does not give azimuth or elevation."
+ },
+ {
+  "id": "ground-rod",
+  "term": "Ground rod",
+  "def": "A metal rod driven into the soil to make an electrical connection to the earth.",
+  "sub": "T0",
+  "questions": [
+   "T0A09",
+   "T0B08"
+  ],
+  "aka": [
+   "earth rod",
+   "grounding rod"
+  ],
+  "more": "All external ground rods must be bonded together with heavy wire or conductive strap. A tower needs separate eight-foot rods for each leg, bonded to the tower and each other."
+ },
+ {
+  "id": "grounding",
+  "term": "Grounding",
+  "def": "Connecting equipment or a structure to the earth with a conductor, for electrical and lightning safety.",
+  "sub": "T0",
+  "questions": [
+   "T0A07",
+   "T0A09",
+   "T0B01",
+   "T0B08",
+   "T0B10",
+   "T0B11"
+  ],
+  "aka": [
+   "ground",
+   "earth",
+   "earth connection",
+   "grounding conductor",
+   "ground wire"
+  ],
+  "more": "Keep lightning ground wires short and direct with no sharp bends. Bond all grounds together. Local electrical codes set the grounding requirements for a tower or antenna."
+ },
+ {
+  "id": "group-d-call-sign",
+  "term": "Group D call sign",
+  "def": "A call sign format with two letters, one digit and then three letters.",
+  "sub": "T1",
+  "questions": [
+   "T1C05"
+  ],
+  "aka": [
+   "2x3 call sign",
+   "2-by-3 call sign"
+  ],
+  "more": "KF1XXX is a valid Group D format for Technician class. Shorter formats such as KA1X and W1XX are not Group D."
+ },
+ {
+  "id": "guy-line",
+  "term": "Guy line",
+  "def": "A tensioned cable running from a tower or mast to an anchor in the ground to hold the structure steady.",
+  "sub": "T0",
+  "questions": [
+   "T0B05"
+  ],
+  "aka": [
+   "guy wire",
+   "guy"
+  ],
+  "more": "Guy lines are tightened with turnbuckles, which need a safety wire to keep them from loosening."
+ },
+ {
+  "id": "handheld-transceiver",
+  "term": "Handheld transceiver",
+  "def": "A small portable radio that transmits and receives and is held in the hand.",
+  "sub": "T9",
+  "questions": [
+   "T9A04",
+   "T9A07"
+  ],
+  "aka": [
+   "handheld",
+   "HT",
+   "handheld radio"
+  ],
+  "more": "Its short flexible antenna has low efficiency. Used inside a vehicle without an external antenna, its signal strength is reduced by the shielding effect of the vehicle."
+ },
+ {
+  "id": "hardline",
+  "term": "Hardline",
+  "def": "A stiff coaxial feed line with a solid metal outer shield.",
+  "sub": "T9",
+  "questions": [
+   "T9B11"
+  ],
+  "aka": [
+   "air-insulated hardline"
+  ],
+  "more": "Air-insulated hardline has the lowest loss of the common feed line types, lower than flexible 50-ohm or 75-ohm coax."
+ },
+ {
+  "id": "harmful-interference",
+  "term": "Harmful interference",
+  "def": "Interference that seriously disturbs or repeatedly interrupts radio communication.",
+  "sub": "T7",
+  "questions": [
+   "T7B08"
+  ],
+  "more": "If a neighbor's device causes it to your station: work with the neighbor to find the device, politely explain that FCC rules prohibit it, and check your own station."
+ },
+ {
+  "id": "harmonics",
+  "term": "Harmonics",
+  "def": "Unwanted signals at whole-number multiples of the frequency a transmitter is meant to be on.",
+  "sub": "T7",
+  "questions": [
+   "T7B03"
+  ],
+  "aka": [
+   "harmonic"
+  ],
+  "more": "They are one possible cause of radio frequency interference."
+ },
+ {
+  "id": "heat-sink",
+  "term": "Heat sink",
+  "def": "A piece of metal that carries heat away from an electronic part so that the part does not overheat.",
+  "sub": "T7",
+  "questions": [
+   "T7C03"
+  ],
+  "aka": [
+   "heatsink"
+  ],
+  "more": "The resistor in an RF dummy load is mounted on one."
+ },
+ {
+  "id": "heavy-gauge-wire",
+  "term": "Heavy-gauge wire",
+  "def": "Thick wire, which has less resistance than thin wire of the same length.",
+  "sub": "T4",
+  "questions": [
+   "T4A03"
+  ],
+  "aka": [
+   "wire gauge",
+   "thick wire"
+  ],
+  "more": "Short, heavy-gauge wires are used for a transceiver's DC power connection to minimize voltage drop when transmitting."
+ },
+ {
+  "id": "helper-or-observer",
+  "term": "Helper or observer",
+  "def": "A person who stays on the ground while someone climbs a tower, to watch, assist and call for help.",
+  "sub": "T0",
+  "questions": [
+   "T0B03"
+  ],
+  "aka": [
+   "tower helper",
+   "observer",
+   "ground crew",
+   "spotter"
+  ],
+  "more": "It is never safe to climb a tower without a helper or observer, whatever the height or the kind of work."
+ },
+ {
+  "id": "henry",
+  "term": "Henry",
+  "def": "The unit of inductance.",
+  "sub": "T5",
+  "questions": [
+   "T5C04"
+  ],
+  "aka": [
+   "henrys",
+   "H"
+  ],
+  "more": "Do not confuse it with hertz (frequency) or the farad (capacitance)."
+ },
+ {
+  "id": "hertz",
+  "term": "Hertz",
+  "def": "The unit of frequency; one hertz is one cycle per second.",
+  "sub": "T5",
+  "questions": [
+   "T4B10",
+   "T5A06",
+   "T5B02",
+   "T5B07",
+   "T5B12",
+   "T5B13",
+   "T5C06",
+   "T5C07",
+   "T8A08",
+   "T8A09",
+   "T8A10",
+   "T8A11",
+   "T8D07"
+  ],
+  "aka": [
+   "Hz",
+   "kHz",
+   "kilohertz",
+   "megahertz",
+   "MHz"
+  ],
+  "more": "Written Hz, with a capital H and a small z. 1000 Hz = 1 kHz and 1,000,000 Hz = 1 MHz."
+ },
+ {
+  "id": "hf",
+  "term": "HF",
+  "def": "High frequency: the part of the radio spectrum from 3 to 30 MHz.",
+  "sub": "T1",
+  "questions": [
+   "T1A06",
+   "T1B06",
+   "T1B11",
+   "T3A11",
+   "T3B10",
+   "T3C02",
+   "T8A06",
+   "T9B07"
+  ],
+  "aka": [
+   "high frequency",
+   "shortwave"
+  ],
+  "more": "Technicians have phone privileges on only one HF band, 10 meters, and are limited to 200 watts PEP in their HF band segments."
+ },
+ {
+  "id": "hidden-transmitter-hunt",
+  "term": "Hidden transmitter hunt",
+  "def": "An activity in which operators use radio direction finding to track down a transmitter that has been hidden.",
+  "sub": "T8",
+  "questions": [
+   "T8C02"
+  ],
+  "aka": [
+   "fox hunt",
+   "foxhunt",
+   "transmitter hunt"
+  ],
+  "more": "A directional antenna is useful for it."
+ },
+ {
+  "id": "horizontal-polarization",
+  "term": "Horizontal polarization",
+  "def": "A radio wave whose electric field is parallel to the ground, as made by an antenna with elements parallel to the ground.",
+  "sub": "T3",
+  "questions": [
+   "T3A03",
+   "T3A09"
+  ],
+  "aka": [
+   "horizontally polarized"
+  ],
+  "more": "Horizontal polarization is normally used for long-distance CW and SSB contacts on the VHF and UHF bands."
+ },
+ {
+  "id": "hot-wire",
+  "term": "Hot wire",
+  "def": "The wire in an AC power cable that carries the voltage from the supply. It can shock you.",
+  "sub": "T0",
+  "questions": [
+   "T0A03",
+   "T0A08"
+  ],
+  "aka": [
+   "hot",
+   "hot conductor",
+   "black wire"
+  ],
+  "more": "In a US three-wire 120 V AC cable, black insulation marks the hot wire. A fuse or circuit breaker goes in series with the hot conductor only."
+ },
+ {
+  "id": "hotspot",
+  "term": "Hotspot",
+  "def": "A small, very low power device that links nearby digital transceivers to a digital voice or data network.",
+  "sub": "T4",
+  "questions": [
+   "T4A10"
+  ],
+  "aka": [
+   "digital mode hotspot",
+   "digital hotspot"
+  ],
+  "more": "Your radio talks to the hotspot over a short radio hop, and the hotspot usually reaches the network through the internet."
+ },
+ {
+  "id": "ieee-802-11",
+  "term": "IEEE 802.11",
+  "def": "The technical standard for Wi-Fi, which carries digital data by radio.",
+  "sub": "T8",
+  "questions": [
+   "T8D01",
+   "T8D12"
+  ],
+  "aka": [
+   "Wi-Fi",
+   "WiFi",
+   "802.11"
+  ],
+  "more": "It counts as a digital communications mode. Amateur mesh networks use commercial Wi-Fi equipment with modified firmware."
+ },
+ {
+  "id": "impedance",
+  "term": "Impedance",
+  "def": "The opposition to AC current flow.",
+  "sub": "T5",
+  "questions": [
+   "T5C05",
+   "T5C12",
+   "T9B02",
+   "T9B04"
+  ],
+  "aka": [
+   "characteristic impedance"
+  ],
+  "more": "Measured in ohms, the same unit as resistance."
+ },
+ {
+  "id": "impedance-match",
+  "term": "Impedance match",
+  "def": "The condition where two connected things, such as an antenna and its feed line, have the same impedance, so power passes between them without being reflected.",
+  "sub": "T7",
+  "questions": [
+   "T7C04",
+   "T7C06"
+  ],
+  "aka": [
+   "impedance matching",
+   "impedance mismatch",
+   "match",
+   "mismatch"
+  ],
+  "more": "An SWR of 1:1 shows a perfect match. A higher reading such as 4:1 shows a mismatch."
+ },
+ {
+  "id": "impedance-matching",
+  "term": "Impedance matching",
+  "def": "Making the impedance of one part of the antenna system equal to that of the part it connects to, so power passes between them without being reflected.",
+  "sub": "T9",
+  "questions": [
+   "T9B04",
+   "T9B12"
+  ],
+  "aka": [
+   "match",
+   "matching",
+   "mismatch"
+  ],
+  "more": "SWR measures how well a load is matched to a transmission line. An antenna tuner matches the antenna system to the transceiver."
+ },
+ {
+  "id": "indecent-or-obscene-language",
+  "term": "Indecent or obscene language",
+  "def": "Offensive words or speech that the rules do not allow on amateur frequencies.",
+  "sub": "T1",
+  "questions": [
+   "T1D06"
+  ],
+  "aka": [
+   "obscene language",
+   "indecent language"
+  ],
+  "more": "Any such language is prohibited. Neither the FCC nor the ITU maintains a list of banned words."
+ },
+ {
+  "id": "inductance",
+  "term": "Inductance",
+  "def": "The ability to store energy in a magnetic field.",
+  "sub": "T5",
+  "questions": [
+   "T5C03",
+   "T5C04"
+  ],
+  "more": "Measured in henrys. It is the property of an inductor (a coil). Compare capacitance, which stores energy in an electric field."
+ },
+ {
+  "id": "inductor",
+  "term": "Inductor",
+  "def": "A component, typically a coil of wire, that stores energy in a magnetic field.",
+  "sub": "T6",
+  "questions": [
+   "T6A06",
+   "T6A07",
+   "T6C10",
+   "T6D08",
+   "T6D11",
+   "T9A02"
+  ],
+  "aka": [
+   "coil"
+  ],
+  "more": "Combined with a capacitor it makes a resonant circuit. Compare the capacitor, which stores energy in an electric field."
+ },
+ {
+  "id": "insulator",
+  "term": "Insulator",
+  "def": "A material that lets almost no electric current flow through it.",
+  "sub": "T5",
+  "questions": [
+   "T5A08",
+   "T6A05"
+  ],
+  "more": "Glass is a good electrical insulator."
+ },
+ {
+  "id": "integrated-circuit",
+  "term": "Integrated circuit",
+  "def": "A device that combines several semiconductors and other components into one package.",
+  "sub": "T6",
+  "questions": [
+   "T6D09"
+  ],
+  "aka": [
+   "IC",
+   "chip"
+  ]
+ },
+ {
+  "id": "interference",
+  "term": "Interference",
+  "def": "Unwanted signals that get in the way of the signal you are trying to receive.",
+  "sub": "T2",
+  "questions": [
+   "T2B08",
+   "T2B10"
+  ],
+  "more": "When two stations on the same frequency interfere with each other, they should negotiate continued use of the frequency. Interference from other stations is reported as QRM."
+ },
+ {
+  "id": "international-communications",
+  "term": "International communications",
+  "def": "Contacts between amateur stations in different countries.",
+  "sub": "T1",
+  "questions": [
+   "T1C03",
+   "T1D01"
+  ],
+  "more": "Permitted content: communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character. Not permitted with countries that have notified the ITU that they object."
+ },
+ {
+  "id": "ionizing-radiation",
+  "term": "Ionizing radiation",
+  "def": "Radiation with enough energy to strip electrons from atoms, such as that from radioactive material.",
+  "sub": "T0",
+  "questions": [
+   "T0C12"
+  ],
+  "aka": [
+   "radioactivity"
+  ],
+  "more": "It can cause chemical changes in cells and damage DNA. Radio signals are not ionizing radiation."
+ },
+ {
+  "id": "ionosphere",
+  "term": "Ionosphere",
+  "def": "The upper region of the atmosphere, electrically charged by the Sun, that can return radio waves to Earth.",
+  "sub": "T3",
+  "questions": [
+   "T3A08",
+   "T3A09",
+   "T3A11",
+   "T3C01",
+   "T3C02",
+   "T3C10"
+  ],
+  "aka": [
+   "ionospheric propagation",
+   "skip"
+  ],
+  "more": "It can reflect HF radio waves, so long-distance contacts are far more common on HF. UHF signals are usually not propagated by the ionosphere."
+ },
+ {
+  "id": "irlp",
+  "term": "IRLP",
+  "def": "Internet Radio Linking Project: a technique to connect amateur radio systems, such as repeaters, via the internet.",
+  "sub": "T8",
+  "questions": [
+   "T8C06",
+   "T8C08"
+  ],
+  "aka": [
+   "Internet Radio Linking Project"
+  ],
+  "more": "Over the air, IRLP nodes are accessed by using DTMF signals from the radio's keypad."
+ },
+ {
+  "id": "iss",
+  "term": "ISS",
+  "def": "International Space Station: the crewed spacecraft in orbit, which carries an amateur station.",
+  "sub": "T1",
+  "questions": [
+   "T1B02"
+  ],
+  "aka": [
+   "International Space Station"
+  ],
+  "more": "Any amateur with a Technician class or higher license may contact it on VHF bands. No NASA approval is needed."
+ },
+ {
+  "id": "itu",
+  "term": "ITU",
+  "def": "International Telecommunication Union: the United Nations agency that coordinates radio matters between countries.",
+  "sub": "T1",
+  "questions": [
+   "T1D01"
+  ],
+  "aka": [
+   "International Telecommunication Union"
+  ],
+  "more": "FCC-licensed stations may not exchange communications with any country whose administration has notified the ITU that it objects to such communications."
+ },
+ {
+  "id": "keplerian-elements",
+  "term": "Keplerian elements",
+  "def": "A set of numbers that describes a satellite's orbit.",
+  "sub": "T8",
+  "questions": [
+   "T8B06"
+  ],
+  "aka": [
+   "Keps",
+   "orbital elements"
+  ],
+  "more": "They are the inputs to a satellite tracking program."
+ },
+ {
+  "id": "khz",
+  "term": "kHz",
+  "def": "Kilohertz: one thousand hertz.",
+  "sub": "T5",
+  "questions": [
+   "T2A01",
+   "T5B02",
+   "T5B07",
+   "T5B12",
+   "T5C06"
+  ],
+  "aka": [
+   "kilohertz"
+  ],
+  "more": "Written with a small k, capital H and small z. Divide hertz by 1000 to get kHz; multiply MHz by 1000 to get kHz."
+ },
+ {
+  "id": "kilo",
+  "term": "Kilo",
+  "def": "The metric prefix meaning one thousand.",
+  "sub": "T5",
+  "questions": [
+   "T5B02",
+   "T5B03",
+   "T5B07",
+   "T5B12",
+   "T5C06"
+  ],
+  "aka": [
+   "k"
+  ],
+  "more": "Written as a small k. One kilovolt is one thousand volts, and 1,500,000 hertz is 1500 kHz."
+ },
+ {
+  "id": "kilovolt",
+  "term": "Kilovolt",
+  "def": "One thousand volts.",
+  "sub": "T5",
+  "questions": [
+   "T5B03"
+  ],
+  "aka": [
+   "kV",
+   "kilovolts"
+  ]
+ },
+ {
+  "id": "knife-edge-diffraction",
+  "term": "Knife-edge diffraction",
+  "def": "The bending of radio waves over a sharp edge, such as a ridge or the edge of a building.",
+  "sub": "T3",
+  "questions": [
+   "T3C05"
+  ],
+  "aka": [
+   "diffraction"
+  ],
+  "more": "It may allow signals to travel beyond obstructions between the transmitting and receiving stations."
+ },
+ {
+  "id": "lamp",
+  "term": "Lamp",
+  "def": "A component that gives off light when current flows through it.",
+  "sub": "T6",
+  "questions": [
+   "T6C04"
+  ],
+  "more": "It is component 3 in figure T-1."
+ },
+ {
+  "id": "lead-acid",
+  "term": "Lead-acid",
+  "def": "A rechargeable battery chemistry, the kind used in car batteries.",
+  "sub": "T6",
+  "questions": [
+   "T6A10"
+  ]
+ },
+ {
+  "id": "led",
+  "term": "LED",
+  "def": "Light-emitting diode: a diode that gives off light when forward current flows through it.",
+  "sub": "T6",
+  "questions": [
+   "T6B07",
+   "T6C07",
+   "T6D07"
+  ],
+  "aka": [
+   "light-emitting diode",
+   "light emitting diode"
+  ],
+  "more": "Commonly used as a visual indicator. Its schematic symbol is a diode symbol with small arrows pointing away from it."
+ },
+ {
+  "id": "leo",
+  "term": "LEO",
+  "def": "Low Earth Orbit: an orbit close to the Earth, in which a satellite takes around 100 minutes to go once around.",
+  "sub": "T8",
+  "questions": [
+   "T8B10"
+  ],
+  "aka": [
+   "low Earth orbit"
+  ],
+  "more": "The exam answer is \"Low Earth Orbit, which has a period of around 100 minutes\". The period is the time for one trip around the Earth."
+ },
+ {
+  "id": "license-class",
+  "term": "License class",
+  "def": "The level of amateur license a person holds, which sets the frequencies and modes that person may use.",
+  "sub": "T1",
+  "questions": [
+   "T1C01",
+   "T1E04",
+   "T1E06"
+  ],
+  "aka": [
+   "operator class",
+   "class of license",
+   "General class",
+   "Amateur Extra class"
+  ],
+  "more": "New licenses are issued for Technician, General and Amateur Extra. The control operator's class determines a station's frequency privileges, so, except in an emergency, a Technician may never control a station in an Amateur Extra segment."
+ },
+ {
+  "id": "license-grant",
+  "term": "License grant",
+  "def": "The FCC's official act of issuing your amateur license, recorded in its online license database.",
+  "sub": "T1",
+  "questions": [
+   "T1A04",
+   "T1A05",
+   "T1C10"
+  ],
+  "aka": [
+   "operator/primary license grant",
+   "operator/station license grant"
+  ],
+  "more": "The FCC emails you a link to download it. The proof that it was issued is that it appears in the FCC ULS database, and you may transmit as soon as it appears there."
+ },
+ {
+  "id": "license-term",
+  "term": "License term",
+  "def": "The length of time an FCC amateur license is valid before it must be renewed.",
+  "sub": "T1",
+  "questions": [
+   "T1C07",
+   "T1C08"
+  ],
+  "aka": [
+   "license renewal",
+   "renewal",
+   "expiration"
+  ],
+  "more": "The normal term is ten years. Renewal may be requested starting 90 days before the expiration date."
+ },
+ {
+  "id": "lightning-arrester",
+  "term": "Lightning arrester",
+  "def": "A device fitted in a feed line to divert a lightning surge to ground before it reaches the station.",
+  "sub": "T0",
+  "questions": [
+   "T0A07"
+  ],
+  "aka": [
+   "lightning arrestor",
+   "surge arrester",
+   "lightning protector"
+  ],
+  "more": "Install it on a grounded panel near where the feed lines enter the building."
+ },
+ {
+  "id": "lightning-protection",
+  "term": "Lightning protection",
+  "def": "The grounding and devices that give lightning a path to earth, to reduce the danger to people, buildings and equipment.",
+  "sub": "T0",
+  "questions": [
+   "T0A07",
+   "T0B01",
+   "T0B10"
+  ],
+  "aka": [
+   "lightning ground"
+  ],
+  "more": "Ground connections must be short and direct, and sharp bends must be avoided. Lightning remains dangerous even with protection in place."
+ },
+ {
+  "id": "line-in",
+  "term": "Line in",
+  "def": "The audio input connector on a computer, where sound from another device is fed in.",
+  "sub": "T4",
+  "questions": [
+   "T4A07"
+  ],
+  "aka": [
+   "line input",
+   "audio input"
+  ],
+  "more": "For digital modes the computer's line in connects to the transceiver's speaker connector, so the computer hears what the radio receives. Line out is the computer's audio output."
+ },
+ {
+  "id": "line-of-sight",
+  "term": "Line of sight",
+  "def": "A straight, unblocked path between the transmitting antenna and the receiving antenna.",
+  "sub": "T3",
+  "questions": [
+   "T3A04",
+   "T3A05"
+  ],
+  "aka": [
+   "line-of-sight path",
+   "direct path"
+  ],
+  "more": "On a line-of-sight VHF or UHF path the antennas should have the same polarization. If the direct path is blocked, a reflected path may still work."
+ },
+ {
+  "id": "linear-transponder",
+  "term": "Linear transponder",
+  "def": "A satellite relay that receives a slice of one band and retransmits everything in it on another band.",
+  "sub": "T8",
+  "questions": [
+   "T8B12"
+  ],
+  "more": "Its power is shared among all users. Your uplink power is right when your signal on the downlink is about as strong as the satellite's beacon."
+ },
+ {
+  "id": "linked-repeater-network",
+  "term": "Linked repeater network",
+  "def": "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network.",
+  "sub": "T2",
+  "questions": [
+   "T2B03"
+  ],
+  "aka": [
+   "linked repeaters",
+   "repeater linking"
+  ],
+  "more": "Linking makes the repeaters act as one system that covers a much larger area."
+ },
+ {
+  "id": "lithium-ion",
+  "term": "Lithium-ion",
+  "def": "A rechargeable battery chemistry.",
+  "sub": "T6",
+  "questions": [
+   "T6A10"
+  ],
+  "aka": [
+   "Li-ion"
+  ]
+ },
+ {
+  "id": "load",
+  "term": "Load",
+  "def": "Whatever is connected to the far end of a feed line and receives the power, usually the antenna.",
+  "sub": "T9",
+  "questions": [
+   "T9B12"
+  ],
+  "more": "SWR is a measure of how well the load is matched to the transmission line."
+ },
+ {
+  "id": "local-electrical-code",
+  "term": "Local electrical code",
+  "def": "The electrical safety rules that apply where you live.",
+  "sub": "T0",
+  "questions": [
+   "T0B11"
+  ],
+  "aka": [
+   "electrical code",
+   "local electrical codes"
+  ],
+  "more": "Local electrical codes establish the grounding requirements for an amateur radio tower or antenna. FCC Part 97 does not."
+ },
+ {
+  "id": "magnetic-field",
+  "term": "Magnetic field",
+  "def": "One of the two components of a radio wave; the invisible force that acts on magnets and moving charges.",
+  "sub": "T3",
+  "questions": [
+   "T3B01",
+   "T3B03",
+   "T5C03",
+   "T6A06"
+  ],
+  "more": "It is at right angles to the electric field. It is not the field used to name the wave's polarization."
+ },
+ {
+  "id": "maritime-mobile",
+  "term": "Maritime mobile",
+  "def": "Operating an amateur station aboard a ship or other vessel at sea.",
+  "sub": "T1",
+  "questions": [
+   "T1C06"
+  ],
+  "aka": [
+   "international waters",
+   "vessel operation"
+  ],
+  "more": "In international waters you may operate from a US-documented vessel with the master's permission. No special FCC authorization is needed."
+ },
+ {
+  "id": "mega",
+  "term": "Mega",
+  "def": "The metric prefix meaning one million.",
+  "sub": "T5",
+  "questions": [
+   "T5B07",
+   "T5B12",
+   "T5B13",
+   "T5C07"
+  ],
+  "aka": [
+   "M"
+  ],
+  "more": "Written as a capital M; a small m means milli. 1 MHz = 1000 kHz."
+ },
+ {
+  "id": "mesh-network",
+  "term": "Mesh network",
+  "def": "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware.",
+  "sub": "T8",
+  "questions": [
+   "T8D12"
+  ],
+  "aka": [
+   "amateur radio mesh network",
+   "mesh"
+  ],
+  "more": "Each station (node) links by radio to its neighbors and data hops from node to node. It is a data network, not a digital voice mode or a satellite system."
+ },
+ {
+  "id": "meteor-scatter",
+  "term": "Meteor scatter",
+  "def": "Communication by reflecting signals off the short-lived trails of charged gas left by meteors burning up in the atmosphere.",
+  "sub": "T3",
+  "questions": [
+   "T3C07",
+   "T8D10"
+  ],
+  "more": "The 6-meter band is best suited for meteor scatter."
+ },
+ {
+  "id": "meter",
+  "term": "Meter",
+  "def": "A device that displays an electrical quantity as a numeric value.",
+  "sub": "T6",
+  "questions": [
+   "T6D04"
+  ],
+  "more": "For example, a meter can show voltage or current."
+ },
+ {
+  "id": "metric-prefix",
+  "term": "Metric prefix",
+  "def": "A word part put in front of a unit to make it larger or smaller by a fixed factor, such as kilo for one thousand.",
+  "sub": "T5",
+  "questions": [
+   "T5B01",
+   "T5B02",
+   "T5B03",
+   "T5B04",
+   "T5B05",
+   "T5B06",
+   "T5B07",
+   "T5B08",
+   "T5B12",
+   "T5B13",
+   "T5C06",
+   "T5C07"
+  ],
+  "aka": [
+   "prefix",
+   "SI prefix",
+   "unit conversion"
+  ],
+  "more": "Pico = one trillionth, micro = one millionth, milli = one thousandth, kilo = one thousand, mega = one million, giga = one billion."
+ },
+ {
+  "id": "mhz",
+  "term": "MHz",
+  "def": "Megahertz: a unit of frequency equal to one million hertz.",
+  "sub": "T1",
+  "questions": [
+   "T1B01",
+   "T1B03",
+   "T1B04",
+   "T2A02",
+   "T2A03",
+   "T3B06",
+   "T3B08",
+   "T3B09",
+   "T3B10",
+   "T5B07",
+   "T5B12",
+   "T5B13",
+   "T5C07"
+  ],
+  "aka": [
+   "megahertz"
+  ],
+  "more": "Wavelength in meters is about 300 divided by the frequency in MHz. So 146.52 MHz is in the 2-meter band and 52.525 MHz is in the 6-meter band."
+ },
+ {
+  "id": "micro",
+  "term": "Micro",
+  "def": "The metric prefix meaning one millionth.",
+  "sub": "T5",
+  "questions": [
+   "T5B04",
+   "T5B08"
+  ],
+  "more": "One microvolt is one one-millionth of a volt. One microfarad is 1,000,000 picofarads."
+ },
+ {
+  "id": "microfarad",
+  "term": "Microfarad",
+  "def": "One millionth of a farad, a common size for marking capacitors.",
+  "sub": "T5",
+  "questions": [
+   "T5B08"
+  ],
+  "aka": [
+   "microfarads"
+  ],
+  "more": "1 microfarad = 1,000,000 picofarads."
+ },
+ {
+  "id": "microphone-gain",
+  "term": "Microphone gain",
+  "def": "The control that sets how strongly the sound from your microphone drives the transmitter.",
+  "sub": "T4",
+  "questions": [
+   "T4B01"
+  ],
+  "aka": [
+   "mic gain"
+  ],
+  "more": "Excessive microphone gain on SSB causes distorted transmitted audio."
+ },
+ {
+  "id": "microvolt",
+  "term": "Microvolt",
+  "def": "One one-millionth of a volt.",
+  "sub": "T5",
+  "questions": [
+   "T5B04"
+  ],
+  "aka": [
+   "microvolts"
+  ]
+ },
+ {
+  "id": "microwave",
+  "term": "Microwave",
+  "def": "Radio waves with very short wavelengths, at frequencies of roughly 1000 MHz (1 GHz) and higher.",
+  "sub": "T3",
+  "questions": [
+   "T3A02",
+   "T3A07"
+  ],
+  "aka": [
+   "microwaves",
+   "microwave frequencies"
+  ],
+  "more": "Vegetation absorbs microwave signals, and precipitation might decrease their range."
+ },
+ {
+  "id": "milli",
+  "term": "Milli",
+  "def": "The metric prefix meaning one thousandth.",
+  "sub": "T5",
+  "questions": [
+   "T5B01",
+   "T5B05",
+   "T5B06"
+  ],
+  "aka": [
+   "m"
+  ],
+  "more": "Written as a small m. 1000 milliamperes = 1 ampere, and 500 milliwatts = 0.5 watts."
+ },
+ {
+  "id": "milliampere",
+  "term": "Milliampere",
+  "def": "One thousandth of an ampere.",
+  "sub": "T5",
+  "questions": [
+   "T5B01",
+   "T5B06"
+  ],
+  "aka": [
+   "mA",
+   "milliamp",
+   "milliamperes"
+  ],
+  "more": "1.5 amperes = 1500 milliamperes, and 3000 milliamperes = 3 amperes."
+ },
+ {
+  "id": "milliwatt",
+  "term": "Milliwatt",
+  "def": "One thousandth of a watt.",
+  "sub": "T5",
+  "questions": [
+   "T5B05"
+  ],
+  "aka": [
+   "mW",
+   "milliwatts"
+  ],
+  "more": "Divide milliwatts by 1000 to get watts: 500 milliwatts = 0.5 watts."
+ },
+ {
+  "id": "mixer",
+  "term": "Mixer",
+  "def": "A circuit used to convert a signal from one frequency to another.",
+  "sub": "T7",
+  "questions": [
+   "T7A03"
+  ],
+  "more": "It combines two signals and produces new signals at the sum and the difference of their frequencies."
+ },
+ {
+  "id": "mobile",
+  "term": "Mobile",
+  "def": "Operating a radio from a vehicle.",
+  "sub": "T9",
+  "questions": [
+   "T9A07",
+   "T9A09"
+  ],
+  "aka": [
+   "mobile service",
+   "mobile station"
+  ],
+  "more": "Mobile stations use an antenna mounted outside the vehicle, because the vehicle's body shields an antenna inside it and reduces signal strength."
+ },
+ {
+  "id": "mode",
+  "term": "Mode",
+  "def": "The method used to put information on a radio signal, such as FM, SSB or CW.",
+  "sub": "T4",
+  "questions": [
+   "T4B08"
+  ],
+  "aka": [
+   "operating mode",
+   "multimode"
+  ],
+  "more": "Each mode takes up a different width of spectrum, so a multimode transceiver offers a choice of receiver filter bandwidths."
+ },
+ {
+  "id": "modulation",
+  "term": "Modulation",
+  "def": "The way information such as voice or data is put onto a radio signal.",
+  "sub": "T8",
+  "questions": [
+   "T7A08",
+   "T8A01",
+   "T8A02",
+   "T8A04"
+  ],
+  "more": "AM changes the signal's strength, FM its frequency and PM its phase. VHF and UHF voice repeaters and VHF packet radio commonly use FM or PM."
+ },
+ {
+  "id": "moisture-contamination",
+  "term": "Moisture contamination",
+  "def": "Water getting inside a cable.",
+  "sub": "T7",
+  "questions": [
+   "T7C09",
+   "T7C10"
+  ],
+  "aka": [
+   "water in coax",
+   "water ingress"
+  ],
+  "more": "It causes failure of coaxial cables. Water can enter through a jacket damaged by ultraviolet light."
+ },
+ {
+  "id": "morse-code",
+  "term": "Morse code",
+  "def": "A code that spells out letters and numbers as patterns of short and long signals, called dits and dahs.",
+  "sub": "T4",
+  "questions": [
+   "T4A12"
+  ],
+  "aka": [
+   "CW",
+   "code"
+  ],
+  "more": "An electronic keyer helps an operator send it by hand."
+ },
+ {
+  "id": "mpe",
+  "term": "MPE",
+  "def": "Maximum permissible exposure: the limit on the strength of RF energy that people may be exposed to.",
+  "sub": "T0",
+  "questions": [
+   "T0C02",
+   "T0C05",
+   "T0C13"
+  ],
+  "aka": [
+   "maximum permissible exposure",
+   "exposure limit",
+   "exposure limits"
+  ],
+  "more": "Limits vary with frequency because the body absorbs more RF energy at some frequencies than others. Of 3.5, 50, 440 and 1296 MHz, 50 MHz has the lowest limit."
+ },
+ {
+  "id": "multimeter",
+  "term": "Multimeter",
+  "def": "A test instrument that combines several meters in one, measuring voltage, current and resistance.",
+  "sub": "T7",
+  "questions": [
+   "T7D03",
+   "T7D06",
+   "T7D07"
+  ],
+  "aka": [
+   "multi-meter",
+   "VOM",
+   "DMM"
+  ],
+  "more": "To measure current it is connected in series. Trying to measure voltage while it is on the resistance setting can damage it."
+ },
+ {
+  "id": "multipath-propagation",
+  "term": "Multipath propagation",
+  "def": "A signal reaching the receiver by more than one route at the same time, for example directly and by bouncing off buildings or hills.",
+  "sub": "T3",
+  "questions": [
+   "T3A01",
+   "T3A06",
+   "T3A08",
+   "T3A10"
+  ],
+  "aka": [
+   "multipath",
+   "multi-path propagation"
+  ],
+  "more": "The copies cancel in some spots and reinforce in others, so VHF strength can change when an antenna moves a few feet. It causes picket fencing on mobile signals and is likely to raise error rates on data."
+ },
+ {
+  "id": "music",
+  "term": "Music",
+  "def": "Musical sound sent over the air, which amateur stations are normally not allowed to transmit.",
+  "sub": "T1",
+  "questions": [
+   "T1D04"
+  ],
+  "more": "The one exception on phone: when it is incidental to an authorized retransmission of manned spacecraft communications."
+ },
+ {
+  "id": "national-calling-frequency",
+  "term": "National calling frequency",
+  "def": "An agreed frequency where stations listen for each other and make first contact.",
+  "sub": "T2",
+  "questions": [
+   "T2A02"
+  ],
+  "aka": [
+   "calling frequency",
+   "146.520",
+   "146.52"
+  ],
+  "more": "For FM simplex operations in the 2-meter band it is 146.520 MHz."
+ },
+ {
+  "id": "negative-power-return",
+  "term": "Negative power return",
+  "def": "The negative wire of a radio's DC power cable, which carries the current back to the battery.",
+  "sub": "T4",
+  "questions": [
+   "T4A11"
+  ],
+  "aka": [
+   "negative lead",
+   "ground return"
+  ],
+  "more": "In a vehicle, connect it at the 12-volt battery chassis ground, not to just any metal part."
+ },
+ {
+  "id": "net",
+  "term": "Net",
+  "def": "An organized on-the-air meeting of stations, run by a net control station.",
+  "sub": "T2",
+  "questions": [
+   "T2C02",
+   "T2C05",
+   "T2C07"
+  ],
+  "aka": [
+   "network",
+   "on-air net"
+  ],
+  "more": "Standard practice: unless you are reporting an emergency, transmit only when directed by the net control station."
+ },
+ {
+  "id": "net-control-station",
+  "term": "Net Control Station",
+  "def": "The station that runs a net: it calls the net to order and directs communications between the stations checking in.",
+  "sub": "T2",
+  "questions": [
+   "T2C02",
+   "T2C07"
+  ],
+  "aka": [
+   "NCS",
+   "net control"
+  ],
+  "more": "Other stations transmit only when it directs them to, unless they are reporting an emergency."
+ },
+ {
+  "id": "nickel-metal-hydride",
+  "term": "Nickel-metal hydride",
+  "def": "A rechargeable battery chemistry.",
+  "sub": "T6",
+  "questions": [
+   "T6A10"
+  ],
+  "aka": [
+   "NiMH"
+  ]
+ },
+ {
+  "id": "non-ionizing-radiation",
+  "term": "Non-ionizing radiation",
+  "def": "Radiation that does not have enough energy to strip electrons from atoms. Radio signals are this type.",
+  "sub": "T0",
+  "questions": [
+   "T0C01",
+   "T0C12"
+  ],
+  "aka": [
+   "nonionizing radiation"
+  ],
+  "more": "RF does not have sufficient energy to cause chemical changes in cells and damage DNA. It can still injure by heating the body."
+ },
+ {
+  "id": "ntsc",
+  "term": "NTSC",
+  "def": "An analog fast-scan color TV signal, the kind once used for broadcast television in North America.",
+  "sub": "T8",
+  "questions": [
+   "T8D04"
+  ],
+  "more": "It is analog, not digital, and it is not a compression or encryption scheme."
+ },
+ {
+  "id": "off-frequency",
+  "term": "Off frequency",
+  "def": "Tuned a little above or below the frequency that the signal is actually on.",
+  "sub": "T4",
+  "questions": [
+   "T4B04",
+   "T4B06",
+   "T7B10"
+  ],
+  "aka": [
+   "mistuned"
+  ],
+  "more": "An FM signal received slightly off frequency sounds distorted. On SSB, mistuning makes the voice pitch too high or too low instead."
+ },
+ {
+  "id": "ohm",
+  "term": "Ohm",
+  "def": "The unit of resistance and of impedance.",
+  "sub": "T5",
+  "questions": [
+   "T5C05",
+   "T5D04",
+   "T5D05",
+   "T5D06",
+   "T7C03",
+   "T9B02"
+  ],
+  "aka": [
+   "ohms"
+  ],
+  "more": "Ohms = volts divided by amperes."
+ },
+ {
+  "id": "ohm-s-law",
+  "term": "Ohm's law",
+  "def": "The rule linking voltage (E), current (I) and resistance (R) in a circuit: E = I x R.",
+  "sub": "T5",
+  "questions": [
+   "T5D01",
+   "T5D02",
+   "T5D03",
+   "T5D04",
+   "T5D05",
+   "T5D06",
+   "T5D07",
+   "T5D08",
+   "T5D09",
+   "T5D10",
+   "T5D11",
+   "T5D12"
+  ],
+  "aka": [
+   "E = I x R",
+   "I = E / R",
+   "R = E / I"
+  ],
+  "more": "Three forms: E = I x R, I = E / R and R = E / I. Use volts, amperes and ohms. Example: 90 volts / 3 amperes = 30 ohms."
+ },
+ {
+  "id": "ohmmeter",
+  "term": "Ohmmeter",
+  "def": "An instrument that measures resistance.",
+  "sub": "T7",
+  "questions": [
+   "T7D05",
+   "T7D10",
+   "T7D11"
+  ],
+  "more": "It works by applying a small current and measuring the resulting voltage. Make sure the circuit is not powered before measuring in-circuit resistance."
+ },
+ {
+  "id": "oscillator",
+  "term": "Oscillator",
+  "def": "A circuit that generates a signal at a specific frequency.",
+  "sub": "T7",
+  "questions": [
+   "T7A05",
+   "T7A11"
+  ],
+  "more": "A VFO is an oscillator whose frequency you can change."
+ },
+ {
+  "id": "out-gassing",
+  "term": "Out-gassing",
+  "def": "The release of gas from a battery.",
+  "sub": "T0",
+  "questions": [
+   "T0A10"
+  ],
+  "aka": [
+   "outgassing",
+   "venting"
+  ],
+  "more": "Overheating or out-gassing is the hazard when an unprotected battery is charged or discharged rapidly. The gas may be flammable."
+ },
+ {
+  "id": "outer-jacket",
+  "term": "Outer jacket",
+  "def": "The outside plastic covering of a coaxial cable, which protects the parts inside.",
+  "sub": "T7",
+  "questions": [
+   "T7C10"
+  ],
+  "aka": [
+   "jacket",
+   "cable jacket",
+   "UV-resistant jacket"
+  ],
+  "more": "It should be resistant to ultraviolet light, because ultraviolet light can damage the jacket and allow water to enter the cable."
+ },
+ {
+  "id": "overhead-power-line",
+  "term": "Overhead power line",
+  "def": "An electrical supply wire strung above the ground. Contact with one can kill.",
+  "sub": "T0",
+  "questions": [
+   "T0B04",
+   "T0B06",
+   "T0B09"
+  ],
+  "aka": [
+   "power line",
+   "power wires",
+   "overhead electrical wires",
+   "high-voltage power lines"
+  ],
+  "more": "Look for and stay clear of overhead wires when putting up a tower. Allow enough distance that if the antenna falls, no part of it can come within 10 feet of the power wires."
+ },
+ {
+  "id": "overload",
+  "term": "Overload",
+  "def": "A condition in which more current flows in a circuit than its wires and parts are built to carry.",
+  "sub": "T0",
+  "questions": [
+   "T0A04",
+   "T0A05"
+  ],
+  "aka": [
+   "overcurrent",
+   "excessive current"
+  ],
+  "more": "An overload overheats the circuit and can cause a fire. A fuse of the correct rating removes power when it happens."
+ },
+ {
+  "id": "packet-radio",
+  "term": "Packet radio",
+  "def": "A digital mode that sends data in small bundles called packets.",
+  "sub": "T8",
+  "questions": [
+   "T8A02",
+   "T8D01",
+   "T8D08"
+  ],
+  "aka": [
+   "packet"
+  ],
+  "more": "Each packet has a header with the call sign of the station it is sent to and a checksum for error detection, and uses automatic repeat request if there is an error. VHF packet commonly uses FM or PM."
+ },
+ {
+  "id": "parallel-circuit",
+  "term": "Parallel circuit",
+  "def": "A circuit whose parts are connected side by side across the same two points.",
+  "sub": "T5",
+  "questions": [
+   "T5D14"
+  ],
+  "aka": [
+   "parallel"
+  ],
+  "more": "The voltage is always the same across all components. In a series circuit it is the current that is the same."
+ },
+ {
+  "id": "parallel-connection",
+  "term": "Parallel connection",
+  "def": "Connecting a meter or part across a component, with one lead on each end, without breaking the circuit.",
+  "sub": "T7",
+  "questions": [
+   "T7D02"
+  ],
+  "aka": [
+   "in parallel",
+   "parallel"
+  ],
+  "more": "A voltmeter is connected in parallel. This differs from series, used to measure current, where the meter is inserted in the current path."
+ },
+ {
+  "id": "part-97",
+  "term": "Part 97",
+  "def": "The part of the FCC rules that governs the Amateur Radio Service in the United States.",
+  "sub": "T1",
+  "questions": [
+   "T1A01",
+   "T1A07",
+   "T1E10",
+   "T1E11",
+   "T2C01",
+   "T2C04"
+  ],
+  "aka": [
+   "amateur rules",
+   "FCC rules"
+  ],
+  "more": "It opens with the Basis and Purpose of the service and contains the official definitions, such as space station, control operator and remote control."
+ },
+ {
+  "id": "pep",
+  "term": "PEP",
+  "def": "Peak envelope power: the output power of a transmitter at the highest peaks of its signal.",
+  "sub": "T1",
+  "questions": [
+   "T1B11",
+   "T1B12"
+  ],
+  "aka": [
+   "peak envelope power"
+  ],
+  "more": "Technician limits: 200 watts PEP in their HF band segments, and 1500 watts PEP above 30 MHz except for some specific restrictions."
+ },
+ {
+  "id": "phone",
+  "term": "Phone",
+  "def": "Voice transmission: any mode in which you speak into a microphone.",
+  "sub": "T1",
+  "questions": [
+   "T1A03",
+   "T1B01",
+   "T1B06",
+   "T1B10",
+   "T1D04",
+   "T1F04",
+   "T1F05",
+   "T1F06",
+   "T2A06"
+  ],
+  "aka": [
+   "phone emission",
+   "phone station",
+   "radiotelephone",
+   "voice"
+  ],
+  "more": "Technician phone on HF is only 28.300 to 28.500 MHz on 10 meters. A phone station identifies in English, by voice or by CW."
+ },
+ {
+  "id": "phonetic-alphabet",
+  "term": "Phonetic alphabet",
+  "def": "A set of standard words that stand for letters (Alfa, Bravo, Charlie) so that spelled letters are understood clearly by voice.",
+  "sub": "T1",
+  "questions": [
+   "T1A03",
+   "T2C03"
+  ],
+  "aka": [
+   "phonetics"
+  ],
+  "more": "The FCC rules encourage using it for station identification on phone. It is not required."
+ },
+ {
+  "id": "picket-fencing",
+  "term": "Picket fencing",
+  "def": "Rapid flutter heard on the signal of a moving station.",
+  "sub": "T3",
+  "questions": [
+   "T3A06"
+  ],
+  "aka": [
+   "mobile flutter"
+  ],
+  "more": "It is caused by multipath propagation: the vehicle passes quickly through spots where the signal copies cancel and spots where they reinforce."
+ },
+ {
+  "id": "pico",
+  "term": "Pico",
+  "def": "The metric prefix meaning one trillionth, which is one millionth of a millionth.",
+  "sub": "T5",
+  "questions": [
+   "T5B08"
+  ],
+  "aka": [
+   "p"
+  ],
+  "more": "Written as a small p. 1,000,000 picofarads = 1 microfarad."
+ },
+ {
+  "id": "picofarad",
+  "term": "Picofarad",
+  "def": "One trillionth of a farad, a very small amount of capacitance.",
+  "sub": "T5",
+  "questions": [
+   "T5B08"
+  ],
+  "aka": [
+   "pF",
+   "picofarads"
+  ],
+  "more": "1,000,000 picofarads = 1 microfarad."
+ },
+ {
+  "id": "pl-259",
+  "term": "PL-259",
+  "def": "A threaded, screw-on coaxial cable plug.",
+  "sub": "T9",
+  "questions": [
+   "T9B01",
+   "T9B07"
+  ],
+  "aka": [
+   "PL259",
+   "UHF connector"
+  ],
+  "more": "PL-259 connectors are commonly used at HF and VHF frequencies. They are not watertight and are not a bayonet type, so tape them carefully outdoors."
+ },
+ {
+  "id": "pm",
+  "term": "PM",
+  "def": "Phase modulation: a way of carrying voice or data by varying the phase (the timing within each wave cycle) of the radio signal.",
+  "sub": "T8",
+  "questions": [
+   "T8A02",
+   "T8A04"
+  ],
+  "aka": [
+   "phase modulation"
+  ],
+  "more": "PM is closely related to FM, and the two are used the same way. The exam answer for VHF packet and for VHF and UHF voice repeaters is \"FM or PM\"."
+ },
+ {
+  "id": "polarization",
+  "term": "Polarization",
+  "def": "The direction in which the electric field of a radio wave points, such as vertical or horizontal.",
+  "sub": "T3",
+  "questions": [
+   "T3A03",
+   "T3A04",
+   "T3A09",
+   "T3B02",
+   "T9A03"
+  ],
+  "aka": [
+   "antenna polarization"
+  ],
+  "more": "It is defined by the orientation of the electric field, not the magnetic field. An antenna with vertical elements produces a vertically polarized wave."
+ },
+ {
+  "id": "pole",
+  "term": "Pole",
+  "def": "In a switch, a circuit that the switch controls; a single-pole switch controls one circuit.",
+  "sub": "T6",
+  "questions": [
+   "T6A08",
+   "T6A09"
+  ],
+  "aka": [
+   "single-pole",
+   "double-pole"
+  ],
+  "more": "Single-pole (SP) means one circuit is switched; double-pole (DP) means two are switched together."
+ },
+ {
+  "id": "potentiometer",
+  "term": "Potentiometer",
+  "def": "A resistor whose resistance can be adjusted, usually by turning a knob.",
+  "sub": "T6",
+  "questions": [
+   "T6A02",
+   "T6A03",
+   "T6C08"
+  ],
+  "aka": [
+   "variable resistor",
+   "pot"
+  ],
+  "more": "Often used as a volume control. The parameter it controls is resistance. Its symbol is a resistor zigzag with an arrow."
+ },
+ {
+  "id": "power",
+  "term": "Power",
+  "def": "The rate at which electrical energy is used.",
+  "sub": "T5",
+  "questions": [
+   "T5A02",
+   "T5A10",
+   "T5C08",
+   "T5C09",
+   "T5C10",
+   "T5C11"
+  ],
+  "aka": [
+   "P",
+   "electrical power"
+  ],
+  "more": "Measured in watts. In formulas it is written P, and P = I x E."
+ },
+ {
+  "id": "power-density",
+  "term": "Power density",
+  "def": "A measure of how strong an RF field is at a given place: the amount of radio power passing through a given area.",
+  "sub": "T0",
+  "questions": [
+   "T0C03"
+  ],
+  "more": "RF limits are based on the average over time. If duty cycle drops from 100 percent to 50 percent, the allowable power density increases by a factor of 2."
+ },
+ {
+  "id": "power-formula",
+  "term": "Power formula",
+  "def": "The rule that power equals current multiplied by voltage: P = I x E.",
+  "sub": "T5",
+  "questions": [
+   "T5C08",
+   "T5C09",
+   "T5C10",
+   "T5C11"
+  ],
+  "aka": [
+   "P = I x E",
+   "P = E x I",
+   "power equation"
+  ],
+  "more": "Watts = amperes x volts. 13.8 V x 10 A = 138 W. Rearranged for current: I = P / E, so 120 W / 12 V = 10 A."
+ },
+ {
+  "id": "power-supply",
+  "term": "Power supply",
+  "def": "Equipment that provides the DC voltage and current a radio needs to run.",
+  "sub": "T4",
+  "questions": [
+   "T4A01",
+   "T6D05",
+   "T0A11"
+  ],
+  "aka": [
+   "DC power supply"
+  ],
+  "more": "It is rated in volts and amperes. A typical 50-watt mobile FM transceiver needs 13.8 volts at 12 amperes, because the radio draws much more power than it sends out."
+ },
+ {
+  "id": "preamble",
+  "term": "Preamble",
+  "def": "The opening part of a formal traffic message, which contains the information needed to track the message.",
+  "sub": "T2",
+  "questions": [
+   "T2C10"
+  ],
+  "aka": [
+   "message preamble"
+  ],
+  "more": "The recipient's address and telephone number are not part of it."
+ },
+ {
+  "id": "precipitation",
+  "term": "Precipitation",
+  "def": "Water falling from the sky, such as rain or snow.",
+  "sub": "T3",
+  "questions": [
+   "T3A07",
+   "T3A12"
+  ],
+  "aka": [
+   "rain",
+   "fog",
+   "rain fade"
+  ],
+  "more": "Precipitation might decrease range at microwave frequencies. Fog or rain has little effect on 10-meter and 6-meter band signals."
+ },
+ {
+  "id": "procedural-signal",
+  "term": "Procedural signal",
+  "def": "A short standard signal with an agreed meaning that helps manage a contact.",
+  "sub": "T2",
+  "questions": [
+   "T2A08"
+  ],
+  "aka": [
+   "prosign"
+  ],
+  "more": "\"CQ\" is a procedural signal meaning calling any station."
+ },
+ {
+  "id": "propagation",
+  "term": "Propagation",
+  "def": "The way radio waves travel from the transmitting antenna to the receiving antenna.",
+  "sub": "T3",
+  "questions": [
+   "T3A01",
+   "T3A06",
+   "T3A08",
+   "T3A09",
+   "T3A10",
+   "T3C01",
+   "T3C02",
+   "T3C04",
+   "T3C06",
+   "T3C09"
+  ],
+  "aka": [
+   "radio wave propagation"
+  ],
+  "more": "Signals can travel in a straight line, by reflection, by bending in the atmosphere or by way of the ionosphere. Which one applies depends mostly on frequency."
+ },
+ {
+  "id": "psk",
+  "term": "PSK",
+  "def": "Phase Shift Keying: a way of sending data by changing the phase (the timing within each wave cycle) of a signal.",
+  "sub": "T8",
+  "questions": [
+   "T8D06"
+  ],
+  "aka": [
+   "phase shift keying"
+  ],
+  "more": "Remember the words: Phase Shift Keying."
+ },
+ {
+  "id": "ptt",
+  "term": "PTT",
+  "def": "Push-to-talk: the control that switches a transceiver from receive to transmit.",
+  "sub": "T7",
+  "questions": [
+   "T7A07"
+  ],
+  "aka": [
+   "push-to-talk",
+   "push to talk"
+  ],
+  "more": "The PTT input switches the transceiver from receive to transmit when it is grounded."
+ },
+ {
+  "id": "q-signal",
+  "term": "Q signal",
+  "def": "A three-letter code beginning with Q that stands for a common phrase or question.",
+  "sub": "T2",
+  "questions": [
+   "T2B10",
+   "T2B11"
+  ],
+  "aka": [
+   "Q code",
+   "Q-code"
+  ],
+  "more": "QRM means you are receiving interference from other stations. QSY means you are changing frequency."
+ },
+ {
+  "id": "qrm",
+  "term": "QRM",
+  "def": "The Q signal meaning that you are receiving interference from other stations.",
+  "sub": "T2",
+  "questions": [
+   "T2B10"
+  ],
+  "more": "Memory aid: M for man-made. Compare QRN, which is static noise from natural sources."
+ },
+ {
+  "id": "qsy",
+  "term": "QSY",
+  "def": "The Q signal meaning that you are changing frequency.",
+  "sub": "T2",
+  "questions": [
+   "T2B11"
+  ],
+  "more": "Hams use it when moving a contact to another frequency."
+ },
+ {
+  "id": "quarter-wave-antenna",
+  "term": "Quarter-wave antenna",
+  "def": "An antenna whose radiating element is about one quarter of a wavelength long.",
+  "sub": "T9",
+  "questions": [
+   "T9A04",
+   "T9A08",
+   "T9A09"
+  ],
+  "aka": [
+   "quarter-wave vertical",
+   "1/4-wave antenna",
+   "quarter wavelength"
+  ],
+  "more": "On 2 meters a resonant quarter-wave vertical is about 19 inches long. A 5/8-wavelength whip has more gain than a 1/4-wave antenna."
+ },
+ {
+  "id": "races",
+  "term": "RACES",
+  "def": "Radio Amateur Civil Emergency Service: an FCC Part 97 amateur radio service for civil defense communications during national emergencies.",
+  "sub": "T2",
+  "questions": [
+   "T1A10",
+   "T2C04",
+   "T2C12"
+  ],
+  "aka": [
+   "Radio Amateur Civil Emergency Service"
+  ],
+  "more": "It requires certification by a civil defense agency. ARES is a separate, voluntary program that does not."
+ },
+ {
+  "id": "radiating-element",
+  "term": "Radiating element",
+  "def": "The part of an antenna, usually a wire, rod or tube, that sends out and picks up radio waves.",
+  "sub": "T9",
+  "questions": [
+   "T9A02"
+  ],
+  "aka": [
+   "element",
+   "radiator"
+  ],
+  "more": "Inductors can be inserted in radiating elements to make a short antenna electrically longer."
+ },
+ {
+  "id": "radiation-pattern",
+  "term": "Radiation pattern",
+  "def": "A description of how strongly an antenna radiates in each direction.",
+  "sub": "T9",
+  "questions": [
+   "T9A01",
+   "T9A10",
+   "T0C04"
+  ],
+  "aka": [
+   "antenna pattern"
+  ],
+  "more": "A half-wave dipole's pattern is strongest broadside to the antenna. A beam antenna's pattern is concentrated in one direction."
+ },
+ {
+  "id": "radio-direction-finding",
+  "term": "Radio direction finding",
+  "def": "Working out where a radio signal is coming from, usually with an antenna that receives best in one direction.",
+  "sub": "T8",
+  "questions": [
+   "T8C01",
+   "T8C02"
+  ],
+  "aka": [
+   "RDF",
+   "direction finding"
+  ],
+  "more": "It is the method used to locate sources of noise interference or jamming, and to find hidden transmitters."
+ },
+ {
+  "id": "radio-frequency-interference",
+  "term": "Radio frequency interference",
+  "def": "Unwanted radio energy that disturbs the reception of a radio, TV or other device.",
+  "sub": "T7",
+  "questions": [
+   "T7B02",
+   "T7B03",
+   "T7B05",
+   "T7B06",
+   "T7B07",
+   "T7B08",
+   "T7B09"
+  ],
+  "aka": [
+   "RFI",
+   "interference"
+  ],
+  "more": "Fundamental overload, harmonics and spurious emissions can all cause it."
+ },
+ {
+  "id": "radio-horizon",
+  "term": "Radio horizon",
+  "def": "The distance at which the curve of the Earth blocks direct radio signals between two stations.",
+  "sub": "T3",
+  "questions": [
+   "T3C01",
+   "T3C04",
+   "T3C11"
+  ],
+  "more": "For VHF and UHF it is more distant than the visual horizon, because the atmosphere refracts radio waves slightly. Simplex UHF signals are rarely heard beyond it."
+ },
+ {
+  "id": "radiogram",
+  "term": "Radiogram",
+  "def": "A formal written message passed by amateur radio in a standard format.",
+  "sub": "T2",
+  "questions": [
+   "T2C10",
+   "T2C11"
+  ],
+  "aka": [
+   "formal traffic message",
+   "formal message"
+  ],
+  "more": "Its preamble holds the information needed to track the message. The check in its header is the number of words or word equivalents in the text."
+ },
+ {
+  "id": "receiver",
+  "term": "Receiver",
+  "def": "The part of a radio that picks out a radio signal and turns it into sound or data you can use.",
+  "sub": "T7",
+  "questions": [
+   "T7A01",
+   "T7A02",
+   "T7A04",
+   "T7B02",
+   "T7B05"
+  ],
+  "more": "Two key qualities are sensitivity (detecting weak signals) and selectivity (separating signals that are close together)."
+ },
+ {
+  "id": "receiver-filter-bandwidth",
+  "term": "Receiver filter bandwidth",
+  "def": "The width of the slice of frequencies that a receiver's filter lets through.",
+  "sub": "T4",
+  "questions": [
+   "T4B08",
+   "T4B10"
+  ],
+  "aka": [
+   "filter bandwidth",
+   "bandwidth",
+   "receive filter"
+  ],
+  "more": "Choosing a bandwidth that matches the mode reduces noise and interference. For SSB, 2400 Hz gives the best signal-to-noise ratio."
+ },
+ {
+  "id": "rechargeable-battery",
+  "term": "Rechargeable battery",
+  "def": "A battery that can be refilled with energy by passing current back into it, and then used again.",
+  "sub": "T6",
+  "questions": [
+   "T6A10",
+   "T6A11"
+  ],
+  "aka": [
+   "nickel-cadmium",
+   "NiCd"
+  ],
+  "more": "Nickel-metal hydride, lithium-ion, lead-acid and nickel-cadmium are rechargeable. Carbon-zinc is not."
+ },
+ {
+  "id": "rectifier",
+  "term": "Rectifier",
+  "def": "A device or circuit that changes an alternating current into a varying direct current signal.",
+  "sub": "T6",
+  "questions": [
+   "T6D01"
+  ],
+  "more": "It is built from diodes, which pass current in only one direction."
+ },
+ {
+  "id": "reference-antenna",
+  "term": "Reference antenna",
+  "def": "A simple standard antenna that other antennas are compared with when stating their gain.",
+  "sub": "T9",
+  "questions": [
+   "T9A11"
+  ],
+  "aka": [
+   "isotropic antenna",
+   "isotropic"
+  ],
+  "more": "Common references are a dipole and an isotropic antenna, a theoretical point that radiates equally in every direction."
+ },
+ {
+  "id": "reflection",
+  "term": "Reflection",
+  "def": "A radio wave bouncing off something, such as a building or a hill, and continuing in a new direction.",
+  "sub": "T3",
+  "questions": [
+   "T3A05",
+   "T3A11"
+  ],
+  "aka": [
+   "reflect",
+   "reflected path",
+   "bounce"
+  ],
+  "more": "If obstructions block the direct path to a repeater, try to find a path that reflects your signal to it. The ionosphere can reflect HF radio waves."
+ },
+ {
+  "id": "refraction",
+  "term": "Refraction",
+  "def": "The bending of a radio wave as it passes through the atmosphere.",
+  "sub": "T3",
+  "questions": [
+   "T3C11"
+  ],
+  "aka": [
+   "refract",
+   "bending"
+  ],
+  "more": "The atmosphere refracts radio waves slightly, which is why the radio horizon for VHF and UHF signals is more distant than the visual horizon."
+ },
+ {
+  "id": "regulator",
+  "term": "Regulator",
+  "def": "A circuit that controls the amount of voltage from a power supply.",
+  "sub": "T6",
+  "questions": [
+   "T6D05"
+  ],
+  "aka": [
+   "voltage regulator"
+  ]
+ },
+ {
+  "id": "relay",
+  "term": "Relay",
+  "def": "An electrically-controlled switch.",
+  "sub": "T6",
+  "questions": [
+   "T6D02"
+  ],
+  "more": "A current through its coil moves the switch contacts."
+ },
+ {
+  "id": "remote-control",
+  "term": "Remote control",
+  "def": "Operation in which the control operator runs the station indirectly, from a distance, through a control link.",
+  "sub": "T1",
+  "questions": [
+   "T1E09",
+   "T1E10"
+  ],
+  "aka": [
+   "remotely controlled",
+   "remote operation"
+  ],
+  "more": "Operating the station over the internet is an example. Any station may be remotely controlled. It differs from automatic control, where no operator is at the control point."
+ },
+ {
+  "id": "repeater",
+  "term": "Repeater",
+  "def": "A station that listens on one frequency and at the same time retransmits what it hears on another, extending the range of other stations.",
+  "sub": "T2",
+  "questions": [
+   "T1A08",
+   "T1E08",
+   "T1F09",
+   "T1F10",
+   "T2A01",
+   "T2A03",
+   "T2A04",
+   "T2A07",
+   "T2A09",
+   "T2B01",
+   "T2B03",
+   "T2B04",
+   "T3A05",
+   "T4B07",
+   "T7B10",
+   "T8A04",
+   "T8A09",
+   "T8C08",
+   "T8C09",
+   "T8D07"
+  ],
+  "aka": [
+   "repeater station"
+  ],
+  "more": "To call a known station on one, say that station's call sign, then your own. To invite a contact, give your call sign followed by the word \"listening\"."
+ },
+ {
+  "id": "repeater-input-frequency",
+  "term": "Repeater input frequency",
+  "def": "The frequency on which a repeater listens, which is the frequency you transmit on to use it.",
+  "sub": "T2",
+  "questions": [
+   "T2B01"
+  ],
+  "aka": [
+   "input",
+   "repeater input"
+  ],
+  "more": "The reverse function on a transceiver lets you listen on the repeater's input frequency."
+ },
+ {
+  "id": "repeater-offset",
+  "term": "Repeater offset",
+  "def": "The difference between a repeater's transmit frequency and its receive frequency.",
+  "sub": "T2",
+  "questions": [
+   "T2A01",
+   "T2A03",
+   "T2A07",
+   "T2B04"
+  ],
+  "aka": [
+   "offset",
+   "shift"
+  ],
+  "more": "Common offsets: plus or minus 600 kHz on the 2-meter band and plus or minus 5 MHz on the 70-centimeter band. An improper offset can keep you from accessing a repeater you can hear."
+ },
+ {
+  "id": "repeater-output-frequency",
+  "term": "Repeater output frequency",
+  "def": "The frequency on which a repeater transmits, which is the frequency you listen on to hear it.",
+  "sub": "T2",
+  "questions": [
+   "T2B04"
+  ],
+  "aka": [
+   "output",
+   "repeater output"
+  ],
+  "more": "Hearing the output does not mean you can get in: a wrong offset, CTCSS tone or DCS code will each keep the repeater from responding to you."
+ },
+ {
+  "id": "resistance",
+  "term": "Resistance",
+  "def": "The opposition to the flow of current.",
+  "sub": "T5",
+  "questions": [
+   "T5A11",
+   "T5D03",
+   "T5D04",
+   "T5D05",
+   "T5D06",
+   "T6A01",
+   "T6A03",
+   "T7D05",
+   "T7D06",
+   "T7D07",
+   "T7D10",
+   "T7D11"
+  ],
+  "aka": [
+   "R"
+  ],
+  "more": "Measured in ohms and written R in formulas. It opposes direct current, alternating current and RF current alike."
+ },
+ {
+  "id": "resistor",
+  "term": "Resistor",
+  "def": "A component that opposes the flow of current.",
+  "sub": "T6",
+  "questions": [
+   "T6A01",
+   "T6C02"
+  ],
+  "more": "It opposes current even in a DC circuit. Its schematic symbol is a zigzag line."
+ },
+ {
+  "id": "resonant",
+  "term": "Resonant",
+  "def": "Describes an antenna that is tuned to the frequency in use, so that its feed point acts like a pure resistance.",
+  "sub": "T7",
+  "questions": [
+   "T7C02"
+  ],
+  "aka": [
+   "resonance",
+   "resonant frequency"
+  ],
+  "more": "An antenna analyzer is used to find out whether an antenna is resonant at the desired operating frequency."
+ },
+ {
+  "id": "resonant-circuit",
+  "term": "Resonant circuit",
+  "def": "An inductor and a capacitor connected in series or parallel.",
+  "sub": "T6",
+  "questions": [
+   "T6D08",
+   "T6D11"
+  ],
+  "aka": [
+   "tuned circuit",
+   "resonance"
+  ],
+  "more": "Also called a tuned circuit, because it favors one frequency."
+ },
+ {
+  "id": "resonant-frequency",
+  "term": "Resonant frequency",
+  "def": "The frequency at which an antenna's length suits the wavelength, so the antenna works naturally there.",
+  "sub": "T9",
+  "questions": [
+   "T9A05",
+   "T9A08"
+  ],
+  "aka": [
+   "resonance",
+   "resonant"
+  ],
+  "more": "Shortening a dipole increases its resonant frequency. A 19-inch vertical is a resonant quarter-wave on 2 meters."
+ },
+ {
+  "id": "reverse-function",
+  "term": "Reverse function",
+  "def": "A transceiver feature that swaps your repeater transmit and receive frequencies.",
+  "sub": "T2",
+  "questions": [
+   "T2B01"
+  ],
+  "aka": [
+   "reverse",
+   "REV"
+  ],
+  "more": "Its purpose is to listen on a repeater's input frequency, which lets you tell whether you can hear the other station directly."
+ },
+ {
+  "id": "rf",
+  "term": "RF",
+  "def": "Radio frequency: the energy of radio signals.",
+  "sub": "T0",
+  "questions": [
+   "T4A05",
+   "T4A08",
+   "T0C01",
+   "T0C04",
+   "T0C07",
+   "T0C08",
+   "T0C12"
+  ],
+  "aka": [
+   "radio frequency",
+   "radio signals",
+   "RF energy",
+   "RF radiation"
+  ],
+  "more": "RF is non-ionizing radiation. It is not perfectly safe: strong RF heats body tissue and can burn, which is why exposure limits exist."
+ },
+ {
+  "id": "rf-burn",
+  "term": "RF burn",
+  "def": "A burn to the skin caused by radio frequency energy.",
+  "sub": "T0",
+  "questions": [
+   "T0C07"
+  ],
+  "more": "Touching an antenna during a transmission can cause one. Never touch an antenna that is transmitting."
+ },
+ {
+  "id": "rf-connector",
+  "term": "RF connector",
+  "def": "A plug or socket that joins a coaxial cable to a radio, an antenna or another cable.",
+  "sub": "T9",
+  "questions": [
+   "T9B01",
+   "T9B06",
+   "T9B07",
+   "T9B08"
+  ],
+  "aka": [
+   "connector",
+   "coax connector"
+  ],
+  "more": "Common types are PL-259, BNC and Type N. Outdoors they should be carefully taped for weather protection. Multiple connectors in a line add loss."
+ },
+ {
+  "id": "rf-current",
+  "term": "RF current",
+  "def": "Radio frequency current: alternating current at the high frequencies used for radio.",
+  "sub": "T5",
+  "questions": [
+   "T5A11"
+  ],
+  "aka": [
+   "RF",
+   "radio frequency"
+  ],
+  "more": "Resistance opposes RF current as well as ordinary AC and DC."
+ },
+ {
+  "id": "rf-exposure",
+  "term": "RF exposure",
+  "def": "The amount of radio frequency energy that reaches a person's body.",
+  "sub": "T0",
+  "questions": [
+   "T0C03",
+   "T0C04",
+   "T0C06",
+   "T0C08",
+   "T0C09",
+   "T0C10",
+   "T0C11",
+   "T0C13"
+  ],
+  "aka": [
+   "RF safety",
+   "exposure"
+  ],
+  "more": "It depends on the frequency and power level of the RF field, the distance from the antenna and the antenna's radiation pattern. Duty cycle affects the average exposure."
+ },
+ {
+  "id": "rf-exposure-evaluation",
+  "term": "RF exposure evaluation",
+  "def": "A check that the RF energy from your station stays within the FCC exposure limits for people.",
+  "sub": "T0",
+  "questions": [
+   "T0C06",
+   "T0C09"
+  ],
+  "aka": [
+   "station evaluation",
+   "RF safety evaluation"
+  ],
+  "more": "Acceptable methods: calculation based on FCC OET Bulletin 65, computer modeling, or measuring field strength with calibrated equipment. Re-evaluate whenever the transmitter or antenna system changes."
+ },
+ {
+  "id": "rf-power-amplifier",
+  "term": "RF power amplifier",
+  "def": "A device added to the output of a transceiver to increase the transmitted output power.",
+  "sub": "T7",
+  "questions": [
+   "T7A09",
+   "T7A10"
+  ],
+  "aka": [
+   "power amplifier",
+   "amplifier",
+   "amp",
+   "linear amplifier"
+  ],
+  "more": "Some VHF power amplifiers have an SSB or CW-FM switch, which sets the amplifier for proper operation in the selected mode."
+ },
+ {
+  "id": "rf-power-meter",
+  "term": "RF power meter",
+  "def": "An instrument that measures the radio-frequency power a transmitter is sending toward the antenna.",
+  "sub": "T4",
+  "questions": [
+   "T4A05"
+  ],
+  "aka": [
+   "wattmeter",
+   "power meter"
+  ],
+  "more": "It is installed in the feed line, between the transmitter and the antenna."
+ },
+ {
+  "id": "rg-213",
+  "term": "RG-213",
+  "def": "A thick type of 50-ohm coaxial cable.",
+  "sub": "T9",
+  "questions": [
+   "T9B10"
+  ],
+  "more": "It has less loss at a given frequency than the thinner RG-58."
+ },
+ {
+  "id": "rg-58",
+  "term": "RG-58",
+  "def": "A thin, flexible type of 50-ohm coaxial cable.",
+  "sub": "T9",
+  "questions": [
+   "T9B10"
+  ],
+  "more": "It has more loss at a given frequency than the thicker RG-213."
+ },
+ {
+  "id": "rit",
+  "term": "RIT",
+  "def": "Receiver incremental tuning: a control that shifts only the receive frequency slightly, leaving the transmit frequency where it is.",
+  "sub": "T4",
+  "questions": [
+   "T4B06"
+  ],
+  "aka": [
+   "receiver incremental tuning",
+   "clarifier"
+  ],
+  "more": "Also called a clarifier. Use it when the voice pitch of an SSB signal seems too high or too low."
+ },
+ {
+  "id": "rubber-duck-antenna",
+  "term": "Rubber duck antenna",
+  "def": "The short flexible antenna supplied with a handheld radio.",
+  "sub": "T9",
+  "questions": [
+   "T9A04"
+  ],
+  "aka": [
+   "rubber duck",
+   "short flexible antenna",
+   "flexible antenna"
+  ],
+  "more": "Compared with a full-sized quarter-wave antenna its disadvantage is low efficiency."
+ },
+ {
+  "id": "safety-ground",
+  "term": "Safety ground",
+  "def": "A connection that ties the metal cases of equipment to ground so that a fault does not leave a case live.",
+  "sub": "T0",
+  "questions": [
+   "T0A06"
+  ],
+  "aka": [
+   "common safety ground",
+   "equipment ground",
+   "station ground"
+  ],
+  "more": "Connect all AC powered station equipment to a common safety ground to guard against shock. In US wiring the ground wire is green or bare."
+ },
+ {
+  "id": "satellite-beacon",
+  "term": "Satellite beacon",
+  "def": "A transmission from a satellite that contains status information.",
+  "sub": "T8",
+  "questions": [
+   "T8B01",
+   "T8B05",
+   "T8B12"
+  ],
+  "aka": [
+   "beacon"
+  ],
+  "more": "Its telemetry reports the health and status of the satellite. Your own signal on the downlink of a linear transponder should be about the same strength as the beacon."
+ },
+ {
+  "id": "satellite-tracking-program",
+  "term": "Satellite tracking program",
+  "def": "Software that works out where a satellite is and when it will pass over your location.",
+  "sub": "T8",
+  "questions": [
+   "T8B03",
+   "T8B06"
+  ],
+  "aka": [
+   "tracking software",
+   "satellite tracker"
+  ],
+  "more": "Its input is the Keplerian elements. It provides maps of the satellite's position, the time, azimuth and elevation of each pass, and the apparent frequency including Doppler shift."
+ },
+ {
+  "id": "scanning",
+  "term": "Scanning",
+  "def": "A transceiver function that tunes through a range of frequencies to check for activity.",
+  "sub": "T4",
+  "questions": [
+   "T4B05"
+  ],
+  "aka": [
+   "scan",
+   "scanning function"
+  ],
+  "more": "The radio steps through frequencies or memory channels by itself and stops when it hears a signal."
+ },
+ {
+  "id": "schematic",
+  "term": "Schematic",
+  "def": "An electrical diagram that uses standard component symbols.",
+  "sub": "T6",
+  "questions": [
+   "T6C01",
+   "T6C12"
+  ],
+  "aka": [
+   "schematic diagram",
+   "circuit diagram"
+  ],
+  "more": "It accurately shows component connections. It does not show wire lengths or what the components look like."
+ },
+ {
+  "id": "schematic-symbol",
+  "term": "Schematic symbol",
+  "def": "A standard simple drawing that stands for one kind of component on an electrical diagram.",
+  "sub": "T6",
+  "questions": [
+   "T6A09",
+   "T6C02",
+   "T6C03",
+   "T6C04",
+   "T6C05",
+   "T6C06",
+   "T6C07",
+   "T6C08",
+   "T6C09",
+   "T6C10",
+   "T6C11"
+  ],
+  "aka": [
+   "component symbol",
+   "symbol"
+  ],
+  "more": "Zigzag = resistor. Two facing plates = capacitor. Loops = inductor. Two coils side by side = transformer. An added arrow means variable."
+ },
+ {
+  "id": "secondary-service",
+  "term": "Secondary service",
+  "def": "A radio service that shares spectrum with a primary service that has priority over it.",
+  "sub": "T1",
+  "questions": [
+   "T1B08"
+  ],
+  "aka": [
+   "secondary allocation"
+  ],
+  "more": "Where amateurs are secondary, they may find non-amateur stations in those segments and must avoid interfering with them."
+ },
+ {
+  "id": "selectivity",
+  "term": "Selectivity",
+  "def": "The ability of a receiver to discriminate between multiple signals.",
+  "sub": "T7",
+  "questions": [
+   "T7A04"
+  ],
+  "aka": [
+   "receiver selectivity"
+  ],
+  "more": "It lets the receiver pick out the wanted signal from others close by in frequency. Do not confuse it with sensitivity, which is detecting weak signals."
+ },
+ {
+  "id": "self-assigned-indicator",
+  "term": "Self-assigned indicator",
+  "def": "Something you add to your own call sign, such as the call district you are operating from.",
+  "sub": "T1",
+  "questions": [
+   "T1F06"
+  ],
+  "aka": [
+   "stroke",
+   "slant",
+   "slash",
+   "portable indicator"
+  ],
+  "more": "On phone the separator may be said as stroke, slant or slash: \"KL7CC stroke W3\", \"KL7CC slant W3\" and \"KL7CC slash W3\" are all acceptable."
+ },
+ {
+  "id": "semiconductor",
+  "term": "Semiconductor",
+  "def": "A material that conducts better than an insulator but not as well as a metal, used to make diodes, transistors and integrated circuits.",
+  "sub": "T6",
+  "questions": [
+   "T6B04",
+   "T6D09"
+  ],
+  "more": "A transistor can consist of three regions of semiconductor material."
+ },
+ {
+  "id": "sensitivity",
+  "term": "Sensitivity",
+  "def": "The ability of a receiver to detect the presence of a signal.",
+  "sub": "T7",
+  "questions": [
+   "T7A01"
+  ],
+  "aka": [
+   "receiver sensitivity"
+  ],
+  "more": "A more sensitive receiver hears weaker signals. Do not confuse it with selectivity, which is separating one signal from others."
+ },
+ {
+  "id": "series-circuit",
+  "term": "Series circuit",
+  "def": "A circuit whose parts are joined end to end in a single path.",
+  "sub": "T5",
+  "questions": [
+   "T5D13",
+   "T0A08"
+  ],
+  "aka": [
+   "in series",
+   "series"
+  ],
+  "more": "The current is always the same through all components. In a parallel circuit it is the voltage that is the same."
+ },
+ {
+  "id": "series-connection",
+  "term": "Series connection",
+  "def": "Connecting a meter or part into the path of the current, so that all the current flows through it.",
+  "sub": "T7",
+  "questions": [
+   "T7D03"
+  ],
+  "aka": [
+   "in series",
+   "series"
+  ],
+  "more": "A multimeter set to measure current is connected in series. This differs from parallel, used to measure voltage, where the meter goes across the component."
+ },
+ {
+  "id": "shielded-wire",
+  "term": "Shielded wire",
+  "def": "Wire with a conductive layer wrapped around the inner conductor.",
+  "sub": "T6",
+  "questions": [
+   "T6D03"
+  ],
+  "aka": [
+   "shielded cable",
+   "shield"
+  ],
+  "more": "It is used to prevent coupling of unwanted signals to or from the wire."
+ },
+ {
+  "id": "shielding",
+  "term": "Shielding",
+  "def": "The blocking of radio signals by metal that surrounds the antenna.",
+  "sub": "T9",
+  "questions": [
+   "T9A07"
+  ],
+  "aka": [
+   "shielding effect"
+  ],
+  "more": "A vehicle's body shields a handheld used inside it, so signal strength is reduced. An externally mounted antenna avoids this."
+ },
+ {
+  "id": "short-circuit",
+  "term": "Short circuit",
+  "def": "An unintended direct path between two points of a circuit, such as a piece of metal across both battery terminals, that lets a very large current flow.",
+  "sub": "T0",
+  "questions": [
+   "T0A01"
+  ],
+  "aka": [
+   "short",
+   "shorting"
+  ],
+  "more": "Shorting the terminals of a 12-volt storage battery can cause burns, fire, or an explosion."
+ },
+ {
+  "id": "sidebands",
+  "term": "Sidebands",
+  "def": "The parts of a modulated signal that lie just above and below its carrier frequency.",
+  "sub": "T1",
+  "questions": [
+   "T1B09"
+  ],
+  "aka": [
+   "modulation sidebands",
+   "sideband"
+  ],
+  "more": "They give a signal its width. They must not extend beyond the band edge, which is one reason to keep away from the edge."
+ },
+ {
+  "id": "signal-strength",
+  "term": "Signal strength",
+  "def": "How strong a radio signal is when it arrives at the receiver.",
+  "sub": "T3",
+  "questions": [
+   "T3A01",
+   "T3A04"
+  ],
+  "more": "Multipath can make VHF signal strength vary greatly over a few feet. Cross-polarized antennas on a line-of-sight path reduce received signal strength."
+ },
+ {
+  "id": "signal-to-noise-ratio",
+  "term": "Signal-to-noise ratio",
+  "def": "A comparison of how strong the wanted signal is with how strong the background noise is.",
+  "sub": "T4",
+  "questions": [
+   "T4B10",
+   "T8D02"
+  ],
+  "aka": [
+   "S/N",
+   "signal to noise",
+   "SNR"
+  ],
+  "more": "A receive filter just wide enough for the signal gives the best ratio. For SSB that is 2400 Hz."
+ },
+ {
+  "id": "simplex",
+  "term": "Simplex",
+  "def": "Transmitting and receiving on the same frequency, with stations talking directly to each other and taking turns.",
+  "sub": "T2",
+  "questions": [
+   "T2A02",
+   "T2A06",
+   "T2A11",
+   "T2B09",
+   "T3C01"
+  ],
+  "aka": [
+   "direct",
+   "simplex channel"
+  ],
+  "more": "No repeater is involved. Band plans designate simplex channels so stations within range of each other can communicate without tying up a repeater."
+ },
+ {
+  "id": "solid-state",
+  "term": "Solid-state",
+  "def": "Built with transistors and other semiconductor parts instead of vacuum tubes.",
+  "sub": "T7",
+  "questions": [
+   "T7B04",
+   "T7C05"
+  ],
+  "more": "Most solid-state transmitters reduce output power when SWR is high, to protect the RF output amplifier transistors."
+ },
+ {
+  "id": "space-station",
+  "term": "Space station",
+  "def": "An amateur station located more than 50 km above the Earth's surface.",
+  "sub": "T1",
+  "questions": [
+   "T1A07",
+   "T1D03",
+   "T1E02"
+  ],
+  "more": "Control commands sent to a space station may be encoded to obscure their meaning. Any amateur allowed to transmit on its uplink frequency may be the control operator of a station communicating through it."
+ },
+ {
+  "id": "spdt",
+  "term": "SPDT",
+  "def": "Single-pole double-throw: a switch in which a single circuit is switched between one of two other circuits.",
+  "sub": "T6",
+  "questions": [
+   "T6A08"
+  ],
+  "aka": [
+   "single-pole double-throw"
+  ],
+  "more": "Compare SPST, a plain on-off switch that only opens or closes a single circuit."
+ },
+ {
+  "id": "speaker-connector",
+  "term": "Speaker connector",
+  "def": "The connector on a transceiver where received audio comes out for an external speaker or other device.",
+  "sub": "T4",
+  "questions": [
+   "T4A07"
+  ],
+  "aka": [
+   "speaker jack",
+   "audio output"
+  ],
+  "more": "It is an audio output, so for digital modes it connects to an audio input: the computer's line in."
+ },
+ {
+  "id": "speed-of-light",
+  "term": "Speed of light",
+  "def": "The speed at which light and radio waves travel through free space.",
+  "sub": "T3",
+  "questions": [
+   "T3B04",
+   "T3B11",
+   "T3B12"
+  ],
+  "aka": [
+   "velocity of a radio wave",
+   "velocity"
+  ],
+  "more": "It is approximately 300,000,000 meters per second. All radio frequencies travel at this same velocity in free space."
+ },
+ {
+  "id": "spin-fading",
+  "term": "Spin fading",
+  "def": "A regular rise and fall in the strength of a satellite's signal.",
+  "sub": "T8",
+  "questions": [
+   "T8B09"
+  ],
+  "more": "It is caused by rotation of the satellite and its antennas."
+ },
+ {
+  "id": "sporadic-e",
+  "term": "Sporadic E",
+  "def": "Propagation by occasional dense patches of charged gas in the E region of the ionosphere.",
+  "sub": "T3",
+  "questions": [
+   "T3C04"
+  ],
+  "aka": [
+   "Es"
+  ],
+  "more": "It is the type most commonly associated with occasional strong signals on the 10-, 6- and 2-meter bands from beyond the radio horizon."
+ },
+ {
+  "id": "spst",
+  "term": "SPST",
+  "def": "Single-pole single-throw: a simple on-off switch that opens or closes a single circuit.",
+  "sub": "T6",
+  "questions": [
+   "T6A09"
+  ],
+  "aka": [
+   "single-pole single-throw",
+   "on-off switch"
+  ],
+  "more": "Its symbol shows one moving arm and one contact. It is component 3 in figure T-2."
+ },
+ {
+  "id": "spurious-emissions",
+  "term": "Spurious emissions",
+  "def": "Unwanted signals that a transmitter puts out on frequencies outside its intended transmission.",
+  "sub": "T7",
+  "questions": [
+   "T7B03"
+  ],
+  "aka": [
+   "spurious emission",
+   "spurs"
+  ],
+  "more": "They are one possible cause of radio frequency interference."
+ },
+ {
+  "id": "squelch",
+  "term": "Squelch",
+  "def": "A receiver function that mutes the audio when a signal is not present.",
+  "sub": "T2",
+  "questions": [
+   "T2B02",
+   "T2B13",
+   "T4B03"
+  ],
+  "aka": [
+   "squelch function",
+   "squelch threshold"
+  ],
+  "more": "Ordinary squelch opens for any signal. With CTCSS, the squelch opens only for signals that carry the right sub-audible tone."
+ },
+ {
+  "id": "ssb",
+  "term": "SSB",
+  "def": "Single sideband: a voice mode that is a form of amplitude modulation, sending only one of the two sidebands of an AM signal.",
+  "sub": "T8",
+  "questions": [
+   "T1B10",
+   "T3A03",
+   "T4B01",
+   "T4B06",
+   "T4B10",
+   "T7A09",
+   "T8A01",
+   "T8A03",
+   "T8A06",
+   "T8A07",
+   "T8A08",
+   "T8A12",
+   "T8B04"
+  ],
+  "aka": [
+   "single sideband",
+   "single-sideband"
+  ],
+  "more": "An SSB voice signal is about 3 kHz wide, narrower than FM. It is often used for long-distance (weak signal) contacts on VHF and UHF, and is used on some satellites."
+ },
+ {
+  "id": "station-identification",
+  "term": "Station identification",
+  "def": "Transmitting your assigned call sign so that listeners know which station is on the air.",
+  "sub": "T1",
+  "questions": [
+   "T1A03",
+   "T1D11",
+   "T1D12",
+   "T1F02",
+   "T1F03",
+   "T1F04",
+   "T1F05"
+  ],
+  "aka": [
+   "identification",
+   "ID",
+   "identify"
+  ],
+  "more": "Required at least every 10 minutes during and at the end of a communication, including test transmissions. One exception is signals that control model craft."
+ },
+ {
+  "id": "station-licensee",
+  "term": "Station licensee",
+  "def": "The person whose FCC license covers the station.",
+  "sub": "T1",
+  "questions": [
+   "T1E03",
+   "T1E07",
+   "T1E11",
+   "T1F01",
+   "T0C13"
+  ],
+  "aka": [
+   "licensee"
+  ],
+  "more": "The licensee designates the control operator, is responsible together with the control operator for proper operation, and must make the station and records available to an FCC representative on request."
+ },
+ {
+  "id": "storage-battery",
+  "term": "Storage battery",
+  "def": "A rechargeable battery that stores a large amount of electrical energy, such as a 12-volt car battery.",
+  "sub": "T0",
+  "questions": [
+   "T0A01",
+   "T0A10"
+  ],
+  "aka": [
+   "battery",
+   "12-volt battery",
+   "rechargeable battery"
+  ],
+  "more": "Without internal protection, shorting the terminals can cause burns, fire, or an explosion. Charging or discharging too rapidly can cause overheating or out-gassing."
+ },
+ {
+  "id": "sunspot-cycle",
+  "term": "Sunspot cycle",
+  "def": "The regular rise and fall in the number of dark spots on the Sun, which shows how active the Sun is.",
+  "sub": "T3",
+  "questions": [
+   "T3C09",
+   "T3C10"
+  ],
+  "aka": [
+   "sunspot activity",
+   "sunspots",
+   "solar cycle"
+  ],
+  "more": "High sunspot activity strengthens the F region. During the peak of the cycle, 6 and 10 meters may provide long-distance communication."
+ },
+ {
+  "id": "switch",
+  "term": "Switch",
+  "def": "A component that opens or closes a circuit, or connects it to a different circuit.",
+  "sub": "T6",
+  "questions": [
+   "T6A08",
+   "T6A09"
+  ],
+  "more": "Switches are named by their number of poles and throws, for example SPST and SPDT."
+ },
+ {
+  "id": "swr",
+  "term": "SWR",
+  "def": "Standing wave ratio: a measure of how well the impedance of the antenna matches the feed line.",
+  "sub": "T7",
+  "questions": [
+   "T4A02",
+   "T7B04",
+   "T7C04",
+   "T7C05",
+   "T7C06",
+   "T7C08",
+   "T9B08",
+   "T9B09",
+   "T9B12"
+  ],
+  "aka": [
+   "standing wave ratio"
+  ],
+  "more": "1:1 is a perfect match. A higher reading such as 4:1 means an impedance mismatch. High SWR can make a solid-state transceiver reduce its output power."
+ },
+ {
+  "id": "swr-meter",
+  "term": "SWR meter",
+  "def": "An instrument that shows how well the impedance of the antenna matches the feed line.",
+  "sub": "T7",
+  "questions": [
+   "T4A02",
+   "T7C04",
+   "T7C06"
+  ],
+  "aka": [
+   "standing wave ratio meter",
+   "SWR bridge"
+  ],
+  "more": "A reading of 1:1 indicates a perfect impedance match. A reading of 4:1 indicates an impedance mismatch."
+ },
+ {
+  "id": "tactical-call-sign",
+  "term": "Tactical call sign",
+  "def": "A descriptive name such as \"Race Headquarters\" used to show a station's role at an event.",
+  "sub": "T1",
+  "questions": [
+   "T1F02"
+  ],
+  "aka": [
+   "tactical call"
+  ],
+  "more": "It does not replace your FCC call sign. You must still identify at least every 10 minutes during and at the end of a communication."
+ },
+ {
+  "id": "talkgroup",
+  "term": "Talkgroup",
+  "def": "An identifier used by DMR to organize radio traffic so that those who want to hear the group are not bothered by other radio traffic.",
+  "sub": "T2",
+  "questions": [
+   "T2B07",
+   "T2B14",
+   "T4B07",
+   "T4B09"
+  ],
+  "aka": [
+   "group identification code",
+   "talk group",
+   "TG"
+  ],
+  "more": "To join one, program your radio with the group's ID or code."
+ },
+ {
+  "id": "technician-class",
+  "term": "Technician class",
+  "def": "The entry-level US amateur license class.",
+  "sub": "T1",
+  "questions": [
+   "T1B01",
+   "T1B02",
+   "T1B05",
+   "T1B06",
+   "T1B11",
+   "T1B12",
+   "T1C01",
+   "T1E06"
+  ],
+  "aka": [
+   "Technician",
+   "Technician license"
+  ],
+  "more": "Technicians have limited HF privileges at up to 200 watts PEP, with phone only on 10 meters. Above 30 MHz the limit is 1500 watts PEP, with some specific restrictions."
+ },
+ {
+  "id": "telecommand",
+  "term": "Telecommand",
+  "def": "A one-way transmission that starts, changes or stops functions of a device at a distance, such as a model aircraft, boat or car.",
+  "sub": "T1",
+  "questions": [
+   "T1D03",
+   "T1D11"
+  ],
+  "aka": [
+   "control commands",
+   "control signals",
+   "model craft",
+   "radio control"
+  ],
+  "more": "Control commands to space stations or model craft may be encoded to obscure their meaning. Signals that control model craft may be sent without identifying on the air."
+ },
+ {
+  "id": "telemetry",
+  "term": "Telemetry",
+  "def": "Measurements sent automatically by radio from a distant device, such as a satellite.",
+  "sub": "T8",
+  "questions": [
+   "T8B01",
+   "T8B11"
+  ],
+  "more": "Satellite beacons typically send telemetry about the health and status of the satellite. Anyone is permitted to receive it."
+ },
+ {
+  "id": "temperature-inversion",
+  "term": "Temperature inversion",
+  "def": "A weather condition where a layer of warm air sits above cooler air, the reverse of the normal arrangement.",
+  "sub": "T3",
+  "questions": [
+   "T3C08"
+  ],
+  "aka": [
+   "inversion"
+  ],
+  "more": "Temperature inversions in the atmosphere cause tropospheric ducting."
+ },
+ {
+  "id": "third-party-communications",
+  "term": "Third-party communications",
+  "def": "A message from a control operator to another amateur station control operator on behalf of another person.",
+  "sub": "T1",
+  "questions": [
+   "T1F07",
+   "T1F08"
+  ],
+  "aka": [
+   "third party",
+   "third-party traffic",
+   "third-party agreement"
+  ],
+  "more": "A non-licensed person may speak to a foreign station through your station only if that station is in a country with which the US has a third-party agreement."
+ },
+ {
+  "id": "three-wire-cord",
+  "term": "Three-wire cord",
+  "def": "A power cord with a third wire that connects the metal case of the equipment to ground.",
+  "sub": "T0",
+  "questions": [
+   "T0A06"
+  ],
+  "aka": [
+   "three-wire plug",
+   "three-prong plug",
+   "grounded plug"
+  ],
+  "more": "Using three-wire cords and plugs for all AC powered equipment is one way to guard against electrical shock."
+ },
+ {
+  "id": "throw",
+  "term": "Throw",
+  "def": "In a switch, a position that a pole can be connected to.",
+  "sub": "T6",
+  "questions": [
+   "T6A08",
+   "T6A09"
+  ],
+  "aka": [
+   "single-throw",
+   "double-throw"
+  ],
+  "more": "Single-throw (ST) is plain on-off. Double-throw (DT) connects the pole to one of two other circuits."
+ },
+ {
+  "id": "tower",
+  "term": "Tower",
+  "def": "A tall structure that holds antennas high above the ground.",
+  "sub": "T0",
+  "questions": [
+   "T0B01",
+   "T0B02",
+   "T0B03",
+   "T0B04",
+   "T0B05",
+   "T0B07",
+   "T0B08",
+   "T0B11"
+  ],
+  "aka": [
+   "antenna tower"
+  ],
+  "more": "Hazards include falls, contact with power lines and lightning. Climb only with training, an approved harness, tie-off at all times, and a helper or observer."
+ },
+ {
+  "id": "traffic",
+  "term": "Traffic",
+  "def": "Formal messages exchanged by net stations.",
+  "sub": "T2",
+  "questions": [
+   "T2C05",
+   "T2C10"
+  ],
+  "aka": [
+   "message traffic",
+   "formal messages"
+  ],
+  "more": "A formal traffic message begins with a preamble, which contains the information needed to track the message."
+ },
+ {
+  "id": "transceiver",
+  "term": "Transceiver",
+  "def": "A radio that combines a transmitter and a receiver in one unit.",
+  "sub": "T4",
+  "questions": [
+   "T2B01",
+   "T2B04",
+   "T4A01",
+   "T4A03",
+   "T4A04",
+   "T4A07",
+   "T4A10",
+   "T4A11",
+   "T4B02",
+   "T4B05",
+   "T4B08",
+   "T4B09",
+   "T4B11",
+   "T7A02",
+   "T7A06",
+   "T7A07",
+   "T7A10",
+   "T7A11",
+   "T7B01",
+   "T7B04",
+   "T7B07",
+   "T9B04"
+  ],
+  "aka": [
+   "radio",
+   "rig"
+  ],
+  "more": "A mobile transceiver is one made to be used in a vehicle. A multimode transceiver can work in several modes, such as FM, SSB and CW."
+ },
+ {
+  "id": "transformer",
+  "term": "Transformer",
+  "def": "A component that changes an AC voltage to a higher or lower AC voltage.",
+  "sub": "T6",
+  "questions": [
+   "T6C09",
+   "T6D06"
+  ],
+  "more": "For example it changes 120 V AC power to a lower AC voltage. Its symbol is two coils side by side."
+ },
+ {
+  "id": "transistor",
+  "term": "Transistor",
+  "def": "A semiconductor component in which a small signal controls a larger current, so it can amplify or act as a switch.",
+  "sub": "T6",
+  "questions": [
+   "T6B03",
+   "T6B04",
+   "T6B05",
+   "T6B10",
+   "T6B12",
+   "T6C03",
+   "T6D10"
+  ],
+  "more": "It can be used as an electronic switch, can provide power gain, and can consist of three regions of semiconductor material."
+ },
+ {
+  "id": "transmitter",
+  "term": "Transmitter",
+  "def": "The part of a radio that generates the radio signal that is sent to the antenna.",
+  "sub": "T7",
+  "questions": [
+   "T7A02",
+   "T7C05",
+   "T0C09",
+   "T0C11"
+  ],
+  "more": "Combined with a receiver in one unit it is called a transceiver."
+ },
+ {
+  "id": "transmitter-keying",
+  "term": "Transmitter keying",
+  "def": "Switching a radio from receive to transmit.",
+  "sub": "T4",
+  "questions": [
+   "T4A06"
+  ],
+  "aka": [
+   "keying"
+  ],
+  "more": "It is one of the three signals in a computer-radio interface for digital modes, along with receive audio and transmit audio."
+ },
+ {
+  "id": "transverter",
+  "term": "Transverter",
+  "def": "A device that converts the RF input and output of a transceiver to another band.",
+  "sub": "T7",
+  "questions": [
+   "T7A06"
+  ],
+  "more": "It lets a radio be used on a band it does not cover itself. Do not confuse it with a transceiver."
+ },
+ {
+  "id": "tropospheric-ducting",
+  "term": "Tropospheric ducting",
+  "def": "VHF and UHF signals being trapped and guided along the Earth by layers of air in the troposphere, the lowest part of the atmosphere.",
+  "sub": "T3",
+  "questions": [
+   "T3C06",
+   "T3C08"
+  ],
+  "aka": [
+   "ducting",
+   "tropo"
+  ],
+  "more": "It allows over-the-horizon VHF and UHF contacts to about 300 miles on a regular basis. It is caused by temperature inversions in the atmosphere."
+ },
+ {
+  "id": "turnbuckle",
+  "term": "Turnbuckle",
+  "def": "A threaded fitting that is turned to tighten a guy line.",
+  "sub": "T0",
+  "questions": [
+   "T0B05"
+  ],
+  "more": "A safety wire is passed through it to prevent loosening of the turnbuckle from vibration. The safety wire is not there to hold the guy line if the turnbuckle breaks."
+ },
+ {
+  "id": "type-n",
+  "term": "Type N",
+  "def": "A threaded coaxial cable connector designed to work well at UHF and higher frequencies.",
+  "sub": "T9",
+  "questions": [
+   "T9B01",
+   "T9B06"
+  ],
+  "aka": [
+   "N connector",
+   "Type N connector"
+  ],
+  "more": "It is the connector type most suitable for frequencies above 400 MHz. It should still be carefully taped for weather protection outdoors."
+ },
+ {
+  "id": "u-v-mode",
+  "term": "U/V mode",
+  "def": "A satellite operating mode in which the uplink is in the 70-centimeter band (UHF) and the downlink is in the 2-meter band (VHF).",
+  "sub": "T8",
+  "questions": [
+   "T8B08"
+  ],
+  "aka": [
+   "mode U/V"
+  ],
+  "more": "The first letter names the uplink band and the second the downlink band. U means UHF and V means VHF."
+ },
+ {
+  "id": "uhf",
+  "term": "UHF",
+  "def": "Ultra high frequency: the part of the radio spectrum from 300 to 3000 MHz.",
+  "sub": "T3",
+  "questions": [
+   "T2B01",
+   "T2B09",
+   "T3A02",
+   "T3A03",
+   "T3A04",
+   "T3B09",
+   "T3C01",
+   "T3C06",
+   "T3C11",
+   "T8A03",
+   "T8A04",
+   "T8A06",
+   "T8B08",
+   "T9A09",
+   "T9B06"
+  ],
+  "aka": [
+   "ultra high frequency"
+  ],
+  "more": "It is the range just above VHF. UHF signals are usually not propagated by the ionosphere, so simplex UHF signals are rarely heard beyond the radio horizon."
+ },
+ {
+  "id": "uls",
+  "term": "ULS",
+  "def": "Universal Licensing System: the FCC's online database of licenses.",
+  "sub": "T1",
+  "questions": [
+   "T1A05",
+   "T1C10"
+  ],
+  "aka": [
+   "Universal Licensing System",
+   "FCC license database"
+  ],
+  "more": "A license appearing in the ULS is the proof that the FCC has granted it. After your first exam you may transmit as soon as your grant appears there."
+ },
+ {
+  "id": "uplink",
+  "term": "Uplink",
+  "def": "The signal path from a station on the ground up to a satellite, or the frequency used for it.",
+  "sub": "T8",
+  "questions": [
+   "T1E02",
+   "T8B02",
+   "T8B08",
+   "T8B12"
+  ],
+  "aka": [
+   "uplink frequency"
+  ],
+  "more": "In a satellite mode name the uplink band comes first. Too much effective radiated power on the uplink blocks access by other users."
+ },
+ {
+  "id": "upper-sideband",
+  "term": "Upper sideband",
+  "def": "The sideband of a signal that lies just above the carrier frequency.",
+  "sub": "T8",
+  "questions": [
+   "T8A06"
+  ],
+  "aka": [
+   "USB"
+  ],
+  "more": "Upper sideband is normally used for single-sideband contacts on 10 meters, VHF and UHF. Lower sideband is the one below the carrier. Both stations must use the same one."
+ },
+ {
+  "id": "utility-pole",
+  "term": "Utility pole",
+  "def": "A pole that carries power and other utility wires.",
+  "sub": "T0",
+  "questions": [
+   "T0B09"
+  ],
+  "aka": [
+   "power pole",
+   "telephone pole"
+  ],
+  "more": "Never attach an antenna to one: the antenna could contact high-voltage power lines."
+ },
+ {
+  "id": "vanity-call-sign",
+  "term": "Vanity call sign",
+  "def": "A call sign that you choose yourself instead of one assigned in sequence by the FCC.",
+  "sub": "T1",
+  "questions": [
+   "T1C02"
+  ],
+  "aka": [
+   "vanity call"
+  ],
+  "more": "Any licensed amateur may select one under the vanity call sign rules."
+ },
+ {
+  "id": "variable-inductor",
+  "term": "Variable inductor",
+  "def": "A coil whose inductance can be adjusted.",
+  "sub": "T6",
+  "questions": [
+   "T6C10"
+  ],
+  "more": "On a schematic it is drawn as the loops of a coil with an arrow."
+ },
+ {
+  "id": "vertical-antenna",
+  "term": "Vertical antenna",
+  "def": "An antenna with a single upright radiating element.",
+  "sub": "T9",
+  "questions": [
+   "T9A08"
+  ],
+  "aka": [
+   "vertical"
+  ],
+  "more": "A 19-inch vertical is often used on 2 meters because it is a resonant quarter-wave."
+ },
+ {
+  "id": "vertical-polarization",
+  "term": "Vertical polarization",
+  "def": "A radio wave whose electric field is at right angles to the ground, as made by an antenna with upright elements.",
+  "sub": "T3",
+  "questions": [
+   "T3A09"
+  ],
+  "aka": [
+   "vertically polarized"
+  ],
+  "more": "Signals returned by the ionosphere are elliptically polarized, so either vertically or horizontally polarized antennas may be used for them."
+ },
+ {
+  "id": "vfo",
+  "term": "VFO",
+  "def": "Variable frequency oscillator: the tuning control of a transceiver, which you turn to change the operating frequency.",
+  "sub": "T4",
+  "questions": [
+   "T4B02",
+   "T7A11"
+  ],
+  "aka": [
+   "tuning knob",
+   "variable frequency oscillator",
+   "VFO knob"
+  ],
+  "more": "The operating frequency can be entered with the keypad or the VFO knob."
+ },
+ {
+  "id": "vhf",
+  "term": "VHF",
+  "def": "Very high frequency: the part of the radio spectrum from 30 MHz to 300 MHz.",
+  "sub": "T3",
+  "questions": [
+   "T1B02",
+   "T1B07",
+   "T2B01",
+   "T2B09",
+   "T3A01",
+   "T3A03",
+   "T3A04",
+   "T3B08",
+   "T3C02",
+   "T3C03",
+   "T3C06",
+   "T3C11",
+   "T8A02",
+   "T8A03",
+   "T8A04",
+   "T8A06",
+   "T8A09",
+   "T8B08",
+   "T9A07",
+   "T9A09",
+   "T9B07"
+  ],
+  "aka": [
+   "very high frequency"
+  ],
+  "more": "It is the range just above HF and just below UHF. VHF signals normally travel a little beyond line of sight, to the radio horizon."
+ },
+ {
+  "id": "voip",
+  "term": "VoIP",
+  "def": "Voice Over Internet Protocol: a method of delivering voice communications over the internet using digital techniques.",
+  "sub": "T8",
+  "questions": [
+   "T8C07"
+  ],
+  "aka": [
+   "Voice Over Internet Protocol",
+   "voice over IP"
+  ],
+  "more": "Amateur systems that link repeaters through the internet, such as IRLP and EchoLink, rely on it."
+ },
+ {
+  "id": "volt",
+  "term": "Volt",
+  "def": "The unit of voltage, the electrical push.",
+  "sub": "T5",
+  "questions": [
+   "T4A01",
+   "T4A11",
+   "T5B03",
+   "T5B04",
+   "T5D10",
+   "T5D11",
+   "T5D12"
+  ],
+  "aka": [
+   "V",
+   "voltage",
+   "volts"
+  ],
+  "more": "Symbol V. One kilovolt is 1000 volts; one microvolt is one millionth of a volt."
+ },
+ {
+  "id": "voltage",
+  "term": "Voltage",
+  "def": "The electrical push, or pressure, between two points that makes electrons flow.",
+  "sub": "T5",
+  "questions": [
+   "T5A05",
+   "T5D02",
+   "T5D10",
+   "T5D11",
+   "T5D12",
+   "T5D14",
+   "T6B01",
+   "T6D05",
+   "T6D06",
+   "T0A01",
+   "T0A03",
+   "T0A06",
+   "T0A08",
+   "T0A12"
+  ],
+  "aka": [
+   "E",
+   "electromotive force",
+   "EMF",
+   "high voltage",
+   "potential difference",
+   "V",
+   "volt",
+   "volts"
+  ],
+  "more": "Measured in volts. In formulas it is written E. Voltage is the push; current is the flow that results."
+ },
+ {
+  "id": "voltage-drop",
+  "term": "Voltage drop",
+  "def": "The voltage lost along a wire because the wire has resistance and current is flowing through it.",
+  "sub": "T4",
+  "questions": [
+   "T4A03"
+  ],
+  "more": "A radio draws its highest current when transmitting. Short, heavy-gauge DC power wires keep the loss small."
+ },
+ {
+  "id": "voltmeter",
+  "term": "Voltmeter",
+  "def": "An instrument that measures electric potential, which is voltage.",
+  "sub": "T7",
+  "questions": [
+   "T7D01",
+   "T7D02",
+   "T0A12"
+  ],
+  "more": "It is connected in parallel with the component to measure the voltage applied to it."
+ },
+ {
+  "id": "watt",
+  "term": "Watt",
+  "def": "The unit of electrical power.",
+  "sub": "T5",
+  "questions": [
+   "T4A01",
+   "T5A02",
+   "T5B05",
+   "T5C09",
+   "T5C10"
+  ],
+  "aka": [
+   "W",
+   "watts"
+  ],
+  "more": "Symbol W. Watts = volts x amperes. One watt is 1000 milliwatts."
+ },
+ {
+  "id": "wavelength",
+  "term": "Wavelength",
+  "def": "The distance a radio wave travels during one complete cycle.",
+  "sub": "T3",
+  "questions": [
+   "T3B05",
+   "T3B06",
+   "T3B07",
+   "T9A08",
+   "T9A09"
+  ],
+  "more": "Wavelength gets shorter as frequency increases. Wavelength in meters equals 300 divided by frequency in megahertz. Amateur bands are identified by their approximate wavelength in meters."
+ },
+ {
+  "id": "weak-signal-operation",
+  "term": "Weak-signal operation",
+  "def": "Making contacts when the received signals are very faint, usually because the path is long or difficult.",
+  "sub": "T8",
+  "questions": [
+   "T8A03",
+   "T8D02",
+   "T8D10"
+  ],
+  "aka": [
+   "weak signal",
+   "long-distance contacts"
+  ],
+  "more": "On VHF and UHF the voice mode often used for this is SSB. Digital modes such as FT8 and those in WSJT-X are built for it."
+ },
+ {
+  "id": "weatherproofing",
+  "term": "Weatherproofing",
+  "def": "Sealing outdoor connectors, for example with tape, so that water cannot get in.",
+  "sub": "T9",
+  "questions": [
+   "T9B01",
+   "T9B08"
+  ],
+  "aka": [
+   "weather protection"
+  ],
+  "more": "PL-259, BNC and Type N connectors should all be carefully taped outdoors. Water intrusion into coaxial connectors is a source of feed line loss."
+ },
+ {
+  "id": "whip-antenna",
+  "term": "Whip antenna",
+  "def": "A thin, flexible rod antenna, commonly mounted on vehicles.",
+  "sub": "T9",
+  "questions": [
+   "T9A09"
+  ],
+  "aka": [
+   "whip",
+   "mobile whip"
+  ],
+  "more": "A 5/8-wavelength whip has more gain than a 1/4-wave antenna for VHF or UHF mobile service."
+ },
+ {
+  "id": "willful-interference",
+  "term": "Willful interference",
+  "def": "Deliberately disrupting another station's radio communications.",
+  "sub": "T1",
+  "questions": [
+   "T1A11"
+  ],
+  "aka": [
+   "malicious interference",
+   "intentional interference",
+   "jamming"
+  ],
+  "more": "Willful or malicious interference is prohibited. Accidental interference can happen on shared frequencies, but doing it on purpose is never allowed."
+ },
+ {
+  "id": "winlink",
+  "term": "Winlink",
+  "def": "A system that relays messages by amateur radio using email addresses based on amateur call signs.",
+  "sub": "T2",
+  "questions": [
+   "T2C08"
+  ],
+  "aka": [
+   "radio email"
+  ],
+  "more": "It is a message delivery system, not just a digital mode like FT8 or PSK31."
+ },
+ {
+  "id": "wsjt-x",
+  "term": "WSJT-X",
+  "def": "A suite of computer software with digital modes made for very weak or very brief signals.",
+  "sub": "T8",
+  "questions": [
+   "T8D10"
+  ],
+  "more": "Its modes support Earth-Moon-Earth contacts, weak signal propagation beacons and meteor scatter. FT8 is one of its modes."
+ },
+ {
+  "id": "yagi",
+  "term": "Yagi",
+  "def": "A beam antenna with several parallel elements that focus the signal in one direction.",
+  "sub": "T9",
+  "questions": [
+   "T9A06"
+  ],
+  "aka": [
+   "Yagi antenna"
+  ],
+  "more": "Of the 5/8 wave vertical, isotropic, J pole and Yagi, the Yagi offers the greatest gain."
+ }
+]

@@ -38,7 +38,11 @@ drill to your weak spots.
 - **Exam-day simulation**, a **picture notebook** of concepts you struggled
   with, and a **weekly report**.
 
-Coming next: practice variants (the same concept asked different ways) and the
+- **Glossary:** 393 terms with plain definitions. A colored dot beside each
+  term shows how well you know it, worked out from your answers to the
+  questions that test it, and each term has its own short drill.
+
+Coming next: lessons that teach each question group before testing it, and the
 General pool.
 
 ## Layout
@@ -52,6 +56,8 @@ General pool.
 | `pools/explanations/` | Explanations per subelement, plus the writing guide |
 | `app/src/features/` | One folder per feature area; see `app/FEATURES.md` |
 | `tools/make_clip_audio.py` | Records the clip narration with Piper text-to-speech |
+| `pools/glossary/` | Glossary terms per subelement, plus the writing guide |
+| `tools/glossary.py` | Validates the glossary and merges it for the app |
 | `tools/explanations.py` | Shows questions with the key, validates explanations, merges them for the app |
 | `pools/source/` | The original NCVEC pool documents |
 
