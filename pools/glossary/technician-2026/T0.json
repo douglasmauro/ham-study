@@ -1,0 +1,331 @@
+{
+  "terms": [
+    {
+      "term": "Storage battery",
+      "aka": ["battery", "12-volt battery", "rechargeable battery"],
+      "def": "A rechargeable battery that stores a large amount of electrical energy, such as a 12-volt car battery.",
+      "more": "Without internal protection, shorting the terminals can cause burns, fire, or an explosion. Charging or discharging too rapidly can cause overheating or out-gassing.",
+      "questions": ["T0A01", "T0A10"]
+    },
+    {
+      "term": "Short circuit",
+      "aka": ["short", "shorting"],
+      "def": "An unintended direct path between two points of a circuit, such as a piece of metal across both battery terminals, that lets a very large current flow.",
+      "more": "Shorting the terminals of a 12-volt storage battery can cause burns, fire, or an explosion.",
+      "questions": ["T0A01"]
+    },
+    {
+      "term": "Out-gassing",
+      "aka": ["outgassing", "venting"],
+      "def": "The release of gas from a battery.",
+      "more": "Overheating or out-gassing is the hazard when an unprotected battery is charged or discharged rapidly. The gas may be flammable.",
+      "questions": ["T0A10"]
+    },
+    {
+      "term": "Electrical shock",
+      "aka": ["electric shock", "shock"],
+      "def": "What happens when electrical current flows through the body.",
+      "more": "Current in the body may heat tissue, disrupt the electrical functions of cells and cause involuntary muscle contractions. Guard against it with grounding and by discharging capacitors.",
+      "questions": ["T0A02", "T0A06"]
+    },
+    {
+      "term": "Current",
+      "aka": ["electrical current", "ampere", "amp", "amperes"],
+      "def": "The flow of electricity through a wire, a part or a body. It is measured in amperes (amps).",
+      "more": "Current through the body is what injures. Too much current in a circuit overheats wiring and can start a fire, which is why a fuse must have the correct ampere rating.",
+      "questions": ["T0A02", "T0A05"]
+    },
+    {
+      "term": "Voltage",
+      "aka": ["volt", "volts", "V", "high voltage"],
+      "def": "The electrical pressure that pushes current through a circuit. It is measured in volts.",
+      "more": "US household power is 120 volts AC. High voltage can remain in equipment after it is switched off, and a meter and its leads must be rated for the voltage being measured.",
+      "questions": ["T0A01", "T0A03", "T0A06", "T0A08", "T0A12"]
+    },
+    {
+      "term": "AC",
+      "aka": ["alternating current", "120 V AC", "household power"],
+      "def": "Alternating current: electricity that reverses direction many times a second, the kind supplied by wall outlets.",
+      "more": "US outlets supply 120 V AC through three wires: hot, neutral and ground. Use three-wire cords and plugs for all AC powered equipment.",
+      "questions": ["T0A03", "T0A06", "T0A08"]
+    },
+    {
+      "term": "Hot wire",
+      "aka": ["hot", "hot conductor", "black wire"],
+      "def": "The wire in an AC power cable that carries the voltage from the supply. It can shock you.",
+      "more": "In a US three-wire 120 V AC cable, black insulation marks the hot wire. A fuse or circuit breaker goes in series with the hot conductor only.",
+      "questions": ["T0A03", "T0A08"]
+    },
+    {
+      "term": "Fuse",
+      "def": "A safety part containing a thin piece of metal that melts and breaks the circuit when too much current flows.",
+      "more": "Its purpose is to remove power in case of an overload. It does not prevent shocks. Never replace a fuse with a higher-rated one: excessive current could cause a fire.",
+      "questions": ["T0A04", "T0A05", "T0A08"]
+    },
+    {
+      "term": "Circuit breaker",
+      "aka": ["breaker"],
+      "def": "A switch that opens by itself to cut off power when too much current flows, and can be reset afterwards.",
+      "more": "Like a fuse, in a 120 V AC power circuit it is installed in series with the hot conductor only.",
+      "questions": ["T0A08"]
+    },
+    {
+      "term": "Overload",
+      "aka": ["overcurrent", "excessive current"],
+      "def": "A condition in which more current flows in a circuit than its wires and parts are built to carry.",
+      "more": "An overload overheats the circuit and can cause a fire. A fuse of the correct rating removes power when it happens.",
+      "questions": ["T0A04", "T0A05"]
+    },
+    {
+      "term": "Series circuit",
+      "aka": ["in series", "series"],
+      "def": "A connection in which parts are joined end to end, so that all the current passes through each one in turn.",
+      "more": "A fuse or circuit breaker must be in series with the hot conductor, so that when it opens the current stops. A part connected in parallel sits beside the path and cannot interrupt it.",
+      "questions": ["T0A08"]
+    },
+    {
+      "term": "Three-wire cord",
+      "aka": ["three-wire plug", "three-prong plug", "grounded plug"],
+      "def": "A power cord with a third wire that connects the metal case of the equipment to ground.",
+      "more": "Using three-wire cords and plugs for all AC powered equipment is one way to guard against electrical shock.",
+      "questions": ["T0A06"]
+    },
+    {
+      "term": "Safety ground",
+      "aka": ["common safety ground", "equipment ground", "station ground"],
+      "def": "A connection that ties the metal cases of equipment to ground so that a fault does not leave a case live.",
+      "more": "Connect all AC powered station equipment to a common safety ground to guard against shock. In US wiring the ground wire is green or bare.",
+      "questions": ["T0A06"]
+    },
+    {
+      "term": "Capacitor",
+      "aka": ["filter capacitor"],
+      "def": "A part that stores electrical charge.",
+      "more": "Filter capacitors in a power supply can hold a dangerous charge after it is turned off. Make sure all high-voltage capacitors are fully discharged before working inside equipment.",
+      "questions": ["T0A06", "T0A11"]
+    },
+    {
+      "term": "Power supply",
+      "def": "Equipment that changes household AC power into the voltage a radio or other device needs.",
+      "more": "Immediately after it is turned off, charge stored in its filter capacitors is still a shock hazard.",
+      "questions": ["T0A11"]
+    },
+    {
+      "term": "Voltmeter",
+      "def": "An instrument that measures voltage.",
+      "more": "When measuring high voltages, make sure the voltmeter and its leads are rated for use at the voltages being measured.",
+      "questions": ["T0A12"]
+    },
+    {
+      "term": "Lightning arrester",
+      "aka": ["lightning arrestor", "surge arrester", "lightning protector"],
+      "def": "A device fitted in a feed line to divert a lightning surge to ground before it reaches the station.",
+      "more": "Install it on a grounded panel near where the feed lines enter the building.",
+      "questions": ["T0A07"]
+    },
+    {
+      "term": "Feed line",
+      "aka": ["coaxial feed line", "coax", "coaxial cable", "transmission line"],
+      "def": "The cable that carries radio signals between a radio and its antenna. Coaxial cable (coax) is a common kind.",
+      "more": "Lightning can travel along it into the building, so a lightning arrester is installed on a grounded panel near where feed lines enter.",
+      "questions": ["T0A07"]
+    },
+    {
+      "term": "Lightning protection",
+      "aka": ["lightning ground"],
+      "def": "The grounding and devices that give lightning a path to earth, to reduce the danger to people, buildings and equipment.",
+      "more": "Ground connections must be short and direct, and sharp bends must be avoided. Lightning remains dangerous even with protection in place.",
+      "questions": ["T0A07", "T0B01", "T0B10"]
+    },
+    {
+      "term": "Grounding",
+      "aka": ["ground", "earth", "earth connection", "grounding conductor", "ground wire"],
+      "def": "Connecting equipment or a structure to the earth with a conductor, for electrical and lightning safety.",
+      "more": "Keep lightning ground wires short and direct with no sharp bends. Bond all grounds together. Local electrical codes set the grounding requirements for a tower or antenna.",
+      "questions": ["T0A07", "T0A09", "T0B01", "T0B08", "T0B10", "T0B11"]
+    },
+    {
+      "term": "Ground rod",
+      "aka": ["earth rod", "grounding rod"],
+      "def": "A metal rod driven into the soil to make an electrical connection to the earth.",
+      "more": "All external ground rods must be bonded together with heavy wire or conductive strap. A tower needs separate eight-foot rods for each leg, bonded to the tower and each other.",
+      "questions": ["T0A09", "T0B08"]
+    },
+    {
+      "term": "Bonding",
+      "aka": ["bond", "bonded"],
+      "def": "Joining ground rods, earth connections or metal structures together with heavy wire or conductive strap.",
+      "more": "All external ground rods or earth connections should be bonded together. Tower ground rods are bonded to the tower and to each other.",
+      "questions": ["T0A09", "T0B08"]
+    },
+    {
+      "term": "Local electrical code",
+      "aka": ["electrical code", "local electrical codes"],
+      "def": "The electrical safety rules that apply where you live.",
+      "more": "Local electrical codes establish the grounding requirements for an amateur radio tower or antenna. FCC Part 97 does not.",
+      "questions": ["T0B11"]
+    },
+    {
+      "term": "Tower",
+      "aka": ["antenna tower"],
+      "def": "A tall structure that holds antennas high above the ground.",
+      "more": "Hazards include falls, contact with power lines and lightning. Climb only with training, an approved harness, tie-off at all times, and a helper or observer.",
+      "questions": ["T0B01", "T0B02", "T0B03", "T0B04", "T0B05", "T0B07", "T0B08", "T0B11"]
+    },
+    {
+      "term": "Climbing harness",
+      "aka": ["safety harness", "fall protection", "tie-off"],
+      "def": "Safety gear worn by a tower climber and attached to the tower to stop a fall.",
+      "more": "Tower climbing requires all three: sufficient training on safe climbing techniques, appropriate tie-off to the tower at all times, and always wearing an approved climbing harness.",
+      "questions": ["T0B02"]
+    },
+    {
+      "term": "Helper or observer",
+      "aka": ["tower helper", "observer", "ground crew", "spotter"],
+      "def": "A person who stays on the ground while someone climbs a tower, to watch, assist and call for help.",
+      "more": "It is never safe to climb a tower without a helper or observer, whatever the height or the kind of work.",
+      "questions": ["T0B03"]
+    },
+    {
+      "term": "Overhead power line",
+      "aka": ["power line", "power wires", "overhead electrical wires", "high-voltage power lines"],
+      "def": "An electrical supply wire strung above the ground. Contact with one can kill.",
+      "more": "Look for and stay clear of overhead wires when putting up a tower. Allow enough distance that if the antenna falls, no part of it can come within 10 feet of the power wires.",
+      "questions": ["T0B04", "T0B06", "T0B09"]
+    },
+    {
+      "term": "Utility pole",
+      "aka": ["power pole", "telephone pole"],
+      "def": "A pole that carries power and other utility wires.",
+      "more": "Never attach an antenna to one: the antenna could contact high-voltage power lines.",
+      "questions": ["T0B09"]
+    },
+    {
+      "term": "Guy line",
+      "aka": ["guy wire", "guy"],
+      "def": "A tensioned cable running from a tower or mast to an anchor in the ground to hold the structure steady.",
+      "more": "Guy lines are tightened with turnbuckles, which need a safety wire to keep them from loosening.",
+      "questions": ["T0B05"]
+    },
+    {
+      "term": "Turnbuckle",
+      "aka": ["safety wire"],
+      "def": "A threaded fitting that is turned to tighten a guy line.",
+      "more": "A safety wire is passed through it to prevent loosening of the turnbuckle from vibration. The safety wire is not there to hold the guy line if the turnbuckle breaks.",
+      "questions": ["T0B05"]
+    },
+    {
+      "term": "Crank-up tower",
+      "aka": ["telescoping tower"],
+      "def": "A tower made of sections that slide inside each other so it can be raised and lowered.",
+      "more": "It must not be climbed unless it is retracted, or mechanical safety locking devices have been installed.",
+      "questions": ["T0B07"]
+    },
+    {
+      "term": "Antenna",
+      "def": "The part of a station that sends radio signals out into the air and picks them up.",
+      "more": "Keep antennas well clear of power lines. Touching one during a transmission can cause an RF burn. Relocating antennas away from people reduces RF exposure.",
+      "questions": ["T0B04", "T0B06", "T0B09", "T0B11", "T0C04", "T0C07", "T0C08", "T0C09"]
+    },
+    {
+      "term": "RF",
+      "aka": ["radio frequency", "RF energy", "RF radiation", "radio signals"],
+      "def": "Radio frequency: the energy of radio signals.",
+      "more": "RF is non-ionizing radiation. It is not perfectly safe: strong RF heats body tissue and can burn, which is why exposure limits exist.",
+      "questions": ["T0C01", "T0C04", "T0C07", "T0C08", "T0C12"]
+    },
+    {
+      "term": "Non-ionizing radiation",
+      "aka": ["nonionizing radiation"],
+      "def": "Radiation that does not have enough energy to strip electrons from atoms. Radio signals are this type.",
+      "more": "RF does not have sufficient energy to cause chemical changes in cells and damage DNA. It can still injure by heating the body.",
+      "questions": ["T0C01", "T0C12"]
+    },
+    {
+      "term": "Ionizing radiation",
+      "aka": ["radioactivity"],
+      "def": "Radiation with enough energy to strip electrons from atoms, such as that from radioactive material.",
+      "more": "It can cause chemical changes in cells and damage DNA. Radio signals are not ionizing radiation.",
+      "questions": ["T0C12"]
+    },
+    {
+      "term": "RF exposure",
+      "aka": ["RF safety", "exposure"],
+      "def": "The amount of radio frequency energy that reaches a person's body.",
+      "more": "It depends on the frequency and power level of the RF field, the distance from the antenna and the antenna's radiation pattern. Duty cycle affects the average exposure.",
+      "questions": ["T0C03", "T0C04", "T0C06", "T0C08", "T0C09", "T0C10", "T0C11", "T0C13"]
+    },
+    {
+      "term": "MPE",
+      "aka": ["maximum permissible exposure", "exposure limit", "exposure limits"],
+      "def": "Maximum permissible exposure: the limit on the strength of RF energy that people may be exposed to.",
+      "more": "Limits vary with frequency because the body absorbs more RF energy at some frequencies than others. Of 3.5, 50, 440 and 1296 MHz, 50 MHz has the lowest limit.",
+      "questions": ["T0C02", "T0C05", "T0C13"]
+    },
+    {
+      "term": "Frequency",
+      "aka": ["MHz", "megahertz"],
+      "def": "How many times a second a radio wave completes a cycle, measured in hertz. One megahertz (MHz) is one million hertz.",
+      "more": "Frequency is one of the factors in RF exposure. Exposure limits vary with it because the body absorbs more RF energy at some frequencies than at others.",
+      "questions": ["T0C02", "T0C04", "T0C05"]
+    },
+    {
+      "term": "Power density",
+      "def": "A measure of how strong an RF field is at a given place: the amount of radio power passing through a given area.",
+      "more": "RF limits are based on the average over time. If duty cycle drops from 100 percent to 50 percent, the allowable power density increases by a factor of 2.",
+      "questions": ["T0C03"]
+    },
+    {
+      "term": "Duty cycle",
+      "def": "The percentage of time that a transmitter is transmitting.",
+      "more": "It affects the average exposure to RF radiation. A lower duty cycle means lower average exposure: going from 100 to 50 percent raises the allowable power density by a factor of 2.",
+      "questions": ["T0C03", "T0C10", "T0C11"]
+    },
+    {
+      "term": "Averaging time",
+      "def": "The period of time over which RF exposure is averaged when checking it against the limits.",
+      "more": "Duty cycle is the percentage of the averaging time during which the transmitter is transmitting.",
+      "questions": ["T0C11"]
+    },
+    {
+      "term": "Radiation pattern",
+      "aka": ["antenna pattern"],
+      "def": "A description of how strongly an antenna sends its signal in each direction.",
+      "more": "It is one of the factors that affect the RF exposure of people near an antenna, along with frequency, power level and distance.",
+      "questions": ["T0C04"]
+    },
+    {
+      "term": "RF exposure evaluation",
+      "aka": ["station evaluation", "RF safety evaluation", "OET Bulletin 65", "field strength"],
+      "def": "A check that the RF energy from your station stays within the FCC exposure limits for people.",
+      "more": "Acceptable methods: calculation based on FCC OET Bulletin 65, computer modeling, or measuring field strength with calibrated equipment. Re-evaluate whenever the transmitter or antenna system changes.",
+      "questions": ["T0C06", "T0C09"]
+    },
+    {
+      "term": "RF burn",
+      "def": "A burn to the skin caused by radio frequency energy.",
+      "more": "Touching an antenna during a transmission can cause one. Never touch an antenna that is transmitting.",
+      "questions": ["T0C07"]
+    },
+    {
+      "term": "Transmitter",
+      "def": "The part of a station that produces the radio signal sent to the antenna.",
+      "more": "Duty cycle is the percentage of time it is transmitting. Re-evaluate RF exposure whenever an item in the transmitter or antenna system is changed.",
+      "questions": ["T0C09", "T0C11"]
+    },
+    {
+      "term": "Station licensee",
+      "aka": ["licensee"],
+      "def": "The person who holds the license for an amateur station.",
+      "more": "The station licensee is responsible for ensuring that no person is exposed to RF energy above the FCC exposure limits.",
+      "questions": ["T0C13"]
+    },
+    {
+      "term": "FCC",
+      "aka": ["Federal Communications Commission"],
+      "def": "Federal Communications Commission: the US government agency that regulates radio, including amateur radio.",
+      "more": "It sets the RF exposure limits, but the station licensee must make sure the station meets them. It does not set tower grounding requirements; local electrical codes do.",
+      "questions": ["T0C06", "T0C09", "T0C13"]
+    }
+  ]
+}

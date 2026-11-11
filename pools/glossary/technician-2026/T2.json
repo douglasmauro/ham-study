@@ -1,0 +1,600 @@
+{
+  "terms": [
+    {
+      "term": "Repeater",
+      "def": "A station that listens on one frequency and at the same time retransmits what it hears on another, extending the range of other stations.",
+      "more": "To call a known station on one, say that station's call sign, then your own. To invite a contact, give your call sign followed by the word \"listening\".",
+      "questions": [
+        "T2A01",
+        "T2A03",
+        "T2A04",
+        "T2A07",
+        "T2A09",
+        "T2B01",
+        "T2B03",
+        "T2B04"
+      ]
+    },
+    {
+      "term": "Repeater offset",
+      "aka": [
+        "offset",
+        "shift"
+      ],
+      "def": "The difference between a repeater's transmit frequency and its receive frequency.",
+      "more": "Common offsets: plus or minus 600 kHz on the 2-meter band and plus or minus 5 MHz on the 70-centimeter band. An improper offset can keep you from accessing a repeater you can hear.",
+      "questions": [
+        "T2A01",
+        "T2A03",
+        "T2A07",
+        "T2B04"
+      ]
+    },
+    {
+      "term": "Repeater input frequency",
+      "aka": [
+        "input",
+        "repeater input"
+      ],
+      "def": "The frequency on which a repeater listens, which is the frequency you transmit on to use it.",
+      "more": "The reverse function on a transceiver lets you listen on the repeater's input frequency.",
+      "questions": [
+        "T2B01"
+      ]
+    },
+    {
+      "term": "Repeater output frequency",
+      "aka": [
+        "output",
+        "repeater output"
+      ],
+      "def": "The frequency on which a repeater transmits, which is the frequency you listen on to hear it.",
+      "more": "Hearing the output does not mean you can get in: a wrong offset, CTCSS tone or DCS code will each keep the repeater from responding to you.",
+      "questions": [
+        "T2B04"
+      ]
+    },
+    {
+      "term": "Reverse function",
+      "aka": [
+        "reverse",
+        "REV"
+      ],
+      "def": "A transceiver feature that swaps your repeater transmit and receive frequencies.",
+      "more": "Its purpose is to listen on a repeater's input frequency, which lets you tell whether you can hear the other station directly.",
+      "questions": [
+        "T2B01"
+      ]
+    },
+    {
+      "term": "Transceiver",
+      "aka": [
+        "rig",
+        "radio"
+      ],
+      "def": "A radio that combines a transmitter and a receiver in one unit.",
+      "more": "A VHF/UHF transceiver must be set to the right offset to reach a repeater. Its reverse function lets you listen on the repeater's input frequency.",
+      "questions": [
+        "T2B01",
+        "T2B04"
+      ]
+    },
+    {
+      "term": "Linked repeater network",
+      "aka": [
+        "linked repeaters",
+        "repeater linking"
+      ],
+      "def": "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network.",
+      "more": "Linking makes the repeaters act as one system that covers a much larger area.",
+      "questions": [
+        "T2B03"
+      ]
+    },
+    {
+      "term": "2-meter band",
+      "aka": [
+        "2 meters",
+        "two meters",
+        "144 MHz"
+      ],
+      "def": "The amateur VHF band from 144 to 148 MHz.",
+      "more": "A common repeater offset here is plus or minus 600 kHz. The national calling frequency for FM simplex is 146.520 MHz.",
+      "questions": [
+        "T2A01",
+        "T2A02"
+      ]
+    },
+    {
+      "term": "70-centimeter band",
+      "aka": [
+        "70 centimeters",
+        "70 cm",
+        "440 MHz"
+      ],
+      "def": "The amateur UHF band from 420 to 450 MHz.",
+      "more": "A common repeater offset here is plus or minus 5 MHz.",
+      "questions": [
+        "T2A03"
+      ]
+    },
+    {
+      "term": "VHF",
+      "aka": [
+        "very high frequency"
+      ],
+      "def": "Very high frequency: the part of the radio spectrum from 30 to 300 MHz.",
+      "more": "The 2-meter band is VHF. VHF/UHF band plans designate simplex channels so stations in range of each other need not tie up a repeater.",
+      "questions": [
+        "T2B01",
+        "T2B09"
+      ]
+    },
+    {
+      "term": "UHF",
+      "aka": [
+        "ultra high frequency"
+      ],
+      "def": "Ultra high frequency: the part of the radio spectrum from 300 to 3000 MHz.",
+      "more": "The 70-centimeter band is UHF. VHF/UHF band plans designate simplex channels so stations in range of each other need not tie up a repeater.",
+      "questions": [
+        "T2B01",
+        "T2B09"
+      ]
+    },
+    {
+      "term": "Frequency",
+      "def": "The number of times a radio wave vibrates each second, which is the place on the dial where a signal is found.",
+      "more": "It is measured in hertz. No station owns a frequency: two stations interfering on the same one should negotiate continued use of it.",
+      "questions": [
+        "T2A07",
+        "T2A11",
+        "T2B08",
+        "T2B11"
+      ]
+    },
+    {
+      "term": "kHz",
+      "aka": [
+        "kilohertz"
+      ],
+      "def": "Kilohertz: a unit of frequency equal to one thousand hertz.",
+      "more": "A common repeater offset in the 2-meter band is plus or minus 600 kHz.",
+      "questions": [
+        "T2A01"
+      ]
+    },
+    {
+      "term": "MHz",
+      "aka": [
+        "megahertz"
+      ],
+      "def": "Megahertz: a unit of frequency equal to one million hertz, or one thousand kilohertz.",
+      "more": "146.520 MHz is the national FM simplex calling frequency on 2 meters. A common 70-centimeter repeater offset is plus or minus 5 MHz.",
+      "questions": [
+        "T2A02",
+        "T2A03"
+      ]
+    },
+    {
+      "term": "Simplex",
+      "aka": [
+        "simplex channel",
+        "direct"
+      ],
+      "def": "Transmitting and receiving on the same frequency, with stations talking directly to each other and taking turns.",
+      "more": "No repeater is involved. Band plans designate simplex channels so stations within range of each other can communicate without tying up a repeater.",
+      "questions": [
+        "T2A02",
+        "T2A06",
+        "T2A11",
+        "T2B09"
+      ]
+    },
+    {
+      "term": "National calling frequency",
+      "aka": [
+        "calling frequency",
+        "146.520",
+        "146.52"
+      ],
+      "def": "An agreed frequency where stations listen for each other and make first contact.",
+      "more": "For FM simplex operations in the 2-meter band it is 146.520 MHz.",
+      "questions": [
+        "T2A02"
+      ]
+    },
+    {
+      "term": "FM",
+      "aka": [
+        "frequency modulation"
+      ],
+      "def": "Frequency modulation: a mode in which your voice changes the frequency of the transmitted signal.",
+      "more": "It is the usual voice mode on VHF/UHF repeaters and simplex. Talking too loudly makes FM audio drop out on voice peaks.",
+      "questions": [
+        "T2A02",
+        "T2B05"
+      ]
+    },
+    {
+      "term": "Deviation",
+      "aka": [
+        "FM deviation",
+        "overdeviation"
+      ],
+      "def": "How far an FM signal's frequency swings as you speak.",
+      "more": "A louder voice gives more deviation. Talking too loudly causes too much of it, and your audio drops out on voice peaks.",
+      "questions": [
+        "T2B05"
+      ]
+    },
+    {
+      "term": "Phone",
+      "aka": [
+        "voice",
+        "phone station"
+      ],
+      "def": "Voice transmission: any mode in which you speak into a microphone.",
+      "more": "To seek a call from any phone station when not using a repeater, repeat \"CQ\" a few times, say \"this is\" and your call sign, then pause to listen.",
+      "questions": [
+        "T2A06"
+      ]
+    },
+    {
+      "term": "Call sign",
+      "aka": [
+        "callsign",
+        "call"
+      ],
+      "def": "The unique set of letters and a digit that identifies a licensed station.",
+      "more": "When calling or answering, say the other station's call sign first, then your own.",
+      "questions": [
+        "T2A04",
+        "T2A05",
+        "T2A06",
+        "T2A09"
+      ]
+    },
+    {
+      "term": "CQ",
+      "aka": [
+        "general call"
+      ],
+      "def": "A general call that means \"calling any station\".",
+      "more": "To answer one, transmit the other station's call sign followed by your own. On a repeater it is customary to say your call sign and \"listening\" instead.",
+      "questions": [
+        "T2A05",
+        "T2A06",
+        "T2A08"
+      ]
+    },
+    {
+      "term": "Procedural signal",
+      "aka": [
+        "prosign"
+      ],
+      "def": "A short standard signal with an agreed meaning that helps manage a contact.",
+      "more": "\"CQ\" is a procedural signal meaning calling any station.",
+      "questions": [
+        "T2A08"
+      ]
+    },
+    {
+      "term": "Band plan",
+      "def": "A voluntary guideline for using different modes or activities within an amateur band.",
+      "more": "It goes beyond the privileges established by the FCC. VHF/UHF band plans designate simplex channels, for example.",
+      "questions": [
+        "T2A10",
+        "T2B09"
+      ]
+    },
+    {
+      "term": "Squelch",
+      "aka": [
+        "squelch function"
+      ],
+      "def": "A receiver function that mutes the audio when a signal is not present.",
+      "more": "Ordinary squelch opens for any signal. With CTCSS, the squelch opens only for signals that carry the right sub-audible tone.",
+      "questions": [
+        "T2B02",
+        "T2B13"
+      ]
+    },
+    {
+      "term": "CTCSS",
+      "aka": [
+        "Continuous Tone-Coded Squelch System",
+        "sub-audible tone",
+        "PL tone",
+        "tone"
+      ],
+      "def": "Continuous Tone-Coded Squelch System: a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver.",
+      "more": "Many repeaters require one. Using the wrong CTCSS tone is one reason you may be unable to access a repeater whose output you can hear.",
+      "questions": [
+        "T2B02",
+        "T2B04"
+      ]
+    },
+    {
+      "term": "DCS",
+      "aka": [
+        "Digital Coded Squelch",
+        "DCS code"
+      ],
+      "def": "Digital Coded Squelch: a digital code sent with your signal that a receiver or repeater must see before it opens.",
+      "more": "Using the wrong DCS code is one reason you may be unable to access a repeater whose output you can hear.",
+      "questions": [
+        "T2B04"
+      ]
+    },
+    {
+      "term": "DTMF",
+      "aka": [
+        "Dual-Tone Multi-Frequency",
+        "touch tones",
+        "keypad tones"
+      ],
+      "def": "Dual-Tone Multi-Frequency: signaling that sends two audio tones at the same time for each key pressed on a keypad.",
+      "more": "It is the type of signaling to a repeater that uses two simultaneous audio tones. CTCSS, in contrast, is one continuous sub-audible tone.",
+      "questions": [
+        "T2B06"
+      ]
+    },
+    {
+      "term": "DMR",
+      "aka": [
+        "Digital Mobile Radio",
+        "digital repeater"
+      ],
+      "def": "Digital Mobile Radio: a digital voice system used on some amateur repeaters.",
+      "more": "It uses talkgroups to organize radio traffic and a color code that your transmitter must send to access a specific repeater.",
+      "questions": [
+        "T2B07",
+        "T2B12",
+        "T2B14"
+      ]
+    },
+    {
+      "term": "Talkgroup",
+      "aka": [
+        "talk group",
+        "TG"
+      ],
+      "def": "An identifier used by DMR to organize radio traffic so that those who want to hear the group are not bothered by other radio traffic.",
+      "more": "To join one, program your radio with the group's ID or code.",
+      "questions": [
+        "T2B07",
+        "T2B14"
+      ]
+    },
+    {
+      "term": "Color code",
+      "aka": [
+        "digital color code",
+        "DMR color code"
+      ],
+      "def": "An access code that must be programmed into a DMR transmitter to access a specific repeater.",
+      "more": "It plays a role like the CTCSS tone on an FM repeater: without the matching code the repeater does not respond.",
+      "questions": [
+        "T2B12"
+      ]
+    },
+    {
+      "term": "Interference",
+      "def": "Unwanted signals that get in the way of the signal you are trying to receive.",
+      "more": "When two stations on the same frequency interfere with each other, they should negotiate continued use of the frequency. Interference from other stations is reported as QRM.",
+      "questions": [
+        "T2B08",
+        "T2B10"
+      ]
+    },
+    {
+      "term": "Q signal",
+      "aka": [
+        "Q code",
+        "Q-code"
+      ],
+      "def": "A three-letter code beginning with Q that stands for a common phrase or question.",
+      "more": "QRM means you are receiving interference from other stations. QSY means you are changing frequency.",
+      "questions": [
+        "T2B10",
+        "T2B11"
+      ]
+    },
+    {
+      "term": "QRM",
+      "def": "The Q signal meaning that you are receiving interference from other stations.",
+      "more": "Memory aid: M for man-made. Compare QRN, which is static noise from natural sources.",
+      "questions": [
+        "T2B10"
+      ]
+    },
+    {
+      "term": "QSY",
+      "def": "The Q signal meaning that you are changing frequency.",
+      "more": "Hams use it when moving a contact to another frequency.",
+      "questions": [
+        "T2B11"
+      ]
+    },
+    {
+      "term": "Part 97",
+      "aka": [
+        "FCC rules",
+        "amateur rules"
+      ],
+      "def": "The part of the FCC rules that governs the Amateur Radio Service in the United States.",
+      "more": "FCC rules always apply to the operation of an amateur station, including during emergency work. RACES is itself a Part 97 service.",
+      "questions": [
+        "T2C01",
+        "T2C04"
+      ]
+    },
+    {
+      "term": "RACES",
+      "aka": [
+        "Radio Amateur Civil Emergency Service"
+      ],
+      "def": "Radio Amateur Civil Emergency Service: an FCC Part 97 amateur radio service for civil defense communications during national emergencies.",
+      "more": "It requires certification by a civil defense agency. ARES is a separate, voluntary program that does not.",
+      "questions": [
+        "T2C04",
+        "T2C12"
+      ]
+    },
+    {
+      "term": "ARES",
+      "aka": [
+        "Amateur Radio Emergency Service"
+      ],
+      "def": "Amateur Radio Emergency Service: a group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service.",
+      "more": "Unlike RACES, it does not require certification by a civil defense agency. FCC rules still apply to its operations.",
+      "questions": [
+        "T2C06"
+      ]
+    },
+    {
+      "term": "Net",
+      "aka": [
+        "network",
+        "on-air net"
+      ],
+      "def": "An organized on-the-air meeting of stations, run by a net control station.",
+      "more": "Standard practice: unless you are reporting an emergency, transmit only when directed by the net control station.",
+      "questions": [
+        "T2C02",
+        "T2C05",
+        "T2C07"
+      ]
+    },
+    {
+      "term": "Net Control Station",
+      "aka": [
+        "NCS",
+        "net control"
+      ],
+      "def": "The station that runs a net: it calls the net to order and directs communications between the stations checking in.",
+      "more": "Other stations transmit only when it directs them to, unless they are reporting an emergency.",
+      "questions": [
+        "T2C02",
+        "T2C07"
+      ]
+    },
+    {
+      "term": "Check-in",
+      "aka": [
+        "checking in",
+        "check in"
+      ],
+      "def": "Announcing your station to the net control station so that you are counted as taking part in a net.",
+      "more": "The net control station directs communications between the stations checking in.",
+      "questions": [
+        "T2C02"
+      ]
+    },
+    {
+      "term": "Traffic",
+      "aka": [
+        "message traffic",
+        "formal messages"
+      ],
+      "def": "Formal messages exchanged by net stations.",
+      "more": "A formal traffic message begins with a preamble, which contains the information needed to track the message.",
+      "questions": [
+        "T2C05",
+        "T2C10"
+      ]
+    },
+    {
+      "term": "Radiogram",
+      "aka": [
+        "formal traffic message",
+        "formal message"
+      ],
+      "def": "A formal written message passed by amateur radio in a standard format.",
+      "more": "Its header includes the preamble, used to track the message, and the check, which is the number of words in the text.",
+      "questions": [
+        "T2C10",
+        "T2C11"
+      ]
+    },
+    {
+      "term": "Preamble",
+      "aka": [
+        "message preamble"
+      ],
+      "def": "The opening part of a formal traffic message, which contains the information needed to track the message.",
+      "more": "The recipient's address and telephone number are not part of it.",
+      "questions": [
+        "T2C10"
+      ]
+    },
+    {
+      "term": "Check",
+      "aka": [
+        "word count",
+        "message check"
+      ],
+      "def": "In a radiogram header, the number of words or word equivalents in the text portion of the message.",
+      "more": "The receiving operator counts the words copied and compares the count with it to confirm that nothing was lost.",
+      "questions": [
+        "T2C11"
+      ]
+    },
+    {
+      "term": "Phonetic alphabet",
+      "aka": [
+        "phonetics"
+      ],
+      "def": "A set of standard words that stand for letters (Alfa, Bravo, Charlie) so that spelled letters are understood clearly by voice.",
+      "more": "Spelling words with a standard phonetic alphabet is the technique used to make sure voice messages containing unusual words are received correctly.",
+      "questions": [
+        "T2C03"
+      ]
+    },
+    {
+      "term": "Winlink",
+      "aka": [
+        "radio email"
+      ],
+      "def": "A system that relays messages by amateur radio using email addresses based on amateur call signs.",
+      "more": "It is a message delivery system, not just a digital mode like FT8 or PSK31.",
+      "questions": [
+        "T2C08"
+      ]
+    },
+    {
+      "term": "Emergency communications",
+      "aka": [
+        "emergency",
+        "immediate safety of human life"
+      ],
+      "def": "Communications needed when human life is in immediate danger or property needs immediate protection.",
+      "more": "In such situations a control operator may operate outside the frequency privileges of their license class. In a net, reporting an emergency is the one reason to transmit without being directed.",
+      "questions": [
+        "T2C07",
+        "T2C09"
+      ]
+    },
+    {
+      "term": "Frequency privileges",
+      "aka": [
+        "privileges",
+        "license class"
+      ],
+      "def": "The frequencies on which a licensed operator is allowed to transmit, set by license class.",
+      "more": "You may operate outside them only in situations involving the immediate safety of human life or protection of property.",
+      "questions": [
+        "T2C09"
+      ]
+    },
+    {
+      "term": "Control operator",
+      "def": "The licensed amateur who is responsible for a station's transmissions.",
+      "more": "Control operators must stay within the frequency privileges of their license class, except in situations involving the immediate safety of human life or protection of property.",
+      "questions": [
+        "T2C09"
+      ]
+    }
+  ]
+}

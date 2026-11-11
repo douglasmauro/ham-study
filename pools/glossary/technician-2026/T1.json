@@ -1,0 +1,780 @@
+{
+  "terms": [
+    {
+      "term": "Amateur Radio Service",
+      "aka": [
+        "ham radio",
+        "amateur radio",
+        "Basis and Purpose"
+      ],
+      "def": "The licensed, non-commercial radio service in which people communicate, experiment and train themselves in radio.",
+      "more": "Its Basis and Purpose includes advancing skills in the technical and communication phases of the radio art. Contacts must fit these purposes or be remarks of a personal character.",
+      "questions": [
+        "T1A01",
+        "T1C03"
+      ]
+    },
+    {
+      "term": "FCC",
+      "aka": [
+        "Federal Communications Commission"
+      ],
+      "def": "Federal Communications Commission: the US government agency that regulates and enforces the rules for the Amateur Radio Service and grants the licenses.",
+      "more": "It contacts you by email, so you must keep a working email address on file. Its representatives may ask to inspect your station at any time.",
+      "questions": [
+        "T1A02",
+        "T1A04",
+        "T1A05",
+        "T1C04",
+        "T1C10",
+        "T1F01"
+      ]
+    },
+    {
+      "term": "Part 97",
+      "aka": [
+        "FCC rules",
+        "amateur rules"
+      ],
+      "def": "The part of the FCC rules that governs the Amateur Radio Service in the United States.",
+      "more": "It opens with the Basis and Purpose of the service and contains the official definitions, such as space station, control operator and remote control.",
+      "questions": [
+        "T1A01",
+        "T1A07",
+        "T1E10",
+        "T1E11"
+      ]
+    },
+    {
+      "term": "Phonetic alphabet",
+      "def": "A set of standard words that stand for letters (Alfa, Bravo, Charlie) so that spelled letters are understood clearly by voice.",
+      "more": "The FCC rules encourage using it for station identification on phone. It is not required.",
+      "questions": [
+        "T1A03"
+      ]
+    },
+    {
+      "term": "Phone",
+      "aka": [
+        "voice",
+        "phone emission",
+        "radiotelephone"
+      ],
+      "def": "Voice transmission: any mode in which you speak into a microphone.",
+      "more": "Technician phone on HF is only 28.300 to 28.500 MHz on 10 meters. A phone station identifies in English, by voice or by CW.",
+      "questions": [
+        "T1A03",
+        "T1B01",
+        "T1B06",
+        "T1B10",
+        "T1D04",
+        "T1F04",
+        "T1F05",
+        "T1F06"
+      ]
+    },
+    {
+      "term": "License grant",
+      "aka": [
+        "operator/primary license grant",
+        "operator/station license grant"
+      ],
+      "def": "The FCC's official act of issuing your amateur license, recorded in its online license database.",
+      "more": "The FCC emails you a link to download it. The proof that it was issued is that it appears in the FCC ULS database, and you may transmit as soon as it appears there.",
+      "questions": [
+        "T1A04",
+        "T1A05",
+        "T1C10"
+      ]
+    },
+    {
+      "term": "ULS",
+      "aka": [
+        "Universal Licensing System",
+        "FCC license database"
+      ],
+      "def": "Universal Licensing System: the FCC's online database of licenses.",
+      "more": "A license appearing in the ULS is the proof that the FCC has granted it. After your first exam you may transmit as soon as your grant appears there.",
+      "questions": [
+        "T1A05",
+        "T1C10"
+      ]
+    },
+    {
+      "term": "Beacon",
+      "aka": [
+        "propagation beacon",
+        "beacon station"
+      ],
+      "def": "A station that transmits on its own so that others can check radio propagation or carry out related experiments.",
+      "more": "On HF, automatically controlled beacons are found on 10 meters between 28.200 MHz and 28.300 MHz.",
+      "questions": [
+        "T1A06"
+      ]
+    },
+    {
+      "term": "HF",
+      "aka": [
+        "high frequency",
+        "shortwave"
+      ],
+      "def": "High frequency: the part of the radio spectrum from 3 to 30 MHz.",
+      "more": "Technicians have phone privileges on only one HF band, 10 meters, and are limited to 200 watts PEP in their HF band segments.",
+      "questions": [
+        "T1A06",
+        "T1B06",
+        "T1B11"
+      ]
+    },
+    {
+      "term": "Space station",
+      "def": "An amateur station located more than 50 km above the Earth's surface.",
+      "more": "Control commands sent to a space station may be encoded to obscure their meaning. Anyone allowed to transmit on its uplink frequency may communicate through it.",
+      "questions": [
+        "T1A07",
+        "T1D03",
+        "T1E02"
+      ]
+    },
+    {
+      "term": "Uplink",
+      "aka": [
+        "uplink frequency"
+      ],
+      "def": "The frequency on which a station on the ground transmits up to a satellite or space station.",
+      "more": "If your license class lets you transmit on the uplink frequency, you may be the control operator of a station using that satellite.",
+      "questions": [
+        "T1E02"
+      ]
+    },
+    {
+      "term": "ISS",
+      "aka": [
+        "International Space Station"
+      ],
+      "def": "International Space Station: the crewed spacecraft in orbit, which carries an amateur station.",
+      "more": "Any amateur with a Technician class or higher license may contact it on VHF bands. No NASA approval is needed.",
+      "questions": [
+        "T1B02"
+      ]
+    },
+    {
+      "term": "Frequency coordinator",
+      "aka": [
+        "Volunteer Frequency Coordinator"
+      ],
+      "def": "A volunteer person or group that recommends transmit and receive channels for repeater and auxiliary stations, to keep them from interfering.",
+      "more": "It is recognized by local amateurs, and selected by the amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations. The FCC does not appoint it.",
+      "questions": [
+        "T1A08",
+        "T1A09"
+      ]
+    },
+    {
+      "term": "Repeater",
+      "aka": [
+        "repeater station"
+      ],
+      "def": "A station that simultaneously retransmits the signal of another amateur station on a different channel or channels.",
+      "more": "Repeater operation is an example of automatic control. If it inadvertently retransmits a rule violation, the control operator of the originating station is accountable.",
+      "questions": [
+        "T1A08",
+        "T1E08",
+        "T1F09",
+        "T1F10"
+      ]
+    },
+    {
+      "term": "Auxiliary station",
+      "def": "A station that sends point-to-point communications within a system of cooperating amateur stations.",
+      "more": "Example: a one-way link between a remote repeater receiver and the main repeater transmitter. It does not mean a spare or backup radio.",
+      "questions": [
+        "T1A08",
+        "T1A09",
+        "T1D07"
+      ]
+    },
+    {
+      "term": "RACES",
+      "aka": [
+        "Radio Amateur Civil Emergency Service"
+      ],
+      "def": "Radio Amateur Civil Emergency Service: a service in the FCC rules in which amateurs provide civil defense communications in emergencies.",
+      "more": "Besides an FCC amateur license, the control operator needs certification of current enrollment by a civil defense organization.",
+      "questions": [
+        "T1A10"
+      ]
+    },
+    {
+      "term": "Willful interference",
+      "aka": [
+        "malicious interference",
+        "intentional interference",
+        "jamming"
+      ],
+      "def": "Deliberately disrupting another station's radio communications.",
+      "more": "Willful or malicious interference is prohibited. Accidental interference can happen on shared frequencies, but doing it on purpose is never allowed.",
+      "questions": [
+        "T1A11"
+      ]
+    },
+    {
+      "term": "Secondary service",
+      "aka": [
+        "secondary allocation",
+        "primary service"
+      ],
+      "def": "A radio service that shares spectrum with a primary service that has priority over it.",
+      "more": "Where amateurs are secondary, they may find non-amateur stations in those segments and must avoid interfering with them.",
+      "questions": [
+        "T1B08"
+      ]
+    },
+    {
+      "term": "Technician class",
+      "aka": [
+        "Technician",
+        "Technician license"
+      ],
+      "def": "The entry-level US amateur license class.",
+      "more": "Technicians have limited HF privileges at up to 200 watts PEP, with phone only on 10 meters. Above 30 MHz the limit is 1500 watts PEP, with some specific restrictions.",
+      "questions": [
+        "T1B01",
+        "T1B02",
+        "T1B05",
+        "T1B06",
+        "T1B11",
+        "T1B12",
+        "T1C01",
+        "T1E06"
+      ]
+    },
+    {
+      "term": "License class",
+      "aka": [
+        "operator class",
+        "class of license",
+        "frequency privileges",
+        "privileges",
+        "General class",
+        "Amateur Extra class"
+      ],
+      "def": "The level of amateur license a person holds, which sets the frequencies and modes that person may use.",
+      "more": "New licenses are issued for Technician, General and Amateur Extra. The control operator's class determines a station's frequency privileges, so a Technician may at no time control a station in an Amateur Extra segment.",
+      "questions": [
+        "T1C01",
+        "T1E04",
+        "T1E06"
+      ]
+    },
+    {
+      "term": "Frequency",
+      "def": "The number of times a radio wave vibrates each second, which is the place on the dial where a signal is found.",
+      "more": "It is measured in hertz. Higher frequency means shorter wavelength. Do not set your transmit frequency exactly at a band edge.",
+      "questions": [
+        "T1B03",
+        "T1B04",
+        "T1B09"
+      ]
+    },
+    {
+      "term": "MHz",
+      "aka": [
+        "megahertz"
+      ],
+      "def": "Megahertz: a unit of frequency equal to one million hertz.",
+      "more": "Wavelength in meters is about 300 divided by the frequency in MHz. So 146.52 MHz is in the 2-meter band and 52.525 MHz is in the 6-meter band.",
+      "questions": [
+        "T1B01",
+        "T1B03",
+        "T1B04"
+      ]
+    },
+    {
+      "term": "Band",
+      "aka": [
+        "amateur band",
+        "frequency band"
+      ],
+      "def": "A range of frequencies set aside for a radio service, usually named by its approximate wavelength.",
+      "more": "Examples: the 6-meter band is 50 to 54 MHz and the 2-meter band is 144 to 148 MHz. Your whole signal must stay inside the band.",
+      "questions": [
+        "T1B03",
+        "T1B04",
+        "T1B09"
+      ]
+    },
+    {
+      "term": "Band edge",
+      "aka": [
+        "band limit",
+        "sub-band edge",
+        "frequency drift"
+      ],
+      "def": "The upper or lower frequency limit of an amateur band or sub-band.",
+      "more": "Do not transmit exactly at the edge: allow for display calibration error, for modulation sidebands that extend beyond your dial frequency, and for transmitter frequency drift.",
+      "questions": [
+        "T1B09"
+      ]
+    },
+    {
+      "term": "Sidebands",
+      "aka": [
+        "modulation sidebands",
+        "sideband"
+      ],
+      "def": "The parts of a modulated signal that lie just above and below its carrier frequency.",
+      "more": "They give a signal its width. They must not extend beyond the band edge, which is one reason to keep away from the edge.",
+      "questions": [
+        "T1B09"
+      ]
+    },
+    {
+      "term": "10-meter band",
+      "aka": [
+        "10 meters",
+        "ten meters",
+        "28 MHz"
+      ],
+      "def": "The amateur HF band from 28.000 to 29.700 MHz.",
+      "more": "It is the only HF band where Technicians have phone privileges: 28.300 to 28.500 MHz. Automatically controlled beacons are found from 28.200 to 28.300 MHz.",
+      "questions": [
+        "T1A06",
+        "T1B01",
+        "T1B05",
+        "T1B06"
+      ]
+    },
+    {
+      "term": "6-meter band",
+      "aka": [
+        "6 meters",
+        "six meters",
+        "50 MHz"
+      ],
+      "def": "The amateur VHF band from 50 to 54 MHz.",
+      "more": "52.525 MHz is in this band. The segment 50.0 to 50.1 MHz is limited to CW only.",
+      "questions": [
+        "T1B03",
+        "T1B05",
+        "T1B07"
+      ]
+    },
+    {
+      "term": "2-meter band",
+      "aka": [
+        "2 meters",
+        "two meters",
+        "144 MHz"
+      ],
+      "def": "The amateur VHF band from 144 to 148 MHz.",
+      "more": "146.52 MHz is in this band. The segment 144.0 to 144.1 MHz is limited to CW only.",
+      "questions": [
+        "T1B04",
+        "T1B05",
+        "T1B07"
+      ]
+    },
+    {
+      "term": "VHF",
+      "aka": [
+        "very high frequency"
+      ],
+      "def": "Very high frequency: the part of the radio spectrum from 30 to 300 MHz.",
+      "more": "The 6-meter and 2-meter bands are VHF. Technicians may contact the ISS on VHF bands.",
+      "questions": [
+        "T1B02",
+        "T1B07"
+      ]
+    },
+    {
+      "term": "Digital mode",
+      "aka": [
+        "data mode",
+        "digital"
+      ],
+      "def": "A way of communicating in which a computer or other device sends and receives data over the radio instead of voice.",
+      "more": "Technicians may use digital modes such as FT8 on parts of 10 meters, 6 meters and 2 meters.",
+      "questions": [
+        "T1B05"
+      ]
+    },
+    {
+      "term": "FT8",
+      "def": "A popular digital mode for making contacts with weak signals.",
+      "more": "Technicians are authorized to use it on frequencies in the 10-meter, 6-meter and 2-meter bands.",
+      "questions": [
+        "T1B05"
+      ]
+    },
+    {
+      "term": "CW",
+      "aka": [
+        "continuous wave",
+        "Morse code"
+      ],
+      "def": "Continuous wave: Morse code sent by switching a transmitter's signal on and off.",
+      "more": "50.0 to 50.1 MHz and 144.0 to 144.1 MHz are limited to CW only. A phone station may send its call sign by CW or by phone.",
+      "questions": [
+        "T1B07",
+        "T1F05"
+      ]
+    },
+    {
+      "term": "SSB",
+      "aka": [
+        "single sideband"
+      ],
+      "def": "Single sideband: a voice mode that sends only one sideband, so the signal is narrower than other voice modes.",
+      "more": "SSB phone may be used in at least some segment of all amateur bands above 50 MHz.",
+      "questions": [
+        "T1B10"
+      ]
+    },
+    {
+      "term": "PEP",
+      "aka": [
+        "peak envelope power"
+      ],
+      "def": "Peak envelope power: the output power of a transmitter at the highest peaks of its signal.",
+      "more": "Technician limits: 200 watts PEP in their HF band segments, and 1500 watts PEP above 30 MHz except for some specific restrictions.",
+      "questions": [
+        "T1B11",
+        "T1B12"
+      ]
+    },
+    {
+      "term": "Call sign",
+      "aka": [
+        "callsign",
+        "call"
+      ],
+      "def": "The unique set of letters and a digit that the FCC assigns to identify a licensed station.",
+      "more": "Send it at least every 10 minutes during and at the end of a communication. On phone, give it in English, by voice or by CW.",
+      "questions": [
+        "T1C02",
+        "T1C05",
+        "T1F02",
+        "T1F03",
+        "T1F04",
+        "T1F05",
+        "T1F06"
+      ]
+    },
+    {
+      "term": "Vanity call sign",
+      "aka": [
+        "vanity call"
+      ],
+      "def": "A call sign that you choose yourself instead of one assigned in sequence by the FCC.",
+      "more": "Any licensed amateur may select one under the vanity call sign rules.",
+      "questions": [
+        "T1C02"
+      ]
+    },
+    {
+      "term": "Group D call sign",
+      "aka": [
+        "2x3 call sign",
+        "2-by-3 call sign"
+      ],
+      "def": "A call sign format with two letters, one digit and then three letters.",
+      "more": "KF1XXX is a valid Group D format for Technician class. Shorter formats such as KA1X and W1XX are not Group D.",
+      "questions": [
+        "T1C05"
+      ]
+    },
+    {
+      "term": "Tactical call sign",
+      "aka": [
+        "tactical call"
+      ],
+      "def": "A descriptive name such as \"Race Headquarters\" used to show a station's role at an event.",
+      "more": "It does not replace your FCC call sign. You must still identify at least every 10 minutes during and at the end of a communication.",
+      "questions": [
+        "T1F02"
+      ]
+    },
+    {
+      "term": "Self-assigned indicator",
+      "aka": [
+        "stroke",
+        "slant",
+        "slash",
+        "portable indicator"
+      ],
+      "def": "Something you add to your own call sign, such as the call district you are operating from.",
+      "more": "On phone the separator may be said as stroke, slant or slash: \"KL7CC stroke W3\", \"KL7CC slant W3\" and \"KL7CC slash W3\" are all acceptable.",
+      "questions": [
+        "T1F06"
+      ]
+    },
+    {
+      "term": "Station identification",
+      "aka": [
+        "identification",
+        "ID",
+        "identify"
+      ],
+      "def": "Transmitting your assigned call sign so that listeners know which station is on the air.",
+      "more": "Required at least every 10 minutes during and at the end of a communication, including test transmissions. The exception is signals that control model craft.",
+      "questions": [
+        "T1A03",
+        "T1D11",
+        "T1D12",
+        "T1F02",
+        "T1F03",
+        "T1F04",
+        "T1F05"
+      ]
+    },
+    {
+      "term": "International communications",
+      "def": "Contacts between amateur stations in different countries.",
+      "more": "Permitted content: communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character. Not permitted with countries that have notified the ITU that they object.",
+      "questions": [
+        "T1C03",
+        "T1D01"
+      ]
+    },
+    {
+      "term": "ITU",
+      "aka": [
+        "International Telecommunication Union"
+      ],
+      "def": "International Telecommunication Union: the United Nations agency that coordinates radio matters between countries.",
+      "more": "FCC-licensed stations may not exchange communications with any country whose administration has notified the ITU that it objects to such communications.",
+      "questions": [
+        "T1D01"
+      ]
+    },
+    {
+      "term": "Email address requirement",
+      "aka": [
+        "FCC email",
+        "revocation",
+        "suspension"
+      ],
+      "def": "The rule that you must keep a working email address on file with the FCC so it can reach you.",
+      "more": "If the FCC cannot reach you by email, the result may be revocation of the station license or suspension of the operator license.",
+      "questions": [
+        "T1A04",
+        "T1C04"
+      ]
+    },
+    {
+      "term": "Maritime mobile",
+      "aka": [
+        "international waters",
+        "vessel operation"
+      ],
+      "def": "Operating an amateur station aboard a ship or other vessel at sea.",
+      "more": "In international waters you may operate from a US-documented vessel with the master's permission. No special FCC authorization is needed.",
+      "questions": [
+        "T1C06"
+      ]
+    },
+    {
+      "term": "License term",
+      "aka": [
+        "license renewal",
+        "renewal",
+        "expiration"
+      ],
+      "def": "The length of time an FCC amateur license is valid before it must be renewed.",
+      "more": "The normal term is ten years. Renewal may be requested starting 90 days before the expiration date.",
+      "questions": [
+        "T1C07",
+        "T1C08"
+      ]
+    },
+    {
+      "term": "Grace period",
+      "def": "The time after a license expires during which it can still be renewed without taking the exam again.",
+      "more": "It lasts two years. You may not transmit during it: you must wait until the license has been renewed.",
+      "questions": [
+        "T1C09",
+        "T1C11"
+      ]
+    },
+    {
+      "term": "Broadcasting",
+      "aka": [
+        "broadcast",
+        "one-way transmission"
+      ],
+      "def": "Transmissions intended for reception by the general public.",
+      "more": "Amateurs may not broadcast. Supporting broadcasting or news gathering is allowed only when directly related to the immediate safety of human life or protection of property and no other means is available.",
+      "questions": [
+        "T1D02",
+        "T1D09",
+        "T1D10"
+      ]
+    },
+    {
+      "term": "Encoded messages",
+      "aka": [
+        "encryption",
+        "codes and ciphers",
+        "obscured meaning"
+      ],
+      "def": "Messages changed by a code so that people listening cannot understand what they mean.",
+      "more": "Transmitting messages encoded to obscure their meaning is allowed only when sending control commands to space stations or model craft.",
+      "questions": [
+        "T1D03"
+      ]
+    },
+    {
+      "term": "Telecommand",
+      "aka": [
+        "control commands",
+        "control signals",
+        "model craft",
+        "radio control"
+      ],
+      "def": "A one-way transmission that starts, changes or stops functions of a device at a distance, such as a model aircraft, boat or car.",
+      "more": "Control commands to space stations or model craft may be encoded to obscure their meaning. Signals that control model craft may be sent without identifying on the air.",
+      "questions": [
+        "T1D03",
+        "T1D11"
+      ]
+    },
+    {
+      "term": "Music",
+      "def": "Musical sound sent over the air, which amateur stations are normally not allowed to transmit.",
+      "more": "The one exception on phone: when it is incidental to an authorized retransmission of manned spacecraft communications.",
+      "questions": [
+        "T1D04"
+      ]
+    },
+    {
+      "term": "Business communications",
+      "aka": [
+        "commercial use",
+        "equipment for sale or trade"
+      ],
+      "def": "Using amateur radio for trade, sales or an employer's benefit, which the rules prohibit.",
+      "more": "Exception: you may notify other amateurs of equipment for sale or trade when it is amateur radio equipment and you do not do it on a regular basis.",
+      "questions": [
+        "T1D05"
+      ]
+    },
+    {
+      "term": "Compensation",
+      "aka": [
+        "pay",
+        "payment for operating"
+      ],
+      "def": "Payment received for operating an amateur station.",
+      "more": "A control operator may not be paid to operate, except when the communication is part of classroom instruction at an educational institution.",
+      "questions": [
+        "T1D08"
+      ]
+    },
+    {
+      "term": "Indecent or obscene language",
+      "aka": [
+        "obscene language",
+        "indecent language"
+      ],
+      "def": "Offensive words or speech that the rules do not allow on amateur frequencies.",
+      "more": "Any such language is prohibited. Neither the FCC nor the ITU maintains a list of banned words.",
+      "questions": [
+        "T1D06"
+      ]
+    },
+    {
+      "term": "Control operator",
+      "def": "An amateur operator designated by a station's licensee to be responsible for its transmissions and for FCC rules compliance at that station.",
+      "more": "A station may never transmit without one. Their license class sets the frequency privileges. They share responsibility for proper operation with the station licensee.",
+      "questions": [
+        "T1A10",
+        "T1D08",
+        "T1E01",
+        "T1E02",
+        "T1E03",
+        "T1E04",
+        "T1E05",
+        "T1E06",
+        "T1E07",
+        "T1E11",
+        "T1F10"
+      ]
+    },
+    {
+      "term": "Station licensee",
+      "aka": [
+        "licensee"
+      ],
+      "def": "The person whose FCC license covers the station.",
+      "more": "The licensee designates the control operator, is responsible together with the control operator for proper operation, and must make the station and records available to an FCC representative on request.",
+      "questions": [
+        "T1E03",
+        "T1E07",
+        "T1E11",
+        "T1F01"
+      ]
+    },
+    {
+      "term": "Control point",
+      "def": "The location at which the control operator function is performed.",
+      "more": "It is not defined by where the antenna or the transmitting apparatus is located.",
+      "questions": [
+        "T1E05"
+      ]
+    },
+    {
+      "term": "Automatic control",
+      "aka": [
+        "automatically controlled",
+        "local control"
+      ],
+      "def": "Operation in which devices and procedures control a station so that no control operator needs to be present at the control point.",
+      "more": "Repeater operation is an example. The station still has a control operator: a station may never transmit without one.",
+      "questions": [
+        "T1A06",
+        "T1E01",
+        "T1E08"
+      ]
+    },
+    {
+      "term": "Remote control",
+      "aka": [
+        "remotely controlled",
+        "remote operation"
+      ],
+      "def": "Operation in which the control operator runs the station indirectly, from a distance, through a control link.",
+      "more": "Operating the station over the internet is an example. Any station may be remotely controlled. It differs from automatic control, where no operator is at the control point.",
+      "questions": [
+        "T1E09",
+        "T1E10"
+      ]
+    },
+    {
+      "term": "Third-party communications",
+      "aka": [
+        "third party",
+        "third-party traffic",
+        "third-party agreement"
+      ],
+      "def": "A message from a control operator to another amateur station control operator on behalf of another person.",
+      "more": "A non-licensed person may speak to a foreign station through your station only if that station is in a country with which the US has a third-party agreement.",
+      "questions": [
+        "T1F07",
+        "T1F08"
+      ]
+    },
+    {
+      "term": "Club station",
+      "aka": [
+        "club station license",
+        "club call sign"
+      ],
+      "def": "An amateur station licensed to a club instead of to an individual, with its own call sign.",
+      "more": "For a club station license grant, the club must have at least four members.",
+      "questions": [
+        "T1F11"
+      ]
+    }
+  ]
+}

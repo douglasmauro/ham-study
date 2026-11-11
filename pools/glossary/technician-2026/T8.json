@@ -1,0 +1,406 @@
+{
+  "terms": [
+    {
+      "term": "Modulation",
+      "def": "The way information such as voice or data is put onto a radio signal.",
+      "more": "AM changes the signal's strength, FM its frequency and PM its phase. VHF and UHF voice repeaters and VHF packet radio commonly use FM or PM.",
+      "questions": ["T8A01", "T8A02", "T8A04"]
+    },
+    {
+      "term": "AM",
+      "aka": ["amplitude modulation"],
+      "def": "Amplitude modulation: a way of carrying voice by varying the strength of the radio signal.",
+      "more": "A full AM signal has a carrier and two sidebands. Single sideband (SSB) is a form of amplitude modulation.",
+      "questions": ["T8A01"]
+    },
+    {
+      "term": "SSB",
+      "aka": ["single sideband", "single-sideband"],
+      "def": "Single sideband: a voice mode that is a form of amplitude modulation, sending only one of the two sidebands of an AM signal.",
+      "more": "An SSB voice signal is about 3 kHz wide, narrower than FM. It is often used for long-distance (weak signal) contacts on VHF and UHF, and is used on some satellites.",
+      "questions": ["T8A01", "T8A03", "T8A06", "T8A07", "T8A08", "T8A12", "T8B04"]
+    },
+    {
+      "term": "Upper sideband",
+      "aka": ["USB", "sideband"],
+      "def": "The sideband of a signal that lies just above the carrier frequency.",
+      "more": "Upper sideband is normally used for single-sideband contacts on 10 meters, VHF and UHF. Lower sideband is the one below the carrier. Both stations must use the same one.",
+      "questions": ["T8A06"]
+    },
+    {
+      "term": "FM",
+      "aka": ["frequency modulation"],
+      "def": "Frequency modulation: a way of carrying voice or data by varying the frequency of the radio signal.",
+      "more": "FM or PM is the usual mode for VHF and UHF voice repeaters and VHF packet. An FM voice signal is 10 to 15 kHz wide. Compared with SSB, only one FM signal can be received at a time.",
+      "questions": ["T8A02", "T8A04", "T8A07", "T8A09", "T8A12", "T8B04"]
+    },
+    {
+      "term": "PM",
+      "aka": ["phase modulation"],
+      "def": "Phase modulation: a way of carrying voice or data by varying the phase (the timing within each wave cycle) of the radio signal.",
+      "more": "PM is closely related to FM, and the two are used the same way. The exam answer for VHF packet and for VHF and UHF voice repeaters is \"FM or PM\".",
+      "questions": ["T8A02", "T8A04"]
+    },
+    {
+      "term": "Capture effect",
+      "def": "The way an FM receiver locks onto the strongest signal on a channel and hides the weaker ones.",
+      "more": "This is why a disadvantage of FM compared with single sideband is that only one signal can be received at a time.",
+      "questions": ["T8A12"]
+    },
+    {
+      "term": "Bandwidth",
+      "def": "How much room a signal takes up on a band, measured in hertz from its lowest to its highest frequency.",
+      "more": "Approximate values to remember: CW 150 Hz (the narrowest), SSB voice 3 kHz, FM voice on VHF repeaters 10 to 15 kHz, AM fast-scan TV about 6 MHz.",
+      "questions": ["T8A05", "T8A07", "T8A08", "T8A09", "T8A10", "T8A11"]
+    },
+    {
+      "term": "Hertz",
+      "aka": ["Hz", "kHz", "MHz", "kilohertz", "megahertz"],
+      "def": "The unit of frequency, equal to one cycle per second. Bandwidth is measured in it too.",
+      "more": "1 kHz (kilohertz) is 1000 Hz. 1 MHz (megahertz) is 1000 kHz, or one million Hz.",
+      "questions": ["T8A08", "T8A09", "T8A10", "T8A11", "T8D07"]
+    },
+    {
+      "term": "CW",
+      "aka": ["continuous wave", "Morse code"],
+      "def": "Continuous wave: another name for a Morse code transmission, made by switching a steady radio signal on and off.",
+      "more": "CW has the narrowest bandwidth of the common signal types, about 150 Hz. It is also used on amateur satellites.",
+      "questions": ["T8A05", "T8A11", "T8D09", "T8B04"]
+    },
+    {
+      "term": "Fast-scan TV",
+      "aka": ["ATV", "amateur television", "fast scan TV"],
+      "def": "Amateur television that sends full-motion video, like analog broadcast TV.",
+      "more": "An AM fast-scan TV transmission is about 6 MHz wide. NTSC is an analog fast-scan color TV signal.",
+      "questions": ["T8A10", "T8D04"]
+    },
+    {
+      "term": "NTSC",
+      "def": "An analog fast-scan color TV signal, the kind once used for broadcast television in North America.",
+      "more": "It is analog, not digital, and it is not a compression or encryption scheme.",
+      "questions": ["T8D04"]
+    },
+    {
+      "term": "Packet radio",
+      "aka": ["packet"],
+      "def": "A digital mode that sends data in small bundles called packets.",
+      "more": "Each packet has a header with the call sign of the station it is sent to and a checksum for error detection, and uses automatic repeat request if there is an error. VHF packet commonly uses FM or PM.",
+      "questions": ["T8A02", "T8D01", "T8D08"]
+    },
+    {
+      "term": "HF",
+      "aka": ["high frequency"],
+      "def": "High frequency: the part of the radio spectrum from 3 to 30 MHz.",
+      "more": "The 10-meter band is an HF band. Single-sideband contacts on 10 meters normally use upper sideband.",
+      "questions": ["T8A06"]
+    },
+    {
+      "term": "VHF",
+      "aka": ["very high frequency"],
+      "def": "Very high frequency: the part of the radio spectrum from 30 to 300 MHz.",
+      "more": "The 2-meter band is a VHF band. In satellite mode names, V stands for VHF.",
+      "questions": ["T8A02", "T8A03", "T8A04", "T8A06", "T8A09", "T8B08"]
+    },
+    {
+      "term": "UHF",
+      "aka": ["ultra high frequency"],
+      "def": "Ultra high frequency: the part of the radio spectrum from 300 to 3000 MHz.",
+      "more": "The 70-centimeter band is a UHF band. In satellite mode names, U stands for UHF.",
+      "questions": ["T8A03", "T8A04", "T8A06", "T8B08"]
+    },
+    {
+      "term": "10-meter band",
+      "aka": ["10 meters"],
+      "def": "An amateur band in the HF range, named for the approximate length of its radio waves.",
+      "more": "Upper sideband is normally used for single-sideband contacts on this band.",
+      "questions": ["T8A06"]
+    },
+    {
+      "term": "2-meter band",
+      "aka": ["2 meters"],
+      "def": "An amateur band in the VHF range, named for the approximate length of its radio waves.",
+      "more": "In U/V satellite mode the downlink is in the 2-meter band.",
+      "questions": ["T8B08"]
+    },
+    {
+      "term": "70-centimeter band",
+      "aka": ["70 centimeters", "70 cm"],
+      "def": "An amateur band in the UHF range, named for the approximate length of its radio waves.",
+      "more": "In U/V satellite mode the uplink is in the 70-centimeter band.",
+      "questions": ["T8B08"]
+    },
+    {
+      "term": "Repeater",
+      "def": "A station that receives a signal and retransmits it at once, so that stations can reach each other over a wider area.",
+      "more": "VHF and UHF voice repeaters commonly use FM or PM, with signals 10 to 15 kHz wide. Repeaters can be linked through the internet by systems such as IRLP and EchoLink.",
+      "questions": ["T8A04", "T8A09", "T8C08", "T8C09", "T8D07"]
+    },
+    {
+      "term": "Weak-signal operation",
+      "aka": ["weak signal", "long-distance contacts"],
+      "def": "Making contacts when the received signals are very faint, usually because the path is long or difficult.",
+      "more": "On VHF and UHF the voice mode often used for this is SSB. Digital modes such as FT8 and those in WSJT-X are built for it.",
+      "questions": ["T8A03", "T8D02", "T8D10"]
+    },
+    {
+      "term": "Signal-to-noise ratio",
+      "aka": ["SNR", "signal to noise"],
+      "def": "A comparison of how strong a signal is with how strong the background noise is.",
+      "more": "A low signal-to-noise ratio means the signal is weak compared with the noise. FT8 is a digital mode capable of low signal-to-noise operation.",
+      "questions": ["T8D02"]
+    },
+    {
+      "term": "Amateur satellite",
+      "aka": ["satellite", "amateur radio satellite"],
+      "def": "A spacecraft in orbit that carries amateur radio equipment, such as a relay for amateur signals.",
+      "more": "Amateur satellites commonly use SSB, FM, and CW or data. Anyone may receive their telemetry.",
+      "questions": ["T8B01", "T8B02", "T8B03", "T8B04", "T8B05", "T8B06", "T8B07", "T8B08", "T8B09", "T8B10", "T8B11", "T8B12"]
+    },
+    {
+      "term": "Telemetry",
+      "def": "Measurements sent automatically by radio from a distant device, such as a satellite.",
+      "more": "Satellite beacons typically send telemetry about the health and status of the satellite. Anyone is permitted to receive it.",
+      "questions": ["T8B01", "T8B11"]
+    },
+    {
+      "term": "Satellite beacon",
+      "aka": ["beacon"],
+      "def": "A transmission from a satellite that contains status information.",
+      "more": "Its telemetry reports the health and status of the satellite. Your own signal on the downlink of a linear transponder should be about the same strength as the beacon.",
+      "questions": ["T8B01", "T8B05", "T8B12"]
+    },
+    {
+      "term": "Uplink",
+      "def": "The signal path from a station on the ground up to a satellite, or the frequency used for it.",
+      "more": "In a satellite mode name the uplink band comes first. Too much effective radiated power on the uplink blocks access by other users.",
+      "questions": ["T8B02", "T8B08", "T8B12"]
+    },
+    {
+      "term": "Downlink",
+      "def": "The signal path from a satellite down to a station on the ground, or the frequency used for it.",
+      "more": "In a satellite mode name the downlink band comes second. Your signal strength on the downlink should be about the same as the beacon.",
+      "questions": ["T8B08", "T8B12"]
+    },
+    {
+      "term": "ERP",
+      "aka": ["effective radiated power"],
+      "def": "Effective radiated power: a measure of how strong a station's signal is in its best direction, counting both the transmitter power and the antenna gain.",
+      "more": "Using excessive effective radiated power on a satellite uplink blocks access by other users.",
+      "questions": ["T8B02"]
+    },
+    {
+      "term": "Linear transponder",
+      "def": "A satellite relay that receives a slice of one band and retransmits everything in it on another band.",
+      "more": "Its power is shared among all users. Your uplink power is right when your signal on the downlink is about as strong as the satellite's beacon.",
+      "questions": ["T8B12"]
+    },
+    {
+      "term": "Satellite tracking program",
+      "aka": ["tracking software", "satellite tracker"],
+      "def": "Software that works out where a satellite is and when it will pass over your location.",
+      "more": "Its input is the Keplerian elements. It provides maps of the satellite's position, the time, azimuth and elevation of each pass, and the apparent frequency including Doppler shift.",
+      "questions": ["T8B03", "T8B06"]
+    },
+    {
+      "term": "Keplerian elements",
+      "aka": ["Keps", "orbital elements"],
+      "def": "A set of numbers that describes a satellite's orbit.",
+      "more": "They are the inputs to a satellite tracking program.",
+      "questions": ["T8B06"]
+    },
+    {
+      "term": "Doppler shift",
+      "aka": ["Doppler effect"],
+      "def": "An observed change in signal frequency caused by relative motion between the satellite and the Earth station.",
+      "more": "It changes the frequency you observe, not the signal strength. Satellite tracking programs show the apparent frequency including this effect.",
+      "questions": ["T8B03", "T8B07"]
+    },
+    {
+      "term": "Azimuth",
+      "def": "The compass direction in which to point an antenna, measured in degrees around the horizon.",
+      "more": "A satellite tracking program gives the azimuth for the start, maximum altitude and end of a pass. Compare elevation, the angle above the horizon.",
+      "questions": ["T8B03"]
+    },
+    {
+      "term": "Elevation",
+      "def": "The angle above the horizon at which to point an antenna.",
+      "more": "A satellite tracking program gives the elevation for the start, maximum altitude and end of a pass. Compare azimuth, the compass direction.",
+      "questions": ["T8B03"]
+    },
+    {
+      "term": "U/V mode",
+      "aka": ["satellite mode", "mode U/V"],
+      "def": "A satellite operating mode in which the uplink is in the 70-centimeter band (UHF) and the downlink is in the 2-meter band (VHF).",
+      "more": "The first letter names the uplink band and the second the downlink band. U means UHF and V means VHF.",
+      "questions": ["T8B08"]
+    },
+    {
+      "term": "Spin fading",
+      "def": "A regular rise and fall in the strength of a satellite's signal.",
+      "more": "It is caused by rotation of the satellite and its antennas.",
+      "questions": ["T8B09"]
+    },
+    {
+      "term": "LEO",
+      "aka": ["low Earth orbit"],
+      "def": "Low Earth Orbit: an orbit close to the Earth, in which a satellite takes around 100 minutes to go once around.",
+      "more": "The exam answer is \"Low Earth Orbit, which has a period of around 100 minutes\". The period is the time for one trip around the Earth.",
+      "questions": ["T8B10"]
+    },
+    {
+      "term": "Radio direction finding",
+      "aka": ["RDF", "direction finding"],
+      "def": "Working out where a radio signal is coming from, usually with an antenna that receives best in one direction.",
+      "more": "It is the method used to locate sources of noise interference or jamming, and to find hidden transmitters.",
+      "questions": ["T8C01", "T8C02"]
+    },
+    {
+      "term": "Hidden transmitter hunt",
+      "aka": ["fox hunt", "foxhunt", "transmitter hunt"],
+      "def": "An activity in which operators use radio direction finding to track down a transmitter that has been hidden.",
+      "more": "A directional antenna is useful for it.",
+      "questions": ["T8C02"]
+    },
+    {
+      "term": "Directional antenna",
+      "aka": ["beam antenna"],
+      "def": "An antenna that sends and receives better in one direction than in others.",
+      "more": "Turning it shows which way a signal is coming from, so it is useful for a hidden transmitter hunt.",
+      "questions": ["T8C02"]
+    },
+    {
+      "term": "Contesting",
+      "aka": ["contest", "contest exchange", "radiosport"],
+      "def": "An operating activity in which you contact as many stations as possible during a specified period.",
+      "more": "Good practice is to send only the minimum information needed for proper identification and the contest exchange, the short piece of information the contest asks you to trade.",
+      "questions": ["T8C03", "T8C04"]
+    },
+    {
+      "term": "Call sign",
+      "aka": ["callsign", "call"],
+      "def": "The unique set of letters and numbers issued with an amateur license and used to identify a station on the air.",
+      "more": "Give your full call sign in a contest. EchoLink requires you to register your call sign and provide proof of license. A packet header holds the call sign of the station being sent to.",
+      "questions": ["T8C04", "T8C10", "T8D08"]
+    },
+    {
+      "term": "Grid locator",
+      "aka": ["grid square", "Maidenhead locator", "grid"],
+      "def": "A letter-number designator assigned to a geographic location.",
+      "more": "It is a short code that names an area on a map of the Earth. It is not an instrument and does not give azimuth or elevation.",
+      "questions": ["T8C05"]
+    },
+    {
+      "term": "IRLP",
+      "aka": ["Internet Radio Linking Project"],
+      "def": "Internet Radio Linking Project: a technique to connect amateur radio systems, such as repeaters, via the internet.",
+      "more": "Over the air, IRLP nodes are accessed by using DTMF signals from the radio's keypad.",
+      "questions": ["T8C06", "T8C08"]
+    },
+    {
+      "term": "DTMF",
+      "aka": ["dual-tone multi-frequency", "touch tones", "keypad tones"],
+      "def": "Dual-Tone Multi-Frequency: the tones a radio or telephone keypad sends when you press its keys.",
+      "more": "DTMF signals are used to access IRLP nodes over the air. Do not confuse it with CTCSS, a continuous low tone used to open a repeater's squelch.",
+      "questions": ["T8C06"]
+    },
+    {
+      "term": "VoIP",
+      "aka": ["Voice Over Internet Protocol", "voice over IP"],
+      "def": "Voice Over Internet Protocol: a method of delivering voice communications over the internet using digital techniques.",
+      "more": "Amateur systems that link repeaters through the internet, such as IRLP and EchoLink, rely on it.",
+      "questions": ["T8C07"]
+    },
+    {
+      "term": "EchoLink",
+      "def": "An internet linking system that lets a licensed amateur transmit through a repeater from a computer or phone, without using a radio to start the transmission.",
+      "more": "Before using it you must register your call sign and provide proof of license.",
+      "questions": ["T8C09", "T8C10"]
+    },
+    {
+      "term": "Gateway",
+      "def": "An amateur radio station that connects other amateur stations to the internet.",
+      "more": "A repeater retransmits signals by radio and a digipeater retransmits data packets by radio. Only the gateway is defined by its link to the internet.",
+      "questions": ["T8C11"]
+    },
+    {
+      "term": "Digital mode",
+      "aka": ["digital communications mode", "data mode"],
+      "def": "A way of communicating that sends information as coded data, usually made and decoded by a computer or a chip in the radio.",
+      "more": "Packet radio, IEEE 802.11 and FT8 are all digital communications modes.",
+      "questions": ["T8D01", "T8D02", "T8D10"]
+    },
+    {
+      "term": "FT8",
+      "def": "A digital mode capable of low signal-to-noise operation, so contacts can be made with very weak signals.",
+      "more": "It is one of the digital modes in the WSJT-X software suite and sends short text messages, not voice or pictures.",
+      "questions": ["T8D01", "T8D02"]
+    },
+    {
+      "term": "IEEE 802.11",
+      "aka": ["Wi-Fi", "WiFi", "802.11"],
+      "def": "The technical standard for Wi-Fi, which carries digital data by radio.",
+      "more": "It counts as a digital communications mode. Amateur mesh networks use commercial Wi-Fi equipment with modified firmware.",
+      "questions": ["T8D01", "T8D12"]
+    },
+    {
+      "term": "APRS",
+      "aka": ["Automatic Packet Reporting System"],
+      "def": "Automatic Packet Reporting System: a packet radio system that sends short data such as a station's position, shown to others on a map.",
+      "more": "It can carry GPS position data, text messages and weather data. Its use is real-time tactical digital communications together with a map showing the locations of stations.",
+      "questions": ["T8D03", "T8D05"]
+    },
+    {
+      "term": "PSK",
+      "aka": ["phase shift keying"],
+      "def": "Phase Shift Keying: a way of sending data by changing the phase (the timing within each wave cycle) of a signal.",
+      "more": "Remember the words: Phase Shift Keying.",
+      "questions": ["T8D06"]
+    },
+    {
+      "term": "DMR",
+      "aka": ["Digital Mobile Radio"],
+      "def": "Digital Mobile Radio: a digital voice system that lets two voice signals take turns on a single repeater channel.",
+      "more": "The exam wording is a technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel.",
+      "questions": ["T8D07"]
+    },
+    {
+      "term": "Checksum",
+      "def": "A number worked out from a block of data and sent with it, so the receiver can tell whether the data arrived with errors.",
+      "more": "Packet radio transmissions include a checksum that permits error detection.",
+      "questions": ["T8D08"]
+    },
+    {
+      "term": "ARQ",
+      "aka": ["automatic repeat request"],
+      "def": "Automatic repeat request: an error correction method in which the receiving station detects errors and sends a request for retransmission.",
+      "more": "Packet radio uses it: a packet received with errors is sent again.",
+      "questions": ["T8D08", "T8D11"]
+    },
+    {
+      "term": "WSJT-X",
+      "def": "A suite of computer software with digital modes made for very weak or very brief signals.",
+      "more": "Its modes support Earth-Moon-Earth contacts, weak signal propagation beacons and meteor scatter. FT8 is one of its modes.",
+      "questions": ["T8D10"]
+    },
+    {
+      "term": "Earth-Moon-Earth",
+      "aka": ["EME", "moonbounce"],
+      "def": "Making contacts by bouncing radio signals off the Moon.",
+      "more": "The returning signals are extremely weak. It is one of the activities supported by digital modes in the WSJT-X software suite.",
+      "questions": ["T8D10"]
+    },
+    {
+      "term": "Meteor scatter",
+      "def": "Making contacts by bouncing radio signals off the short-lived trails that meteors leave high in the atmosphere.",
+      "more": "The reflections are brief. It is one of the activities supported by digital modes in the WSJT-X software suite.",
+      "questions": ["T8D10"]
+    },
+    {
+      "term": "Mesh network",
+      "aka": ["amateur radio mesh network", "mesh"],
+      "def": "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware.",
+      "more": "Each station (node) links by radio to its neighbors and data hops from node to node. It is a data network, not a digital voice mode or a satellite system.",
+      "questions": ["T8D12"]
+    }
+  ]
+}
