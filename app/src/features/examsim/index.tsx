@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { explanationFor } from '../../lib/explain';
+import { KeyTerms } from '../../ui/GlossaryArt';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_ID, TOPICS, topicOf } from '../../lib/pool';
 import { Icon } from '../../ui/Icon';
 import './examsim.css';
@@ -483,6 +484,7 @@ function Miss({ q, n, choice }: { q: (typeof POOL.questions)[number]; n: number;
         {exp?.why?.[q.answer] && <span class="why">{exp.why[q.answer]}</span>}
       </div>
       {exp?.concept && <p class="examsim-concept"><strong>The idea:</strong> {exp.concept}</p>}
+      <KeyTerms qid={q.id} />
     </div>
   );
 }

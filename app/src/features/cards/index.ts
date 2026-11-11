@@ -7,6 +7,7 @@ import { Talk, type TalkStrip } from './Talk';
 import { FLASH_ANTENNAS, FLASH_SIGNALS, FLASH_SYMBOLS, FLASH_TEST, TF_ELECTRIC, TF_RULES, TF_SAFETY, TF_WAVES } from './decks';
 import { SPOT_BENCH, SPOT_DIAL, SPOT_SAFETY, SPOT_STATION } from './scenes';
 import { TALK_CQ, TALK_NET, TALK_REPEATER } from './talks';
+import { GLOSSARY_DECKS } from './glossaryDecks';
 
 type Meta = Pick<FeatureDef, 'id' | 'blurb' | 'groups' | 'minutes'>;
 
@@ -43,4 +44,5 @@ export const ITEMS: FeatureDef[] = [
   flash(FLASH_TEST, { id: 'flash-test', blurb: 'SWR readings, meters and test gear', groups: ['T7C', 'T7D'], minutes: 4 }),
   spot(SPOT_BENCH, { id: 'spot-bench', blurb: 'Meters on a circuit and a transmitter test', groups: ['T7C', 'T7D'], minutes: 3 }),
   talk(TALK_NET, { id: 'talk-net', blurb: 'Net control, emergencies and formal messages', groups: ['T2C'], minutes: 4 }),
+  ...GLOSSARY_DECKS,
 ];
