@@ -108,6 +108,8 @@ export function Home() {
         <a class="tile-link" href={`#/exam?${Date.now()}`}><Icon name="exam" color="var(--accent)" /><span class="t">Practice exam</span><span class="small muted">35 questions, real format</span></a>
         <a class="tile-link" href="#/map"><Icon name="grid" color="var(--accent)" /><span class="t">Mastery map</span><span class="small muted">All 35 groups</span></a>
         <a class="tile-link" href={`#/review?${Date.now()}`}><Icon name="replay" color="var(--accent)" /><span class="t">Review misses</span><span class="small muted">Last 7 days</span></a>
+        <a class="tile-link" href="#/glossary"><Icon name="badge" color="var(--accent)" /><span class="t">Glossary</span><span class="small muted">Terms, with what you know</span></a>
+        <a class="tile-link" href="#/notebook"><Icon name="signal" color="var(--accent)" /><span class="t">Notebook</span><span class="small muted">Concepts you struggled with</span></a>
         <a class="tile-link" href="#/learn"><Icon name="bulb" color="var(--accent)" /><span class="t">Learn</span><span class="small muted">Labs, hands-on, missions, clips</span></a>
       </div>
     </div>

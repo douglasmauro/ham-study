@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { lazy, Suspense } from 'preact/compat';
 import { Exams } from './ui/Exams';
+import { Glossary } from './ui/Glossary';
 import { Home } from './ui/Home';
 import { FeatureHost, Hub } from './ui/Hub';
 import { MapView } from './ui/MapView';
@@ -50,6 +51,10 @@ export function App() {
       return <Suspense fallback={loading}><Notebook /></Suspense>;
     case 'report':
       return <Suspense fallback={loading}><WeeklyReport /></Suspense>;
+    case 'glossary':
+      return <Glossary />;
+    case 'term':
+      return <Session key={key} kind="term" target={arg} />;
     case 'exams':
       return <Exams />;
     case 'map':

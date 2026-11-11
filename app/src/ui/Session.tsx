@@ -1,12 +1,13 @@
 import { useState } from 'preact/hooks';
 import { buildDrill, buildExam, DAY, pCorrect, seededRng, type Mode } from '../lib/engine';
+import { TERMS_BY_ID } from '../lib/glossary';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID, TOPICS, topicOf } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { addEvent, getData, markGuess, newId } from '../lib/store';
 import { Icon } from './Icon';
 import { QuestionCard, type AnswerResult } from './QuestionCard';
 
-export type SessionKind = 'drill' | 'topic' | 'group' | 'review' | 'notebook' | 'exam';
+export type SessionKind = 'drill' | 'topic' | 'group' | 'review' | 'notebook' | 'term' | 'exam';
 
 interface Result {
   q: string;
@@ -34,6 +35,11 @@ function plan(kind: SessionKind, target: string | undefined): { ids: string[]; t
       const since = now - 7 * DAY;
       const missed = [...new Set(data.events.filter((e) => !e.correct && e.t >= since).map((e) => e.q))];
       return { ids: missed.slice(-20).reverse(), title: 'Review my misses' };
+    }
+    case 'term': {
+      const term = TERMS_BY_ID[target ?? ''];
+      const qs = term ? term.questions.map((id) => QUESTIONS_BY_ID[id]).filter(Boolean) : [];
+      return { ids: buildDrill(qs, stats.states, now, { size: Math.min(12, qs.length), newCount: 12, rng }), title: term?.term ?? 'Term' };
     }
     case 'notebook': {
       // The picture notebook's entries: any question answered wrong, with a hint or as a guess,
