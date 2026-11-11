@@ -1,0 +1,571 @@
+{
+  "terms": [
+    {
+      "term": "Component",
+      "def": "A single part of an electronic circuit, such as a resistor, capacitor or transistor.",
+      "more": "A schematic shows accurately how components are connected.",
+      "questions": [
+        "T6C12",
+        "T6D09"
+      ]
+    },
+    {
+      "term": "Resistor",
+      "def": "A component that opposes the flow of current.",
+      "more": "It opposes current even in a DC circuit. Its schematic symbol is a zigzag line.",
+      "questions": [
+        "T6A01",
+        "T6C02"
+      ]
+    },
+    {
+      "term": "Potentiometer",
+      "aka": [
+        "variable resistor",
+        "pot",
+        "volume control"
+      ],
+      "def": "A resistor whose resistance can be adjusted, usually by turning a knob.",
+      "more": "Often used as a volume control. The parameter it controls is resistance. Its symbol is a resistor zigzag with an arrow.",
+      "questions": [
+        "T6A02",
+        "T6A03",
+        "T6C08"
+      ]
+    },
+    {
+      "term": "Resistance",
+      "def": "The opposition to the flow of current, measured in ohms.",
+      "more": "It is the property of a resistor, and the parameter a potentiometer controls.",
+      "questions": [
+        "T6A01",
+        "T6A03"
+      ]
+    },
+    {
+      "term": "Current",
+      "def": "The flow of electrons through a circuit, measured in amperes.",
+      "more": "A resistor opposes it, a diode lets it flow in only one direction, and a transistor can control it.",
+      "questions": [
+        "T6A01",
+        "T6B02",
+        "T6D10"
+      ]
+    },
+    {
+      "term": "DC",
+      "aka": [
+        "direct current"
+      ],
+      "def": "Direct current: current that flows in one direction only.",
+      "more": "A rectifier changes AC into a varying DC.",
+      "questions": [
+        "T6A01",
+        "T6D01"
+      ]
+    },
+    {
+      "term": "AC",
+      "aka": [
+        "alternating current"
+      ],
+      "def": "Alternating current: current that keeps reversing direction.",
+      "more": "A transformer changes AC to a higher or lower AC voltage. A rectifier changes AC into varying DC.",
+      "questions": [
+        "T6D01",
+        "T6D06"
+      ]
+    },
+    {
+      "term": "Voltage",
+      "def": "The electrical push that makes current flow, measured in volts.",
+      "more": "A regulator controls the voltage from a power supply. A transformer changes one AC voltage to another.",
+      "questions": [
+        "T6B01",
+        "T6D05",
+        "T6D06"
+      ]
+    },
+    {
+      "term": "Capacitor",
+      "def": "A component made of conductive surfaces separated by an insulator, which stores energy in an electric field.",
+      "more": "Combined with an inductor it makes a resonant circuit. Compare the inductor, which stores energy in a magnetic field.",
+      "questions": [
+        "T6A04",
+        "T6A05",
+        "T6C06",
+        "T6D08",
+        "T6D11"
+      ]
+    },
+    {
+      "term": "Inductor",
+      "aka": [
+        "coil"
+      ],
+      "def": "A component, typically a coil of wire, that stores energy in a magnetic field.",
+      "more": "Combined with a capacitor it makes a resonant circuit. Compare the capacitor, which stores energy in an electric field.",
+      "questions": [
+        "T6A06",
+        "T6A07",
+        "T6C10",
+        "T6D08",
+        "T6D11"
+      ]
+    },
+    {
+      "term": "Variable inductor",
+      "def": "A coil whose inductance can be adjusted.",
+      "more": "On a schematic it is drawn as the loops of a coil with an arrow.",
+      "questions": [
+        "T6C10"
+      ]
+    },
+    {
+      "term": "Electric field",
+      "def": "The region of electrical force around charged objects, such as between the plates of a capacitor.",
+      "more": "A capacitor stores energy in an electric field.",
+      "questions": [
+        "T6A04"
+      ]
+    },
+    {
+      "term": "Magnetic field",
+      "def": "The region of magnetic force around a magnet or around a wire carrying current.",
+      "more": "An inductor stores energy in a magnetic field.",
+      "questions": [
+        "T6A06"
+      ]
+    },
+    {
+      "term": "Insulator",
+      "def": "A material that lets almost no current flow through it.",
+      "more": "A capacitor is built from conductive surfaces separated by an insulator.",
+      "questions": [
+        "T6A05"
+      ]
+    },
+    {
+      "term": "Switch",
+      "def": "A component that opens or closes a circuit, or connects it to a different circuit.",
+      "more": "Switches are named by their number of poles and throws, for example SPST and SPDT.",
+      "questions": [
+        "T6A08",
+        "T6A09"
+      ]
+    },
+    {
+      "term": "Pole",
+      "aka": [
+        "single-pole",
+        "double-pole"
+      ],
+      "def": "In a switch, a circuit that the switch controls; a single-pole switch controls one circuit.",
+      "more": "Single-pole (SP) means one circuit is switched; double-pole (DP) means two are switched together.",
+      "questions": [
+        "T6A08",
+        "T6A09"
+      ]
+    },
+    {
+      "term": "Throw",
+      "aka": [
+        "single-throw",
+        "double-throw"
+      ],
+      "def": "In a switch, a position that a pole can be connected to.",
+      "more": "Single-throw (ST) is plain on-off. Double-throw (DT) connects the pole to one of two other circuits.",
+      "questions": [
+        "T6A08",
+        "T6A09"
+      ]
+    },
+    {
+      "term": "SPDT",
+      "aka": [
+        "single-pole double-throw"
+      ],
+      "def": "Single-pole double-throw: a switch in which a single circuit is switched between one of two other circuits.",
+      "more": "Compare SPST, a plain on-off switch that only opens or closes a single circuit.",
+      "questions": [
+        "T6A08"
+      ]
+    },
+    {
+      "term": "SPST",
+      "aka": [
+        "single-pole single-throw",
+        "on-off switch"
+      ],
+      "def": "Single-pole single-throw: a simple on-off switch that opens or closes a single circuit.",
+      "more": "Its symbol shows one moving arm and one contact. It is component 3 in figure T-2.",
+      "questions": [
+        "T6A09"
+      ]
+    },
+    {
+      "term": "Battery",
+      "def": "A source of electrical energy that makes voltage by a chemical reaction.",
+      "more": "Some chemistries are rechargeable and some are not. Its schematic symbol is a stack of alternating long and short parallel lines.",
+      "questions": [
+        "T6A10",
+        "T6A11",
+        "T6C05"
+      ]
+    },
+    {
+      "term": "Rechargeable battery",
+      "aka": [
+        "battery chemistry",
+        "nickel-cadmium",
+        "NiCd"
+      ],
+      "def": "A battery that can be refilled with energy by passing current back into it, and then used again.",
+      "more": "Nickel-metal hydride, lithium-ion, lead-acid and nickel-cadmium are rechargeable. Carbon-zinc is not.",
+      "questions": [
+        "T6A10",
+        "T6A11"
+      ]
+    },
+    {
+      "term": "Nickel-metal hydride",
+      "aka": [
+        "NiMH"
+      ],
+      "def": "A rechargeable battery chemistry.",
+      "questions": [
+        "T6A10"
+      ]
+    },
+    {
+      "term": "Lithium-ion",
+      "aka": [
+        "Li-ion"
+      ],
+      "def": "A rechargeable battery chemistry.",
+      "questions": [
+        "T6A10"
+      ]
+    },
+    {
+      "term": "Lead-acid",
+      "def": "A rechargeable battery chemistry, the kind used in car batteries.",
+      "questions": [
+        "T6A10"
+      ]
+    },
+    {
+      "term": "Carbon-zinc",
+      "def": "A battery chemistry that is not rechargeable.",
+      "more": "It is the one to pick when asked which chemistry is not rechargeable.",
+      "questions": [
+        "T6A11"
+      ]
+    },
+    {
+      "term": "Semiconductor",
+      "def": "A material that conducts better than an insulator but not as well as a metal, used to make diodes, transistors and integrated circuits.",
+      "more": "A transistor can consist of three regions of semiconductor material.",
+      "questions": [
+        "T6B04",
+        "T6D09"
+      ]
+    },
+    {
+      "term": "Diode",
+      "def": "A component that allows current to flow in only one direction.",
+      "more": "Its two electrodes are the anode and the cathode. The cathode lead is often marked with a stripe on the package.",
+      "questions": [
+        "T6B01",
+        "T6B02",
+        "T6B06",
+        "T6B09"
+      ]
+    },
+    {
+      "term": "Forward voltage drop",
+      "def": "The small voltage lost across a diode while it is conducting.",
+      "more": "It is lower in some diode types than in others.",
+      "questions": [
+        "T6B01"
+      ]
+    },
+    {
+      "term": "Forward current",
+      "def": "Current flowing through a diode in the direction in which it conducts.",
+      "more": "Forward current is what makes an LED emit light.",
+      "questions": [
+        "T6B07"
+      ]
+    },
+    {
+      "term": "Electrode",
+      "def": "A terminal through which current enters or leaves a device such as a diode or a transistor.",
+      "more": "Diode: anode and cathode. Bipolar junction transistor: emitter, base and collector. Field-effect transistor: gate, drain and source.",
+      "questions": [
+        "T6B09",
+        "T6B12"
+      ]
+    },
+    {
+      "term": "Anode",
+      "def": "One of the two electrodes of a diode; the other is the cathode.",
+      "more": "When a diode conducts, current is said to flow in at the anode and out at the cathode.",
+      "questions": [
+        "T6B09"
+      ]
+    },
+    {
+      "term": "Cathode",
+      "def": "One of the two electrodes of a diode; the other is the anode.",
+      "more": "The cathode lead of a semiconductor diode is often marked on the package with a stripe.",
+      "questions": [
+        "T6B06",
+        "T6B09"
+      ]
+    },
+    {
+      "term": "LED",
+      "aka": [
+        "light-emitting diode",
+        "light emitting diode",
+        "visual indicator"
+      ],
+      "def": "Light-emitting diode: a diode that gives off light when forward current flows through it.",
+      "more": "Commonly used as a visual indicator. Its schematic symbol is a diode symbol with small arrows pointing away from it.",
+      "questions": [
+        "T6B07",
+        "T6C07",
+        "T6D07"
+      ]
+    },
+    {
+      "term": "Transistor",
+      "aka": [
+        "electronic switch"
+      ],
+      "def": "A semiconductor component in which a small signal controls a larger current, so it can amplify or act as a switch.",
+      "more": "It can be used as an electronic switch, can provide power gain, and can consist of three regions of semiconductor material.",
+      "questions": [
+        "T6B03",
+        "T6B04",
+        "T6B05",
+        "T6B10",
+        "T6B12",
+        "T6C03",
+        "T6D10"
+      ]
+    },
+    {
+      "term": "FET",
+      "aka": [
+        "field-effect transistor",
+        "field effect transistor"
+      ],
+      "def": "Field-effect transistor: the type of transistor that has a gate, a drain and a source.",
+      "more": "Compare the bipolar junction transistor, whose electrodes are the emitter, base and collector.",
+      "questions": [
+        "T6B05",
+        "T6B08"
+      ]
+    },
+    {
+      "term": "Gate, drain and source",
+      "aka": [
+        "gate",
+        "drain",
+        "source"
+      ],
+      "def": "The names of the three electrodes of a field-effect transistor.",
+      "more": "Do not mix them up with emitter, base and collector, which belong to a bipolar junction transistor.",
+      "questions": [
+        "T6B05"
+      ]
+    },
+    {
+      "term": "Bipolar junction transistor",
+      "aka": [
+        "BJT",
+        "bipolar transistor"
+      ],
+      "def": "The type of transistor whose three electrodes are called the emitter, base and collector.",
+      "more": "Compare the field-effect transistor (FET), which has a gate, drain and source.",
+      "questions": [
+        "T6B12"
+      ]
+    },
+    {
+      "term": "Emitter, base and collector",
+      "aka": [
+        "emitter",
+        "base",
+        "collector"
+      ],
+      "def": "The names of the three electrodes of a bipolar junction transistor.",
+      "more": "Do not mix them up with gate, drain and source, which belong to a field-effect transistor.",
+      "questions": [
+        "T6B12"
+      ]
+    },
+    {
+      "term": "Gain",
+      "aka": [
+        "power gain",
+        "voltage gain",
+        "current gain"
+      ],
+      "def": "How much larger a signal is at the output of an amplifier than at its input.",
+      "more": "It can be stated as output relative to input for voltage, for current or for power. A transistor can provide power gain.",
+      "questions": [
+        "T6B10",
+        "T6B11"
+      ]
+    },
+    {
+      "term": "Amplifier",
+      "def": "A circuit that makes a signal larger.",
+      "more": "How much larger is called its gain.",
+      "questions": [
+        "T6B11"
+      ]
+    },
+    {
+      "term": "Schematic",
+      "aka": [
+        "schematic diagram",
+        "circuit diagram"
+      ],
+      "def": "An electrical diagram that uses standard component symbols.",
+      "more": "It accurately shows component connections. It does not show wire lengths or what the components look like.",
+      "questions": [
+        "T6C01",
+        "T6C12"
+      ]
+    },
+    {
+      "term": "Schematic symbol",
+      "aka": [
+        "component symbol",
+        "symbol"
+      ],
+      "def": "A standard simple drawing that stands for one kind of component on an electrical diagram.",
+      "more": "Zigzag = resistor. Two facing plates = capacitor. Loops = inductor. Two coils side by side = transformer. An added arrow means variable.",
+      "questions": [
+        "T6A09",
+        "T6C02",
+        "T6C03",
+        "T6C04",
+        "T6C05",
+        "T6C06",
+        "T6C07",
+        "T6C08",
+        "T6C09",
+        "T6C10",
+        "T6C11"
+      ]
+    },
+    {
+      "term": "Lamp",
+      "def": "A component that gives off light when current flows through it.",
+      "more": "It is component 3 in figure T-1.",
+      "questions": [
+        "T6C04"
+      ]
+    },
+    {
+      "term": "Transformer",
+      "def": "A component that changes an AC voltage to a higher or lower AC voltage.",
+      "more": "For example it changes 120 V AC power to a lower AC voltage. Its symbol is two coils side by side.",
+      "questions": [
+        "T6C09",
+        "T6D06"
+      ]
+    },
+    {
+      "term": "Antenna",
+      "def": "The part of a radio station that sends out and picks up radio waves.",
+      "more": "It is component 4 in figure T-3.",
+      "questions": [
+        "T6C11"
+      ]
+    },
+    {
+      "term": "Rectifier",
+      "def": "A device or circuit that changes an alternating current into a varying direct current signal.",
+      "more": "It is built from diodes, which pass current in only one direction.",
+      "questions": [
+        "T6D01"
+      ]
+    },
+    {
+      "term": "Relay",
+      "def": "An electrically-controlled switch.",
+      "more": "A current through its coil moves the switch contacts.",
+      "questions": [
+        "T6D02"
+      ]
+    },
+    {
+      "term": "Shielded wire",
+      "aka": [
+        "shielded cable",
+        "shield"
+      ],
+      "def": "Wire with a conductive layer wrapped around the inner conductor.",
+      "more": "It is used to prevent coupling of unwanted signals to or from the wire.",
+      "questions": [
+        "T6D03"
+      ]
+    },
+    {
+      "term": "Meter",
+      "def": "A device that displays an electrical quantity as a numeric value.",
+      "more": "For example, a meter can show voltage or current.",
+      "questions": [
+        "T6D04"
+      ]
+    },
+    {
+      "term": "Regulator",
+      "aka": [
+        "voltage regulator"
+      ],
+      "def": "A circuit that controls the amount of voltage from a power supply.",
+      "questions": [
+        "T6D05"
+      ]
+    },
+    {
+      "term": "Power supply",
+      "def": "A device that provides the voltage and current that equipment needs to run.",
+      "more": "A regulator circuit controls the amount of voltage it delivers.",
+      "questions": [
+        "T6D05"
+      ]
+    },
+    {
+      "term": "Resonant circuit",
+      "aka": [
+        "tuned circuit",
+        "resonance"
+      ],
+      "def": "An inductor and a capacitor connected in series or parallel.",
+      "more": "Also called a tuned circuit, because it favors one frequency.",
+      "questions": [
+        "T6D08",
+        "T6D11"
+      ]
+    },
+    {
+      "term": "Integrated circuit",
+      "aka": [
+        "IC",
+        "chip"
+      ],
+      "def": "A device that combines several semiconductors and other components into one package.",
+      "questions": [
+        "T6D09"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "terms": [
+    {
+      "term": "Current",
+      "aka": [
+        "I",
+        "electron flow"
+      ],
+      "def": "The flow of electrons through a circuit.",
+      "more": "Measured in amperes. In formulas it is written I. A difference in voltage is what makes it flow.",
+      "questions": [
+        "T5A01",
+        "T5A03",
+        "T5A05",
+        "T5C11",
+        "T5D01",
+        "T5D07",
+        "T5D08",
+        "T5D09",
+        "T5D13"
+      ]
+    },
+    {
+      "term": "Ampere",
+      "aka": [
+        "amp",
+        "amps",
+        "amperes",
+        "A"
+      ],
+      "def": "The unit of electrical current.",
+      "more": "Often shortened to amp, symbol A. One ampere is 1000 milliamperes.",
+      "questions": [
+        "T5A01",
+        "T5B01",
+        "T5B06",
+        "T5C11",
+        "T5D07",
+        "T5D08",
+        "T5D09"
+      ]
+    },
+    {
+      "term": "Voltage",
+      "aka": [
+        "E",
+        "electromotive force",
+        "EMF",
+        "potential difference"
+      ],
+      "def": "The electrical push, or pressure, between two points that makes electrons flow.",
+      "more": "Measured in volts. In formulas it is written E. Voltage is the push; current is the flow that results.",
+      "questions": [
+        "T5A05",
+        "T5D02",
+        "T5D10",
+        "T5D11",
+        "T5D12",
+        "T5D14"
+      ]
+    },
+    {
+      "term": "Volt",
+      "aka": [
+        "volts",
+        "V"
+      ],
+      "def": "The unit of voltage, the electrical push.",
+      "more": "Symbol V. One kilovolt is 1000 volts; one microvolt is one millionth of a volt.",
+      "questions": [
+        "T5B03",
+        "T5B04",
+        "T5D10",
+        "T5D11",
+        "T5D12"
+      ]
+    },
+    {
+      "term": "Power",
+      "aka": [
+        "P",
+        "electrical power"
+      ],
+      "def": "The rate at which electrical energy is used.",
+      "more": "Measured in watts. In formulas it is written P, and P = I x E.",
+      "questions": [
+        "T5A02",
+        "T5A10",
+        "T5C08",
+        "T5C09",
+        "T5C10",
+        "T5C11"
+      ]
+    },
+    {
+      "term": "Watt",
+      "aka": [
+        "watts",
+        "W"
+      ],
+      "def": "The unit of electrical power.",
+      "more": "Symbol W. Watts = volts x amperes. One watt is 1000 milliwatts.",
+      "questions": [
+        "T5A02",
+        "T5B05",
+        "T5C09",
+        "T5C10"
+      ]
+    },
+    {
+      "term": "Resistance",
+      "aka": [
+        "R"
+      ],
+      "def": "The opposition to the flow of current.",
+      "more": "Measured in ohms and written R in formulas. It opposes direct current, alternating current and RF current alike.",
+      "questions": [
+        "T5A11",
+        "T5D03",
+        "T5D04",
+        "T5D05",
+        "T5D06"
+      ]
+    },
+    {
+      "term": "Ohm",
+      "def": "The unit of resistance and of impedance.",
+      "more": "Ohms = volts divided by amperes.",
+      "questions": [
+        "T5C05",
+        "T5D04",
+        "T5D05",
+        "T5D06"
+      ]
+    },
+    {
+      "term": "Energy",
+      "def": "The capacity to do work; in a circuit it is what the source supplies and what the parts use or store.",
+      "more": "Power is the rate at which energy is used. A capacitor stores energy in an electric field and an inductor stores it in a magnetic field.",
+      "questions": [
+        "T5A10",
+        "T5C01",
+        "T5C03"
+      ]
+    },
+    {
+      "term": "Circuit",
+      "def": "A complete path of connected parts that current can flow around.",
+      "more": "Parts can be connected in series (one path) or in parallel (side by side).",
+      "questions": [
+        "T5A03",
+        "T5D13",
+        "T5D14"
+      ]
+    },
+    {
+      "term": "Electron",
+      "def": "A tiny negatively charged particle; moving electrons are what make up an electric current.",
+      "more": "Metals conduct well because they have many free electrons.",
+      "questions": [
+        "T5A03",
+        "T5A05",
+        "T5A07"
+      ]
+    },
+    {
+      "term": "Conductor",
+      "aka": [
+        "free electrons"
+      ],
+      "def": "A material that lets electric current flow through it easily.",
+      "more": "Metals are generally good conductors because they have many free electrons.",
+      "questions": [
+        "T5A07"
+      ]
+    },
+    {
+      "term": "Insulator",
+      "def": "A material that lets almost no electric current flow through it.",
+      "more": "Glass is a good electrical insulator.",
+      "questions": [
+        "T5A08"
+      ]
+    },
+    {
+      "term": "Frequency",
+      "def": "The number of times per second that an alternating current makes a complete cycle.",
+      "more": "Measured in hertz (Hz). Do not confuse it with wavelength, which is a distance.",
+      "questions": [
+        "T5A04",
+        "T5A06"
+      ]
+    },
+    {
+      "term": "Cycle",
+      "def": "One complete swing of an alternating current: one way, then the other, back to the start.",
+      "more": "The number of complete cycles each second is the frequency.",
+      "questions": [
+        "T5A04"
+      ]
+    },
+    {
+      "term": "Hertz",
+      "aka": [
+        "Hz"
+      ],
+      "def": "The unit of frequency; one hertz is one cycle per second.",
+      "more": "Written Hz, with a capital H and a small z. 1000 Hz = 1 kHz and 1,000,000 Hz = 1 MHz.",
+      "questions": [
+        "T5A06",
+        "T5B02",
+        "T5B07",
+        "T5B12",
+        "T5B13",
+        "T5C06",
+        "T5C07"
+      ]
+    },
+    {
+      "term": "AC",
+      "aka": [
+        "alternating current"
+      ],
+      "def": "Alternating current: current that alternates between positive and negative directions.",
+      "more": "Current that only goes between one direction and zero never reverses, so it is not AC. The opposition to AC is called impedance.",
+      "questions": [
+        "T5A04",
+        "T5A09",
+        "T5A11",
+        "T5C12"
+      ]
+    },
+    {
+      "term": "DC",
+      "aka": [
+        "direct current"
+      ],
+      "def": "Direct current: current that flows in one direction only.",
+      "more": "Resistance opposes DC just as it opposes AC and RF current.",
+      "questions": [
+        "T5A11"
+      ]
+    },
+    {
+      "term": "RF current",
+      "aka": [
+        "RF",
+        "radio frequency"
+      ],
+      "def": "Radio frequency current: alternating current at the high frequencies used for radio.",
+      "more": "Resistance opposes RF current as well as ordinary AC and DC.",
+      "questions": [
+        "T5A11"
+      ]
+    },
+    {
+      "term": "Metric prefix",
+      "aka": [
+        "prefix",
+        "SI prefix",
+        "unit conversion"
+      ],
+      "def": "A word part put in front of a unit to make it larger or smaller by a fixed factor, such as kilo for one thousand.",
+      "more": "Pico = one trillionth, micro = one millionth, milli = one thousandth, kilo = one thousand, mega = one million, giga = one billion.",
+      "questions": [
+        "T5B01",
+        "T5B02",
+        "T5B03",
+        "T5B04",
+        "T5B05",
+        "T5B06",
+        "T5B07",
+        "T5B08",
+        "T5B12",
+        "T5B13",
+        "T5C06",
+        "T5C07"
+      ]
+    },
+    {
+      "term": "Milli",
+      "aka": [
+        "m"
+      ],
+      "def": "The metric prefix meaning one thousandth.",
+      "more": "Written as a small m. 1000 milliamperes = 1 ampere, and 500 milliwatts = 0.5 watts.",
+      "questions": [
+        "T5B01",
+        "T5B05",
+        "T5B06"
+      ]
+    },
+    {
+      "term": "Micro",
+      "def": "The metric prefix meaning one millionth.",
+      "more": "One microvolt is one one-millionth of a volt. One microfarad is 1,000,000 picofarads.",
+      "questions": [
+        "T5B04",
+        "T5B08"
+      ]
+    },
+    {
+      "term": "Pico",
+      "aka": [
+        "p"
+      ],
+      "def": "The metric prefix meaning one trillionth, which is one millionth of a millionth.",
+      "more": "Written as a small p. 1,000,000 picofarads = 1 microfarad.",
+      "questions": [
+        "T5B08"
+      ]
+    },
+    {
+      "term": "Kilo",
+      "aka": [
+        "k"
+      ],
+      "def": "The metric prefix meaning one thousand.",
+      "more": "Written as a small k. One kilovolt is one thousand volts, and 1,500,000 hertz is 1500 kHz.",
+      "questions": [
+        "T5B02",
+        "T5B03",
+        "T5B07",
+        "T5B12",
+        "T5C06"
+      ]
+    },
+    {
+      "term": "Mega",
+      "aka": [
+        "M"
+      ],
+      "def": "The metric prefix meaning one million.",
+      "more": "Written as a capital M; a small m means milli. 1 MHz = 1000 kHz.",
+      "questions": [
+        "T5B07",
+        "T5B12",
+        "T5B13",
+        "T5C07"
+      ]
+    },
+    {
+      "term": "Giga",
+      "aka": [
+        "G"
+      ],
+      "def": "The metric prefix meaning one billion.",
+      "more": "Written as a capital G. 1 GHz = 1000 MHz, so 2425 MHz = 2.425 GHz.",
+      "questions": [
+        "T5B13"
+      ]
+    },
+    {
+      "term": "kHz",
+      "aka": [
+        "kilohertz"
+      ],
+      "def": "Kilohertz: one thousand hertz.",
+      "more": "Written with a small k, capital H and small z. Divide hertz by 1000 to get kHz; multiply MHz by 1000 to get kHz.",
+      "questions": [
+        "T5B02",
+        "T5B07",
+        "T5B12",
+        "T5C06"
+      ]
+    },
+    {
+      "term": "MHz",
+      "aka": [
+        "megahertz"
+      ],
+      "def": "Megahertz: one million hertz.",
+      "more": "Written with a capital M, capital H and small z. 1 MHz = 1000 kHz, so 3.525 MHz = 3525 kHz and 28400 kHz = 28.400 MHz.",
+      "questions": [
+        "T5B07",
+        "T5B12",
+        "T5B13",
+        "T5C07"
+      ]
+    },
+    {
+      "term": "GHz",
+      "aka": [
+        "gigahertz"
+      ],
+      "def": "Gigahertz: one billion hertz, or 1000 megahertz.",
+      "more": "Divide MHz by 1000 to get GHz: 2425 MHz = 2.425 GHz.",
+      "questions": [
+        "T5B13"
+      ]
+    },
+    {
+      "term": "Milliampere",
+      "aka": [
+        "mA",
+        "milliamp",
+        "milliamperes"
+      ],
+      "def": "One thousandth of an ampere.",
+      "more": "1.5 amperes = 1500 milliamperes, and 3000 milliamperes = 3 amperes.",
+      "questions": [
+        "T5B01",
+        "T5B06"
+      ]
+    },
+    {
+      "term": "Milliwatt",
+      "aka": [
+        "mW",
+        "milliwatts"
+      ],
+      "def": "One thousandth of a watt.",
+      "more": "Divide milliwatts by 1000 to get watts: 500 milliwatts = 0.5 watts.",
+      "questions": [
+        "T5B05"
+      ]
+    },
+    {
+      "term": "Kilovolt",
+      "aka": [
+        "kV",
+        "kilovolts"
+      ],
+      "def": "One thousand volts.",
+      "questions": [
+        "T5B03"
+      ]
+    },
+    {
+      "term": "Microvolt",
+      "aka": [
+        "microvolts"
+      ],
+      "def": "One one-millionth of a volt.",
+      "questions": [
+        "T5B04"
+      ]
+    },
+    {
+      "term": "Picofarad",
+      "aka": [
+        "pF",
+        "picofarads"
+      ],
+      "def": "One trillionth of a farad, a very small amount of capacitance.",
+      "more": "1,000,000 picofarads = 1 microfarad.",
+      "questions": [
+        "T5B08"
+      ]
+    },
+    {
+      "term": "Microfarad",
+      "aka": [
+        "microfarads"
+      ],
+      "def": "One millionth of a farad, a common size for marking capacitors.",
+      "more": "1 microfarad = 1,000,000 picofarads.",
+      "questions": [
+        "T5B08"
+      ]
+    },
+    {
+      "term": "Decibel",
+      "aka": [
+        "dB",
+        "decibels"
+      ],
+      "def": "A unit for comparing two power levels by their ratio rather than by their difference.",
+      "more": "Written dB. Double the power is about 3 dB, one quarter of the power is about -6 dB, and ten times the power is 10 dB.",
+      "questions": [
+        "T5B09",
+        "T5B10",
+        "T5B11"
+      ]
+    },
+    {
+      "term": "Capacitance",
+      "def": "The ability to store energy in an electric field.",
+      "more": "Measured in farads. It is the property of a capacitor. Compare inductance, which stores energy in a magnetic field.",
+      "questions": [
+        "T5C01",
+        "T5C02"
+      ]
+    },
+    {
+      "term": "Farad",
+      "aka": [
+        "farads",
+        "F"
+      ],
+      "def": "The unit of capacitance.",
+      "more": "Real parts are usually marked in microfarads or picofarads. Do not confuse it with the henry, the unit of inductance.",
+      "questions": [
+        "T5C02",
+        "T5B08"
+      ]
+    },
+    {
+      "term": "Inductance",
+      "def": "The ability to store energy in a magnetic field.",
+      "more": "Measured in henrys. It is the property of an inductor (a coil). Compare capacitance, which stores energy in an electric field.",
+      "questions": [
+        "T5C03",
+        "T5C04"
+      ]
+    },
+    {
+      "term": "Henry",
+      "aka": [
+        "henrys",
+        "H"
+      ],
+      "def": "The unit of inductance.",
+      "more": "Do not confuse it with hertz (frequency) or the farad (capacitance).",
+      "questions": [
+        "T5C04"
+      ]
+    },
+    {
+      "term": "Electric field",
+      "def": "The region of electrical force around charged objects, such as between the two plates of a capacitor.",
+      "more": "Capacitance is the ability to store energy in an electric field.",
+      "questions": [
+        "T5C01"
+      ]
+    },
+    {
+      "term": "Magnetic field",
+      "def": "The region of magnetic force around a magnet or around a wire carrying current.",
+      "more": "Inductance is the ability to store energy in a magnetic field.",
+      "questions": [
+        "T5C03"
+      ]
+    },
+    {
+      "term": "Impedance",
+      "def": "The opposition to AC current flow.",
+      "more": "Measured in ohms, the same unit as resistance.",
+      "questions": [
+        "T5C05",
+        "T5C12"
+      ]
+    },
+    {
+      "term": "Power formula",
+      "aka": [
+        "P = I x E",
+        "P = E x I",
+        "power equation"
+      ],
+      "def": "The rule that power equals current multiplied by voltage: P = I x E.",
+      "more": "Watts = amperes x volts. 13.8 V x 10 A = 138 W. Rearranged for current: I = P / E, so 120 W / 12 V = 10 A.",
+      "questions": [
+        "T5C08",
+        "T5C09",
+        "T5C10",
+        "T5C11"
+      ]
+    },
+    {
+      "term": "Ohm's law",
+      "aka": [
+        "E = I x R",
+        "I = E / R",
+        "R = E / I"
+      ],
+      "def": "The rule linking voltage (E), current (I) and resistance (R) in a circuit: E = I x R.",
+      "more": "Three forms: E = I x R, I = E / R and R = E / I. Use volts, amperes and ohms. Example: 90 volts / 3 amperes = 30 ohms.",
+      "questions": [
+        "T5D01",
+        "T5D02",
+        "T5D03",
+        "T5D04",
+        "T5D05",
+        "T5D06",
+        "T5D07",
+        "T5D08",
+        "T5D09",
+        "T5D10",
+        "T5D11",
+        "T5D12"
+      ]
+    },
+    {
+      "term": "Series circuit",
+      "aka": [
+        "series"
+      ],
+      "def": "A circuit whose parts are joined end to end in a single path.",
+      "more": "The current is always the same through all components. In a parallel circuit it is the voltage that is the same.",
+      "questions": [
+        "T5D13"
+      ]
+    },
+    {
+      "term": "Parallel circuit",
+      "aka": [
+        "parallel"
+      ],
+      "def": "A circuit whose parts are connected side by side across the same two points.",
+      "more": "The voltage is always the same across all components. In a series circuit it is the current that is the same.",
+      "questions": [
+        "T5D14"
+      ]
+    }
+  ]
+}
