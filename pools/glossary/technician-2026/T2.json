@@ -343,8 +343,7 @@
     {
       "term": "DMR",
       "aka": [
-        "Digital Mobile Radio",
-        "digital repeater"
+        "Digital Mobile Radio"
       ],
       "def": "Digital Mobile Radio: a digital voice system used on some amateur repeaters.",
       "more": "It uses talkgroups to organize radio traffic and a color code that your transmitter must send to access a specific repeater.",
@@ -512,7 +511,7 @@
         "formal message"
       ],
       "def": "A formal written message passed by amateur radio in a standard format.",
-      "more": "Its header includes the preamble, used to track the message, and the check, which is the number of words in the text.",
+      "more": "Its preamble holds the information needed to track the message. The check in its header is the number of words or word equivalents in the text.",
       "questions": [
         "T2C10",
         "T2C11"
@@ -579,8 +578,7 @@
     {
       "term": "Frequency privileges",
       "aka": [
-        "privileges",
-        "license class"
+        "privileges"
       ],
       "def": "The frequencies on which a licensed operator is allowed to transmit, set by license class.",
       "more": "You may operate outside them only in situations involving the immediate safety of human life or protection of property.",

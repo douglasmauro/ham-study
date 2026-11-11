@@ -50,7 +50,7 @@
     {
       "term": "Microwave",
       "aka": ["microwaves", "microwave frequencies"],
-      "def": "Radio waves of very high frequency and very short wavelength, above the UHF range.",
+      "def": "Radio waves with very short wavelengths, at frequencies of roughly 1000 MHz (1 GHz) and higher.",
       "more": "Vegetation absorbs microwave signals, and precipitation might decrease their range.",
       "questions": ["T3A02", "T3A07"]
     },
@@ -300,7 +300,7 @@
     },
     {
       "term": "Tropospheric ducting",
-      "aka": ["ducting", "tropo", "troposphere"],
+      "aka": ["ducting", "tropo"],
       "def": "VHF and UHF signals being trapped and guided along the Earth by layers of air in the troposphere, the lowest part of the atmosphere.",
       "more": "It allows over-the-horizon VHF and UHF contacts to about 300 miles on a regular basis. It is caused by temperature inversions in the atmosphere.",
       "questions": ["T3C06", "T3C08"]

@@ -165,9 +165,6 @@
     },
     {
       "term": "Conductor",
-      "aka": [
-        "free electrons"
-      ],
       "def": "A material that lets electric current flow through it easily.",
       "more": "Metals are generally good conductors because they have many free electrons.",
       "questions": [

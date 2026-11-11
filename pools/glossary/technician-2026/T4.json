@@ -112,7 +112,7 @@
     },
     {
       "term": "Line in",
-      "aka": ["line input", "audio input", "line out"],
+      "aka": ["line input", "audio input"],
       "def": "The audio input connector on a computer, where sound from another device is fed in.",
       "more": "For digital modes the computer's line in connects to the transceiver's speaker connector, so the computer hears what the radio receives. Line out is the computer's audio output.",
       "questions": ["T4A07"]

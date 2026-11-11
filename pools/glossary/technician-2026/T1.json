@@ -129,7 +129,7 @@
     {
       "term": "Space station",
       "def": "An amateur station located more than 50 km above the Earth's surface.",
-      "more": "Control commands sent to a space station may be encoded to obscure their meaning. Anyone allowed to transmit on its uplink frequency may communicate through it.",
+      "more": "Control commands sent to a space station may be encoded to obscure their meaning. Any amateur allowed to transmit on its uplink frequency may be the control operator of a station communicating through it.",
       "questions": [
         "T1A07",
         "T1D03",
@@ -221,8 +221,7 @@
     {
       "term": "Secondary service",
       "aka": [
-        "secondary allocation",
-        "primary service"
+        "secondary allocation"
       ],
       "def": "A radio service that shares spectrum with a primary service that has priority over it.",
       "more": "Where amateurs are secondary, they may find non-amateur stations in those segments and must avoid interfering with them.",
@@ -254,13 +253,11 @@
       "aka": [
         "operator class",
         "class of license",
-        "frequency privileges",
-        "privileges",
         "General class",
         "Amateur Extra class"
       ],
       "def": "The level of amateur license a person holds, which sets the frequencies and modes that person may use.",
-      "more": "New licenses are issued for Technician, General and Amateur Extra. The control operator's class determines a station's frequency privileges, so a Technician may at no time control a station in an Amateur Extra segment.",
+      "more": "New licenses are issued for Technician, General and Amateur Extra. The control operator's class determines a station's frequency privileges, so, except in an emergency, a Technician may never control a station in an Amateur Extra segment.",
       "questions": [
         "T1C01",
         "T1E04",
@@ -517,7 +514,7 @@
         "identify"
       ],
       "def": "Transmitting your assigned call sign so that listeners know which station is on the air.",
-      "more": "Required at least every 10 minutes during and at the end of a communication, including test transmissions. The exception is signals that control model craft.",
+      "more": "Required at least every 10 minutes during and at the end of a communication, including test transmissions. One exception is signals that control model craft.",
       "questions": [
         "T1A03",
         "T1D11",
@@ -600,8 +597,7 @@
     {
       "term": "Broadcasting",
       "aka": [
-        "broadcast",
-        "one-way transmission"
+        "broadcast"
       ],
       "def": "Transmissions intended for reception by the general public.",
       "more": "Amateurs may not broadcast. Supporting broadcasting or news gathering is allowed only when directly related to the immediate safety of human life or protection of property and no other means is available.",
@@ -666,7 +662,7 @@
         "payment for operating"
       ],
       "def": "Payment received for operating an amateur station.",
-      "more": "A control operator may not be paid to operate, except when the communication is part of classroom instruction at an educational institution.",
+      "more": "A control operator generally may not be paid to operate. One exception is when the communication is part of classroom instruction at an educational institution.",
       "questions": [
         "T1D08"
       ]
@@ -726,8 +722,7 @@
     {
       "term": "Automatic control",
       "aka": [
-        "automatically controlled",
-        "local control"
+        "automatically controlled"
       ],
       "def": "Operation in which devices and procedures control a station so that no control operator needs to be present at the control point.",
       "more": "Repeater operation is an example. The station still has a control operator: a station may never transmit without one.",
