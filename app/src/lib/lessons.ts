@@ -1,8 +1,15 @@
 import { LESSONS, type LessonInfo } from '../features/lessons/manifest';
 import type { Data } from './store';
 
-/** Lessons in teaching order. */
-export const ALL_LESSONS: LessonInfo[] = LESSONS.slice().sort((a, b) => a.order - b.order);
+/**
+ * Lessons that are switched on for learners. A lesson can be in the code, and reachable by its
+ * address for review, before it is listed here; only listed lessons appear in the app, show as
+ * the next lesson, or hold back their group's questions.
+ */
+export const LIVE_LESSONS = new Set<string>([]);
+
+/** Live lessons in teaching order. */
+export const ALL_LESSONS: LessonInfo[] = LESSONS.filter((l) => LIVE_LESSONS.has(l.id)).sort((a, b) => a.order - b.order);
 
 export function finishedLessons(data: Data): Set<string> {
   return new Set((data.activities ?? []).filter((a) => a.area === 'lessons').map((a) => a.item));

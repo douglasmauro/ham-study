@@ -10,4 +10,6 @@ export interface LessonInfo {
   minutes: number;
 }
 
-export const LESSONS: LessonInfo[] = [];
+export const LESSONS: LessonInfo[] = [
+  { id: 't3b-wavelength-frequency', title: 'Wavelength and frequency', groups: ['T3B'], order: 1, minutes: 8 },
+];

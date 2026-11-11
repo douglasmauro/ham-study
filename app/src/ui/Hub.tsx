@@ -2,10 +2,11 @@ import { useEffect, useState } from 'preact/hooks';
 import { TOPICS } from '../lib/pool';
 import { AREAS, loadArea, type AreaId } from '../features/registry';
 import type { FeatureDef, FeatureResult } from '../features/types';
+import { LIVE_LESSONS } from '../lib/lessons';
 import { addActivity, newId, useData } from '../lib/store';
 import { Icon } from './Icon';
 
-function useArea(area: AreaId | null) {
+function useArea(area: AreaId | null, listOnly = false) {
   const [items, setItems] = useState<FeatureDef[] | null>(null);
   const [error, setError] = useState(false);
   useEffect(() => {
@@ -13,7 +14,7 @@ function useArea(area: AreaId | null) {
     setError(false);
     if (!area) return;
     let live = true;
-    loadArea(area).then((x) => live && setItems(x)).catch(() => live && setError(true));
+    loadArea(area).then((x) => live && setItems(area === 'lessons' && listOnly ? x.filter((i) => LIVE_LESSONS.has(i.id)) : x)).catch(() => live && setError(true));
     return () => { live = false; };
   }, [area]);
   return { items, error };
@@ -23,7 +24,7 @@ function useArea(area: AreaId | null) {
 export function Hub({ area }: { area?: string }) {
   const data = useData();
   const current = area && area in AREAS ? (area as AreaId) : null;
-  const { items, error } = useArea(current);
+  const { items, error } = useArea(current, true);
   const done = new Set((data.activities ?? []).filter((a) => a.area === current).map((a) => a.item));
 
   if (!current) {
