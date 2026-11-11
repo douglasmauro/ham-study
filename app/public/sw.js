@@ -1,5 +1,5 @@
 // Offline support: serve the app from cache, refresh it in the background.
-const CACHE = 'ham-study-v1';
+const CACHE = 'ham-study-v2';
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest'])));
@@ -19,6 +19,8 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   // Never cache sync/API calls.
   if (url.pathname.includes('/api/')) return;
+  // The version check must always reach the server.
+  if (url.pathname.endsWith('/version.json')) return;
 
   if (req.mode === 'navigate') {
     e.respondWith(

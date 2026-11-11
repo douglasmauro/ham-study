@@ -3,6 +3,7 @@ import { computeStats } from '../lib/stats';
 import { useData } from '../lib/store';
 import { LEVELS } from './Exams';
 import { Icon } from './Icon';
+import { Version } from './Version';
 
 function Dial({ value }: { value: number }) {
   const r = 58;
@@ -112,6 +113,7 @@ export function Home() {
         <a class="tile-link" href="#/notebook"><Icon name="signal" color="var(--accent)" /><span class="t">Notebook</span><span class="small muted">Concepts you struggled with</span></a>
         <a class="tile-link" href="#/learn"><Icon name="bulb" color="var(--accent)" /><span class="t">Learn</span><span class="small muted">Labs, hands-on, missions, clips</span></a>
       </div>
+      <Version />
     </div>
   );
 }
