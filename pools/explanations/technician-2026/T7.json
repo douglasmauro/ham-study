@@ -1,0 +1,442 @@
+{
+  "T7A01": {
+    "concept": "Two key receiver qualities: one is how weak a signal it can still hear, the other is how well it separates signals that are close together in frequency. This question is about hearing the faintest signals.",
+    "hint": "Think of your own hearing: what word describes ears that can pick up a very faint whisper?",
+    "why": [
+      "RF gain is a control that sets how much the receiver amplifies incoming radio signals. It is a knob setting, not the name of the receiver's ability to detect weak signals.",
+      "Sensitivity is how weak a signal a receiver can detect. A more sensitive receiver hears fainter signals.",
+      "Selectivity is the ability to separate one signal from others nearby in frequency, not the ability to detect that a signal is there.",
+      "Total harmonic distortion measures how much an amplifier adds unwanted multiples of a signal's frequency. It is not about detecting signals."
+    ]
+  },
+  "T7A02": {
+    "concept": "Most ham radios put the part that sends and the part that listens in one box, sharing a tuning dial and an antenna. The name of the box is built from the names of its two halves.",
+    "hint": "Break the word into two pieces. Which two radio words were blended to make it?",
+    "why": [
+      "A transceiver is a transmitter and a receiver combined in one unit: trans(mitter) plus (re)ceiver.",
+      "Matching a feed line's impedance to 50 ohms is the job of an antenna tuner or matching network, not a transceiver.",
+      "A device that sends and decodes Morse code automatically is a keyer or code reader, not what a transceiver is.",
+      "A device that converts a radio's receive and transmit frequencies to another band is a transverter, a similar-sounding but different thing."
+    ]
+  },
+  "T7A03": {
+    "concept": "A mixer combines two signals and produces new signals at the sum and the difference of their frequencies. Radios use this to shift a signal from one frequency to another.",
+    "hint": "Which circuit takes in two signals and gives out their sum and difference frequencies?",
+    "why": [
+      "A phase splitter produces two copies of a signal with different phase (timing). The frequency stays the same.",
+      "A mixer combines the signal with a second one and produces sum and difference frequencies, moving the signal to a new frequency.",
+      "An inverter flips a signal's polarity or, in power equipment, turns DC into AC. It is not the circuit radios use to shift a signal's frequency.",
+      "An amplifier makes a signal stronger without changing its frequency."
+    ]
+  },
+  "T7A04": {
+    "concept": "Two key receiver qualities: one is how weak a signal it can hear, the other is how well it picks one signal out from others close by in frequency. This question is about picking one out.",
+    "hint": "Imagine a crowded party. What do you call the ability to choose one voice and ignore the ones around it?",
+    "why": [
+      "Discrimination ratio is not the standard term for this receiver ability, even though the question uses the word discriminate.",
+      "Sensitivity is the ability to detect weak signals, not to separate signals from each other.",
+      "Selectivity is the ability to select the wanted signal and reject others close to it in frequency. Filters in the receiver provide it.",
+      "Harmonic distortion is unwanted energy at multiples of a signal's frequency. It is a flaw in an amplifier, not a receiver's ability to separate signals."
+    ]
+  },
+  "T7A05": {
+    "concept": "An oscillator is a circuit that creates its own steady, repeating signal at a set frequency. Every transmitter and receiver starts with one.",
+    "hint": "Most circuits change a signal they are given. Which kind makes a steady repeating signal all by itself?",
+    "why": [
+      "A reactance modulator changes the frequency or phase of an existing signal to produce FM. It does not create the signal.",
+      "A phase modulator shifts the phase (timing) of an existing signal to carry information. It does not generate the signal.",
+      "A low-pass filter passes low frequencies and blocks high ones. It removes signals, it does not generate them.",
+      "An oscillator generates a signal at a specific frequency, set by parts such as a crystal or a tuned circuit."
+    ]
+  },
+  "T7A06": {
+    "concept": "A transverter sits between a transceiver and the antenna and shifts both the transmitted and the received signals to a different band, letting one radio work on a band it does not cover.",
+    "hint": "The name blends the word transceiver with the word for something that changes one thing into another.",
+    "why": [
+      "A high-pass filter passes frequencies above a cutoff and blocks those below. It does not move signals to another band.",
+      "A low-pass filter passes frequencies below a cutoff and blocks those above. It does not move signals to another band.",
+      "A transverter converts a transceiver's RF output and input to another band, so a radio can be used on a band it does not cover itself.",
+      "A phase converter is power equipment that changes single-phase AC into three-phase AC. It has nothing to do with radio bands."
+    ]
+  },
+  "T7A07": {
+    "concept": "PTT stands for push-to-talk. Pressing the button connects the PTT line to ground, and that tells the radio to stop listening and start transmitting.",
+    "hint": "Spell out what the three letters stand for, then think about what happens when you press that button on a microphone.",
+    "why": [
+      "A Morse key plugs into a separate key input. The PTT line is the push-to-talk control.",
+      "Grounding the PTT (push-to-talk) input switches the transceiver from receive to transmit. Releasing it returns the radio to receive.",
+      "Sending a tuning tone is not what the PTT input does. It only switches the radio between receive and transmit.",
+      "A preamplifier tuning tone input is not what PTT is. PTT means push-to-talk."
+    ]
+  },
+  "T7A08": {
+    "concept": "A plain radio wave (the carrier) carries no information. Modulation is the process of changing the carrier in step with your voice or data so the wave carries the message.",
+    "hint": "A bare carrier says nothing. What is the general word for the process of impressing information onto it?",
+    "why": [
+      "Impedance matching makes a load look like the impedance a source expects so power transfers well. It does not add speech to a signal.",
+      "Oscillation is generating a steady repeating signal. That makes the carrier but does not put speech on it.",
+      "Modulation is combining speech (or other information) with an RF carrier, by varying the carrier's amplitude, frequency or phase.",
+      "Low-pass filtering removes frequencies above a cutoff. It does not combine speech with a carrier."
+    ]
+  },
+  "T7A09": {
+    "concept": "SSB signals vary in strength with your voice, so an amplifier must be set to follow them faithfully (linear operation). CW and FM have constant strength and can be amplified in a more efficient but non-linear way.",
+    "hint": "The amplifier only boosts what the radio sends it. Ask what the amplifier itself needs to know to handle each kind of signal well.",
+    "why": [
+      "The mode is chosen at the transceiver. The amplifier only boosts the signal it is given and cannot change its mode.",
+      "The switch sets up the amplifier, such as its bias, to work properly with the chosen mode. SSB needs linear amplification; CW and FM do not.",
+      "The switch does not shift the amplifier's frequency range. The band segment used is set by the transceiver's tuning.",
+      "A transmit amplifier's mode switch has nothing to do with reducing noise on received signals."
+    ]
+  },
+  "T7A10": {
+    "concept": "To get more transmit power than the radio itself produces, you add a separate stage after it that takes the radio's signal and makes it stronger.",
+    "hint": "You want the same signal, only stronger. Which kind of circuit makes signals stronger?",
+    "why": [
+      "A potentiometer is a variable resistor. It can only reduce a signal, not increase power.",
+      "An RF power amplifier takes the transceiver's output and boosts it to a higher power level before it goes to the antenna.",
+      "An impedance multiplier is not a real device for increasing transmitter power.",
+      "Only the RF power amplifier increases output power. A potentiometer cannot, and an impedance multiplier is not a real device for this."
+    ]
+  },
+  "T7A11": {
+    "concept": "A VFO is an oscillator whose frequency you can change with the tuning knob. Turning the knob moves the frequency the radio listens and transmits on.",
+    "hint": "Which control do you turn to move around the band? Think about what that knob is adjusting inside the radio.",
+    "why": [
+      "The VFO is the tunable oscillator that sets the frequency the transceiver receives and transmits on. Turning the tuning knob adjusts it.",
+      "Automatic frequency control is a different circuit that keeps a receiver locked onto a signal. The VFO is tuned by the operator.",
+      "The oscillator injected to make CW audible is the beat frequency oscillator (BFO), not the VFO.",
+      "Generating and demodulating single sideband is done by modulator and detector circuits, not by the VFO."
+    ]
+  },
+  "T7B01": {
+    "concept": "On FM, louder audio makes the signal swing farther in frequency. That swing is called deviation. Too much audio makes the signal too wide and distorted.",
+    "hint": "On FM, the loudness reaching the microphone sets how far the signal swings in frequency. How would you reduce it?",
+    "why": [
+      "Talking louder increases deviation (the frequency swing of an FM signal), making the problem worse.",
+      "Temperature is not the cause. Over-deviation comes from too much audio reaching the transmitter.",
+      "Transmitter power does not set deviation. More power gives a stronger signal that is still over-deviating.",
+      "Moving back from the microphone lowers the audio level reaching it, which reduces deviation (the frequency swing of an FM signal)."
+    ]
+  },
+  "T7B02": {
+    "concept": "A strong nearby transmitter can overwhelm a receiver even when the transmitter is clean and on its own frequency. This is called fundamental overload, and the weakness is in the receiver.",
+    "hint": "The ham signal is not on a broadcast frequency, yet the broadcast radio hears it. Which piece of equipment is failing to do its job?",
+    "why": [
+      "A broadcast receiver with poor filtering cannot reject a strong signal from outside its band, so the amateur signal gets in. This is called fundamental overload.",
+      "Too much microphone gain distorts the transmitted audio. It does not make a broadcast radio pick up an out-of-band signal.",
+      "An overloaded transmitter audio amplifier distorts your voice. It is not why a broadcast receiver picks up the transmission.",
+      "Low deviation only makes an FM signal sound quiet. It does not cause a broadcast radio to receive the transmission."
+    ]
+  },
+  "T7B03": {
+    "concept": "Interference can come from the receiver being overwhelmed by a strong clean signal, or from the transmitter putting out unwanted signals on frequencies other than the intended one.",
+    "hint": "Consider each item separately: could it, by itself, put unwanted signal into someone's receiver?",
+    "why": [
+      "Fundamental overload is a receiver being overwhelmed by a strong signal on the transmitter's intended frequency. It does cause interference.",
+      "Harmonics are unwanted signals at whole-number multiples of the transmit frequency. They can land on other services and interfere.",
+      "Spurious emissions are any unwanted signals outside the intended transmission. They can interfere with other receivers.",
+      "Fundamental overload, harmonics and spurious emissions are all real causes of radio frequency interference."
+    ]
+  },
+  "T7B04": {
+    "concept": "SWR (standing wave ratio) shows how well the antenna system is matched to the transmitter. With a poor match, power reflects back, and solid-state radios cut their output to protect themselves.",
+    "hint": "Modern radios protect their final transistors. Which antenna system condition would make a radio deliberately hold back its power?",
+    "why": [
+      "Noise figure describes how much noise an amplifier adds to weak received signals. It does not explain low transmit power.",
+      "Poor linearity causes distortion of the signal, not what the question describes as low power output.",
+      "A low SWR means a good match, which lets the transceiver deliver full power.",
+      "A high SWR means a poor match with power reflected back. The transceiver's protection circuit reduces output to protect the final transistors."
+    ]
+  },
+  "T7B05": {
+    "concept": "When a clean amateur signal overloads another receiver, the cure belongs at that receiver: a filter at its antenna input that keeps the amateur signal out while letting the wanted signals through.",
+    "hint": "The amateur signal is legitimate and on its proper frequency. Where must the unwanted energy be stopped?",
+    "why": [
+      "A filter at the affected receiver's antenna input blocks the amateur signal before it can overload the receiver, while passing the signals the receiver wants.",
+      "A filter on the transmitter that blocked the interfering signal would block the amateur's own intended transmission, since that signal is the one being received.",
+      "Changing from FM to SSB still puts a strong signal at the receiver's input. It is not the fix the question describes.",
+      "A narrow-band mode is still a strong signal on the same frequency, so the affected receiver is still exposed to it."
+    ]
+  },
+  "T7B06": {
+    "concept": "When a neighbor reports interference, first check your own house: confirm your station works properly and see whether it disturbs your own radio or TV on the same channel.",
+    "hint": "Before anything else, how could you find out whether your own equipment is at fault? Think about what is in your own home.",
+    "why": [
+      "Checking that your station works properly and does not interfere with your own radio or TV on the same channel is the sensible first step.",
+      "Shutting down and calling the FCC is not the expected response. Operators are expected to investigate and resolve interference themselves first.",
+      "A harmonic doubler is not a real interference cure. Doubling harmonics would be the opposite of what you want.",
+      "Not all are right. Contacting an FCC office is not the proper step, and a harmonic doubler is not a real fix."
+    ]
+  },
+  "T7B07": {
+    "concept": "A strong signal on a nearby frequency can overload a receiver. A band-reject (notch) filter blocks one range of frequencies and lets the rest pass, so it can remove the offender and keep the wanted signals.",
+    "hint": "You want to knock down one known range of frequencies and leave everything else alone. What kind of device does that?",
+    "why": [
+      "A preamplifier boosts everything, including the strong unwanted FM broadcast signal, so it makes overload worse.",
+      "Better shielded coax does not help, because the broadcast signal arrives through the antenna along with the wanted signals.",
+      "Bypass capacitors on the microphone cable deal with RF getting into transmit audio, not with a strong signal overloading the receiver.",
+      "A band-reject filter blocks the FM broadcast band while passing 2-meter signals, keeping the strong station out of the receiver."
+    ]
+  },
+  "T7B08": {
+    "concept": "When a neighbor's device interferes with your station, handle it cooperatively: confirm your own station is in order, help find the source, and courteously explain the rules.",
+    "hint": "Think about a good-neighbor approach. Would any of these steps be unreasonable or untrue?",
+    "why": [
+      "Working with your neighbor to find the offending device is a proper step. You cannot fix it until the source is identified.",
+      "Politely telling the neighbor that FCC rules prohibit devices from causing harmful interference is a proper and true step.",
+      "Checking that your own station meets good amateur practice is a proper step, so you know the problem is not at your end.",
+      "All three are appropriate: work with the neighbor, politely explain the FCC rules, and make sure your own station is in good order."
+    ]
+  },
+  "T7B09": {
+    "concept": "Coaxial cable TV systems are shielded, so signals should stay inside and outside signals should stay out. Loose or badly fitted connectors break that shield and let your signal leak in.",
+    "hint": "A cable system is meant to be a sealed pipe for signals. Where is such a pipe most likely to leak?",
+    "why": [
+      "A low-pass filter passes low frequencies and blocks high ones. Adding one to the TV input is not the first step and could block wanted TV signals.",
+      "A high-pass filter may help in some cases, but it is not the first step. Check the basic integrity of the cable system first.",
+      "A preamplifier would boost the interfering signal along with everything else. It is not a fix.",
+      "Poorly installed coaxial connectors let outside signals leak into the cable system, so checking them is the first step."
+    ]
+  },
+  "T7B10": {
+    "concept": "Bad audio through an FM repeater has several common causes: being off frequency, too much audio into the microphone, or a weak or reflected path from where you stand.",
+    "hint": "Consider each item separately: could it, by itself, make your voice hard to understand through a repeater?",
+    "why": [
+      "Being slightly off frequency makes the repeater's receiver recover your audio poorly, so it sounds distorted.",
+      "Speaking too loudly or too close to the microphone causes over-deviation (too wide an FM signal), which distorts the audio.",
+      "A bad location gives a weak signal or reflections into the repeater, making audio noisy or broken up.",
+      "Being off frequency, overdriving the microphone and being in a bad location can each cause distorted or unintelligible audio."
+    ]
+  },
+  "T7B11": {
+    "concept": "Your own transmitted signal can be picked up by the microphone cable and get into the audio circuits, distorting your voice. A ferrite choke clipped on the cable blocks that stray RF.",
+    "hint": "Think about your own radio signal sneaking back into the radio along a wire it should not be on. How do you stop RF on a cable?",
+    "why": [
+      "Adding feed line does not fix an antenna mismatch, and SWR is not what distorts voice audio in this way.",
+      "Switching the radio off and on is not a cure for distorted transmit audio. It does not remove the cause.",
+      "A clip-on ferrite choke on the microphone cable stops transmitted RF from travelling along the cable back into the transmitter's audio.",
+      "Squelch only mutes the receiver's speaker when no signal is present. It has no effect on your transmitted audio."
+    ]
+  },
+  "T7C01": {
+    "concept": "A dummy load is a resistor that stands in for the antenna. The transmitter sees a proper load, but the power turns to heat, so you can test without putting a signal on the air.",
+    "hint": "The word dummy means a stand-in for the real thing. What is it standing in for, and what does that let you avoid?",
+    "why": [
+      "A dummy load absorbs the transmitter's power as heat in place of an antenna, so tests do not put signals over the air.",
+      "Over-modulation is controlled by audio level settings such as microphone gain, not by a dummy load.",
+      "A dummy load replaces the antenna during tests. It does nothing to make an antenna more efficient.",
+      "A dummy load is used for transmitter testing. It does not improve a receiver's signal-to-noise ratio."
+    ]
+  },
+  "T7C02": {
+    "concept": "An antenna is resonant where it naturally accepts power at the operating frequency. An antenna analyzer sweeps a tiny test signal across frequencies and shows SWR and impedance at each one.",
+    "hint": "Which instrument is made to connect to the feed line and show how the antenna behaves across a range of frequencies?",
+    "why": [
+      "A VTVM is a vacuum tube voltmeter. It measures voltage and cannot show where an antenna is resonant.",
+      "An antenna analyzer measures an antenna's SWR and impedance across frequency, showing where it is resonant.",
+      "A Q meter measures the quality factor (Q) of coils and tuned circuits. It is not the tool used to check antenna resonance.",
+      "A frequency counter measures the frequency of a signal. It does not tell you how an antenna responds at that frequency."
+    ]
+  },
+  "T7C03": {
+    "concept": "A dummy load must look like a perfect 50-ohm antenna to the transmitter and safely get rid of the power as heat. So it is a pure resistance with a way to shed heat.",
+    "hint": "The load must present what most ham transmitters expect to see, and all the power has to go somewhere. Where does it go?",
+    "why": [
+      "A power supply and an AC relay are not a dummy load. A dummy load is a passive part that absorbs power.",
+      "A 50-ohm non-inductive resistor matches the transmitter and turns its power into heat, which the heat sink carries away.",
+      "A power supply and a DC relay are not a dummy load. A dummy load needs no power supply.",
+      "Inductive reactance stores and returns energy and does not absorb it. A dummy load must be a pure resistance to give a good match."
+    ]
+  },
+  "T7C04": {
+    "concept": "SWR (standing wave ratio) compares how well the antenna's impedance matches the feed line. It is a ratio: when the two are equal, all power is accepted and nothing reflects back.",
+    "hint": "SWR is a ratio comparing two things. What does a ratio look like when the two things are exactly equal?",
+    "why": [
+      "50:50 is not how SWR is written. The 50 probably comes from 50 ohms, a common impedance, but SWR is not expressed that way.",
+      "SWR never reads zero. The lowest possible value, a perfect match, is still a ratio of one to one.",
+      "1:1 means the antenna and feed line impedances are equal, so no power is reflected. That is a perfect match.",
+      "A full-scale reading means a very high SWR, which is a severe mismatch, the opposite of a perfect match."
+    ]
+  },
+  "T7C05": {
+    "concept": "High SWR means power is reflected back toward the transmitter. That can put excess voltage or current on the final transistors, so the radio automatically cuts power to keep them safe.",
+    "hint": "Reflected power comes back to the radio's final stage. Which parts there are most at risk?",
+    "why": [
+      "Reflected power from a high SWR can overstress the RF output transistors, so the radio folds back its power to protect them.",
+      "The power reduction is a self-protection feature. It is not there to meet FCC spectral purity rules.",
+      "The limit is not the power supply's current. The reduction is deliberate protection of the output stage.",
+      "Reducing power does not change the SWR. SWR depends on the match between antenna and feed line, not on power level."
+    ]
+  },
+  "T7C06": {
+    "concept": "SWR (standing wave ratio) of 1:1 is a perfect match between feed line and antenna. The bigger the first number, the worse the match and the more power is reflected.",
+    "hint": "Compare the reading with the ideal value for SWR. Is it close to ideal or far from it?",
+    "why": [
+      "SWR is a ratio describing match, not a loss in decibels. 4:1 does not mean a loss of 4 dB.",
+      "A good match is close to 1:1. A reading of 4:1 is far from that.",
+      "SWR is not a gain figure. 4:1 does not mean a gain of 4 dB.",
+      "4:1 is well above the ideal 1:1, showing the antenna's impedance does not match the feed line. A good share of the power is reflected."
+    ]
+  },
+  "T7C07": {
+    "concept": "No feed line is perfect. The conductors have resistance and the insulation absorbs a little energy, so some of the signal is lost along the way, the same way any resistance warms up.",
+    "hint": "Energy cannot vanish. When current flows through something with resistance, what form does the lost energy take?",
+    "why": [
+      "Lost power does not raise SWR. Feed line loss actually makes the SWR measured at the transmitter look lower than it really is.",
+      "Harmonics are created in the transmitter, not by loss in the feed line.",
+      "Power lost in a feed line is converted into heat, in the resistance of the conductors and in the insulating material.",
+      "Feed line loss makes the signal weaker. It does not distort it."
+    ]
+  },
+  "T7C08": {
+    "concept": "SWR can be worked out by comparing power going toward the antenna (forward) with power coming back (reflected). An instrument that senses power in each direction can provide both numbers.",
+    "hint": "To find SWR you need to know about power travelling in two opposite ways along the line. Which instrument can tell them apart?",
+    "why": [
+      "A voltmeter measures voltage between two points. An ordinary voltmeter cannot tell forward power from reflected power.",
+      "An ohmmeter measures DC resistance. It cannot measure how RF power behaves on a feed line.",
+      "Iambic pentameter is a rhythm used in poetry, not an instrument. It is a joke choice.",
+      "A directional wattmeter measures forward and reflected power separately, and SWR can be calculated from those two readings."
+    ]
+  },
+  "T7C09": {
+    "concept": "Coax depends on its insulation staying clean and dry. Water that gets in through a cracked jacket or a poorly sealed connector corrodes the conductors and sharply raises loss.",
+    "hint": "Most coax lives outdoors for years. What does the weather bring that a cable must be sealed against?",
+    "why": [
+      "Moisture contamination is the most common cause of coax failure. Water inside the cable corrodes the shield and increases loss.",
+      "Solder flux contamination is not the cause of coaxial cable failure the question is looking for.",
+      "Changes in transmitter power do not damage coax as long as the cable is used within its ratings.",
+      "Continuous transmitting within the cable's power rating does not cause failure. It is not what the question describes."
+    ]
+  },
+  "T7C10": {
+    "concept": "The outer jacket is the cable's raincoat. Sunlight's ultraviolet light breaks down plastics that are not made to resist it, and a cracked jacket lets water in.",
+    "hint": "Think about what happens to ordinary plastic left in the sun for years, and what the jacket is there to keep out.",
+    "why": [
+      "Ultraviolet light does not change the resistance of the metal conductors. The jacket is what it harms.",
+      "The jacket does not carry the signal, so losses in the jacket are not the concern.",
+      "Ultraviolet light and RF signals do not mix to cause interference. This is not a real effect.",
+      "Ultraviolet light makes an unprotected jacket brittle and cracked, and the cracks let water into the cable."
+    ]
+  },
+  "T7C11": {
+    "concept": "The dielectric is the insulation between a coax cable's center conductor and its shield. Foam is partly air, and air absorbs less signal energy than solid plastic.",
+    "hint": "Foam is plastic full of tiny air pockets. How does air compare with solid plastic at soaking up a passing signal?",
+    "why": [
+      "Foam dielectric is not more resistant to moisture than solid dielectric, so this is not its advantage.",
+      "Foam dielectric does not have higher voltage breakdown than solid dielectric, so this is not its advantage.",
+      "Foam dielectric has less loss per foot than solid dielectric, so more of the signal reaches the other end.",
+      "Both kinds of cable are made at 50 ohms. Foam does not give a better impedance match."
+    ]
+  },
+  "T7D01": {
+    "concept": "Electric potential is another name for voltage, the electrical push between two points. It is measured in volts, and each basic meter is named after the unit it measures.",
+    "hint": "Electric potential has a more common everyday name and a unit. Meters are usually named after their unit.",
+    "why": [
+      "An ammeter measures current, the flow of electricity, in amperes.",
+      "A voltmeter measures electric potential, which is voltage, in volts.",
+      "A potentiometer is a variable resistor, such as a volume control. Despite its name it is a component, not the meter used here.",
+      "An ohmmeter measures resistance, the opposition to current, in ohms."
+    ]
+  },
+  "T7D02": {
+    "concept": "Voltage is a difference between two points, so the meter's two probes touch the two ends of the component. The meter sits alongside the part without breaking the circuit.",
+    "hint": "Voltage is a difference between two points. Do you need to break the circuit open to compare two points?",
+    "why": [
+      "In series means the circuit is broken and the meter inserted in the current path. That is how current is measured, not voltage.",
+      "In parallel means the probes go across the component, one on each end, so the meter reads the voltage difference between them.",
+      "Quadrature means a 90-degree phase difference between two signals. It is not a way to connect a meter.",
+      "In phase describes two signals whose cycles line up in time. It is not a way to connect a meter."
+    ]
+  },
+  "T7D03": {
+    "concept": "Current is the flow through a circuit. To measure it, the flow has to pass through the meter, like a water meter fitted into a pipe.",
+    "hint": "Picture a water meter. Where does it have to sit for all of the water to be counted?",
+    "why": [
+      "In series means the circuit is opened and the meter inserted in the path, so all the current flows through the meter.",
+      "In parallel is how voltage is measured. A meter set for current placed across a component can cause a short circuit.",
+      "Quadrature means a 90-degree phase difference between two signals. It is not a way to connect a meter.",
+      "In phase describes two signals whose cycles line up in time. It is not a way to connect a meter."
+    ]
+  },
+  "T7D04": {
+    "concept": "Electric current is the flow of charge and is measured in amperes. Each basic meter is named after the unit it measures.",
+    "hint": "What unit is current measured in? Meters are usually named after their unit.",
+    "why": [
+      "An ohmmeter measures resistance in ohms, not current.",
+      "An electrometer is not the instrument normally used to measure current in a circuit. It is not what the question describes.",
+      "A voltmeter measures voltage, the electrical push, not the flow of current.",
+      "An ammeter measures electric current in amperes. The name comes from the ampere."
+    ]
+  },
+  "T7D05": {
+    "concept": "An ohmmeter uses Ohm's law. It has its own battery, pushes a small known current through the part, reads the voltage that appears, and works out the resistance from the two.",
+    "hint": "Ohm's law links three quantities. If the meter supplies one and measures a second, it can work out the third.",
+    "why": [
+      "The meter passes a small known current through the component and measures the voltage across it. Resistance is voltage divided by current.",
+      "Putting a variable resistor in parallel with the circuit is not how an ohmmeter works.",
+      "Putting a variable resistor in series with the circuit is not how an ohmmeter works.",
+      "An ohmmeter does not vary the voltage and watch the current change. It applies a small current and measures the resulting voltage."
+    ]
+  },
+  "T7D06": {
+    "concept": "On the resistance setting a multimeter supplies its own small test current and expects a dead circuit. Connecting it to a live voltage forces outside current through that delicate circuit.",
+    "hint": "One meter setting sends out its own small test signal and expects nothing to push back. What happens if something does?",
+    "why": [
+      "Trying to read resistance on the voltage setting just gives a meaningless reading. It does not harm the meter.",
+      "A multimeter measures between its two probes. Neither probe has to be connected to ground, and leaving ground off does no harm.",
+      "On the resistance setting the meter is not built to have voltage applied. Connecting it to a live voltage can damage it.",
+      "A multimeter does not need to warm up, and skipping a warm-up cannot damage it."
+    ]
+  },
+  "T7D07": {
+    "concept": "A multimeter is several basic meters in one case. It measures the fundamental electrical quantities: voltage, current and resistance.",
+    "hint": "Think of the basic single-purpose meters: the voltmeter, the ammeter and the ohmmeter. A multimeter combines them.",
+    "why": [
+      "Signal strength and noise are measured by a receiver's S meter or special test equipment, not by a multimeter.",
+      "Impedance and reactance at radio frequencies need an instrument such as an antenna analyzer, not a basic multimeter.",
+      "Voltage and resistance are standard multimeter measurements, along with current.",
+      "Not all are right. A multimeter does not measure signal strength and noise, or impedance and reactance."
+    ]
+  },
+  "T7D08": {
+    "concept": "Solder has a core of flux, a cleaner that helps the metal flow and bond. Electronics need a mild flux. A corrosive flux made for plumbing keeps eating at wires and parts afterwards.",
+    "hint": "One kind of solder is made for plumbing and sheet metal. Its cleaning agent keeps attacking metal long after the joint cools.",
+    "why": [
+      "Acid-core solder leaves a corrosive residue that eats away wires, component leads and circuit board traces. It is meant for plumbing.",
+      "Lead-tin solder is the traditional solder alloy for electronics work.",
+      "Rosin-core solder is the standard choice for electronics. Its rosin flux is mild and does not corrode the joint.",
+      "Tin-copper solder is a lead-free alloy that is used in electronics."
+    ]
+  },
+  "T7D09": {
+    "concept": "A cold solder joint forms when the joint was not hot enough or moved while cooling. The solder does not flow and bond properly, and the surface shows it.",
+    "hint": "Picture solder that never melted fully and flowed smoothly. What would its surface look like next to a good joint?",
+    "why": [
+      "Dark black spots are not the sign of a cold joint. They are not what the question describes.",
+      "A bright or shiny surface is what a good tin-lead solder joint looks like.",
+      "A cold joint looks rough or lumpy and dull, because the solder did not melt and flow fully onto the metal.",
+      "A greenish tinge suggests corrosion, not a cold solder joint."
+    ]
+  },
+  "T7D10": {
+    "concept": "An ohmmeter sends a small current into whatever it touches. A discharged capacitor soaks up that current as it charges, then takes less and less as it fills.",
+    "hint": "The meter's battery starts filling the capacitor. How does the current flowing change as it fills, and how would the meter show that?",
+    "why": [
+      "At first the capacitor draws current and looks like a low resistance. As it charges the current falls, so the reading climbs.",
+      "Decreasing resistance would mean current growing over time. A charging capacitor draws less and less current.",
+      "A steady reading does not show the charging action. With a capacitor the reading changes over time.",
+      "Alternating between open and short circuit is not how a capacitor behaves on an ohmmeter."
+    ]
+  },
+  "T7D11": {
+    "concept": "An ohmmeter supplies its own small test current. Any other voltage in the circuit upsets the reading and can damage the meter, so the circuit must be dead.",
+    "hint": "The ohmmeter brings its own source of electricity. What should be true of every other source in the circuit?",
+    "why": [
+      "There should be no applied voltages at all during a resistance measurement, so checking that they are correct is the wrong precaution.",
+      "With the circuit not powered, the only current is the meter's own, so the reading is right and the meter is safe.",
+      "Grounding the circuit is not what an ohmmeter needs. It measures between its two probes.",
+      "An ohmmeter measures with its own small direct current. The circuit's operating frequency does not matter because the circuit should be off."
+    ]
+  }
+}

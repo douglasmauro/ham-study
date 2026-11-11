@@ -1,0 +1,502 @@
+{
+  "T5A01": {
+    "concept": "Current is how much electric charge flows past a point each second, like litres per minute in a hose. Its unit is the ampere, often shortened to amp.",
+    "hint": "Think of water in a hose: one unit is for the pressure, one for the flow, one for the narrowness of the hose, one for the work done.",
+    "why": [
+      "Volts measure voltage, the electrical push or pressure, not the amount of flow.",
+      "Watts measure power, the rate at which energy is used.",
+      "Ohms measure resistance, the opposition to flow.",
+      "The ampere is the unit of current, the amount of charge flowing each second."
+    ]
+  },
+  "T5A02": {
+    "concept": "Power is how fast electrical energy is being used or delivered. Its unit is the watt. A 100 watt lamp uses energy ten times faster than a 10 watt lamp.",
+    "hint": "Think of the number printed on a light bulb or a transmitter that tells you how strong it is.",
+    "why": [
+      "Volts measure voltage, the electrical push, not the rate of using energy.",
+      "The watt is the unit of power, the rate at which energy is used.",
+      "Watt-hours measure a total amount of energy (power multiplied by time), not the rate.",
+      "Amperes measure current, the flow of charge."
+    ]
+  },
+  "T5A03": {
+    "concept": "Current is the flow of electrons through a circuit, like water moving through a pipe. Voltage is the push that makes them move; current is the movement itself.",
+    "hint": "Separate the push from the movement. The question asks for the name of the movement itself.",
+    "why": [
+      "Voltage is the push that causes electrons to move, not the flow itself.",
+      "The ampere is the unit used to measure the flow; amperes per second is not the name of the flow.",
+      "The volt is the unit of electrical push; volts per second is not what the question describes.",
+      "Current is the name for the flow of electrons in a circuit."
+    ]
+  },
+  "T5A04": {
+    "concept": "Alternating current swings one way, then the other, then repeats. Frequency counts how many of these complete cycles happen each second.",
+    "hint": "The words 'times per second' describe how often something repeats. What do we call how often a wave repeats?",
+    "why": [
+      "Pulse rate is not the term used for the cycles per second of an alternating current.",
+      "Wave number counts waves per unit of distance, not cycles per second.",
+      "Frequency is the number of complete cycles an alternating current makes each second.",
+      "Wavelength is the distance a wave travels during one cycle, a length rather than a count per second."
+    ]
+  },
+  "T5A05": {
+    "concept": "Electrons move when there is a difference in electrical pressure between two points, just as water flows when pressure is higher at one end of a pipe. That pressure difference is voltage.",
+    "hint": "Water flows through a pipe when the pressure differs between its ends. What is the electrical version of pressure?",
+    "why": [
+      "A difference in voltage, the electrical push, between two points is what makes electrons flow.",
+      "Ampere-hours measure how much charge a battery can supply over time, not the push that starts flow.",
+      "Capacitance is the ability to store energy in an electric field; it is not the push that moves electrons.",
+      "Inductance is the ability to store energy in a magnetic field; it is not the push that moves electrons."
+    ]
+  },
+  "T5A06": {
+    "concept": "Frequency is measured in hertz (Hz). One hertz means one complete cycle per second.",
+    "hint": "Three of these are named after scientists. Which one do you see on a radio dial with kilo or mega in front of it?",
+    "why": [
+      "The hertz is the unit of frequency: one hertz is one cycle per second.",
+      "The henry is the unit of inductance, the property of a coil.",
+      "The farad is the unit of capacitance, the property of a capacitor.",
+      "Epicycles per second is not a unit of frequency; an epicycle is a term from old astronomy."
+    ]
+  },
+  "T5A07": {
+    "concept": "A material conducts electricity when it has electrons that are free to move from atom to atom. Metals have many of these loosely held electrons.",
+    "hint": "Current is a flow of tiny charged particles. What must a material have plenty of for that flow to happen easily?",
+    "why": [
+      "Density is how heavy a material is for its size; it does not decide how well it conducts.",
+      "Metals have many electrons that are free to move, so current flows through them easily.",
+      "Protons are locked in the centre of each atom and do not move through a wire.",
+      "Young's modulus measures how stiff a material is, a mechanical property, not an electrical one."
+    ]
+  },
+  "T5A08": {
+    "concept": "An insulator is a material whose electrons are tightly held, so almost no current can flow through it. Glass, ceramic, plastic and dry air are common insulators.",
+    "hint": "Think about what the supports that hold bare wires on old power and telegraph poles were made of.",
+    "why": [
+      "Sea water conducts electricity because of the salt dissolved in it.",
+      "Glass holds its electrons tightly, so it passes almost no current and is a good insulator.",
+      "Stainless steel is a metal and conducts electricity.",
+      "Graphite is a form of carbon that conducts electricity."
+    ]
+  },
+  "T5A09": {
+    "concept": "Alternating current (AC) regularly reverses direction: it flows one way, then the other. Direct current (DC) only ever flows one way, even if it pulses on and off.",
+    "hint": "Ask what the current must do to count as alternating: is switching on and off enough, or must something else change?",
+    "why": [
+      "Current that goes between positive and zero never reverses; that is pulsing direct current.",
+      "Current that goes between negative and zero never reverses either; that is also pulsing direct current.",
+      "Alternating current reverses, flowing in the positive direction and then the negative direction.",
+      "Only one description is true: the two that alternate with zero never reverse direction, so they are not AC."
+    ]
+  },
+  "T5A10": {
+    "concept": "Power is the rate at which electrical energy is used, measured in watts. Energy is the total amount; power is how fast it is being spent.",
+    "hint": "The key word is 'rate'. Which electrical quantity tells you how fast energy is being spent?",
+    "why": [
+      "Resistance is the opposition to current flow, measured in ohms.",
+      "Current is the flow of electrons, measured in amperes.",
+      "Power is the rate at which electrical energy is used, measured in watts.",
+      "Voltage is the electrical push that causes current to flow, measured in volts."
+    ]
+  },
+  "T5A11": {
+    "concept": "Resistance opposes any flow of current. It does not matter whether the current is steady, reversing slowly, or reversing millions of times a second.",
+    "hint": "Does a resistor care which way the electrons are moving, or how often they change direction?",
+    "why": [
+      "Resistance opposes direct current, which flows steadily in one direction.",
+      "Resistance opposes alternating current, which keeps reversing direction.",
+      "Resistance opposes RF (radio frequency) current, which is alternating current at a very high frequency.",
+      "Resistance opposes every kind of current flow, so direct, alternating and RF current are all true."
+    ]
+  },
+  "T5B01": {
+    "concept": "Milli means one thousandth. One ampere contains 1000 milliamperes, so going from amperes to the smaller unit multiplies the number by 1000.",
+    "hint": "Moving to a smaller unit makes the number bigger. How many thousandths fit in one whole?",
+    "why": [
+      "0.0000015 comes from dividing 1.5 by 1,000,000; the number should grow, and by 1000.",
+      "0.0015 comes from dividing 1.5 by 1000 instead of multiplying.",
+      "1.5 amperes x 1000 = 1500 milliamperes, because there are 1000 milliamperes in one ampere.",
+      "1,500,000 comes from multiplying 1.5 by 1,000,000, which is the micro step, not milli."
+    ]
+  },
+  "T5B02": {
+    "concept": "Kilo (k) means one thousand and mega (M) means one million. To turn hertz into kilohertz, divide by 1000; to turn hertz into megahertz, divide by 1,000,000.",
+    "hint": "Try dividing 1,500,000 by 1000, and by 1,000,000, and see which result appears with the matching unit.",
+    "why": [
+      "1,500,000 Hz / 1000 = 1500 kHz. It is also 1.5 MHz.",
+      "1500 MHz is 1,500,000,000 Hz, a thousand times too large.",
+      "15 GHz is 15,000,000,000 Hz, far too large.",
+      "150 kHz is only 150,000 Hz, ten times too small."
+    ]
+  },
+  "T5B03": {
+    "concept": "The prefix kilo means one thousand. A kilovolt is 1000 volts, just as a kilometre is 1000 metres.",
+    "hint": "Think of other everyday words that start with kilo, such as a distance or a weight, and what the prefix does to them.",
+    "why": [
+      "One one-thousandth of a volt is a millivolt.",
+      "One hundred volts is ten times too small; kilo means one thousand, not one hundred.",
+      "Kilo means one thousand, so one kilovolt is one thousand volts.",
+      "One million volts is a megavolt."
+    ]
+  },
+  "T5B04": {
+    "concept": "The prefix micro means one millionth. A microvolt is a very small voltage, the kind of signal level a receiver picks up from its antenna.",
+    "hint": "Micro makes things small. The question is how small: compare it with milli, which is one thousandth.",
+    "why": [
+      "Micro means one millionth, so one microvolt is one one-millionth of a volt.",
+      "One million volts is a megavolt, the opposite direction.",
+      "One thousand kilovolts is 1,000,000 volts, a megavolt.",
+      "One one-thousandth of a volt is a millivolt."
+    ]
+  },
+  "T5B05": {
+    "concept": "Milli means one thousandth, so 1000 milliwatts make one watt. To go from milliwatts to watts, divide by 1000.",
+    "hint": "How many milliwatts make one whole watt? Is 500 more or less than that?",
+    "why": [
+      "5 watts would be 5000 milliwatts; this comes from dividing by 100 instead of 1000.",
+      "500 milliwatts / 1000 = 0.5 watts, half a watt.",
+      "500,000 comes from multiplying by 1000 instead of dividing.",
+      "500,000,000 comes from multiplying by 1,000,000; the number should get smaller, not larger."
+    ]
+  },
+  "T5B06": {
+    "concept": "There are 1000 milliamperes in one ampere. To go from milliamperes to amperes, divide by 1000.",
+    "hint": "Going from a small unit to a bigger one makes the number smaller. Move the decimal point three places.",
+    "why": [
+      "0.003 comes from dividing by 1,000,000, three places too far.",
+      "0.3 comes from dividing by 10,000, one place too far.",
+      "3,000,000 comes from multiplying by 1000 instead of dividing.",
+      "3000 milliamperes / 1000 = 3 amperes."
+    ]
+  },
+  "T5B07": {
+    "concept": "One megahertz is 1000 kilohertz. To go from MHz to kHz, multiply by 1000, which moves the decimal point three places to the right.",
+    "hint": "Kilohertz is the smaller unit, so the number must get bigger. By how many decimal places?",
+    "why": [
+      "0.003525 comes from dividing by 1000; the number should grow when moving to the smaller unit.",
+      "35.25 comes from multiplying by only 10.",
+      "3.525 MHz x 1000 = 3525 kHz.",
+      "3,525,000 comes from multiplying by 1,000,000; that is the value in hertz, not kilohertz."
+    ]
+  },
+  "T5B08": {
+    "concept": "Pico means one millionth of a millionth and micro means one millionth, so one microfarad holds 1,000,000 picofarads. To go from pF to microfarads, divide by 1,000,000.",
+    "hint": "Pico is a much smaller prefix than micro. Work out how many picofarads fit into one microfarad.",
+    "why": [
+      "0.001 microfarads is only 1000 picofarads; this divides by 1,000,000,000 instead of 1,000,000.",
+      "1,000,000 picofarads / 1,000,000 = 1 microfarad.",
+      "1000 microfarads is 1,000,000,000 picofarads; this divides by only 1000.",
+      "1,000,000,000 comes from multiplying instead of dividing; the number should get smaller."
+    ]
+  },
+  "T5B09": {
+    "concept": "Decibels (dB) compare two power levels. Doubling the power is about +3 dB, and halving it is about -3 dB. Ten times the power is +10 dB.",
+    "hint": "First work out the ratio between the two powers. Then recall the decibel value that goes with that ratio.",
+    "why": [
+      "2 is the power ratio (10 / 5 = 2), not the decibel value.",
+      "10 watts / 5 watts = 2, a doubling of power, and doubling is about 3 dB.",
+      "5 is the difference in watts (10 - 5); decibels come from the ratio, not the difference.",
+      "10 dB means ten times the power, which would be 50 watts."
+    ]
+  },
+  "T5B10": {
+    "concept": "Each halving of power is about -3 dB. Decibels add up, so halving twice (one quarter of the power) is about -6 dB.",
+    "hint": "Find the ratio, then count how many times you must halve the starting power to reach the final power.",
+    "why": [
+      "-1 dB is a small loss that leaves about four fifths of the power, not one quarter of it.",
+      "-3 dB is one halving, which would leave 6 watts.",
+      "12 watts halved is 6, halved again is 3. Two halvings is -3 dB + -3 dB = -6 dB.",
+      "-9 is the difference in watts (3 - 12); -9 dB would be three halvings, leaving 1.5 watts."
+    ]
+  },
+  "T5B11": {
+    "concept": "A power change of ten times is exactly 10 dB. Decibels depend on the ratio of the two powers, not on how many watts were added.",
+    "hint": "Divide the larger power by the smaller one. That ratio is a round number with a well known decibel value.",
+    "why": [
+      "200 watts / 20 watts = 10, and ten times the power is 10 dB.",
+      "12 dB is about sixteen times the power, which would be about 320 watts.",
+      "18 dB is about sixty-four times the power, far more than 200 watts.",
+      "28 dB is more than six hundred times the power, far more than 200 watts."
+    ]
+  },
+  "T5B12": {
+    "concept": "One megahertz is 1000 kilohertz. To go from kHz to MHz, divide by 1000, which moves the decimal point three places to the left.",
+    "hint": "Megahertz is the bigger unit, so the number gets smaller. Move the decimal point three places.",
+    "why": [
+      "28.400 kHz keeps the kilohertz unit but shrinks the number, so it is 1000 times too small.",
+      "2.800 MHz is 2800 kHz; the decimal is moved one place too far and a digit is lost.",
+      "284.00 MHz is 284,000 kHz; the decimal is moved only two places.",
+      "28400 kHz / 1000 = 28.400 MHz."
+    ]
+  },
+  "T5B13": {
+    "concept": "Giga (G) means one billion, so one gigahertz is 1000 megahertz. To go from MHz to GHz, divide by 1000.",
+    "hint": "Gigahertz is the bigger unit, so the number gets smaller. How many megahertz make one gigahertz?",
+    "why": [
+      "0.002425 GHz is only 2.425 MHz; this divides by 1,000,000 instead of 1000.",
+      "24.25 GHz is 24,250 MHz; this divides by only 100.",
+      "2425 MHz / 1000 = 2.425 GHz.",
+      "242.5 GHz is 242,500 MHz; this divides by only 10."
+    ]
+  },
+  "T5C01": {
+    "concept": "A capacitor is two metal plates separated by an insulator. Charge builds up on the plates and energy is stored in the electric field between them. That ability is capacitance.",
+    "hint": "An electric field forms between two charged plates held apart. Which component is built that way?",
+    "why": [
+      "Inductance is the ability to store energy in a magnetic field, as a coil does.",
+      "Resistance opposes current and turns energy into heat; it does not store it.",
+      "Frequency is the number of cycles per second of an alternating current.",
+      "Capacitance is the ability to store energy in an electric field, as a capacitor does."
+    ]
+  },
+  "T5C02": {
+    "concept": "Capacitance is measured in farads. One farad is very large, so real parts are usually marked in microfarads or picofarads.",
+    "hint": "Each of these units goes with one electrical property. Match the one that belongs to the capacitor.",
+    "why": [
+      "The farad is the unit of capacitance.",
+      "The ohm is the unit of resistance and impedance.",
+      "The volt is the unit of voltage, the electrical push.",
+      "The henry is the unit of inductance."
+    ]
+  },
+  "T5C03": {
+    "concept": "Current flowing through a coil of wire creates a magnetic field around it, and energy is stored in that field. That ability is inductance, and the component is an inductor.",
+    "hint": "A magnetic field appears around a coil of wire carrying current. Which property belongs to a coil?",
+    "why": [
+      "Admittance is a measure of how easily alternating current flows, the inverse of impedance.",
+      "Capacitance is the ability to store energy in an electric field, not a magnetic one.",
+      "Resistance opposes current and turns energy into heat; it does not store it.",
+      "Inductance is the ability to store energy in a magnetic field, as a coil does."
+    ]
+  },
+  "T5C04": {
+    "concept": "Inductance is measured in henrys. Coils in radio circuits are often marked in millihenrys or microhenrys.",
+    "hint": "Each of these units goes with one electrical property. Match the one that belongs to the coil.",
+    "why": [
+      "The coulomb is the unit of electric charge.",
+      "The farad is the unit of capacitance.",
+      "The henry is the unit of inductance.",
+      "The ohm is the unit of resistance and impedance."
+    ]
+  },
+  "T5C05": {
+    "concept": "Impedance is the total opposition a circuit gives to alternating current. Because it is a kind of opposition, like resistance, it is measured in the same unit.",
+    "hint": "Impedance is a kind of opposition to current. Which unit do we already use for opposition to current?",
+    "why": [
+      "The volt is the unit of voltage, the electrical push.",
+      "The ampere is the unit of current.",
+      "The coulomb is the unit of electric charge.",
+      "The ohm is the unit of impedance, the same unit used for resistance."
+    ]
+  },
+  "T5C06": {
+    "concept": "Unit abbreviations are case sensitive. The prefix kilo is a lower case k, and hertz is written Hz with a capital H because it is named after a person.",
+    "hint": "Look only at the capital letters. Which prefix letters are small, and how is a unit named after a person written?",
+    "why": [
+      "kHz has the lower case k for kilo and the capital H, small z for hertz.",
+      "khz has a small h, but the hertz symbol starts with a capital H.",
+      "KHz has a capital K, but the prefix kilo is written with a lower case k.",
+      "KHZ is all capitals; kilo needs a lower case k and hertz ends with a small z."
+    ]
+  },
+  "T5C07": {
+    "concept": "The prefix mega is a capital M. A lower case m means milli, one thousandth, so the case of that letter changes the value by a factor of a billion.",
+    "hint": "One letter here has two meanings depending on whether it is a capital. Which meaning is the large one?",
+    "why": [
+      "mHz would be millihertz, one thousandth of a hertz, because lower case m means milli.",
+      "mHZ has the lower case m for milli, and hertz is not written with a capital Z.",
+      "Mhz has the right M for mega but a small h; the hertz symbol starts with a capital H.",
+      "MHz has the capital M for mega and Hz, capital H and small z, for hertz."
+    ]
+  },
+  "T5C08": {
+    "concept": "Power in watts equals current in amperes multiplied by voltage in volts: P = I x E. More push or more flow both mean more power.",
+    "hint": "Power grows if you raise the push and also if you raise the flow. Which way of combining them does that?",
+    "why": [
+      "Power is current (I) multiplied by voltage (E).",
+      "Voltage divided by current gives resistance in ohms, not power.",
+      "Current squared belongs with resistance in another power formula (P = I² x R), not with voltage.",
+      "Current divided by voltage does not give power; power rises when either one rises."
+    ]
+  },
+  "T5C09": {
+    "concept": "Power in watts is voltage multiplied by current: P = E x I. 13.8 volts is the usual supply voltage for mobile radios.",
+    "hint": "Decide which operation joins volts and amperes to give watts, then do it with these two numbers.",
+    "why": [
+      "P = E x I = 13.8 volts x 10 amperes = 138 watts.",
+      "About 0.7 comes from dividing 10 by 13.8 instead of multiplying.",
+      "23.8 comes from adding 13.8 and 10 instead of multiplying.",
+      "3.8 comes from subtracting 10 from 13.8 instead of multiplying."
+    ]
+  },
+  "T5C10": {
+    "concept": "Power in watts is voltage multiplied by current: P = E x I.",
+    "hint": "Decide which operation joins volts and amperes to give watts, then do it with these two numbers.",
+    "why": [
+      "4.8 comes from dividing 12 by 2.5, which would give resistance in ohms, not power.",
+      "P = E x I = 12 volts x 2.5 amperes = 30 watts.",
+      "14.5 comes from adding 12 and 2.5 instead of multiplying.",
+      "0.208 comes from dividing 2.5 by 12 instead of multiplying."
+    ]
+  },
+  "T5C11": {
+    "concept": "Rearranging P = I x E gives current: I = P / E. Divide the power in watts by the voltage in volts to get amperes.",
+    "hint": "Start from the power formula and rearrange it so the quantity you want is alone on one side.",
+    "why": [
+      "0.1 comes from dividing upside down: 12 / 120.",
+      "I = P / E = 120 watts / 12 volts = 10 amperes.",
+      "12 is just the voltage repeated, not a calculated current.",
+      "132 comes from adding 120 and 12 instead of dividing."
+    ]
+  },
+  "T5C12": {
+    "concept": "Impedance is the total opposition a circuit gives to alternating current (AC). It combines resistance with reactance, the extra opposition from coils and capacitors. Unit: ohms.",
+    "hint": "The everyday word 'impede' means to get in the way of something. What is being held back in a circuit?",
+    "why": [
+      "Impedance is the opposition to the flow of alternating current, measured in ohms.",
+      "The inverse of resistance is called conductance, a measure of how easily current flows.",
+      "The inverse of reactance is called susceptance, not impedance.",
+      "Power handling capability is a rating in watts; it is not what impedance means."
+    ]
+  },
+  "T5D01": {
+    "concept": "Ohm's law: current equals voltage divided by resistance. More push means more flow; more resistance means less.",
+    "hint": "Picture the Ohm's law triangle: cover the letter you want and look at how the other two are arranged.",
+    "why": [
+      "Multiplying voltage by resistance gives a meaningless number here; current gets smaller as resistance grows, not larger.",
+      "Current is the voltage (E) divided by the resistance (R): the push divided by what opposes it.",
+      "Squaring the voltage belongs to a power formula (P = E² / R), not to finding current.",
+      "E² / R is the formula for power in watts, not current in amperes."
+    ]
+  },
+  "T5D02": {
+    "concept": "Ohm's law: voltage equals current multiplied by resistance. Pushing more current through more resistance takes more voltage.",
+    "hint": "Picture the Ohm's law triangle: cover the letter you want and look at how the other two are arranged.",
+    "why": [
+      "Voltage is the current (I) multiplied by the resistance (R).",
+      "Dividing current by resistance does not give voltage; voltage rises when resistance rises.",
+      "I² x R is the formula for power in watts, not voltage.",
+      "Squaring the current belongs to a power formula (P = I² x R), not to finding voltage."
+    ]
+  },
+  "T5D03": {
+    "concept": "Ohm's law: resistance equals voltage divided by current. If a large push produces only a small flow, the resistance must be high.",
+    "hint": "Picture the Ohm's law triangle: cover the letter you want and look at how the other two are arranged.",
+    "why": [
+      "Voltage multiplied by current gives power in watts, not resistance.",
+      "Resistance is the voltage (E) divided by the current (I).",
+      "Adding voltage and current mixes two different units and has no meaning.",
+      "Subtracting current from voltage mixes two different units and has no meaning."
+    ]
+  },
+  "T5D04": {
+    "concept": "Ohm's law for resistance: R = E / I. Divide the voltage in volts by the current in amperes to get ohms.",
+    "hint": "Pick the form of Ohm's law with resistance alone on one side, then put the larger number where the voltage goes.",
+    "why": [
+      "3 is just the current repeated, not a calculated resistance.",
+      "R = E / I = 90 volts / 3 amperes = 30 ohms.",
+      "1/30 comes from dividing upside down: 3 / 90.",
+      "270 comes from multiplying 90 by 3, which gives power in watts, not resistance."
+    ]
+  },
+  "T5D05": {
+    "concept": "Ohm's law for resistance: R = E / I. Divide the voltage in volts by the current in amperes to get ohms.",
+    "hint": "Pick the form of Ohm's law with resistance alone on one side. Which number is divided by which?",
+    "why": [
+      "18 comes from multiplying 12 by 1.5, which gives power in watts, not resistance.",
+      "0.125 comes from dividing upside down: 1.5 / 12.",
+      "R = E / I = 12 volts / 1.5 amperes = 8 ohms.",
+      "13.5 comes from adding 12 and 1.5 instead of dividing."
+    ]
+  },
+  "T5D06": {
+    "concept": "Ohm's law for resistance: R = E / I. Divide the voltage in volts by the current in amperes to get ohms.",
+    "hint": "Pick the form of Ohm's law with resistance alone on one side. Which number is divided by which?",
+    "why": [
+      "R = E / I = 12 volts / 4 amperes = 3 ohms.",
+      "16 comes from adding 12 and 4 instead of dividing.",
+      "48 comes from multiplying 12 by 4, which gives power in watts, not resistance.",
+      "8 comes from subtracting 4 from 12 instead of dividing."
+    ]
+  },
+  "T5D07": {
+    "concept": "Ohm's law for current: I = E / R. Divide the voltage in volts by the resistance in ohms to get amperes.",
+    "hint": "Pick the form of Ohm's law with current alone on one side. Which number is divided by which?",
+    "why": [
+      "9600 comes from multiplying 120 by 80 instead of dividing.",
+      "200 comes from adding 120 and 80 instead of dividing.",
+      "0.667 comes from dividing upside down: 80 / 120.",
+      "I = E / R = 120 volts / 80 ohms = 1.5 amperes."
+    ]
+  },
+  "T5D08": {
+    "concept": "Ohm's law for current: I = E / R. Divide the voltage in volts by the resistance in ohms to get amperes.",
+    "hint": "Pick the form of Ohm's law with current alone on one side. Which number is divided by which?",
+    "why": [
+      "20,000 comes from multiplying 200 by 100 instead of dividing.",
+      "0.5 comes from dividing upside down: 100 / 200.",
+      "I = E / R = 200 volts / 100 ohms = 2 amperes.",
+      "100 comes from subtracting 100 from 200 instead of dividing."
+    ]
+  },
+  "T5D09": {
+    "concept": "Ohm's law for current: I = E / R. Divide the voltage in volts by the resistance in ohms to get amperes.",
+    "hint": "Pick the form of Ohm's law with current alone on one side. Which number is divided by which?",
+    "why": [
+      "2400 does not come from Ohm's law; dividing 240 by 24 gives a much smaller number.",
+      "0.1 comes from dividing upside down: 24 / 240.",
+      "I = E / R = 240 volts / 24 ohms = 10 amperes.",
+      "5760 comes from multiplying 240 by 24 instead of dividing."
+    ]
+  },
+  "T5D10": {
+    "concept": "Ohm's law for voltage: E = I x R. Multiply the current in amperes by the resistance in ohms to get volts.",
+    "hint": "Pick the form of Ohm's law with voltage alone on one side, then combine the two numbers that way.",
+    "why": [
+      "E = I x R = 0.5 amperes x 2 ohms = 1 volt.",
+      "0.25 comes from dividing 0.5 by 2 instead of multiplying.",
+      "2.5 comes from adding 2 and 0.5 instead of multiplying.",
+      "1.5 comes from subtracting 0.5 from 2 instead of multiplying."
+    ]
+  },
+  "T5D11": {
+    "concept": "Ohm's law for voltage: E = I x R. Multiply the current in amperes by the resistance in ohms to get volts.",
+    "hint": "Pick the form of Ohm's law with voltage alone on one side, then combine the two numbers that way.",
+    "why": [
+      "1 is just the current repeated, not a calculated voltage.",
+      "E = I x R = 1 ampere x 10 ohms = 10 volts.",
+      "11 comes from adding 10 and 1 instead of multiplying.",
+      "9 comes from subtracting 1 from 10 instead of multiplying."
+    ]
+  },
+  "T5D12": {
+    "concept": "Ohm's law for voltage: E = I x R. Multiply the current in amperes by the resistance in ohms to get volts.",
+    "hint": "Pick the form of Ohm's law with voltage alone on one side, then combine the two numbers that way.",
+    "why": [
+      "8 comes from subtracting 2 from 10 instead of multiplying.",
+      "0.2 comes from dividing 2 by 10 instead of multiplying.",
+      "12 comes from adding 10 and 2 instead of multiplying.",
+      "E = I x R = 2 amperes x 10 ohms = 20 volts."
+    ]
+  },
+  "T5D13": {
+    "concept": "In a series circuit the parts are joined end to end in a single loop. There is only one path, so every electron must pass through every part and the current is the same everywhere.",
+    "hint": "Picture water in one pipe with no side branches. Whatever flows through the first section must flow through the rest.",
+    "why": [
+      "A series circuit has only one path, so the same current flows through every component.",
+      "A parallel circuit splits the current among its branches; it is the voltage that is the same there.",
+      "Resonant describes a circuit tuned to one frequency, not how the current is shared among parts.",
+      "Branch is a name for one path of a parallel circuit, not a circuit type with equal current everywhere."
+    ]
+  },
+  "T5D14": {
+    "concept": "In a parallel circuit every part is connected across the same two points, side by side. Each one therefore has the same voltage across it, while the current divides among them.",
+    "hint": "Picture several lamps each wired directly across the same two battery terminals. What do they all share?",
+    "why": [
+      "A series circuit divides the voltage among its components; it is the current that is the same there.",
+      "Parallel components all connect across the same two points, so each has the same voltage across it.",
+      "Resonant describes a circuit tuned to one frequency, not how the voltage is shared among parts.",
+      "Branch is a name for one path of a parallel circuit, not a circuit type in itself."
+    ]
+  }
+}

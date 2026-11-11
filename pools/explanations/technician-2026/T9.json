@@ -1,0 +1,232 @@
+{
+  "T9A01": {
+    "concept": "A beam is a directional antenna. Like a flashlight reflector, it does not make more power; it squeezes the signal toward one direction, so it is stronger there and weaker elsewhere.",
+    "hint": "Think of a beam of light from a flashlight compared with a bare bulb.",
+    "why": [
+      "The name does not come from the building material. Beams are usually made of round tubing or rods, and the word describes the radiation pattern.",
+      "A beam is the opposite of omnidirectional (equal in all compass directions), and it is not named after a person.",
+      "A beam, such as a Yagi, focuses transmitted and received signals mainly in one direction, which gives gain that way.",
+      "A beam has one main direction, not two. Two opposite lobes is closer to the pattern of a simple dipole."
+    ]
+  },
+  "T9A02": {
+    "concept": "Loading makes a physically short antenna act electrically longer so it resonates on a lower frequency. The usual way is a coil (inductor) placed in the radiating element.",
+    "hint": "Loading is an electrical trick for an antenna that is physically too short for its band. Which part stores energy without wasting it?",
+    "why": [
+      "A coil (inductor) placed in the element makes a short antenna behave as if it were longer. This is inductive loading.",
+      "A resistor does not make an antenna resonant. It only turns transmitter power into heat.",
+      "A base spring is a mechanical part that lets a mobile whip bend. It is not electrical loading.",
+      "Making elements stronger against wind is mechanical design. Antenna loading in this sense is an electrical change."
+    ]
+  },
+  "T9A03": {
+    "concept": "A radio wave has an electric field and a magnetic field at right angles. Polarization is named after the electric field, which lines up with the antenna element: a vertical element gives vertical polarization.",
+    "hint": "A radio wave has two fields at right angles to each other. Only one of them is used to name the polarization.",
+    "why": [
+      "The shape of the driven element (the element connected to the feed line) does not define polarization. Its orientation matters, not its shape.",
+      "Polarization is the direction of the wave's electric field. A vertical element makes a vertical electric field.",
+      "The magnetic field is at right angles to the electric field, and it is not the one used to name polarization.",
+      "The direction the signal travels is the radiation pattern. Polarization is how the field is oriented as it travels."
+    ]
+  },
+  "T9A04": {
+    "concept": "A handheld's short flexible antenna is a much-shortened antenna with a coil inside. It is convenient, but it radiates and receives less well than a full-sized quarter-wave antenna.",
+    "hint": "The short antenna is a compromise made for convenience. Think about what is given up when an antenna is made much smaller than full size.",
+    "why": [
+      "A short flexible antenna is far shorter than a quarter wavelength, so less of the power is radiated. That is low efficiency.",
+      "It is not circularly polarized. Held upright, it radiates a mostly vertically polarized signal like other verticals.",
+      "Desensitization is a receiver being overloaded by a strong nearby signal. A less efficient antenna does not make that worse.",
+      "An antenna does not care whether the signal is analog or digital. It works the same for both."
+    ]
+  },
+  "T9A05": {
+    "concept": "Antenna length and resonant frequency move in opposite directions. A shorter wire fits a shorter wavelength, which is a higher frequency, like a shorter guitar string giving a higher note.",
+    "hint": "Picture a guitar string: what happens to the note when the vibrating part of the string changes length?",
+    "why": [
+      "A longer dipole fits a longer wavelength, so its resonant frequency goes down, not up.",
+      "Coils in series make the antenna electrically longer, which lowers the resonant frequency.",
+      "A shorter dipole fits a shorter wavelength, and a shorter wavelength means a higher frequency.",
+      "Capacitive loading at the ends also makes the antenna electrically longer, lowering the resonant frequency."
+    ]
+  },
+  "T9A06": {
+    "concept": "Gain comes from focusing the signal. An antenna that radiates all around has little gain; a directional antenna with several elements concentrates its signal and has much more.",
+    "hint": "Sort the antennas into those that radiate all around and those that focus the signal one way.",
+    "why": [
+      "A 5/8 wave vertical has a little more gain than a quarter-wave vertical, but it still radiates in all compass directions.",
+      "An isotropic antenna is a theoretical point that radiates equally in every direction. It is the reference with no gain at all.",
+      "A J pole is an omnidirectional vertical with about the gain of a half-wave antenna, well below a directional beam.",
+      "A Yagi is a beam antenna with several elements that focus the signal in one direction, giving the most gain of these four."
+    ]
+  },
+  "T9A07": {
+    "concept": "A vehicle's metal body acts as a shield around an antenna inside it. Much of the signal is blocked or absorbed, which is why mobile stations use an antenna mounted outside.",
+    "hint": "Think about what surrounds the radio and its antenna when you sit inside a car.",
+    "why": [
+      "The metal body blocks much of the signal going out and coming in, so a handheld inside the vehicle is weaker both ways.",
+      "The problem is not antenna bandwidth. The signal is simply being blocked by the metal around the antenna.",
+      "A lower SWR (standing wave ratio, a measure of matching) would mean a better match, not a weaker signal.",
+      "The handheld does not overheat from this. The drawback is a weaker signal outside the vehicle."
+    ]
+  },
+  "T9A08": {
+    "concept": "An antenna works best when its length matches a fraction of the wavelength. On the 2 meter band, a quarter of the wavelength is about 19 inches, a handy size for a vertical.",
+    "hint": "Start from the band name, which gives the wavelength, and work out how 19 inches (about half a meter) compares with it.",
+    "why": [
+      "A quarter-wave vertical is a basic antenna with no special gain. Its size, not gain, is the reason for 19 inches.",
+      "A half wavelength on 2 meters is about 1 meter, roughly 38 to 39 inches, twice as long as this antenna.",
+      "One quarter of 2 meters is 0.5 meter, about 19.7 inches. A practical antenna is slightly shorter, so 19 inches is a resonant quarter-wave.",
+      "RF exposure depends on power, distance and time, not on choosing a 19 inch length."
+    ]
+  },
+  "T9A09": {
+    "concept": "A 5/8-wavelength vertical is taller than a quarter-wave and pushes more of its signal out low toward the horizon, where distant stations are. That extra signal toward the horizon is gain.",
+    "hint": "A mobile station wants its signal to go out toward the horizon. Think about what a longer vertical does to the pattern.",
+    "why": [
+      "The 5/8-wave whip concentrates more signal at low angles toward the horizon, so it has more gain than a quarter-wave.",
+      "It radiates at a lower angle, not a higher one. The lower angle is what makes it useful for mobile work.",
+      "Lower SWR (a measure of matching) is not its advantage. A 5/8-wave whip needs a matching coil to match the feed line.",
+      "Lower impedance is not the benefit described. The advantage is how the signal is concentrated toward the horizon."
+    ]
+  },
+  "T9A10": {
+    "concept": "A half-wave dipole radiates best at right angles to its wire and almost nothing off its ends. The pattern looks like a doughnut with the wire running through the hole.",
+    "hint": "Picture a doughnut with the antenna wire running through the hole. Where is the dough thickest?",
+    "why": [
+      "A dipole is not equal in all directions. It has weak spots, called nulls, off the ends of the wire.",
+      "The ends of the wire are where the dipole radiates least. These are its nulls.",
+      "The feed line carries power to the antenna and does not set the direction of the strongest signal.",
+      "Broadside means at right angles to the wire. That is where a half-wave dipole's signal is strongest."
+    ]
+  },
+  "T9A11": {
+    "concept": "Antenna gain is not extra power. The antenna reshapes its pattern to send more signal one way and less another. Gain says how much stronger that favored direction is than a reference antenna.",
+    "hint": "An antenna cannot create power. Think of squeezing a balloon: it bulges out one side when pushed in on another.",
+    "why": [
+      "An antenna adds no power to the transmitter. It can only redirect the power it is given.",
+      "Gain is not extra power needed at higher frequencies. That is not what the term means.",
+      "Gain is how much stronger the signal is in a chosen direction than it would be from a reference antenna, such as a dipole or isotropic.",
+      "Gain compares signal strength, not impedance (the opposition a circuit presents to alternating current)."
+    ]
+  },
+  "T9B01": {
+    "concept": "Water inside a coax connector or cable raises loss and causes corrosion. Any connector used outdoors should be sealed with tape or other weatherproofing, whatever its type.",
+    "hint": "Think about what rain does once it gets inside a connector, and whether any connector type is safe to leave bare outdoors.",
+    "why": [
+      "The PL259 is not watertight, so it needs careful taping outdoors.",
+      "The BNC, a small bayonet (push and twist) connector, is not sealed against rain and should be taped outdoors.",
+      "The Type N is made to resist moisture better than the others, but sealing it outdoors is still good practice.",
+      "All three connector types listed should be weatherproofed outdoors to keep water out of the connector and the coax."
+    ]
+  },
+  "T9B02": {
+    "concept": "Coaxial cable has a characteristic impedance set by its construction. Amateur transceivers and most amateur antennas are designed for 50 ohms, so 50-ohm coax is the standard.",
+    "hint": "The feed line should match what the transceiver's antenna jack is designed for. Think of the usual figure for amateur gear.",
+    "why": [
+      "8 ohms is a common loudspeaker impedance, not a coaxial cable impedance.",
+      "50 ohms matches the output of amateur transceivers, so it is the most common coax impedance in amateur stations.",
+      "600 ohms is a value associated with open-wire parallel line, not coaxial cable.",
+      "12 ohms is not a coax impedance. The number may bring to mind 12 volt power supplies, which is unrelated."
+    ]
+  },
+  "T9B03": {
+    "concept": "Coax keeps the signal inside its shield, so it can run along metal, through walls or be coiled without much effect. That convenience, not top performance, makes it the usual choice.",
+    "hint": "Coax is not the best at any single measure. Think about what makes something popular for everyday use.",
+    "why": [
+      "The shield keeps the signal inside, so coax can be routed near metal and through walls with few special precautions.",
+      "Coax does not have the lowest loss. Open-wire line and air-insulated hardline have less.",
+      "Coax is not the highest-power feed line. Power handling is not the reason it is so common.",
+      "Coax is not the cheapest feed line. Simple parallel-wire line can cost less."
+    ]
+  },
+  "T9B04": {
+    "concept": "A transceiver wants to see its design impedance, normally 50 ohms. An antenna tuner sits between radio and antenna system and transforms whatever impedance is there into what the radio expects.",
+    "hint": "The transmitter is happiest with one particular load. The tuner is the adapter in the middle.",
+    "why": [
+      "The tuner transforms the impedance of the antenna and feed line so the transceiver sees the impedance it is designed for.",
+      "It does not tune a receiver to stations. Choosing the frequency is done by the radio's own tuning.",
+      "An antenna already works for both transmit and receive without a tuner. The radio switches between them.",
+      "Selecting an antenna for each band is the job of an antenna switch, not an antenna tuner."
+    ]
+  },
+  "T9B05": {
+    "concept": "Coax loss rises with frequency. The same cable that loses little on HF can lose a large share of the signal at UHF, so higher bands need better cable or shorter runs.",
+    "hint": "Think about why operators on UHF pay more attention to cable quality and length than operators on HF.",
+    "why": [
+      "Characteristic impedance is set by the cable's dimensions and insulation. It does not drop as frequency rises.",
+      "Loss goes the other way. Higher frequencies lose more signal in the same length of cable.",
+      "Characteristic impedance stays essentially the same across frequency. A 50-ohm cable stays 50 ohms.",
+      "More of the signal turns to heat in the conductors and insulation as frequency goes up, so loss increases."
+    ]
+  },
+  "T9B06": {
+    "concept": "Connectors that work well on HF can cause loss and mismatch at UHF. The Type N connector is built to keep a constant impedance, so it performs well above 400 MHz.",
+    "hint": "At UHF a connector must hold a steady impedance or it causes loss. Ask which of these was designed with that in mind.",
+    "why": [
+      "The PL-259 is fine at HF and VHF, but its impedance is not constant, so it is a poorer choice above 400 MHz.",
+      "The Type N keeps a constant impedance and low loss at UHF and higher, and it resists moisture.",
+      "RS-213 is not an RF connector type. The similar name RG-213 is a kind of coaxial cable.",
+      "The DB-25 is a 25-pin data connector for computer and control cables, not an RF connector."
+    ]
+  },
+  "T9B07": {
+    "concept": "The PL-259 is the threaded plug found on most HF and many VHF radios, often called a UHF connector despite working poorly at UHF. It screws on and is not sealed against water.",
+    "hint": "Think of the screw-on plug on the back of most base and mobile radios, and which bands those radios cover.",
+    "why": [
+      "The PL-259 is a poor choice for microwaves. Type N and other constant-impedance connectors are used there.",
+      "The PL-259 is not watertight, which is why it must be sealed when used outdoors.",
+      "The PL-259 is the usual connector on HF and many VHF radios and antennas.",
+      "The PL-259 screws on with a threaded shell. The bayonet (push and twist) connector is the BNC."
+    ]
+  },
+  "T9B08": {
+    "concept": "Feed line loss is transmitter power turned to heat before reaching the antenna. Wet connectors, a poor match and every extra connector in the line each add some loss.",
+    "hint": "Consider each item separately and ask whether it would waste some of the signal on the way to the antenna.",
+    "why": [
+      "Water in a connector causes corrosion and can soak into the cable, which raises loss.",
+      "With high SWR (a poor match), power reflects back and forth along the line and more of it is lost as heat.",
+      "Each connector adds a small loss and a possible bad contact, so several in one line add up.",
+      "Water intrusion, high SWR and multiple connectors are all real sources of feed line loss."
+    ]
+  },
+  "T9B09": {
+    "concept": "SWR depends on the match between feed line and antenna. If the reading jumps around, something in the antenna system is changing, and the usual cause is an intermittent connection.",
+    "hint": "SWR reflects the physical state of the antenna and feed line. What could make that state change from moment to moment?",
+    "why": [
+      "A thunderstorm causes static noise in the receiver, but it does not change the match of your antenna system.",
+      "A loose connection makes and breaks contact, so the load on the line keeps changing and the SWR reading jumps.",
+      "Over-modulation distorts the transmitted signal and makes it too wide. It does not change the antenna match.",
+      "Overload from a strong local station is a receiver problem, not a change in SWR."
+    ]
+  },
+  "T9B10": {
+    "concept": "RG-58 is thin, flexible coax; RG-213 is much thicker. Both are 50 ohms, but the larger conductors of the thick cable waste less signal and carry more power.",
+    "hint": "One of these cables is about twice as thick as the other. Think about what larger conductors do to wasted signal.",
+    "why": [
+      "The difference is significant. Over a long run or at VHF and UHF, the thin cable loses much more signal.",
+      "Two shields is not what separates these cables. The difference that matters is size and loss.",
+      "RG-213 is the thicker cable with larger conductors, so it loses less signal at any given frequency.",
+      "This is reversed. The thicker RG-213 handles more power than the thin RG-58."
+    ]
+  },
+  "T9B11": {
+    "concept": "Much of a cable's loss comes from the insulation between its conductors and from small conductors. Hardline has a large solid shield and mostly air inside, so very little signal is lost.",
+    "hint": "Think about which material between the conductors would waste the least signal, and which cable has the largest conductors.",
+    "why": [
+      "50-ohm flexible coax uses solid or foam plastic insulation and a braided shield, which lose more than hardline.",
+      "Multi-conductor unbalanced cable is not a low-loss RF feed line and is not what the question describes.",
+      "Air is a nearly lossless insulator, and hardline has large solid conductors, so it has the lowest loss of these.",
+      "75-ohm flexible coax is still flexible coax with plastic insulation, so it loses more than air-insulated hardline."
+    ]
+  },
+  "T9B12": {
+    "concept": "SWR compares the load, usually the antenna, with the feed line. A perfect match is 1:1 and all power is accepted. The worse the match, the more power reflects back and the higher the SWR.",
+    "hint": "SWR arises when some power bounces back from the far end of the feed line. What decides how much bounces?",
+    "why": [
+      "SWR shows how closely the load impedance matches the feed line. A reading of 1:1 is a perfect match.",
+      "The ratio of amplifier output power to input power is the amplifier's gain, not SWR.",
+      "Transmitter efficiency compares RF power out with DC power in. It has nothing to do with standing waves.",
+      "SWR does not measure the quality of the station ground. It describes the match on the feed line."
+    ]
+  }
+}

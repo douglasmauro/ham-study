@@ -1,0 +1,362 @@
+{
+  "T0A01": {
+    "concept": "A storage battery holds a lot of energy at low voltage. The voltage is too low to push much current through skin, but a metal path across the terminals lets a huge current flow at once.",
+    "hint": "Think about what happens when a wrench falls across both posts of a car battery. Is the danger the voltage or the current?",
+    "why": [
+      "Twelve volts is normally too low to drive a harmful current through skin, so shock is not the hazard this question is after.",
+      "A direct metal path lets hundreds of amperes flow. That heats metal red hot, can start a fire, and can make the battery burst.",
+      "Radio signals do not make battery electrolyte give off poison gas. This is not a real hazard.",
+      "Only the short-circuit hazard is real here. The shock and poison gas items are false, so not every choice is correct."
+    ]
+  },
+  "T0A02": {
+    "concept": "The body runs on tiny electrical signals. Outside current passing through it can cook tissue, upset the signals cells use, and make muscles clamp, including the heart and the hand gripping a wire.",
+    "hint": "Consider more than one kind of harm: heat, the body's own electrical signalling, and what muscles do when current hits them.",
+    "why": [
+      "Current flowing through the resistance of the body makes heat, which can burn tissue inside and out.",
+      "Nerves and the heart work by small electrical signals, and outside current can upset them.",
+      "Current makes muscles tighten on their own, which can stop you letting go of a live wire.",
+      "Heating, disrupted cell function and involuntary muscle contraction are all real effects of current in the body."
+    ]
+  },
+  "T0A03": {
+    "concept": "US house wiring uses colour to mark each wire's job: black for hot (the wire that carries voltage from the panel), white for neutral (the return), and green or bare for safety ground.",
+    "hint": "Three wires, three colours, three jobs. One of them is the wire that is dangerous to touch. Which colour would you pick as a warning?",
+    "why": [
+      "Neutral, the return wire, has white insulation in US wiring.",
+      "Black marks the hot wire, the one that carries the 120 volts from the panel and can shock you.",
+      "The equipment ground, the safety wire tied to the metal case, is green or bare copper.",
+      "Negative is a DC term, as on a battery. AC house wiring has hot and neutral, not positive and negative."
+    ]
+  },
+  "T0A04": {
+    "concept": "A fuse is a deliberate weak link: a thin strip of metal that melts and opens the circuit when too much current flows, before wires or parts overheat.",
+    "hint": "A fuse is a thin piece of metal placed in the path of the current. Ask what happens to it when far too much current flows.",
+    "why": [
+      "Ripple is leftover AC on a DC supply. Filter capacitors smooth it; a fuse does nothing about it.",
+      "When current goes above the fuse rating, the fuse element melts and breaks the circuit, cutting off power.",
+      "A fuse does not limit normal current, and a current far below its rating can still give a dangerous shock.",
+      "Only removing power on overload is true. The ripple and shock-prevention items are false."
+    ]
+  },
+  "T0A05": {
+    "concept": "A fuse is sized to open before the wiring and parts it protects get too hot. A bigger fuse lets far more current flow through a circuit that was only built for the smaller amount.",
+    "hint": "The fuse rating is matched to what the wiring and device can stand. What does the circuit go through while a bigger fuse stays intact?",
+    "why": [
+      "The opposite is true. A fuse rated for more current is less likely to blow, which is exactly the problem.",
+      "Ripple is leftover AC on a DC supply and has nothing to do with the fuse rating.",
+      "Up to four times the intended current could flow without the fuse opening, overheating wires and parts until something burns.",
+      "A fuse drops almost no voltage, and a higher-rated one drops even less. Low voltage is not the risk."
+    ]
+  },
+  "T0A06": {
+    "concept": "Shock protection comes in layers: a ground wire on every piece of AC gear, all the cases tied to one ground so no voltage appears between them, and no stored charge left inside before you reach in.",
+    "hint": "Think of every way voltage could reach your hands: through a metal case, between two pieces of gear, or from parts that hold a charge.",
+    "why": [
+      "The third wire grounds the metal case, so a fault inside trips the breaker instead of making the case live.",
+      "With everything on one ground, no voltage difference can appear between two cases you touch together.",
+      "Capacitors store charge, so high-voltage ones can shock you long after the power is off.",
+      "Three-wire cords, a common safety ground and discharged high-voltage capacitors are all good shock protection."
+    ]
+  },
+  "T0A07": {
+    "concept": "A lightning arrester sends a surge on the coax to ground. It works best where the cables come into the house, on a grounded plate, so the surge is diverted before it gets inside.",
+    "hint": "You want the surge sent to earth before it reaches your equipment or your living space. Where on the cable run is the last chance for that?",
+    "why": [
+      "At the radio the surge has already travelled through the house, and there is no good earth connection there.",
+      "The antenna feed point is high in the air, far from a short path to earth, and the surge would still follow the coax down.",
+      "The AC service panel is for house power wiring. The coax feed line does not pass through it.",
+      "A grounded panel at the entry point gives the surge a short path to earth before the coax comes indoors."
+    ]
+  },
+  "T0A08": {
+    "concept": "A fuse or breaker must sit in the path of the current (in series) on the hot wire, so that when it opens, the equipment is cut off from the voltage source.",
+    "hint": "When the protective device opens, you want nothing downstream left connected to the voltage. Which wire brings the voltage in?",
+    "why": [
+      "In series, all the current passes through the fuse, and opening the hot wire removes the voltage from everything after it.",
+      "If the neutral opened while the hot stayed connected, the equipment would look dead but still be live.",
+      "In parallel, the fuse would sit beside the load instead of in its path, so blowing it would not stop the current.",
+      "A parallel connection does not sit in the path of the current, so it cannot interrupt the circuit on either wire."
+    ]
+  },
+  "T0A09": {
+    "concept": "Bonding means joining grounds with a heavy conductor. If every ground rod is tied together, they all rise and fall in voltage together, so no dangerous difference appears between them.",
+    "hint": "During a lightning strike, two separate earth connections can sit at very different voltages. How would you stop a difference from forming?",
+    "why": [
+      "Sealing with caulk or tape is not the rule here, and it does nothing to keep the grounds at the same voltage.",
+      "Distance between rods does not make them safe. Unconnected rods can still be at different voltages during a strike.",
+      "Tying all the grounds together with heavy wire or strap keeps them at the same voltage, so current does not flow through your gear.",
+      "Resonance is an antenna idea. Safety ground rods are not tuned to any frequency."
+    ]
+  },
+  "T0A10": {
+    "concept": "Moving energy in or out of a battery too fast turns part of it into heat inside the cells. The chemistry can also release gas, which may be flammable or build up pressure.",
+    "hint": "Pushing a lot of current through a battery quickly wastes some energy inside it. What form does that wasted energy take?",
+    "why": [
+      "High current heats the cells and can drive gas out of them, which can lead to fire or a burst battery.",
+      "Ripple is leftover AC on the output of a power supply. It is not a battery hazard.",
+      "Typical station batteries are low voltage, so shock is not the hazard of fast charging or discharging.",
+      "Overvoltage is not what the question describes. The danger from high current is heat and gas."
+    ]
+  },
+  "T0A11": {
+    "concept": "A capacitor stores electric charge like a small tank. The filter capacitors in a power supply can stay charged, sometimes at high voltage, after the supply is switched off or unplugged.",
+    "hint": "Which part inside a power supply has the job of storing energy, and does it empty itself the instant the switch goes off?",
+    "why": [
+      "Circulating currents in the DC filter is not a real hazard once the power is off.",
+      "Leakage flux is stray magnetism from a transformer while it runs. It is not a shock hazard after switch-off.",
+      "Kickback diodes absorb the spike from a relay coil. They are not a hazard left behind in a power supply.",
+      "Filter capacitors can hold their charge after power is removed, so touching them can still give a shock."
+    ]
+  },
+  "T0A12": {
+    "concept": "A meter and its probes have a maximum voltage they can safely stand. Above that, the insulation can break down and the voltage can reach your hands.",
+    "hint": "The only things between your hands and the circuit are the meter and its probes. What would you check about them first?",
+    "why": [
+      "A voltmeter should have very high impedance (opposition to current) so it barely loads the circuit. Low impedance is wrong.",
+      "The meter and leads must be built for that voltage, or their insulation can fail and expose you to it.",
+      "A circuit should never be grounded through the meter. That would send current through the meter and could be dangerous.",
+      "A voltmeter has no frequency setting to match. This is not a high-voltage precaution."
+    ]
+  },
+  "T0B01": {
+    "concept": "Lightning is a very fast, very large pulse of current. It follows the easiest path, so a ground wire should run to earth by the shortest, straightest route.",
+    "hint": "Picture a huge, sudden rush of current looking for earth. What shape of path would it follow most easily?",
+    "why": [
+      "A drip loop sheds water from a feed line entering a building. In a ground wire it only adds length and bends.",
+      "Bends at right angles are bad for lightning grounds. The fast pulse resists turning corners and may jump off the wire.",
+      "A short, direct run gives lightning the easiest path to earth, so it is less likely to go somewhere else.",
+      "Only short, direct connections is good practice. The drip loop and right-angle bend items are not."
+    ]
+  },
+  "T0B02": {
+    "concept": "A fall from a tower is usually fatal, so climbing depends on three things together: knowing how, wearing proper fall-protection gear, and staying attached to the tower the whole time.",
+    "hint": "Think about what a climber needs in skill, in equipment and in habit. Is any one of them enough alone?",
+    "why": [
+      "Climbing safely is a learned skill, and training comes before the first climb.",
+      "Staying tied off means a slip at any moment is caught, including while moving up or down.",
+      "An approved harness is made and tested to hold a falling person without injuring them.",
+      "Training, constant tie-off and an approved harness are all required when climbing a tower."
+    ]
+  },
+  "T0B03": {
+    "concept": "A climber who is hurt, stuck or hanging in a harness cannot help themselves. Someone on the ground must always be there to watch, assist and call for help.",
+    "hint": "Imagine something goes wrong while you are up there and cannot get down. Who knows about it?",
+    "why": [
+      "A fall or injury can happen with no electrical work at all, so this does not make climbing alone safe.",
+      "Climbing itself is the risk, whatever the job at the top, so this does not make climbing alone safe.",
+      "A fall from well under 20 feet can kill or cripple. No height limit makes climbing alone safe.",
+      "It is never safe to climb without a helper or observer who can assist and summon help."
+    ]
+  },
+  "T0B04": {
+    "concept": "Power lines are the biggest killer in antenna work. A tower, mast or antenna that touches one becomes live, along with anyone holding it.",
+    "hint": "Before raising a tall metal object, look around and above the site. What nearby thing could kill you on contact?",
+    "why": [
+      "A wrist strap protects sensitive electronic parts from static at a workbench. It is not a tower safety item.",
+      "A tower base should be well grounded, not insulated. Insulating it does not prevent lightning strikes.",
+      "Contact between a tower or antenna and an overhead power wire can electrocute everyone touching it, so find the wires and stay clear.",
+      "Only staying clear of overhead wires is a real precaution. The wrist strap and insulated base items are false."
+    ]
+  },
+  "T0B05": {
+    "concept": "A turnbuckle is a threaded fitting that tightens a guy line by turning. Wind makes the line shake, and shaking can slowly turn it. A wire threaded through it stops it from rotating.",
+    "hint": "A turnbuckle tightens by being turned. What could make it turn by itself over months of wind?",
+    "why": [
+      "A thin safety wire is not strong enough to hold a guy line if the turnbuckle broke. That is not its job.",
+      "The wire passes through the turnbuckle so it cannot rotate, which stops vibration from slowly unscrewing it.",
+      "Lightning grounding is done with heavy conductors and ground rods at the base, not with a turnbuckle safety wire.",
+      "Guy tension is checked with a separate gauge or method. The safety wire measures nothing."
+    ]
+  },
+  "T0B06": {
+    "concept": "Plan for the worst case: the antenna or mast falling over in any direction. Even then, nothing should be able to reach the power wires, with a margin of 10 feet to spare.",
+    "hint": "Do not think only about where the antenna stands. Think about everywhere it could land if it came down.",
+    "why": [
+      "This multiply-by-1.5 formula is not a real rule and is not what the question describes.",
+      "The height of the power line alone ignores how tall the antenna and its support are, so it does not guarantee clearance.",
+      "Wavelength affects how an antenna works, not how far its parts can reach when it falls.",
+      "If no part of a falling antenna can get within 10 feet of the wires, it cannot become live even in the worst case."
+    ]
+  },
+  "T0B07": {
+    "concept": "A crank-up tower is made of sections that slide inside each other and are held up by a cable. If the cable lets go, the sections drop and act like a guillotine on hands and feet.",
+    "hint": "The sections of this tower slide past each other and are held up by a cable. Picture standing on it when that cable fails.",
+    "why": [
+      "There is no safety rule against painting a crank-up tower.",
+      "Every tower should be grounded. A rule against grounding would be dangerous and is false.",
+      "Fully lowered, or with locks holding the sections, they cannot slide down and crush a climber if the cable fails.",
+      "Only the climbing rule is real. The never-paint and never-ground items are false."
+    ]
+  },
+  "T0B08": {
+    "concept": "A tower is a prime lightning target, so it needs several low-resistance paths to earth: a long rod at each leg, with the rods and the tower all joined together.",
+    "hint": "A tower has more than one leg, and lightning carries enormous current. Would you give it one small path to earth or several large ones?",
+    "why": [
+      "One short four-foot rod is far too little earth contact to carry lightning current safely.",
+      "An RF choke opposes fast-changing current, so it would block lightning from reaching ground. That is the opposite of what is needed.",
+      "A water pipe is not a proper tower ground. It may not reach earth well, and it would lead lightning into the house.",
+      "An eight-foot rod at each leg, all bonded to the tower and to each other, spreads the current into the earth by several paths."
+    ]
+  },
+  "T0B09": {
+    "concept": "Utility poles carry high-voltage wires at the top. Any antenna or wire fixed to the pole can touch them or be touched by a broken line, and it is not your pole to use.",
+    "hint": "Look at what else is mounted on that pole, and at what would happen if your wire came loose near it.",
+    "why": [
+      "Poor antenna performance is not the reason. The question is about a danger to life.",
+      "An antenna cannot unbalance a power transformer. This is not a real effect.",
+      "An antenna or its wires touching a high-voltage line can become live and kill you or someone else.",
+      "Only contact with high-voltage lines is a real reason. The induced-voltage and transformer items are false."
+    ]
+  },
+  "T0B10": {
+    "concept": "Lightning current rises so fast that even a small kink in a wire opposes it. At a sharp corner the current may leap off the wire and arc to something nearby.",
+    "hint": "Think of a fast car on a road. What kind of road shape makes it leave the road?",
+    "why": [
+      "Lightning ground wire may be bare or insulated. Requiring only non-insulated wire is not a real rule.",
+      "Bends at right angles are exactly what to avoid, since the lightning pulse may jump off the wire at the corner.",
+      "Gentle, sweeping curves keep the path easy for the fast pulse, so the current stays in the wire all the way to earth.",
+      "Grounds should be bonded together into a common ground, not kept apart."
+    ]
+  },
+  "T0B11": {
+    "concept": "Grounding is an electrical safety matter, and electrical safety for buildings and structures is set by the electrical code your local government has adopted, not by the radio regulator.",
+    "hint": "Ask who inspects the wiring when a house is built. The same kind of authority covers grounding of structures.",
+    "why": [
+      "FCC Part 97 governs how amateur stations operate. It does not set tower grounding requirements.",
+      "The electrical code in force where you live sets the grounding requirements for towers and antennas.",
+      "FAA rules cover marking and lighting of tall structures for aircraft safety, not grounding.",
+      "UL is a product safety testing body. Its practices are not what sets tower grounding requirements."
+    ]
+  },
+  "T0C01": {
+    "concept": "Ionizing radiation has enough energy to knock electrons off atoms. Radio waves have far too little energy per wave packet to do that, whatever the transmitter power, so they are in the other family.",
+    "hint": "Radiation comes in two families, split by whether it can strip electrons from atoms. Where do radio waves sit compared with X-rays?",
+    "why": [
+      "Gamma rays are very high-energy rays from radioactive material, far above radio waves in frequency.",
+      "Ionizing radiation can strip electrons from atoms. Radio waves do not have enough energy to do that.",
+      "Alpha radiation is particles thrown out by radioactive atoms, not an electromagnetic wave at all.",
+      "Radio waves cannot strip electrons from atoms, so they are non-ionizing. Their main effect on the body is heating."
+    ]
+  },
+  "T0C02": {
+    "concept": "Maximum permissible exposure (MPE) is the limit on RF field strength for people. The body absorbs RF best in the VHF range, where it acts like a resonant antenna, so the limit is strictest there.",
+    "hint": "The limit is tightest where the human body soaks up RF most easily. Think about which wavelengths are closest to the size of a person.",
+    "why": [
+      "At 3.5 MHz the wavelength is much longer than a body, absorption is weaker, and the allowed exposure is higher.",
+      "50 MHz lies in the VHF range where the body absorbs RF most efficiently, so the allowed exposure is lowest.",
+      "At 440 MHz the body absorbs less efficiently than at VHF, so the allowed exposure is higher than at 50 MHz.",
+      "At 1296 MHz the allowed exposure is higher than at 50 MHz, because it is well above the body's resonant range."
+    ]
+  },
+  "T0C03": {
+    "concept": "Duty cycle is the fraction of time the transmitter is on. RF limits are based on exposure averaged over time, so transmitting half the time gives half the average, leaving room for twice the level.",
+    "hint": "The limit is on the average over time. If the signal is only there half the time, how does the allowed level while it is on compare?",
+    "why": [
+      "A factor of 3 does not match the numbers. Halving the on-time changes the average by a factor of 2, not 3.",
+      "This is backwards. Less transmitting time lowers the average exposure, so the allowed level goes up, not down.",
+      "100 percent divided by 50 percent is 2. Half the on-time means half the average, so twice the power density is allowed.",
+      "An adjustment is allowed, because the limits are based on exposure averaged over time."
+    ]
+  },
+  "T0C04": {
+    "concept": "The RF a person receives depends on how strong the field is where they stand and how well the body absorbs it. Power, frequency, distance and the direction the antenna beams all change that.",
+    "hint": "Picture a person standing near an antenna. List everything about the signal, the antenna and where they stand that changes what reaches them.",
+    "why": [
+      "More power means a stronger field, and the body absorbs some frequencies more than others.",
+      "The field weakens quickly as you move away from the antenna.",
+      "An antenna sends more energy in some directions than others, so it matters where the person is.",
+      "Frequency, power, distance and the antenna's radiation pattern all affect a person's RF exposure."
+    ]
+  },
+  "T0C05": {
+    "concept": "The body takes in RF energy best when the wavelength is close to body size, much like a tuned antenna. Limits are set tighter at those frequencies and looser where absorption is weaker.",
+    "hint": "An antenna picks up best at the frequency that matches its size. Could a human body behave in a similar way?",
+    "why": [
+      "This is not the reason the limits vary. The limits follow how well the body absorbs each frequency.",
+      "This is false. Lower frequency fields do enter the body, they are just absorbed less efficiently.",
+      "Higher frequency fields are not transient, meaning short-lived, by nature. This is not a real effect.",
+      "Absorption depends on frequency, so the limit is strictest where the body takes in the most energy."
+    ]
+  },
+  "T0C06": {
+    "concept": "You must be able to show your station meets the RF exposure limits. The FCC accepts several ways of doing that: working it out from published guidance, modelling it, or measuring it.",
+    "hint": "There are two broad approaches to finding a field strength: working it out on paper or by computer, and going out with instruments.",
+    "why": [
+      "FCC OET Bulletin 65 gives formulas and tables for estimating RF exposure from a station.",
+      "Antenna modelling software can calculate the field strength around your antenna.",
+      "A calibrated field strength meter measures the actual field directly.",
+      "Calculation from OET Bulletin 65, computer modelling and calibrated measurement are all accepted methods."
+    ]
+  },
+  "T0C07": {
+    "concept": "RF current heats whatever it flows through. Skin touching an antenna that is transmitting takes that current at one small spot, which heats fast and burns, even at modest power.",
+    "hint": "RF energy's main effect on the body is heating. What would concentrated heating at one small point of contact do?",
+    "why": [
+      "Electrocution is not the hazard this question describes. RF on an antenna injures by heating at the point of contact.",
+      "RF current entering the skin at the contact point heats it quickly and causes a painful burn that can be deep.",
+      "Radio signals are non-ionizing. An antenna does not give off ionizing radiation.",
+      "Only the RF burn is correct. The electrocution and ionizing radiation items are not, so not every choice is correct."
+    ]
+  },
+  "T0C08": {
+    "concept": "The antenna is the part that radiates. Exposure falls quickly with distance, so putting the antenna higher or farther from people is the most direct way to cut what reaches them.",
+    "hint": "Find the part of the station the radio energy actually leaves from, then think about where people are in relation to it.",
+    "why": [
+      "Moving the antenna higher or farther away puts more distance between people and the source of the field.",
+      "The transmitter box is not what radiates. Moving it while the antenna stays put does not change the field near people.",
+      "Raising the duty cycle means transmitting a larger share of the time, which increases average exposure.",
+      "Only relocating antennas reduces exposure. Moving the transmitter does not, and a higher duty cycle makes it worse."
+    ]
+  },
+  "T0C09": {
+    "concept": "An RF exposure evaluation is only valid for the station as it was evaluated. Change the power, band, feed line, antenna or its position and the fields around it change too.",
+    "hint": "Your safety check was done for one particular setup. What happens to its conclusions when the setup is no longer the same?",
+    "why": [
+      "You are not required to report station changes to the FCC. You keep the station compliant yourself.",
+      "Any change to the transmitter or antenna system can change the exposure, so the evaluation must be done again.",
+      "SWR shows how well the antenna matches the feed line. A low reading says nothing about exposure levels.",
+      "Equipment approval is about product safety. It does not show that the fields around your antenna are within limits."
+    ]
+  },
+  "T0C10": {
+    "concept": "RF exposure limits are based on heating, which builds up over time. So what counts is the average over several minutes, and a transmitter that is on only part of the time delivers a lower average.",
+    "hint": "The body responds to RF by slowly warming. Does a slow effect like that depend on brief instants or on the total over a period?",
+    "why": [
+      "The less of the time you transmit, the lower the exposure averaged over the period, and the limits are based on that average.",
+      "The peak level is the same whenever the transmitter is on, however often that is. Duty cycle changes the average, not the peak.",
+      "Feed line loss does reduce power at the antenna, but it is a separate factor and is not what duty cycle means.",
+      "Heating inside the amplifier is an equipment matter. It has nothing to do with exposure of people."
+    ]
+  },
+  "T0C11": {
+    "concept": "Exposure is averaged over a set period of minutes. Duty cycle describes how much of that period the transmitter is actually putting out a signal.",
+    "hint": "The word cycle here is about time on versus time off. Decide which of those two the figure counts.",
+    "why": [
+      "The gap between lowest and highest power output is not duty cycle. Duty cycle is about time, not power levels.",
+      "PEP is peak envelope power. Comparing it with average power is not the definition of duty cycle.",
+      "Duty cycle is the share of the averaging time during which the transmitter is on the air.",
+      "This is the reverse. Duty cycle counts the time spent transmitting, not the time spent silent."
+    ]
+  },
+  "T0C12": {
+    "concept": "Ionizing radiation, such as X-rays and radioactivity, carries enough energy to break chemical bonds and damage DNA. RF does not, but it can still harm by heating tissue.",
+    "hint": "The difference lies in what each kind can do to the molecules inside a cell, not in how far it travels or how it is measured.",
+    "why": [
+      "RF cannot break chemical bonds or damage DNA. That is what separates it from ionizing radiation.",
+      "RF is measured with ordinary instruments such as field strength meters. This is not a real distinction.",
+      "RF travels great distances, which is how radio works. It is not limited to a few feet.",
+      "RF is not perfectly safe. Strong fields heat body tissue, which is why exposure limits exist."
+    ]
+  },
+  "T0C13": {
+    "concept": "The person whose name is on the licence answers for everything the station does, including the RF fields it creates around family, neighbours and passers-by.",
+    "hint": "Think about who controls the power, the antenna and where it is placed. Responsibility follows control.",
+    "why": [
+      "The FCC sets the exposure limits, but it does not check each station. Meeting them is up to the station.",
+      "The licensee controls the station, so the licensee must make sure nobody is exposed above the limits.",
+      "People nearby usually have no idea when or how the station transmits, so they cannot be the responsible party.",
+      "A zoning board deals with land use and structures. It is not responsible for RF exposure limits."
+    ]
+  }
+}

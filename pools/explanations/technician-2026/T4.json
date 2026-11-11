@@ -1,0 +1,232 @@
+{
+  "T4A01": {
+    "concept": "Mobile radios are built for a car's electrical system, about 13.8 volts. A transmitter is not perfectly efficient, so it must draw well over twice its RF output power from the supply.",
+    "hint": "Two things to settle: what voltage does a car's electrical system run at, and is volts times amps comfortably more than 50 watts?",
+    "why": [
+      "24 volts is the wrong voltage for a typical mobile radio, which is designed for a 12-volt vehicle system, and it could damage the radio.",
+      "The voltage is right, but 13.8 V x 4 A is only about 55 watts in. No transmitter is efficient enough to turn that into 50 watts out.",
+      "12 amperes is a suitable current, but 24 volts is the wrong voltage for a radio designed for a 12-volt vehicle system.",
+      "13.8 volts matches a vehicle system, and 13.8 V x 12 A is about 166 watts, enough for 50 watts out plus the power lost as heat."
+    ]
+  },
+  "T4A02": {
+    "concept": "An SWR meter shows how well the antenna system is matched to the feed line. Each meter is built for a certain frequency range and a certain range of power, and reads properly only inside them.",
+    "hint": "A test instrument has to suit the signal it measures. What two things describe the signal your transmitter sends down the feed line?",
+    "why": [
+      "A meter only reads accurately within the frequency range and power range it was designed for, so those must match your station.",
+      "How far the meter sits from the antenna is an installation detail, not a rating you pick a meter by.",
+      "An SWR meter can display high or low SWR alike, so the highest SWR you expect is not what you choose a meter by.",
+      "An SWR meter only measures the match. It cannot correct or compensate for a poor match."
+    ]
+  },
+  "T4A03": {
+    "concept": "Every wire has some resistance, and current flowing through it loses voltage along the way. A thin or long wire has more resistance. A radio draws its highest current when transmitting.",
+    "hint": "Think Ohm's law in the power cable itself: lots of current through a little resistance. What does the radio see at its end of the wire?",
+    "why": [
+      "Short, thick wire has very little resistance, so little voltage is lost in the cable when the radio draws heavy current to transmit.",
+      "Power supplies and DC cables are not impedance matched the way antennas and feed lines are, so this is not the reason.",
+      "Wire length and thickness are chosen here for DC resistance. RF interference is dealt with by filtering, shielding and bonding.",
+      "A DC power cable is not meant to radiate, so there are no radiative losses to minimize. The loss that matters is resistance."
+    ]
+  },
+  "T4A04": {
+    "concept": "FT8 is a weak-signal digital mode where software on a computer turns messages into audio tones and decodes received tones. The radio and the computer simply trade audio in both directions.",
+    "hint": "The FT8 program makes and listens to sounds. Which part of the station is able to hand sound to the radio and take sound back?",
+    "why": [
+      "A terminal program with a terminal node controller (a packet modem box) is the classic packet radio setup, not how FT8 is done.",
+      "Radio receive audio goes into the computer's audio input, and the computer's audio output feeds the radio, with FT8 software doing the rest.",
+      "There is no separate FT8 conversion unit with a keyboard and monitor. The work is done by software on an ordinary computer.",
+      "FT8 is not decoded by a website. The software runs on your own computer and exchanges audio directly with your radio."
+    ]
+  },
+  "T4A05": {
+    "concept": "An RF power meter measures the radio-frequency power flowing from the transmitter toward the antenna. To measure that power, the meter has to sit in the path the RF takes.",
+    "hint": "Follow the path the transmitted signal takes after it leaves the radio. The meter must sit somewhere along that path.",
+    "why": [
+      "RF power travels down the feed line from transmitter to antenna, so the meter goes in line there to measure it.",
+      "The power supply output carries DC, not RF. A meter there would show supply voltage or current, not transmitted power.",
+      "The push-to-talk line only tells the radio to transmit. It carries no RF power, so this arrangement measures nothing useful.",
+      "The power supply cable carries DC to the radio. RF output power can only be measured on the antenna side."
+    ]
+  },
+  "T4A06": {
+    "concept": "For digital modes the computer needs to hear the radio, send its own tones to the radio, and switch the radio between receive and transmit. Those three jobs are the whole interface.",
+    "hint": "Imagine the computer taking the place of a human operator. What does an operator do with ears, voice and the push-to-talk button?",
+    "why": [
+      "Mode, status and location are not the signals a digital mode interface carries. It carries sound and a transmit command.",
+      "Antenna and RF power connections belong between the radio and the antenna, not between the computer and the radio.",
+      "The computer takes in receive audio, sends out transmit audio, and keys the transmitter (switches it to transmit).",
+      "NMEA is a GPS data format, useful for position reporting, and DC power runs the radio. Neither is the digital mode interface."
+    ]
+  },
+  "T4A07": {
+    "concept": "Audio flows from an output to an input. The computer must listen to what the radio receives, so the radio's audio output connects to the computer's audio input.",
+    "hint": "Match outputs to inputs. Decide which connectors on each device send sound out and which take sound in.",
+    "why": [
+      "Line out carries audio, and push-to-talk is an on-off switch line, not an audio input. Transmit audio belongs at the microphone input.",
+      "Line in is an input and push-to-talk is a control line that carries no audio, so nothing useful would pass between them.",
+      "The speaker connector is the radio's audio output and line in is the computer's audio input, so the computer can hear received signals.",
+      "Line out and the speaker connector are both outputs. Connecting two outputs together passes no useful signal."
+    ]
+  },
+  "T4A08": {
+    "concept": "Bonding means connecting equipment together so it all sits at the same voltage. RF current flows on the surface of a conductor, so a wide, flat conductor gives it an easy, low-impedance path.",
+    "hint": "RF current travels on the surface of a conductor. Which shape gives the most surface for the amount of metal?",
+    "why": [
+      "Braid pulled off coax is a loose weave of fine strands that corrodes and loosens over time, so it is not the preferred choice.",
+      "Copper-clad steel wire is strong and is used for wire antennas, but a round wire has more inductance than a wide strap.",
+      "Twisted-pair cable is for carrying signals or data on two wires, not for bonding equipment together.",
+      "A flat, wide strap has a large surface and low inductance, giving RF current a low-impedance path."
+    ]
+  },
+  "T4A09": {
+    "concept": "A battery's ampere-hour rating says how much current it can deliver for how long. Ampere-hours divided by amperes leaves hours, like dividing a tank's litres by litres used per hour.",
+    "hint": "Look at the units. Which combination of a battery rating and an equipment figure leaves you with just hours?",
+    "why": [
+      "Using peak power assumes the equipment draws its maximum all the time, which it does not, so the run time comes out wrong.",
+      "Ampere-hours divided by the average amperes drawn gives hours of run time, since the amperes cancel.",
+      "Watts per hour is not a meaningful measure of consumption, and multiplying ratings together does not produce a time.",
+      "Current squared times resistance is the formula for power in watts. It does not give a length of time."
+    ]
+  },
+  "T4A10": {
+    "concept": "A hotspot is a small, very low power personal device. It talks by radio to a digital handheld a few metres away and passes the traffic on through the internet.",
+    "hint": "Think of a home Wi-Fi router: a short radio hop to a small box, which then links you to something much bigger.",
+    "why": [
+      "A hotspot links nearby digital radios to a digital voice or data network, usually through an internet connection.",
+      "FT8 is run with software on a computer exchanging audio with a transceiver. That is not what a hotspot does.",
+      "RTTY is a keyboard text mode. Encoding and decoding it is not the job of a hotspot.",
+      "Meteor scatter bounces signals off meteor trails using a normal station and suitable software, not a hotspot."
+    ]
+  },
+  "T4A11": {
+    "concept": "The radio's return current needs a solid, low-resistance path back to the battery. The point where the battery's negative lead bolts to the vehicle body is the vehicle's main ground.",
+    "hint": "Current leaves the battery and must get all the way back to it. Where is the most direct and dependable place to complete that loop?",
+    "why": [
+      "The battery's chassis ground point is the vehicle's main ground, giving the return current a solid, low-resistance path.",
+      "The shell of a power connector is not a ground point and is not made to carry the radio's return current.",
+      "Some metal parts are poorly connected to the rest of the vehicle, which can cause voltage drop and noise.",
+      "A mounting bracket is a mechanical support. Paint, plastic and loose bolts make it an unreliable electrical path."
+    ]
+  },
+  "T4A12": {
+    "concept": "Morse code is made of short and long elements called dits and dahs. A keyer is a circuit that forms them with correct timing while the operator works a pair of paddles.",
+    "hint": "The name comes from the Morse key. Think about what part of sending code by hand could be automated.",
+    "why": [
+      "Switching an antenna between transmitting and receiving is the job of a transmit-receive switch, not a keyer.",
+      "Voice activated switching from receive to transmit is called VOX. It has nothing to do with Morse code.",
+      "A keyer generates evenly timed dits and dahs as the operator presses paddles, making hand-sent Morse easier and cleaner.",
+      "A keyer is not a lock or security device. The word refers to keying, which means sending Morse code."
+    ]
+  },
+  "T4B01": {
+    "concept": "Microphone gain sets how hard your voice drives the transmitter. Driven too hard, the transmitter cannot follow the voice peaks and flattens them, like an overloaded loudspeaker.",
+    "hint": "Think of someone shouting into a cheap loudspeaker with the volume all the way up. What happens to the sound?",
+    "why": [
+      "The transmitter's frequency is set by its oscillator, not by how loud the microphone audio is.",
+      "Too much gain overdrives the transmitter, clipping the voice peaks so the audio sounds harsh and hard to understand.",
+      "SWR depends on how well the antenna system matches the feed line, not on microphone settings.",
+      "Which sideband is transmitted is chosen by the mode setting. Microphone gain cannot swap it."
+    ]
+  },
+  "T4B02": {
+    "concept": "A transceiver gives you two direct ways to choose a frequency: turn the tuning control, called the VFO (variable frequency oscillator), or type the numbers in.",
+    "hint": "Separate the controls that pick where you are on the band from the features that send tones or make automatic corrections.",
+    "why": [
+      "You can type the frequency on the keypad or turn the VFO knob to tune to it.",
+      "CTCSS and DTMF encoders produce tones sent along with your signal. They do not set the operating frequency.",
+      "Automatic Frequency Control keeps a receiver centred on a signal. It is not a way to enter a frequency.",
+      "Tone encoders and Automatic Frequency Control do not enter a frequency, so not all the choices are correct."
+    ]
+  },
+  "T4B03": {
+    "concept": "Squelch is a gate that mutes the speaker until a signal is stronger than a set threshold. That hides the hiss between transmissions, but it also hides signals weaker than the threshold.",
+    "hint": "Picture the gate and a signal too weak to push it open. What would have to happen to the gate for that signal to reach the speaker?",
+    "why": [
+      "With the threshold set so the audio is always on, the squelch is open and nothing is muted, so even a very weak signal is heard.",
+      "The volume control only works on audio that gets past the squelch. A muted receiver stays silent however far it is turned up.",
+      "Anti-squelch is not a real receiver function.",
+      "Squelch enhancement is not a real control for hearing weak signals."
+    ]
+  },
+  "T4B04": {
+    "concept": "An FM receiver expects the signal to be centred in its filter and detector. If the signal sits off to one side, part of it is cut off or detected unevenly, and the recovered audio is garbled.",
+    "hint": "FM audio is recovered from frequency swings around a centre point. Picture what happens when the receiver's centre is in the wrong place.",
+    "why": [
+      "A rise in voice pitch is what mistuning does to a single-sideband signal, not to FM.",
+      "A drop in voice pitch is also a single-sideband mistuning effect, not an FM one.",
+      "Being off frequency does more than make an FM signal quieter. The sound quality itself suffers.",
+      "The signal no longer sits centred in the receiver's filter and detector, so the audio comes out distorted."
+    ]
+  },
+  "T4B05": {
+    "concept": "Scanning steps the receiver automatically through a set of channels or frequencies and pauses when it finds a signal, so you do not have to tune around by hand.",
+    "hint": "Think of the seek button on a car radio and what it is looking for.",
+    "why": [
+      "Deviation is how far an FM signal swings in frequency. Checking it needs test equipment, not the scan function.",
+      "Scanning is a receive feature. It does nothing to prevent interference to repeaters.",
+      "The radio steps through frequencies or memory channels and stops when it hears a signal.",
+      "Finding an antenna's resonant frequency is done with an antenna analyzer or SWR meter, not by scanning."
+    ]
+  },
+  "T4B06": {
+    "concept": "On single sideband, the pitch of a voice depends on exactly where your receiver is tuned. A small receive-only tuning adjustment fixes the pitch without moving your transmit frequency.",
+    "hint": "You want to shift only your receive tuning a little while your transmit frequency stays where the other station found you.",
+    "why": [
+      "AGC (automatic gain control) and limiters deal with signal strength and loudness. They do not change voice pitch.",
+      "Bandwidth selection changes how wide a slice of spectrum you hear, which helps with interference but not with pitch.",
+      "Tone squelch keeps an FM receiver quiet until it hears a certain sub-audible tone. It has no effect on single-sideband pitch.",
+      "RIT (receiver incremental tuning), also called a clarifier, shifts only the receive frequency slightly to correct the voice pitch."
+    ]
+  },
+  "T4B07": {
+    "concept": "DMR (Digital Mobile Radio) is a digital voice system. A DMR radio needs a large set of settings before it works: frequencies, your ID, repeaters and groups. That set is saved as one file.",
+    "hint": "Despite the hardware-sounding name, this is not something you can hold in your hand. Think about what a DMR radio needs loaded before it will work.",
+    "why": [
+      "A cable that connects a radio to a computer is a programming cable. The code plug is not a physical item.",
+      "A code plug is the file of settings loaded into the radio: channels, repeaters, talkgroups and your ID.",
+      "An update to the programming software is just a software update, not the settings loaded into your own radio.",
+      "A codec does convert voice to digital data and back, but it is a part of the radio, not the code plug."
+    ]
+  },
+  "T4B08": {
+    "concept": "Each mode takes up a different width of spectrum. A filter only as wide as the signal lets the signal through and shuts out the noise and other stations on either side.",
+    "hint": "Picture a window. If it is much wider than what you want to see, what else comes in through it?",
+    "why": [
+      "Selecting a filter does not let the receiver monitor several modes at once. One filter is in use at a time.",
+      "Matching the filter width to the mode passes the wanted signal while rejecting noise and interference beside it.",
+      "Filter bandwidth has nothing to do with how many frequencies the memory can hold.",
+      "The offset between receive and transmit frequencies is a separate setting, used for repeaters, and filters do not change it."
+    ]
+  },
+  "T4B09": {
+    "concept": "On DMR, a digital voice system, many groups of users share the same repeaters. Each group, called a talkgroup, has its own number, and the radio only unmutes for the numbers it is set to.",
+    "hint": "Many groups share one repeater on this system. What tells one group's traffic apart from another's?",
+    "why": [
+      "Recalling a frequency gets you onto a repeater, but many groups share that frequency, so it does not pick out one group.",
+      "CTCSS is a sub-audible tone used on analog FM repeaters. DMR does not select groups with it.",
+      "Each talkgroup has an identification number, and entering or selecting it directs your radio to that group.",
+      "A code plug is a file of settings, not a physical five-pin plug that you insert."
+    ]
+  },
+  "T4B10": {
+    "concept": "The best filter is just wide enough to pass the whole signal. Narrower cuts off part of the signal; wider lets in extra noise. A single-sideband voice signal is roughly 2 to 3 kHz wide.",
+    "hint": "Recall roughly how wide a single-sideband voice signal is, then look for the filter that fits it most closely.",
+    "why": [
+      "500 Hz suits narrow signals such as Morse code. It would cut away most of a voice signal.",
+      "1000 Hz is still much narrower than a voice signal, so speech would be muffled and hard to understand.",
+      "2400 Hz is about the width of a single-sideband voice signal, so it passes the voice and little else.",
+      "5000 Hz is wider than the signal, so it lets in extra noise and nearby stations along with the voice."
+    ]
+  },
+  "T4B11": {
+    "concept": "D-STAR is a digital voice system that sends your identity as data along with your voice. The network uses it to recognize and route stations, so the radio must be given it first.",
+    "hint": "Think about what a digital network needs to know about each transmission before it can recognize and route it.",
+    "why": [
+      "D-STAR sends your call sign as data in every transmission, so it has to be programmed into the radio first.",
+      "Output power is an ordinary control you can change at any time. It is not something D-STAR needs programmed.",
+      "The codec, which turns voice into digital data, is built into a D-STAR radio. You do not program its type.",
+      "Output power and codec type do not have to be programmed, so not all the choices are correct."
+    ]
+  }
+}

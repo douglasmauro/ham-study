@@ -1,0 +1,372 @@
+{
+  "T2A01": {
+    "concept": "A repeater listens on one frequency and retransmits on another. The gap between the two is the offset, and each band has a customary size. On 2 meters the usual gap is 600 kHz, up or down.",
+    "hint": "The 2-meter band is only 4 MHz wide, so the gap between a repeater's two frequencies has to be fairly small. Think in kilohertz.",
+    "why": [
+      "A 5 MHz gap is the usual offset on the 70-centimeter band. It would not even fit inside the 4 MHz wide 2-meter band.",
+      "On 2 meters, repeaters normally listen 600 kHz above or below the frequency they transmit on.",
+      "500 kHz is close, but it is not the customary 2-meter offset. The standard figure on this band is 600 kHz.",
+      "1 MHz is not the customary 2-meter offset. The standard gap on this band is smaller, at 600 kHz."
+    ]
+  },
+  "T2A02": {
+    "concept": "A calling frequency is an agreed meeting spot where stations listen for and make first contact. For FM simplex (direct, no repeater) on 2 meters, that spot is 146.520 MHz.",
+    "hint": "First rule out anything outside the 2-meter band, which runs from 144 to 148 MHz. Then pick the one hams treat as the FM meeting spot.",
+    "why": [
+      "146.520 MHz is the nationally agreed spot on 2 meters where FM stations call each other directly, without a repeater.",
+      "145.000 MHz is inside the 2-meter band, but it is not the national FM simplex calling frequency.",
+      "432.100 MHz is in the 70-centimeter band, not 2 meters. It is used there as a calling frequency for weak-signal work.",
+      "446.000 MHz is the FM simplex calling frequency for the 70-centimeter band, not for 2 meters."
+    ]
+  },
+  "T2A03": {
+    "concept": "A repeater's offset is the gap between the frequency it listens on and the one it transmits on. The 70-centimeter band is much wider than 2 meters, so its customary offset is much bigger: 5 MHz.",
+    "hint": "The 70-centimeter band runs from 420 to 450 MHz, far wider than 2 meters. A wide band has room for a wide gap.",
+    "why": [
+      "On 70 centimeters, repeaters normally listen 5 MHz above or below the frequency they transmit on.",
+      "600 kHz is the usual offset on the 2-meter band, not on 70 centimeters.",
+      "500 kHz is not the customary offset on 70 centimeters. The standard gap on this band is 5 MHz.",
+      "1 MHz is not the customary offset on 70 centimeters. The standard gap on this band is 5 MHz."
+    ]
+  },
+  "T2A04": {
+    "concept": "Calling a known station on a repeater works like calling a friend across a room: say their name first so they notice, then say who is calling. No special words are needed.",
+    "hint": "Think about how you would get one particular friend's attention in a busy room, and what you would say right after.",
+    "why": [
+      "Saying break is for cutting into a conversation already under way, often for urgent traffic. It is not how you start a normal call.",
+      "Their call sign first gets their attention, and your call sign tells them who is calling and identifies your station.",
+      "CQ means calling any station. It makes no sense when you want one particular station, and CQ is not normally used on repeaters.",
+      "You do not have to wait for them to call CQ. If you know the call sign you can simply call that station directly."
+    ]
+  },
+  "T2A05": {
+    "concept": "The usual order in any call is the other station's call sign first, then your own. Theirs shows who you are talking to; yours shows who is answering.",
+    "hint": "The usual pattern is 'you, this is me'. Work out which call sign fills each slot.",
+    "why": [
+      "Repeating CQ would mean you are also calling any station. To answer, you address the station that called.",
+      "This has the two call signs in the reverse of the customary order. The station being called is named first.",
+      "Their call sign first shows you are answering them, and your call sign after it tells them who you are.",
+      "A signal report comes later, once contact is made. And without their call sign, nobody knows who you are answering."
+    ]
+  },
+  "T2A06": {
+    "concept": "CQ is the general invitation: any station that hears it may answer. On simplex you say CQ a few times, give your call sign, then stop and listen so someone has a chance to reply.",
+    "hint": "You want anyone at all to answer. Think of the well known signal for a general invitation, and remember that you must stop talking to hear a reply.",
+    "why": [
+      "Giving your call sign and saying you are listening is repeater style. Said once on simplex it is too short to be noticed by people tuning by.",
+      "QTC is a Q signal about having messages to pass. It is not an invitation for any station to call you.",
+      "An unmodulated carrier is a signal with no voice on it. Ten seconds of it tells listeners nothing and just occupies the frequency.",
+      "A few CQs give listeners time to tune you in, your call sign says who is calling, and the pause lets them answer."
+    ]
+  },
+  "T2A07": {
+    "concept": "A repeater cannot listen and transmit on one frequency at once, so it uses two. The offset is the gap between them. Your radio shifts its transmit frequency by that gap when you key up.",
+    "hint": "Offset means being shifted away from something by a set amount. Ask what a repeater has two of.",
+    "why": [
+      "The repeater listens on one frequency and transmits on another. The offset is the size of the gap between the two.",
+      "Offset is about frequency, not time. A time delay is not what the term means.",
+      "The squelch tail is the short burst of noise heard when a signal drops. Delays for handling it are not called the offset.",
+      "Offset has nothing to do with money. There is no fee by that name."
+    ]
+  },
+  "T2A08": {
+    "concept": "CQ is a general call. It tells everyone listening that you would like a contact with whoever wants to answer.",
+    "hint": "Picture someone walking into a room and asking if anybody would like to chat. Who is that question aimed at?",
+    "why": [
+      "CQ is not short for Contest QSO. It is used in contests, but also in everyday operating.",
+      "CQ does not stand for Communication Quality and has nothing to do with how clear the audio is.",
+      "This is the opposite idea. CQ invites anyone to reply, not one named station only.",
+      "CQ is the general call inviting any station that hears it to answer."
+    ]
+  },
+  "T2A09": {
+    "concept": "Repeaters are shared, channelised and often monitored, so long calls are not needed. A station simply announces that it is there and available, and anyone who wants to talk answers.",
+    "hint": "On a repeater people are already tuned to the channel. A short announcement of who is there and available is enough.",
+    "why": [
+      "CQ is not customary on repeaters, and you identify with your own call sign, not the repeater's.",
+      "Giving your call sign and saying you are listening tells everyone on the repeater who is there and that you welcome a call.",
+      "Saying the repeater's call sign and then yours looks like calling the repeater itself. It does not invite a contact.",
+      "QSY means changing frequency. It does not say you are looking for a contact."
+    ]
+  },
+  "T2A10": {
+    "concept": "FCC rules set which frequencies and modes are legal. A band plan goes further: it is a voluntary agreement among hams about where each kind of activity goes, so they stay out of each other's way.",
+    "hint": "FCC rules are law. Ask what you would call an agreement among operators that goes beyond the law and that nobody is forced to follow.",
+    "why": [
+      "A band plan is a voluntary guide to which parts of a band are used for which modes and activities, such as repeaters, simplex or weak-signal work.",
+      "A band plan divides up frequencies by use. It is not a timetable of when people operate.",
+      "A list of net frequencies is just a directory. A band plan covers how the whole band is shared among all activities.",
+      "A band plan is a widely shared guideline for all amateurs, not something one club draws up for itself."
+    ]
+  },
+  "T2A11": {
+    "concept": "Simplex means both stations transmit and receive on one single frequency, taking turns. It is direct radio-to-radio contact, with no repeater shifting the signal to another frequency.",
+    "hint": "Look at the start of each word. One of them suggests a single, plain arrangement with nothing shifted.",
+    "why": [
+      "Full duplex means transmitting and receiving at the same moment, which needs two different frequencies, like a telephone call.",
+      "Diplex refers to sharing one antenna or feed line between two bands. It is not about using a single frequency.",
+      "Simplex is the term for sending and receiving on the same frequency, with stations taking turns.",
+      "Multiplex means combining several signals onto one channel. It is not the term for same-frequency operation."
+    ]
+  },
+  "T2B01": {
+    "concept": "Normally you hear a repeater on its output and transmit on its input. The reverse function swaps the two, so you hear what the repeater hears. It shows if you can hear the other station directly.",
+    "hint": "Reverse swaps your two repeater frequencies. Work out which one you normally transmit on, because that is where you will now be listening.",
+    "why": [
+      "Lowering power is done with the radio's power setting. The reverse function swaps frequencies and leaves power alone.",
+      "Reverse does not raise power. It only swaps the frequencies you transmit and listen on.",
+      "Reverse lets you hear the frequency stations transmit on to reach the repeater, so you can tell if you hear them directly.",
+      "You already listen on the repeater's output in normal operation. No special function is needed for that."
+    ]
+  },
+  "T2B02": {
+    "concept": "CTCSS (Continuous Tone-Coded Squelch System) adds a steady, very low tone under your voice. A receiver set for that tone stays quiet until it hears it, so only intended signals get through.",
+    "hint": "The tone is too low to hear and it runs the whole time you talk. Look for the name built from those ideas.",
+    "why": [
+      "Carrier squelch opens the receiver for any signal that is strong enough. It does not use a tone at all.",
+      "A tone burst is a short audible tone sent at the start of a transmission, not a continuous one hidden under the voice.",
+      "DTMF tones are the audible keypad tones, as on a telephone. They are not sub-audible and not sent along with speech.",
+      "CTCSS is the continuous low tone, below normal voice audio, that tells a receiver to open its squelch."
+    ]
+  },
+  "T2B03": {
+    "concept": "Linked repeaters are joined together, by radio or the internet, so they act as one big system. A signal that reaches any one of them comes out of all of them, covering a much larger area.",
+    "hint": "Linked means joined together. Think about what should happen at the far end of the chain when you talk into the near end.",
+    "why": [
+      "In a linked network, what one repeater receives is retransmitted by every repeater in the network, extending coverage.",
+      "One repeater with several receivers is still a single repeater. It improves how well it hears, but it is not a network.",
+      "Sharing a control operator is about who is responsible. It does not connect the repeaters' signals together.",
+      "APRS (Automatic Packet Reporting System) sends position and short data. It is not what defines a linked repeater network."
+    ]
+  },
+  "T2B04": {
+    "concept": "Hearing a repeater only proves your receiver is right. To get in, your transmitter must hit its input frequency (the right offset) and carry whatever tone or code the repeater demands.",
+    "hint": "Hearing is one thing and being heard is another. List every setting that affects only your transmitted signal.",
+    "why": [
+      "With the wrong offset you transmit on a frequency the repeater is not listening to, so it never hears you.",
+      "CTCSS is a low tone sent under your voice. If the repeater requires one and yours is wrong, it ignores your signal.",
+      "DCS (Digital Coded Squelch) is a digital code used like a tone. A wrong code keeps the repeater from opening for you.",
+      "A wrong offset, a wrong CTCSS tone or a wrong DCS code would each keep you out, so all three are possible reasons."
+    ]
+  },
+  "T2B05": {
+    "concept": "In FM, a louder voice swings the signal's frequency further. That swing is called deviation. Too much of it pushes the signal outside what the receiver accepts, and the audio cuts out.",
+    "hint": "In FM, the loudness of your voice controls how far the signal swings. Ask what happens when it swings too far, and what would cause that.",
+    "why": [
+      "An inverted offset would put you on the wrong frequency altogether. You would not be heard at all, not just lose the peaks.",
+      "Deviation is how far FM audio swings the frequency. Too little of it makes you sound quiet, it does not make peaks drop out.",
+      "A loud voice causes too much deviation. On peaks the signal swings beyond what the receiver passes, and the audio drops out.",
+      "High power makes the signal stronger. It does not change how far your voice swings the frequency."
+    ]
+  },
+  "T2B06": {
+    "concept": "DTMF stands for Dual-Tone Multi-Frequency. Each key on the keypad sends two audio tones at once, the same system as a touch-tone telephone. Repeaters use it for control commands.",
+    "hint": "Look for the name that has the idea of 'two' built into it. A telephone keypad works the same way.",
+    "why": [
+      "DTMF sends a pair of audio tones together for each key pressed. The 'dual-tone' in its name says exactly that.",
+      "CTCSS uses a single continuous low tone under the voice, not two tones at once.",
+      "GMRS is the General Mobile Radio Service, a separate radio service. It is not a type of signaling.",
+      "D-STAR is a digital voice and data system for amateur radio. It is not a two-tone signaling method."
+    ]
+  },
+  "T2B07": {
+    "concept": "A talkgroup is a labelled group on a digital voice system. Each has a number. Your radio only passes traffic for the groups it is programmed with, so joining is a matter of radio setup.",
+    "hint": "Joining is something you do at your own radio, not by asking permission. Think about what identifies one group among many.",
+    "why": [
+      "A frequency coordinator recommends repeater frequencies to avoid interference. They do not handle talkgroup membership.",
+      "Signing up with the control operator is not how a talkgroup is joined. It is selected in your own radio.",
+      "Programming the talkgroup's ID or code into your radio makes it send and receive that group's traffic.",
+      "DTMF tones are analog keypad tones. Digital talkgroups are picked by an ID number, not by a DTMF tone."
+    ]
+  },
+  "T2B08": {
+    "concept": "No amateur station owns a frequency. All amateurs share the bands equally, so when two stations clash the answer is courtesy: talk it over and work out who goes where.",
+    "hint": "Nobody owns a frequency in amateur radio. Ask what two equal parties do when they both want the same thing.",
+    "why": [
+      "Since neither station has a superior claim, the fair fix is to work out between them how the frequency will be used.",
+      "Nothing requires both to leave. One moving, or the two taking turns, solves it, and that is worked out by talking.",
+      "Being first gives no special right. No amateur station has a prior claim to any frequency.",
+      "Tones only hide the other signal from your speaker. Both stations still transmit on top of each other."
+    ]
+  },
+  "T2B09": {
+    "concept": "Repeaters are a shared resource for reaching distant stations. Band plans set aside simplex channels (direct, same-frequency contact) so nearby stations can talk without occupying one.",
+    "hint": "If the person you want to talk to is just down the road, ask if you really need the big shared machine on the hill.",
+    "why": [
+      "Stations close enough to hear each other directly can use a simplex channel and leave the repeater free for others.",
+      "Simplex channels are for everyday direct contacts. They are not set aside for contests.",
+      "DX means distant stations. Simplex channels are meant for stations within direct range, not only for long-distance work.",
+      "Simplex means not using a repeater at all. It has nothing to do with a simple transmitter reaching one."
+    ]
+  },
+  "T2B10": {
+    "concept": "Q signals are three-letter shorthand. QRM means interference from other stations. A memory aid: M for man-made, N (in QRN) for natural noise.",
+    "hint": "Two of these are about unwanted noise. One comes from people and one from nature, and the last letter can remind you which.",
+    "why": [
+      "QRM means interference from other stations. Think of the M as man-made.",
+      "QRN means static noise from natural sources such as lightning. Think of the N as natural.",
+      "QTH means your location. It has nothing to do with interference.",
+      "QSB means the signal is fading in and out. That is a change in strength, not interference from another station."
+    ]
+  },
+  "T2B11": {
+    "concept": "Q signals are three-letter shorthand. QSY means changing to another frequency. Hams say it when moving a contact off a busy channel.",
+    "hint": "Each of these has its own meaning: nothing to send, moving, received, and who is calling. Match the one about moving.",
+    "why": [
+      "QRU means 'I have nothing for you', or as a question, 'do you have anything for me'. It is not about moving.",
+      "QSY is the Q signal for changing frequency.",
+      "QSL means 'I acknowledge receipt'. It confirms that a message or a contact was received.",
+      "QRZ means 'who is calling me'. It is used when you heard a call but missed the call sign."
+    ]
+  },
+  "T2B12": {
+    "concept": "DMR (Digital Mobile Radio) repeaters use a color code, a number programmed into your radio. If it does not match the repeater's, the repeater ignores you. It does the job CTCSS does on FM.",
+    "hint": "Think about the low tone an analog FM repeater may require before it lets you in. DMR needs something that plays the same role.",
+    "why": [
+      "The color code is a number your DMR radio must send to match a particular repeater. Without the right one, the repeater will not respond.",
+      "The color code does not set the offset. The offset is programmed separately as part of the channel's frequencies.",
+      "The color code does not name a CODEC, which is the method used to turn voice into digital data.",
+      "The color code is not a status report from the repeater. It is a setting your transmitter must match."
+    ]
+  },
+  "T2B13": {
+    "concept": "With no signal, an FM receiver produces loud hiss. Squelch is a gate that keeps the speaker silent until a signal arrives, so you are not listening to noise between transmissions.",
+    "hint": "Imagine an FM radio left on an empty channel all day. Think about what you would hear, and what you would want done about it.",
+    "why": [
+      "Key clicks come from a Morse (CW) transmitter switching on and off too sharply. Squelch is a receiver feature and does not affect them.",
+      "Squelch silences the receiver's audio when there is no signal, and opens when one appears.",
+      "Parasitic oscillations are unwanted signals made inside an amplifier. They are fixed in the amplifier circuit, not by squelch.",
+      "Reducing impulse noise, such as ignition pops, is the job of a noise blanker, not of squelch."
+    ]
+  },
+  "T2B14": {
+    "concept": "A DMR talkgroup is like a labelled channel inside a shared digital system. Traffic is tagged with the group's ID, and your radio plays only the groups you have chosen.",
+    "hint": "Many conversations share one digital repeater. Think about what lets your radio play only the ones you care about.",
+    "why": [
+      "People sharing email on a topic are a mailing list. A talkgroup is a feature of a digital radio system.",
+      "A talkgroup is a DMR identifier that sorts traffic, so users hear the group they selected and not everything else.",
+      "Operators meeting on the air around a shared interest are a net. A talkgroup is an identifier, not a set of people.",
+      "A talkgroup does not alert members to a frequency. It labels traffic so radios can filter it."
+    ]
+  },
+  "T2C01": {
+    "concept": "An amateur station is always an amateur station. Emergency groups such as RACES and ARES work inside FCC Part 97 rules, not in place of them. No organization can switch those rules off.",
+    "hint": "Ask who issued your license, and whether joining a volunteer group or working with another agency could change that.",
+    "why": [
+      "RACES is itself part of FCC Part 97. Operating under it means following FCC rules, not escaping them.",
+      "FEMA is an emergency management agency. It does not write rules that replace the FCC's rules for amateur stations.",
+      "ARES is a volunteer program for amateurs. It has no power to set aside FCC rules.",
+      "Whenever an amateur station is operating, FCC Part 97 rules apply. There is no situation in this list that removes them."
+    ]
+  },
+  "T2C02": {
+    "concept": "A net is an organized on-air meeting. The Net Control Station (NCS) is its chairperson: it opens the net, takes check-ins and decides who talks to whom and when, so traffic moves in order.",
+    "hint": "Think of the person chairing a meeting. Separate what they do during the meeting from what was arranged beforehand or is each member's own job.",
+    "why": [
+      "The net's schedule and frequency are set by its organizers ahead of time. Running the session is the control station's job.",
+      "Each operator is responsible for staying within their own license privileges. Net control does not check licenses.",
+      "Opening the net and directing who talks to whom, in order, is exactly what a Net Control Station does.",
+      "Not all three are duties. Picking the meeting time and checking licenses are not typical jobs of the Net Control Station."
+    ]
+  },
+  "T2C03": {
+    "concept": "Many letters sound alike on the air, such as B, D, P and T. A standard phonetic alphabet (Alfa, Bravo, Charlie...) gives each letter a distinct word, so spelled words arrive correctly.",
+    "hint": "Think about how you would give an unusual surname over a noisy phone line so that each letter could not be mistaken.",
+    "why": [
+      "Sending a voice message again in Morse code is not the standard practice, and many operators could not copy it.",
+      "QSR is not the standard technique for this. Having words read back does not help if they are misheard both ways.",
+      "Spelling with a standard phonetic alphabet replaces each letter with a distinct word, so unusual words are copied correctly.",
+      "Not all three are right. Sending in Morse as well and using QSR are not the standard technique."
+    ]
+  },
+  "T2C04": {
+    "concept": "RACES is the Radio Amateur Civil Emergency Service. It is defined in FCC Part 97 and lets amateurs registered with a civil defense organization provide its communications in emergencies.",
+    "hint": "Spell out the letters. The middle words of the name point to the kind of organization it serves.",
+    "why": [
+      "RACES involves amateur radio only. It does not combine with citizens band operators or frequencies.",
+      "RACES is not an experimenters' society. It is an emergency communications service.",
+      "Despite the name, RACES has nothing to do with contests. It is not a competition.",
+      "RACES is the service set out in FCC Part 97 for amateurs providing civil defense communications in national emergencies."
+    ]
+  },
+  "T2C05": {
+    "concept": "In net language, traffic means messages. It usually refers to formal written messages passed from station to station in a set format so they arrive exactly as written.",
+    "hint": "When net control asks if anyone has traffic, they are asking if you have something to pass along. Think about what that something is.",
+    "why": [
+      "Traffic is the term for the formal messages that net stations pass to one another.",
+      "The stations joining and leaving are check-ins and check-outs. They are not called traffic.",
+      "Mobile and portable operation describes where a station is, not the messages it handles.",
+      "A count of how often the net meets is a statistic. It is not what traffic means."
+    ]
+  },
+  "T2C06": {
+    "concept": "ARES is a volunteer program. Licensed amateurs sign up ahead of time, listing their skills and gear, so they can be called on to provide public service communications when needed.",
+    "hint": "Focus on two things: who is able to join, and how they come to be on the list.",
+    "why": [
+      "ARES is made up of licensed amateurs who have voluntarily registered their skills and equipment for public service communications.",
+      "ARES members do not have to be in the military. It is open to licensed amateurs who volunteer.",
+      "ARES is a group of volunteer operators, not a licensing course. Its members are already licensed.",
+      "ARES is not a certification program for RACES. The two are separate organizations."
+    ]
+  },
+  "T2C07": {
+    "concept": "A net runs smoothly because one station, net control, decides who talks next. Everyone else waits to be called. The one exception is an emergency, which can be reported at any time.",
+    "hint": "In a chaired meeting, think about when you speak and what would justify interrupting.",
+    "why": [
+      "You check in as net control asks, usually with your call sign. Giving your address from the FCC database is not standard.",
+      "Logging the time of every transmission is not a standard net practice.",
+      "Waiting until net control directs you keeps the net orderly. An emergency is the one reason to break in.",
+      "Not all three are standard. Giving your address and timing each transmission are not normal net practice."
+    ]
+  },
+  "T2C08": {
+    "concept": "Winlink is a system that carries email over amateur radio. Each user's address is built from their call sign, so messages can travel by radio where the internet is down.",
+    "hint": "Three of these are ways of sending signals on the air. One is a complete message delivery system. Look for that one.",
+    "why": [
+      "Winlink is a radio email system in which each user's address is based on their amateur call sign.",
+      "FT8 is a digital mode for short, structured contacts with very weak signals. It does not carry email.",
+      "PSK31 is a digital mode for live keyboard-to-keyboard chat. It is not an email system.",
+      "AMTOR is an older error-correcting teletype mode. It is not the callsign-based email system described."
+    ]
+  },
+  "T2C09": {
+    "concept": "Saving a life comes before the normal limits of a license. When human life or property is in immediate danger, a station may use any means of radio communication available to get help.",
+    "hint": "Ask what could be important enough to outweigh the normal limits of a license, regardless of any organization or plan.",
+    "why": [
+      "There is an exception. A true emergency involving life or property allows it.",
+      "Being part of a FEMA plan does not grant extra frequencies. The exception depends on the emergency itself, not on any plan.",
+      "RACES membership does not grant extra frequency privileges. The exception depends on the emergency, not on a plan.",
+      "When human life is in immediate danger or property needs immediate protection, operating outside your privileges is permitted."
+    ]
+  },
+  "T2C10": {
+    "concept": "A formal message (a radiogram) starts with a preamble. It works like the tracking label on a parcel: message number, origin, date and similar details that let the message be followed.",
+    "hint": "Think of the label on a parcel that lets it be followed through the system, as opposed to the name and address of the person receiving it.",
+    "why": [
+      "An email address of the originating station is not part of the preamble.",
+      "The recipient's address goes in the address section, which comes after the preamble.",
+      "The addressee's telephone number belongs with the address, not in the preamble.",
+      "The preamble holds the details used to track the message as it is relayed."
+    ]
+  },
+  "T2C11": {
+    "concept": "The check is a word count for the text of a radiogram. The receiving operator counts the words copied and compares. If the numbers differ, something was missed or added.",
+    "hint": "Here 'check' is used as in 'double-check'. Think of a simple number that would reveal a missing word.",
+    "why": [
+      "The check is the count of words, or word equivalents, in the message text. It lets the receiver confirm nothing was lost.",
+      "The originating station's call sign is a separate part of the header, called the station of origin.",
+      "A list of relaying stations is not what the check is. The check is a number.",
+      "The check is not a tick box on the form. It is a number that the receiver compares with their own count."
+    ]
+  },
+  "T2C12": {
+    "concept": "RACES (Radio Amateur Civil Emergency Service) serves civil defense organizations. To take part, an amateur must be enrolled and certified by the civil defense agency being served.",
+    "hint": "Spell out each abbreviation. One of them has the name of the certifying kind of agency inside it.",
+    "why": [
+      "ARES (Amateur Radio Emergency Service) is a volunteer program. It does not need civil defense certification.",
+      "RACES operators must be certified by, and registered with, the civil defense organization they serve.",
+      "MARS (Military Auxiliary Radio System) is a military-sponsored program. It is not certified by a civil defense agency.",
+      "SKYWARN is a volunteer weather spotter program. It does not involve civil defense certification."
+    ]
+  }
+}

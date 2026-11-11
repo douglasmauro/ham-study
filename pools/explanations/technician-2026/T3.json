@@ -1,0 +1,352 @@
+{
+  "T3A01": {
+    "concept": "Multipath: a VHF signal reaches your antenna directly and also by bouncing off buildings, hills and cars. The copies add up in some spots and cancel in others, so strength changes over a very short distance.",
+    "hint": "A VHF wave is only a few feet long. Think about what happens when two copies of the same wave arrive by routes of slightly different length.",
+    "why": [
+      "Water vapor does not change enough over a few feet to matter, and it has little effect at VHF anyway.",
+      "VHF signals normally do not travel by the ionosphere at all, so this is not the cause of local strength changes.",
+      "Copies of the signal arriving by different paths add together in some spots and cancel in others, and those spots can be just a few feet apart.",
+      "The Doppler effect is a frequency shift caused by motion. It does not explain a strength change between two fixed antenna positions."
+    ]
+  },
+  "T3A02": {
+    "concept": "Leaves and branches hold water and soak up radio energy at UHF and microwave frequencies. The shorter the wavelength, the more trees in the path weaken the signal.",
+    "hint": "Imagine a weak UHF signal passing through a thick stand of wet, leafy trees. Does it come out stronger, weaker or unchanged?",
+    "why": [
+      "Knife-edge diffraction is the bending of waves over a sharp edge such as a ridge. It is not what foliage does, and it does not distort voice peaks.",
+      "Vegetation absorbs UHF and microwave energy, so weak signals that pass through trees can drop too low to receive well.",
+      "Plants are passive. They cannot add energy to a signal, so they cannot amplify it.",
+      "Trees do have an effect at these frequencies: they take energy out of the signal."
+    ]
+  },
+  "T3A03": {
+    "concept": "Polarization is the direction of the wave's electric field, set by how the antenna is oriented. By convention, weak-signal CW and SSB work on VHF and UHF uses antennas with elements parallel to the ground.",
+    "hint": "FM repeater users hold their antennas upright. The weak-signal CW and SSB crowd settled on the other simple orientation.",
+    "why": [
+      "Circular polarization of the right-hand kind is used mostly for satellite work, not for ordinary long-distance CW and SSB contacts on these bands.",
+      "Circular polarization of the left-hand kind is also mainly a satellite technique, not the normal choice for these contacts.",
+      "Horizontal polarization is the accepted standard for long-distance (weak-signal) CW and SSB on VHF and UHF, so both stations match.",
+      "Vertical polarization is the standard for FM and repeater work on VHF and UHF, not for weak-signal CW and SSB."
+    ]
+  },
+  "T3A04": {
+    "concept": "On a direct line-of-sight path the wave keeps its polarization. If the receiving antenna is turned at right angles to the wave (one vertical, one horizontal), it picks up much less of the signal.",
+    "hint": "Picture a handheld antenna tipped on its side while the repeater antenna stands upright. What happens to how well they couple?",
+    "why": [
+      "Sidebands are part of the modulation and are set in the transmitter. Antenna orientation cannot invert them.",
+      "An antenna at right angles to the wave's polarization captures far less energy, so the received signal is much weaker.",
+      "An echo comes from hearing the same signal by two paths of different length, not from mismatched polarization.",
+      "The effect is significant: cross-polarized antennas on a line-of-sight path can lose most of the signal."
+    ]
+  },
+  "T3A05": {
+    "concept": "VHF and UHF signals bounce off large objects such as buildings and hills. If the straight path is blocked, a beam antenna can be aimed at a reflecting surface to reach the other station by a bounce.",
+    "hint": "Think of a billiards player whose direct shot is blocked by another ball.",
+    "why": [
+      "Changing polarization does not get the signal around a building, and it would mismatch the repeater's vertical antenna.",
+      "Aiming the directional antenna at a building or hill that reflects the signal toward the repeater can give a usable path around the blockage.",
+      "Long path means going the long way around the Earth on HF. It does not apply to reaching a nearby repeater on VHF or UHF.",
+      "SWR (standing wave ratio) measures how well the antenna matches the feed line. A higher SWR only wastes power."
+    ]
+  },
+  "T3A06": {
+    "concept": "A moving station passes quickly through spots where reflected signals add and spots where they cancel. The signal chops in and out rapidly, like seeing light flicker through the slats of a fence as you drive by.",
+    "hint": "Imagine driving past a slatted fence with the sun behind it, then think about what a mobile radio signal sounds like in a city.",
+    "why": [
+      "Taking turns transmitting in a net is normal net procedure, not what this term means.",
+      "Picket fencing is the rapid flutter heard on a mobile signal as the vehicle moves through points where multipath signals cancel and reinforce.",
+      "Ground systems for vertical antennas use radial wires. That is not what this term describes.",
+      "Cable TV leakage is a real interference source, but it is not what this term describes."
+    ]
+  },
+  "T3A07": {
+    "concept": "Microwave wavelengths are short enough to be close to the size of raindrops and snowflakes. Water falling through the path absorbs and scatters the signal, which is often called rain fade.",
+    "hint": "Microwave wavelengths are tiny. Which kind of weather fills the air with objects of about that size?",
+    "why": [
+      "Wind is moving air and does not absorb radio waves, though it can shake an antenna out of aim.",
+      "Low pressure by itself does not absorb or scatter microwave signals.",
+      "Rain, snow and other precipitation absorb and scatter microwave energy, so range drops.",
+      "Cold air by itself does not weaken microwave signals."
+    ]
+  },
+  "T3A08": {
+    "concept": "A signal bent back by the ionosphere usually arrives by several paths at once, and the ionosphere keeps shifting. The copies drift in and out of step, so the combined signal fades up and down irregularly.",
+    "hint": "The ionosphere is not a single smooth mirror. Think about a signal that reaches you several ways at once, with each way slowly changing.",
+    "why": [
+      "Faraday rotation twists a wave's polarization as it passes through the ionosphere. It does not shift the frequency.",
+      "Thunderstorms cause static crashes (noise), not fading of the signal itself.",
+      "Intermodulation distortion is unwanted mixing of signals inside equipment. It has nothing to do with the path through the ionosphere.",
+      "Signals arriving by different, constantly changing paths combine at random, sometimes adding and sometimes cancelling, which is heard as irregular fading."
+    ]
+  },
+  "T3A09": {
+    "concept": "The ionosphere twists a wave's polarization, so a skip signal arrives elliptically polarized: a changing mix of vertical and horizontal. Matching antenna polarization therefore matters little on HF skip paths.",
+    "hint": "If the arriving wave is a changing blend of vertical and horizontal, how much does the tilt of your antenna matter?",
+    "why": [
+      "Digital modes work well over ionospheric paths and are used on HF every day.",
+      "Because the wave arrives as a mix of polarizations, a vertical or a horizontal antenna will each pick up part of it, so either can be used.",
+      "Elliptical polarization does not make FM voice unusable. This is not a result of how the wave is polarized.",
+      "Matching polarization matters on line-of-sight paths. After the ionosphere scrambles the polarization, the antennas do not need to match."
+    ]
+  },
+  "T3A10": {
+    "concept": "With multipath, delayed copies of a signal arrive on top of the direct one. For data, the late copies smear or cancel the symbols being sent, so the receiver misreads more of them.",
+    "hint": "Imagine listening to someone read numbers aloud in a room with a strong echo. What happens to your accuracy?",
+    "why": [
+      "No rule ties data rate to the number of paths, and sending faster would make the overlap between delayed copies worse.",
+      "Slowing down can help, but there is no fixed rule to divide the rate by the number of paths.",
+      "FM does not protect against multipath. Reflected copies still cancel and distort the signal.",
+      "Delayed and cancelling copies corrupt the data symbols, so more errors are likely."
+    ]
+  },
+  "T3A11": {
+    "concept": "The ionosphere is the upper part of the atmosphere where sunlight strips electrons from gas atoms. This electrically charged layer can bend HF radio waves back to Earth, which lets them travel far beyond the horizon.",
+    "hint": "Look for the layer whose name tells you it contains electrically charged particles.",
+    "why": [
+      "The stratosphere is a lower layer, home of the ozone layer. It is not charged enough to return HF waves to Earth.",
+      "The troposphere is the lowest layer, where weather happens. It can bend VHF and UHF slightly but does not reflect HF.",
+      "The ionosphere contains charged particles (ions and free electrons) that bend HF radio waves back toward the ground.",
+      "The electrosphere is not one of the atmospheric regions used to describe radio propagation, and it is not what reflects HF."
+    ]
+  },
+  "T3A12": {
+    "concept": "Rain and fog droplets are tiny compared with a wave several meters long, so the wave passes them almost untouched. Weather in the path matters at microwave frequencies, not on long-wavelength bands.",
+    "hint": "Compare the size of a raindrop with a wave that is 6 or 10 meters long.",
+    "why": [
+      "Absorption by rain and fog is a problem at microwave frequencies, where wavelengths are close to droplet size, not at 10 or 6 meters.",
+      "Droplets are far smaller than these wavelengths, so fog and rain have little effect on 10-meter and 6-meter signals.",
+      "Droplets are too small compared with these long waves to deflect them noticeably.",
+      "Fog and rain do not extend range on these bands. They simply make almost no difference."
+    ]
+  },
+  "T3B01": {
+    "concept": "A radio wave is an electric field and a magnetic field travelling together. The two fields are perpendicular to each other and both are perpendicular to the direction of travel.",
+    "hint": "Hold out your thumb, first finger and middle finger so each points along a different axis. Two of them are the fields; the third is the direction of travel.",
+    "why": [
+      "The two fields are parts of the same wave and travel together at the same speed.",
+      "The fields are not parallel. Each is turned 90 degrees from the other.",
+      "The fields do not revolve in opposite directions. They rise and fall together while staying perpendicular.",
+      "The electric and magnetic fields are at right angles (90 degrees) to each other and to the direction the wave travels."
+    ]
+  },
+  "T3B02": {
+    "concept": "Polarization names the direction in which a wave's electric field points. A vertical antenna produces a vertical electric field, so its wave is vertically polarized.",
+    "hint": "A radio wave has two fields at 90 degrees to each other. By convention only one of them is used to name the wave's polarization.",
+    "why": [
+      "Polarization is defined by the direction of the electric field: vertical field, vertical polarization.",
+      "The magnetic field is at right angles to the electric field. It is not the one used to name the polarization.",
+      "Polarization is about direction, not about a ratio of energy between the two fields.",
+      "Velocity divided by wavelength gives frequency, which has nothing to do with polarization."
+    ]
+  },
+  "T3B03": {
+    "concept": "A radio wave is electromagnetic: it is made of an electric field and a magnetic field that travel through space together, each sustaining the other.",
+    "hint": "Once the energy leaves the antenna there are no wires or components. Ask what can exist and travel in empty space.",
+    "why": [
+      "Impedance and reactance describe opposition to current in a circuit. They are not parts of a wave.",
+      "Voltage and current exist in wires and components. Once the energy leaves the antenna it travels as fields.",
+      "A radio wave consists of an electric field and a magnetic field travelling together.",
+      "Ionizing and non-ionizing are categories of radiation by energy. Radio waves are non-ionizing; these are not components of a wave."
+    ]
+  },
+  "T3B04": {
+    "concept": "Radio waves and light are the same kind of thing, electromagnetic waves, at different frequencies. In free space (empty space with nothing in the way) they travel at the same speed.",
+    "hint": "Radio waves are electromagnetic waves. Think of the most familiar electromagnetic wave, the one you can see.",
+    "why": [
+      "Radio waves are electromagnetic waves, just like light, so in free space they travel at the speed of light.",
+      "Sound is a pressure wave in air and is roughly a million times slower. Radio waves do not need air at all.",
+      "Waves slow to a fraction of light speed inside cables, but in free space there is nothing to slow them.",
+      "This figure is tied to the speed of sound, which has nothing to do with radio waves."
+    ]
+  },
+  "T3B05": {
+    "concept": "All radio waves travel at the same speed, so wavelength and frequency trade off. More cycles each second means each cycle has less room: higher frequency, shorter wavelength.",
+    "hint": "Shake a rope faster while the ripples move along at a fixed speed. What happens to the spacing between ripples?",
+    "why": [
+      "This is backwards. Packing more cycles into each second leaves less distance for each one.",
+      "Because the speed is fixed, raising the frequency makes each wave shorter.",
+      "Wavelength changes with frequency. That is why the 2-meter and 70-centimeter bands have different names.",
+      "The length of the path does not change either the frequency or the wavelength of a signal."
+    ]
+  },
+  "T3B06": {
+    "concept": "Wavelength is speed divided by frequency. The speed is about 300 million meters per second, so with frequency in megahertz (millions of hertz) the millions cancel and 300 is left on top.",
+    "hint": "Test each formula with a band you know: about 146 MHz should come out near 2 meters.",
+    "why": [
+      "Multiplying makes wavelength grow with frequency, which is backwards, and hertz is the wrong unit to pair with 300.",
+      "Frequency is on top here, so wavelength would grow as frequency rises, which is backwards.",
+      "The unit is right but the fraction is upside down: 146 divided by 300 gives about 0.49, not 2 meters.",
+      "300 divided by the frequency in megahertz gives meters: 300 / 146 is about 2, matching the 2-meter band."
+    ]
+  },
+  "T3B07": {
+    "concept": "Amateur bands are named by their approximate wavelength, such as 2 meters or 70 centimeters, as well as by frequency. You can convert between the two with 300 divided by megahertz.",
+    "hint": "Think about how hams say which band they are on, for example the band around 146 MHz.",
+    "why": [
+      "Hams name bands by approximate wavelength: the band near 146 MHz is called 2 meters, and the band near 440 MHz is 70 centimeters.",
+      "Letter and number designators are not how amateur bands are identified.",
+      "Channel numbers identify single frequencies in services such as CB. Amateur bands are not identified that way.",
+      "Only the wavelength item is true. Letter/number designators and channel numbers are not used to identify amateur bands."
+    ]
+  },
+  "T3B08": {
+    "concept": "The radio spectrum is divided into ranges that each cover a factor of ten. The ladder runs MF, HF, VHF (very high frequency), UHF, with the megahertz ranges built from the numbers 3, 30, 300 and 3000.",
+    "hint": "The 2-meter band, near 146 MHz, is a VHF band. Which range contains it?",
+    "why": [
+      "30 kHz to 300 kHz is LF (low frequency), far below VHF.",
+      "VHF runs from 30 MHz to 300 MHz. It includes the 6-meter, 2-meter and 1.25-meter bands.",
+      "300 kHz to 3000 kHz is MF (medium frequency), where AM broadcast stations are.",
+      "300 MHz to 3000 MHz is UHF (ultra high frequency), the next range above VHF."
+    ]
+  },
+  "T3B09": {
+    "concept": "UHF means ultra high frequency. It is the range just above VHF on the spectrum ladder, and each range covers a factor of ten.",
+    "hint": "The 70-centimeter band, near 440 MHz, is a UHF band. Which range contains it?",
+    "why": [
+      "30 to 300 kHz is LF (low frequency), far below UHF.",
+      "30 to 300 MHz is VHF (very high frequency), the range just below UHF.",
+      "300 to 3000 kHz is MF (medium frequency). The numbers match but the unit is kilohertz, not megahertz.",
+      "UHF runs from 300 to 3000 MHz. It includes the 70-centimeter band."
+    ]
+  },
+  "T3B10": {
+    "concept": "HF means high frequency. It sits just below VHF on the spectrum ladder and is the range best known for long-distance contacts by way of the ionosphere.",
+    "hint": "The 10-meter band, near 28 MHz, is the top HF amateur band. Which range contains it?",
+    "why": [
+      "300 to 3000 MHz is UHF (ultra high frequency), two steps above HF.",
+      "30 to 300 MHz is VHF (very high frequency), the range just above HF.",
+      "HF runs from 3 to 30 MHz. It includes amateur bands from 80 meters through 10 meters.",
+      "300 to 3000 kHz is MF (medium frequency), the range just below HF."
+    ]
+  },
+  "T3B11": {
+    "concept": "Radio waves travel at the speed of light: about 300 million meters every second. This is where the 300 in the wavelength formula comes from.",
+    "hint": "The wavelength shortcut uses the number 300 with megahertz. Think about where that 300 comes from, and check the units.",
+    "why": [
+      "150,000,000 meters per second is only half the real figure.",
+      "The speed of light is about 300,000,000 meters per second, and radio waves in free space travel at that speed.",
+      "The number is familiar but the unit is wrong. The figure is in meters per second, not miles per hour.",
+      "Both the number and the unit are wrong here."
+    ]
+  },
+  "T3B12": {
+    "concept": "Every electromagnetic wave travels at the speed of light in free space, whatever its frequency. Frequency changes the wavelength, not the speed.",
+    "hint": "When frequency goes up, wavelength goes down. Ask yourself what must stay fixed for that trade-off to work.",
+    "why": [
+      "Microwaves have a very high frequency, but that shortens their wavelength. It does not make them faster.",
+      "UHF waves travel at the same speed as every other radio wave in free space.",
+      "VHF waves travel at the same speed as every other radio wave in free space.",
+      "In free space all radio waves move at the speed of light. Only wavelength changes with frequency."
+    ]
+  },
+  "T3C01": {
+    "concept": "HF waves can be bent back to Earth by the ionosphere, but UHF waves normally pass straight through it into space. With no bounce from above, UHF is limited to about line of sight.",
+    "hint": "Think about what carries HF signals around the curve of the Earth, and whether that works at much higher frequencies.",
+    "why": [
+      "UHF signals are not especially weak. They reach satellites and spacecraft. The limit is the curve of the Earth, not strength.",
+      "There is no FCC rule limiting how far a signal may travel. This is not a real regulation.",
+      "The ionosphere usually does not bend UHF signals back to Earth, so they carry on in a straight line and are not heard beyond the radio horizon.",
+      "D region absorption affects the lower HF bands in daytime. UHF signals pass through the ionosphere with little loss."
+    ]
+  },
+  "T3C02": {
+    "concept": "HF (3 to 30 MHz) is regularly bent back to Earth by the ionosphere, so signals skip across continents and oceans. VHF and higher frequencies usually pass through the ionosphere and stay near line of sight.",
+    "hint": "Think about why hams choose HF when they want to talk to other countries without a satellite or the internet.",
+    "why": [
+      "HF wavelengths are longer, so HF antennas are generally larger, not smaller.",
+      "HF bands are narrow, so they suit narrow signals. Wide signals fit better on VHF and higher bands, where there is more room.",
+      "The ionosphere routinely returns HF signals to Earth, so long-distance contacts are far more common on HF than on VHF and above.",
+      "Atmospheric static is stronger on HF than on VHF and above, not weaker."
+    ]
+  },
+  "T3C03": {
+    "concept": "An aurora is a moving curtain of charged particles that can reflect VHF signals. Because the curtain is constantly shifting, the reflected signal is smeared and sounds rough.",
+    "hint": "Picture a signal bouncing off a shimmering, fast-moving curtain instead of a smooth mirror. How clean would it sound?",
+    "why": [
+      "Auroral contacts are regional, typically hundreds of miles. They do not reach anything like 10,000 miles.",
+      "The rapidly moving aurora smears the signal, giving it a distorted, raspy or buzzing sound.",
+      "Aurora follows solar activity and is not limited to winter nights.",
+      "Stations aim toward the aurora, which lies toward the pole, not toward the west."
+    ]
+  },
+  "T3C04": {
+    "concept": "Now and then, dense patches of ionization form in the E region of the ionosphere. They come and go unpredictably and can reflect 10-, 6- and sometimes 2-meter signals for strong contacts far beyond the horizon.",
+    "hint": "The key word in the question is occasional. Look for a propagation name that suggests something irregular.",
+    "why": [
+      "Backscatter returns weak signals scattered back toward the transmitter. It is not known for strong signals on these bands.",
+      "Sporadic E is reflection from occasional dense patches in the ionosphere's E region, giving strong signals on 10, 6 and sometimes 2 meters.",
+      "D region absorption weakens signals on the lower HF bands in daytime. It does not carry signals anywhere.",
+      "Gray-line propagation is an HF effect along the line between day and night, not the usual cause of these VHF openings."
+    ]
+  },
+  "T3C05": {
+    "concept": "Diffraction is the bending of a wave as it passes a sharp edge. A radio wave passing over a ridge or rooftop bends partly downward behind it, so some signal reaches the far side.",
+    "hint": "Think about how sound can still be heard on the far side of a wall. What does a wave do when it meets a sharp edge?",
+    "why": [
+      "Knife-edge diffraction bends radio waves over a sharp obstacle such as a ridge or building edge, so signal reaches the area behind it.",
+      "Faraday rotation is the twisting of a wave's polarization in the ionosphere. It does not carry signals past obstructions.",
+      "Quantum tunneling is a real effect in physics and electronics, but it is not a way radio signals get past hills or buildings.",
+      "Doppler shift is a change in frequency caused by motion. It does not bend signals around anything."
+    ]
+  },
+  "T3C06": {
+    "concept": "Layers of air at different temperatures in the lower atmosphere (the troposphere) can trap VHF and UHF waves and guide them along the Earth's surface, like a pipe, for hundreds of miles.",
+    "hint": "VHF and UHF usually pass through the ionosphere, so look lower down, to the part of the atmosphere where weather happens.",
+    "why": [
+      "Tropospheric ducting traps VHF and UHF signals between layers of air and carries them over the horizon, regularly to about 300 miles.",
+      "The D region is the lowest part of the ionosphere and mainly absorbs lower HF signals. It does not return VHF or UHF to Earth.",
+      "The F2 region returns HF signals to Earth over very long distances. It is not the regular carrier of VHF and UHF.",
+      "Faraday rotation is the twisting of a wave's polarization in the ionosphere. It is not a way of extending range."
+    ]
+  },
+  "T3C07": {
+    "concept": "Meteors burning up leave short-lived trails of ionized gas high in the atmosphere. These trails reflect lower VHF frequencies best and for the longest time, so a lower-frequency VHF band works best.",
+    "hint": "Meteor trails reflect longer wavelengths better and for longer. Compare the wavelengths on offer.",
+    "why": [
+      "33 centimeters is a UHF band. Its frequency is too high for meteor trails to reflect well.",
+      "6 meters is the lowest-frequency band listed, and meteor trails reflect it best and for the longest time.",
+      "Meteor scatter is possible on 2 meters, but reflections are shorter and weaker there than on 6 meters.",
+      "70 centimeters is a UHF band. Meteor trails reflect it poorly."
+    ]
+  },
+  "T3C08": {
+    "concept": "Air normally gets cooler with height. In an inversion, a layer of warm air sits above cooler air. The boundary bends VHF and UHF waves back down, forming a duct that guides them a long way.",
+    "hint": "Air usually gets colder as you go up. Think about what happens to radio waves when that normal pattern is turned upside down.",
+    "why": [
+      "Lightning produces static noise. It does not create ducts.",
+      "Sunspots and solar flares affect the ionosphere, which is far above the troposphere where ducting happens.",
+      "Violent storm updrafts mix the air. Ducts need calm, stable layers.",
+      "A temperature inversion, warm air over cool air, forms a boundary that bends VHF and UHF waves back down and traps them in a duct."
+    ]
+  },
+  "T3C09": {
+    "concept": "The Sun's radiation charges the F region of the ionosphere. A band as high in frequency as 10 meters needs strong charging to be returned to Earth: full sunlight and an active Sun.",
+    "hint": "The ionosphere gets its charge from the Sun. Ask when, in the day and in the solar cycle, it would be charged most strongly.",
+    "why": [
+      "Daylight keeps the F region strongly charged, and high sunspot activity strengthens it further, so 10 meters opens for long distances.",
+      "After dark the F region weakens and usually can no longer return 10-meter signals, even with high sunspot activity.",
+      "Daytime is right, but with few sunspots the F region is often too weak to return 10-meter signals.",
+      "Darkness and low sunspot activity together give the weakest ionosphere: the worst case for 10 meters."
+    ]
+  },
+  "T3C10": {
+    "concept": "The more sunspots, the more strongly the F region is charged and the higher the frequency it can return to Earth. At the cycle's peak this can extend up to the lowest VHF band, but not to UHF.",
+    "hint": "Even a very active Sun only lifts the ionosphere's upper frequency limit so far. Which bands sit closest to HF?",
+    "why": [
+      "10 meters (top of HF) and 6 meters (bottom of VHF) are low enough in frequency for a strongly charged F region to return them to Earth.",
+      "23 centimeters is a microwave band. Its signals pass straight through the ionosphere.",
+      "70 centimeters and 1.25 meters are too high in frequency for the F region to return, even at the sunspot peak.",
+      "Not all are true: the 23-centimeter, 70-centimeter and 1.25-meter bands pass through the F region instead of being returned."
+    ]
+  },
+  "T3C11": {
+    "concept": "Air gets thinner with height, and this bends (refracts) radio waves gently downward so they follow the Earth's curve a little. VHF and UHF signals therefore reach somewhat past the horizon you can see.",
+    "hint": "A straw in a glass of water looks bent. Think about what the atmosphere, denser near the ground, might do to a radio wave's path.",
+    "why": [
+      "Radio waves travel at the speed of light, never faster.",
+      "Dust has almost no effect on VHF and UHF radio waves, but that does not explain reaching past the visual horizon.",
+      "The atmosphere bends radio waves slightly downward, so they curve a little way around the Earth and reach beyond the visual horizon.",
+      "Dust does not block VHF and UHF radio waves, and blocking would shorten the range, not extend it."
+    ]
+  }
+}
