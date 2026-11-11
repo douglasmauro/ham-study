@@ -159,7 +159,7 @@ function Spectrum({ hl }: { hl: 'VHF' | 'UHF' }) {
       <T x={22} y={108} a="middle" c="ga-tm">3</T>
       <T x={88} y={108} a="middle" c={hl === 'VHF' ? 'ga-tk ga-tb' : 'ga-tm'}>30</T>
       <T x={154} y={108} a="middle" c="ga-tk ga-tb">300</T>
-      <T x={218} y={108} a="middle" c={hl === 'UHF' ? 'ga-tk ga-tb' : 'ga-tm'}>3000</T>
+      <T x={216} y={108} a="middle" c={hl === 'UHF' ? 'ga-tk ga-tb' : 'ga-tm'}>3000</T>
       <T x={120} y={128} a="middle" c="ga-tm">megahertz (MHz)</T>
     </Art>
   );
@@ -226,7 +226,7 @@ function Pol({ kind }: { kind: 'v' | 'h' }) {
       <path class="ga-s" d={d} />
       {pk.map((p, i) => <Ar x1={p} y1={66} x2={p + (i % 2 ? 15 : -15)} y2={66 + (i % 2 ? -10.5 : 10.5)} c="ga-k" h={5} />)}
       <T x={130} y={22} a="middle" c="ga-tk ga-tb">electric field: side to side</T>
-      <T x={150} y={115} a="middle" c="ga-tm">parallel to the ground</T>
+      <T x={116} y={115} a="middle" c="ga-tm">parallel to the ground</T>
     </Art>
   );
 }
@@ -384,12 +384,12 @@ const T3: Record<string, TermArt> = {
   },
   'f-region': () => (
     <Art label="The curved Earth with two layers of the ionosphere above it. A signal passes through the lower E region, is returned by the high F region and comes down a long distance away.">
-      <path class="ga-w ga-thin ga-dash" d={layer(62)} />
-      <path class="ga-fk ga-soft" d={`${layer(26)}V58Q120 26 0 58Z`} />
-      <path class="ga-k" d={layer(36)} />
-      <SkyBounce top={37} />
+      <path class="ga-w ga-thin ga-dash" d={layer(68)} />
+      <path class="ga-fk ga-soft" d={`${layer(28)}V60Q120 28 0 60Z`} />
+      <path class="ga-k" d={layer(44)} />
+      <SkyBounce top={45} />
       <T x={120} y={20} a="middle" c="ga-tk ga-tb">F region</T>
-      <T x={120} y={80} a="middle" c="ga-tm">E region</T>
+      <T x={120} y={86} a="middle" c="ga-tm">E region</T>
       <T x={120} y={131} a="middle" c="ga-tm">long distance</T>
     </Art>
   ),
@@ -405,7 +405,7 @@ const T3: Record<string, TermArt> = {
   ),
   'free-space': () => (
     <Art label="A radio wave crossing empty space between two antennas, with only a few stars around and nothing in its path.">
-      {[[60, 30], [104, 112], [150, 26], [186, 108], [84, 100], [200, 34]].map(([x, y]) => <circle class="ga-fw" cx={x} cy={y} r="1.5" />)}
+      {[[50, 36], [104, 108], [160, 40], [186, 104], [70, 98], [206, 30]].map(([x, y]) => <circle class="ga-fw" cx={x} cy={y} r="1.5" />)}
       <Ant x={22} y={72} s={12} />
       <Ant x={218} y={72} s={12} />
       <path class="ga-s" d={wave(40, 190, 66, 30, 12)} />
@@ -524,11 +524,9 @@ const T3: Record<string, TermArt> = {
       <path class="ga-w ga-thin ga-dash" d={layer(34)} />
       <SkyBounce top={35} />
       <Ar x1={42} y1={n(earthY(30) - 22)} x2={198} y2={n(earthY(210) - 22)} c="ga-s" />
-      <T x={120} y={22} a="middle" c="ga-tm">ionosphere</T>
-      <T x={120} y={64} a="middle" c="ga-tk ga-tb">by the sky</T>
-      <T x={120} y={100} a="middle" c="ga-tk ga-tb">direct</T>
-      <T x={8} y={131} c="ga-tm">sends</T>
-      <T x={232} y={131} a="end" c="ga-tm">receives</T>
+      <T x={120} y={22} a="middle" c="ga-tk ga-tb">by the ionosphere</T>
+      <T x={120} y={94} a="middle" c="ga-tk ga-tb">direct</T>
+      <T x={120} y={133} a="middle" c="ga-tm">Earth</T>
     </Art>
   ),
   'radio-horizon': () => (
@@ -556,7 +554,7 @@ const T3: Record<string, TermArt> = {
     <Art label="A station on the curved Earth. Instead of going straight out into space, the radio wave is bent slightly by the atmosphere and follows the curve of the Earth a little.">
       <HorizonScene marks={false} />
       <T x={140} y={28} a="middle" c="ga-tk ga-tb">bent by the atmosphere</T>
-      <T x={232} y={84} a="end" c="ga-tm">straight</T>
+      <T x={232} y={76} a="end" c="ga-tm">straight</T>
       <T x={120} y={128} a="middle" c="ga-tm">Earth</T>
     </Art>
   ),
@@ -788,8 +786,8 @@ const T9: Record<string, TermArt> = {
     <Art label="A full-size antenna drawn dashed beside a much shorter antenna with a coil, an inductor, inserted in its element. The coil makes the short antenna act electrically longer.">
       <GroundLine />
       <path class="ga-w ga-dash" d="M36 112V20" />
-      <path class="ga-w ga-thick" d="M106 112V86M106 62V46" />
-      <path class="ga-k" d="M106 86a4 4 0 0 0 0 -8a4 4 0 0 0 0 -8a4 4 0 0 0 0 -8" />
+      <path class="ga-w ga-thick" d="M106 112V92M106 60V44" />
+      <path class="ga-k" d="M106 92a5 4 0 0 0 0 -8a5 4 0 0 0 0 -8a5 4 0 0 0 0 -8a5 4 0 0 0 0 -8" />
       <T x={122} y={72} c="ga-tk ga-tb">loading coil</T>
       <T x={122} y={88} c="ga-tk">(an inductor)</T>
       <T x={36} y={130} a="middle" c="ga-tm">full size</T>
@@ -813,7 +811,7 @@ const T9: Record<string, TermArt> = {
     <Art label="A BNC plug on a coaxial cable facing its socket. The plug has a collar with a slot, and the socket has two small studs: the collar pushes on and locks with a twist.">
       <Plug kind="bnc" />
       <T x={104} y={40} a="middle" c="ga-tk ga-tb">bayonet collar</T>
-      <T x={186} y={36} a="middle" c="ga-tm">socket</T>
+      <T x={182} y={36} a="middle" c="ga-tm">socket</T>
       <T x={120} y={124} a="middle" c="ga-tk">push on, then twist</T>
     </Art>
   ),
@@ -831,7 +829,7 @@ const T9: Record<string, TermArt> = {
     <Art label="A Type N plug on a coaxial cable facing its socket. It has a threaded nut that screws on and a fine center pin, and works well at UHF and higher frequencies.">
       <Plug kind="n" />
       <T x={108} y={40} a="middle" c="ga-tk ga-tb">threaded nut</T>
-      <T x={188} y={40} a="middle" c="ga-tm">socket</T>
+      <T x={180} y={40} a="middle" c="ga-tm">socket</T>
       <T x={120} y={124} a="middle" c="ga-tk">good at UHF and above</T>
     </Art>
   ),
@@ -1062,12 +1060,12 @@ const T9: Record<string, TermArt> = {
   ),
   weatherproofing: () => (
     <Art label="Two coaxial cables joined outdoors by a connector that has been wrapped in tape. Raindrops fall on it but the tape seals the joint so water cannot get in.">
-      {[[40, 20], [76, 30], [112, 18], [150, 30], [186, 20], [214, 34]].map(([x, y]) => <path class="ga-w ga-thin" d={`M${x} ${y}l-4 12`} />)}
+      {[[40, 20], [76, 30], [112, 18], [150, 30], [186, 20], [216, 26]].map(([x, y]) => <path class="ga-w ga-thin" d={`M${x} ${y}l-4 12`} />)}
       <path class="ga-w ga-thick" d="M12 78H74M166 78H228" />
       <rect class="ga-fbg" x="72" y="62" width="96" height="32" rx="12" />
       <rect class="ga-k" x="72" y="62" width="96" height="32" rx="12" />
       <path class="ga-k ga-thin" d="M88 63l-10 30M102 62l-10 32M116 62l-10 32M130 62l-10 32M144 62l-10 32M158 62l-10 32M166 68l-8 26" />
-      <T x={228} y={56} a="end" c="ga-tm">rain</T>
+      <T x={228} y={58} a="end" c="ga-tm">rain</T>
       <T x={120} y={118} a="middle" c="ga-tk ga-tb">tape seals the connector</T>
     </Art>
   ),
@@ -1265,7 +1263,7 @@ const T4: Record<string, TermArt> = {
       <Box x={170} y={52} w={58} h={36} t="radio" />
       <T x={32} y={104} a="middle" c="ga-tm">paddle</T>
       <T x={120} y={30} a="middle" c="ga-tm">helps you send Morse by hand</T>
-      {[[80, 8], [94, 24], [124, 8], [138, 8], [152, 24], [182, 8], [196, 24]].map(([x, w]) => <rect class="ga-fs" x={x} y="112" width={w} height="8" rx="1" />)}
+      {[[80, 8], [94, 24], [124, 8], [138, 8], [152, 24], [182, 8], [196, 24]].map(([x, w]) => <rect class="ga-fs" x={x} y="116" width={w} height="8" rx="1" />)}
       <T x={228} y={106} a="end" c="ga-ts">even dits and dahs</T>
     </Art>
   ),
@@ -1334,7 +1332,7 @@ const T4: Record<string, TermArt> = {
       {[12, 86, 160].map((x) => <rect class="ga-k" x={x} y="38" width="68" height="60" rx="5" />)}
       <path class="ga-s ga-thin" d={fmWave(18, 74, 68, 14)} />
       <path class="ga-s ga-thin" d={(() => { let d = ''; for (let x = 92; x <= 148; x += 1) { const e = 4 + 12 * Math.abs(Math.sin(((x - 92) / 56) * 2 * Math.PI)); d += `${x === 92 ? 'M' : 'L'}${x} ${(68 - e * Math.sin((x - 92) * 1.1)).toFixed(1)}`; } return d; })()} />
-      <path class="ga-s ga-thin" d={wave(166, 176, 68, 5, 14) + wave(184, 204, 68, 5, 14) + wave(212, 222, 68, 5, 14)} />
+      <path class="ga-s ga-thin" d={wave(166, 174, 68, 8, 14) + wave(182, 206, 68, 8, 14) + wave(214, 222, 68, 8, 14)} />
       <T x={46} y={118} a="middle" c="ga-tk ga-tb">FM</T>
       <T x={120} y={118} a="middle" c="ga-tk ga-tb">SSB</T>
       <T x={194} y={118} a="middle" c="ga-tk ga-tb">CW</T>
@@ -1343,9 +1341,9 @@ const T4: Record<string, TermArt> = {
   ),
   'morse-code': () => (
     <Art label="Morse code as a row of short and long signals: a short one is a dit and a long one is a dah. Above each is the burst of radio signal that sends it.">
-      {[[24, 12], [48, 36], [96, 12], [120, 12], [144, 36], [192, 24]].map(([x, w]) => (
+      {[[24, 12], [48, 36], [96, 12], [120, 12], [144, 36], [192, 36]].map(([x, w]) => (
         <>
-          <path class="ga-s ga-thin" d={wave(x, x + w, 40, 6, 10)} />
+          <path class="ga-s ga-thin" d={wave(x, x + w, 40, 8, 10)} />
           <rect class="ga-fk" x={x} y="66" width={w} height="12" rx="2" />
         </>
       ))}
@@ -1509,7 +1507,7 @@ const T4: Record<string, TermArt> = {
       <path class="ga-w ga-thin ga-dash" d="M52 30H212" />
       <Ar x1={199} y1={33} x2={199} y2={51} c="ga-k" both h={4} />
       <T x={182} y={46} a="end" c="ga-tk ga-tb">voltage drop</T>
-      <T x={58} y={64} c="ga-ts">volts</T>
+      <T x={58} y={70} c="ga-ts">full voltage</T>
       <T x={120} y={22} a="middle" c="ga-tm">lost along the wire</T>
     </Art>
   ),
