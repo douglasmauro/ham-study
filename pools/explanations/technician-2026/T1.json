@@ -4,8 +4,8 @@
     "hint": "Think about why a government would set aside valuable spectrum for hobbyists. What does the public get back from people who experiment and learn?",
     "why": [
       "Personal radio for as many citizens as possible describes services like CB or FRS. Amateur radio requires a license and has a different purpose.",
-      "Improving skills in both the technical side and the operating (communication) side of radio is one of the purposes listed in the rules.",
       "Contesting is a popular activity, but it is not one of the purposes listed in the Basis and Purpose.",
+      "Improving skills in both the technical side and the operating (communication) side of radio is one of the purposes listed in the rules.",
       "Only the item about advancing technical and communication skills is in the rules. Citizen radio for all and contesting are not listed purposes."
     ]
   },
@@ -120,7 +120,7 @@
     ]
   },
   "T1B02": {
-    "concept": "The International Space Station carries an amateur station that uses VHF frequencies. Technicians have full privileges on the VHF bands, so any licensed ham can make the contact with no extra permission.",
+    "concept": "The International Space Station carries an amateur station that uses VHF frequencies. Technicians have full privileges on the VHF bands, so a Technician or higher license is enough, with no extra permission.",
     "hint": "The contact happens on VHF. Ask which license classes are allowed to transmit on those bands, and whether hams need anyone else's approval to use them.",
     "why": [
       "A General license is not needed. Technicians already have full privileges on the VHF bands used.",
@@ -170,7 +170,7 @@
     ]
   },
   "T1B07": {
-    "concept": "CW is Morse code sent by switching a carrier on and off. On two VHF bands the bottom 100 kHz is set aside for CW alone, which protects very weak-signal work such as moonbounce.",
+    "concept": "CW is Morse code sent by switching a carrier on and off. On two VHF bands the bottom 100 kHz is set aside for CW alone. No other mode, not even voice or data, may be used in those slices.",
     "hint": "Think of the two most popular VHF bands, and where in a band Morse-only territory usually sits.",
     "why": [
       "The lowest 100 kHz of 6 meters (50.0 to 50.1 MHz) and of 2 meters (144.0 to 144.1 MHz) are limited to CW only.",
@@ -270,7 +270,7 @@
     ]
   },
   "T1C05": {
-    "concept": "Call signs are sorted into groups by shape. Group D, used for Technician and General, is the longest: two letters, one digit, then three letters (a 2x3 call). Shorter formats belong to other groups.",
+    "concept": "Call signs are sorted into groups by shape. Group D is the longest: two letters, one digit, then three letters (a 2x3 call). Technicians can be given these. The shortest formats are in the Amateur Extra group.",
     "hint": "Count the letters before and after the digit in each call sign. Shorter call signs are scarcer, so think about who would get those.",
     "why": [
       "KF1XXX has two letters, a digit and three letters. That 2x3 shape is the Group D format.",
@@ -280,7 +280,7 @@
     ]
   },
   "T1C06": {
-    "concept": "Your FCC license covers places the FCC regulates, and that includes US-registered ships and aircraft wherever they travel. The person in command has the final say on any radio used aboard.",
+    "concept": "Your FCC license also covers US-documented or registered ships and aircraft when they are in international waters or airspace. The person in command has the final say on any radio used aboard.",
     "hint": "A ship at sea carries the law of its flag with it. Think about whose rules apply, and whose consent you would need on board.",
     "why": [
       "Amateur operation is not banned in international waters. Hams operate from ships at sea, known as maritime mobile.",
@@ -384,7 +384,7 @@
     "hint": "Picture the difference between a hobbyist mentioning a spare radio now and then and a dealer advertising every week.",
     "why": [
       "Never is too strict. The rules allow occasional notices about amateur equipment.",
-      "This is not the condition in the rules. The allowance is about your own ham gear offered occasionally.",
+      "This is not the condition in the rules. The allowance is for amateur radio gear offered occasionally, not on a regular basis.",
       "Profit is not the test. The test is the kind of equipment and whether it is done regularly.",
       "You may tell other hams about amateur radio equipment for sale or trade if you do not do so on a regular basis."
     ]

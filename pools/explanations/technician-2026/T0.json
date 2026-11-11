@@ -1,9 +1,9 @@
 {
   "T0A01": {
-    "concept": "A storage battery holds a lot of energy at low voltage. The voltage is too low to push much current through skin, but a metal path across the terminals lets a huge current flow at once.",
+    "concept": "A storage battery holds a lot of energy at low voltage. The voltage is too low to push much current through dry skin, but a metal path across the terminals lets a huge current flow at once.",
     "hint": "Think about what happens when a wrench falls across both posts of a car battery. Is the danger the voltage or the current?",
     "why": [
-      "Twelve volts is normally too low to drive a harmful current through skin, so shock is not the hazard this question is after.",
+      "Twelve volts is normally too low to drive a harmful current through dry, unbroken skin, so shock is not the hazard this question is after.",
       "A direct metal path lets hundreds of amperes flow. That heats metal red hot, can start a fire, and can make the battery burst.",
       "Radio signals do not make battery electrolyte give off poison gas. This is not a real hazard.",
       "Only the short-circuit hazard is real here. The shock and poison gas items are false, so not every choice is correct."
@@ -21,7 +21,7 @@
   },
   "T0A03": {
     "concept": "US house wiring uses colour to mark each wire's job: black for hot (the wire that carries voltage from the panel), white for neutral (the return), and green or bare for safety ground.",
-    "hint": "Three wires, three colours, three jobs. One of them is the wire that is dangerous to touch. Which colour would you pick as a warning?",
+    "hint": "Three wires, three colours, three jobs. Recall which colours mark the return wire and the safety wire, then see which job is left.",
     "why": [
       "Neutral, the return wire, has white insulation in US wiring.",
       "Black marks the hot wire, the one that carries the 120 volts from the panel and can shock you.",
@@ -54,7 +54,7 @@
     "hint": "Think of every way voltage could reach your hands: through a metal case, between two pieces of gear, or from parts that hold a charge.",
     "why": [
       "The third wire grounds the metal case, so a fault inside trips the breaker instead of making the case live.",
-      "With everything on one ground, no voltage difference can appear between two cases you touch together.",
+      "With every case tied to one ground, the cases stay at the same voltage, so touching two at once does not put a voltage across you.",
       "Capacitors store charge, so high-voltage ones can shock you long after the power is off.",
       "Three-wire cords, a common safety ground and discharged high-voltage capacitors are all good shock protection."
     ]
@@ -95,7 +95,7 @@
     "why": [
       "High current heats the cells and can drive gas out of them, which can lead to fire or a burst battery.",
       "Ripple is leftover AC on the output of a power supply. It is not a battery hazard.",
-      "Typical station batteries are low voltage, so shock is not the hazard of fast charging or discharging.",
+      "Electric shock is not what fast charging or discharging causes. The danger from high battery current is heat, gas and fire.",
       "Overvoltage is not what the question describes. The danger from high current is heat and gas."
     ]
   },
@@ -130,7 +130,7 @@
     ]
   },
   "T0B02": {
-    "concept": "A fall from a tower is usually fatal, so climbing depends on three things together: knowing how, wearing proper fall-protection gear, and staying attached to the tower the whole time.",
+    "concept": "A fall from a tower can easily be fatal, so climbing depends on three things together: knowing how, wearing proper fall-protection gear, and staying attached to the tower the whole time.",
     "hint": "Think about what a climber needs in skill, in equipment and in habit. Is any one of them enough alone?",
     "why": [
       "Climbing safely is a learned skill, and training comes before the first climb.",
@@ -150,7 +150,7 @@
     ]
   },
   "T0B04": {
-    "concept": "Power lines are the biggest killer in antenna work. A tower, mast or antenna that touches one becomes live, along with anyone holding it.",
+    "concept": "Power lines are among the deadliest hazards in antenna work. A tower, mast or antenna that touches one becomes live, along with anyone holding it.",
     "hint": "Before raising a tall metal object, look around and above the site. What nearby thing could kill you on contact?",
     "why": [
       "A wrist strap protects sensitive electronic parts from static at a workbench. It is not a tower safety item.",
@@ -176,7 +176,7 @@
       "This multiply-by-1.5 formula is not a real rule and is not what the question describes.",
       "The height of the power line alone ignores how tall the antenna and its support are, so it does not guarantee clearance.",
       "Wavelength affects how an antenna works, not how far its parts can reach when it falls.",
-      "If no part of a falling antenna can get within 10 feet of the wires, it cannot become live even in the worst case."
+      "If no part of a falling antenna can come within 10 feet of the power wires, it stays clear of them even in the worst case."
     ]
   },
   "T0B07": {

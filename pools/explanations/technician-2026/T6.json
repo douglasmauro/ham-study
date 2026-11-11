@@ -163,7 +163,7 @@
     "concept": "A diode must be installed the right way round, so the package shows which end is the cathode, the end that current flows out of when it conducts. A band at that end is the usual mark.",
     "hint": "Small diode bodies have little room for printing. What simple mark could show which end is which?",
     "why": [
-      "There is no room on a small diode body for a whole word, and this is not the usual marking.",
+      "The word cathode is not normally printed on a diode package. The usual marking is much simpler.",
       "A stripe or band printed around one end of the body marks the cathode lead.",
       "A letter C is not the common package marking for the cathode.",
       "K can stand for cathode on diagrams, but the usual mark on the package itself is a stripe."
@@ -191,7 +191,7 @@
   },
   "T6B09": {
     "concept": "A diode has two electrodes, the anode and the cathode. When the diode conducts, conventional current flows in at the anode and out at the cathode.",
-    "hint": "A diode has only two leads. The names are shared with other two-ended devices such as vacuum tubes and batteries.",
+    "hint": "A diode has only two leads. The same two names are also used for the electrodes of vacuum tubes and batteries.",
     "why": [
       "Plus and minus label battery terminals or voltage polarity. They are not the names of diode electrodes.",
       "Source and drain are two of the three electrodes of a field-effect transistor.",

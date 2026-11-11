@@ -1,7 +1,7 @@
 {
   "T3A01": {
     "concept": "Multipath: a VHF signal reaches your antenna directly and also by bouncing off buildings, hills and cars. The copies add up in some spots and cancel in others, so strength changes over a very short distance.",
-    "hint": "A VHF wave is only a few feet long. Think about what happens when two copies of the same wave arrive by routes of slightly different length.",
+    "hint": "A 2-meter wave is only about 6 feet long. Think about what happens when two copies of the same wave arrive by routes of slightly different length.",
     "why": [
       "Water vapor does not change enough over a few feet to matter, and it has little effect at VHF anyway.",
       "VHF signals normally do not travel by the ionosphere at all, so this is not the cause of local strength changes.",
@@ -21,7 +21,7 @@
   },
   "T3A03": {
     "concept": "Polarization is the direction of the wave's electric field, set by how the antenna is oriented. By convention, weak-signal CW and SSB work on VHF and UHF uses antennas with elements parallel to the ground.",
-    "hint": "FM repeater users hold their antennas upright. The weak-signal CW and SSB crowd settled on the other simple orientation.",
+    "hint": "Polarization here is a convention, so that both stations match. Think about how the long beam antennas used for weak-signal work are usually mounted.",
     "why": [
       "Circular polarization of the right-hand kind is used mostly for satellite work, not for ordinary long-distance CW and SSB contacts on these bands.",
       "Circular polarization of the left-hand kind is also mainly a satellite technique, not the normal choice for these contacts.",
@@ -60,8 +60,8 @@
     ]
   },
   "T3A07": {
-    "concept": "Microwave wavelengths are short enough to be close to the size of raindrops and snowflakes. Water falling through the path absorbs and scatters the signal, which is often called rain fade.",
-    "hint": "Microwave wavelengths are tiny. Which kind of weather fills the air with objects of about that size?",
+    "concept": "Microwave wavelengths are very short, at the highest frequencies approaching the size of raindrops. Water falling through the path absorbs and scatters the signal, which is often called rain fade.",
+    "hint": "Microwave wavelengths are very short. Ask which kind of weather actually puts something in the signal's path that could soak up or scatter it.",
     "why": [
       "Wind is moving air and does not absorb radio waves, though it can shake an antenna out of aim.",
       "Low pressure by itself does not absorb or scatter microwave signals.",
@@ -81,7 +81,7 @@
   },
   "T3A09": {
     "concept": "The ionosphere twists a wave's polarization, so a skip signal arrives elliptically polarized: a changing mix of vertical and horizontal. Matching antenna polarization therefore matters little on HF skip paths.",
-    "hint": "If the arriving wave is a changing blend of vertical and horizontal, how much does the tilt of your antenna matter?",
+    "hint": "Elliptical polarization means the wave's electric field keeps turning instead of holding one direction. Think about what that means for a fixed antenna.",
     "why": [
       "Digital modes work well over ionospheric paths and are used on HF every day.",
       "Because the wave arrives as a mix of polarizations, a vertical or a horizontal antenna will each pick up part of it, so either can be used.",
@@ -101,7 +101,7 @@
   },
   "T3A11": {
     "concept": "The ionosphere is the upper part of the atmosphere where sunlight strips electrons from gas atoms. This electrically charged layer can bend HF radio waves back to Earth, which lets them travel far beyond the horizon.",
-    "hint": "Look for the layer whose name tells you it contains electrically charged particles.",
+    "hint": "HF waves return to Earth from a high, thin region where sunlight knocks electrons off gas atoms. What are atoms called once they carry a charge?",
     "why": [
       "The stratosphere is a lower layer, home of the ozone layer. It is not charged enough to return HF waves to Earth.",
       "The troposphere is the lowest layer, where weather happens. It can bend VHF and UHF slightly but does not reflect HF.",
@@ -151,7 +151,7 @@
   },
   "T3B04": {
     "concept": "Radio waves and light are the same kind of thing, electromagnetic waves, at different frequencies. In free space (empty space with nothing in the way) they travel at the same speed.",
-    "hint": "Radio waves are electromagnetic waves. Think of the most familiar electromagnetic wave, the one you can see.",
+    "hint": "Radio waves belong to a family of waves that all share one speed in empty space. Think about which other members of that family you know.",
     "why": [
       "Radio waves are electromagnetic waves, just like light, so in free space they travel at the speed of light.",
       "Sound is a pressure wave in air and is roughly a million times slower. Radio waves do not need air at all.",
@@ -184,14 +184,14 @@
     "hint": "Think about how hams say which band they are on, for example the band around 146 MHz.",
     "why": [
       "Hams name bands by approximate wavelength: the band near 146 MHz is called 2 meters, and the band near 440 MHz is 70 centimeters.",
-      "Letter and number designators are not how amateur bands are identified.",
+      "Letter/number designators are not the customary way amateur bands are named. Hams name a band by its frequency or its approximate wavelength.",
       "Channel numbers identify single frequencies in services such as CB. Amateur bands are not identified that way.",
-      "Only the wavelength item is true. Letter/number designators and channel numbers are not used to identify amateur bands."
+      "Only the wavelength item is the customary one. Letter/number designators and channel numbers are not how amateur bands are normally named."
     ]
   },
   "T3B08": {
     "concept": "The radio spectrum is divided into ranges that each cover a factor of ten. The ladder runs MF, HF, VHF (very high frequency), UHF, with the megahertz ranges built from the numbers 3, 30, 300 and 3000.",
-    "hint": "The 2-meter band, near 146 MHz, is a VHF band. Which range contains it?",
+    "hint": "Each named range covers a factor of ten. Think of an amateur band you know is VHF and check which range its frequency falls in.",
     "why": [
       "30 kHz to 300 kHz is LF (low frequency), far below VHF.",
       "VHF runs from 30 MHz to 300 MHz. It includes the 6-meter, 2-meter and 1.25-meter bands.",
@@ -201,7 +201,7 @@
   },
   "T3B09": {
     "concept": "UHF means ultra high frequency. It is the range just above VHF on the spectrum ladder, and each range covers a factor of ten.",
-    "hint": "The 70-centimeter band, near 440 MHz, is a UHF band. Which range contains it?",
+    "hint": "Each named range covers a factor of ten. Think of an amateur band you know is UHF and check which range its frequency falls in.",
     "why": [
       "30 to 300 kHz is LF (low frequency), far below UHF.",
       "30 to 300 MHz is VHF (very high frequency), the range just below UHF.",
@@ -211,7 +211,7 @@
   },
   "T3B10": {
     "concept": "HF means high frequency. It sits just below VHF on the spectrum ladder and is the range best known for long-distance contacts by way of the ionosphere.",
-    "hint": "The 10-meter band, near 28 MHz, is the top HF amateur band. Which range contains it?",
+    "hint": "Each named range covers a factor of ten. Think of an amateur band you know is HF and check which range its frequency falls in.",
     "why": [
       "300 to 3000 MHz is UHF (ultra high frequency), two steps above HF.",
       "30 to 300 MHz is VHF (very high frequency), the range just above HF.",
@@ -263,7 +263,7 @@
     "concept": "An aurora is a moving curtain of charged particles that can reflect VHF signals. Because the curtain is constantly shifting, the reflected signal is smeared and sounds rough.",
     "hint": "Picture a signal bouncing off a shimmering, fast-moving curtain instead of a smooth mirror. How clean would it sound?",
     "why": [
-      "Auroral contacts are regional, typically hundreds of miles. They do not reach anything like 10,000 miles.",
+      "Auroral contacts are regional, not worldwide. They do not reach anything like 10,000 miles.",
       "The rapidly moving aurora smears the signal, giving it a distorted, raspy or buzzing sound.",
       "Aurora follows solar activity and is not limited to winter nights.",
       "Stations aim toward the aurora, which lies toward the pole, not toward the west."
@@ -271,7 +271,7 @@
   },
   "T3C04": {
     "concept": "Now and then, dense patches of ionization form in the E region of the ionosphere. They come and go unpredictably and can reflect 10-, 6- and sometimes 2-meter signals for strong contacts far beyond the horizon.",
-    "hint": "The key word in the question is occasional. Look for a propagation name that suggests something irregular.",
+    "hint": "The key word in the question is occasional. Think about what could appear in the ionosphere for a short time and then vanish again.",
     "why": [
       "Backscatter returns weak signals scattered back toward the transmitter. It is not known for strong signals on these bands.",
       "Sporadic E is reflection from occasional dense patches in the ionosphere's E region, giving strong signals on 10, 6 and sometimes 2 meters.",
@@ -281,7 +281,7 @@
   },
   "T3C05": {
     "concept": "Diffraction is the bending of a wave as it passes a sharp edge. A radio wave passing over a ridge or rooftop bends partly downward behind it, so some signal reaches the far side.",
-    "hint": "Think about how sound can still be heard on the far side of a wall. What does a wave do when it meets a sharp edge?",
+    "hint": "Think about how sound can still be heard on the far side of a wall. Which of these effects is about a wave changing direction at an obstacle?",
     "why": [
       "Knife-edge diffraction bends radio waves over a sharp obstacle such as a ridge or building edge, so signal reaches the area behind it.",
       "Faraday rotation is the twisting of a wave's polarization in the ionosphere. It does not carry signals past obstructions.",
@@ -301,7 +301,7 @@
   },
   "T3C07": {
     "concept": "Meteors burning up leave short-lived trails of ionized gas high in the atmosphere. These trails reflect lower VHF frequencies best and for the longest time, so a lower-frequency VHF band works best.",
-    "hint": "Meteor trails reflect longer wavelengths better and for longer. Compare the wavelengths on offer.",
+    "hint": "A meteor's ionized trail is thin and lasts only moments. Ask whether higher or lower frequencies are easier to reflect from weak ionization.",
     "why": [
       "33 centimeters is a UHF band. Its frequency is too high for meteor trails to reflect well.",
       "6 meters is the lowest-frequency band listed, and meteor trails reflect it best and for the longest time.",
@@ -311,7 +311,7 @@
   },
   "T3C08": {
     "concept": "Air normally gets cooler with height. In an inversion, a layer of warm air sits above cooler air. The boundary bends VHF and UHF waves back down, forming a duct that guides them a long way.",
-    "hint": "Air usually gets colder as you go up. Think about what happens to radio waves when that normal pattern is turned upside down.",
+    "hint": "Ducting happens low down, in the air where weather is. Think about what could arrange that air into layers that bend radio waves back down.",
     "why": [
       "Lightning produces static noise. It does not create ducts.",
       "Sunspots and solar flares affect the ionosphere, which is far above the troposphere where ducting happens.",

@@ -40,7 +40,7 @@
     ]
   },
   "T7A05": {
-    "concept": "An oscillator is a circuit that creates its own steady, repeating signal at a set frequency. Every transmitter and receiver starts with one.",
+    "concept": "An oscillator is a circuit that creates its own steady, repeating signal at a set frequency. Nearly every transmitter and modern receiver relies on one.",
     "hint": "Most circuits change a signal they are given. Which kind makes a steady repeating signal all by itself?",
     "why": [
       "A reactance modulator changes the frequency or phase of an existing signal to produce FM. It does not create the signal.",
@@ -230,7 +230,7 @@
     ]
   },
   "T7C02": {
-    "concept": "An antenna is resonant where it naturally accepts power at the operating frequency. An antenna analyzer sweeps a tiny test signal across frequencies and shows SWR and impedance at each one.",
+    "concept": "An antenna is resonant at the frequency where its feed point looks like a pure resistance. An antenna analyzer sends a tiny test signal across a range of frequencies and shows SWR and impedance at each one.",
     "hint": "Which instrument is made to connect to the feed line and show how the antenna behaves across a range of frequencies?",
     "why": [
       "A VTVM is a vacuum tube voltmeter. It measures voltage and cannot show where an antenna is resonant.",
@@ -391,7 +391,7 @@
   },
   "T7D07": {
     "concept": "A multimeter is several basic meters in one case. It measures the fundamental electrical quantities: voltage, current and resistance.",
-    "hint": "Think of the basic single-purpose meters: the voltmeter, the ammeter and the ohmmeter. A multimeter combines them.",
+    "hint": "A multimeter is a few basic single-purpose meters in one case. Which simple quantities can be read with just two probes and no radio signal?",
     "why": [
       "Signal strength and noise are measured by a receiver's S meter or special test equipment, not by a multimeter.",
       "Impedance and reactance at radio frequencies need an instrument such as an antenna analyzer, not a basic multimeter.",

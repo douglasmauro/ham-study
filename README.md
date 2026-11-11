@@ -15,8 +15,10 @@ drill to your weak spots.
   see the whole pool about 2½ weeks before your exam date.
 - **Question card:** answer choices are shuffled (except "all of these" style
   answers), a hint button appears after 30 seconds (first a nudge, then one wrong
-  answer ruled out), every choice is marked right or wrong after you answer, and
-  an "I guessed" toggle.
+  answer ruled out), and an "I guessed" toggle.
+- **Explanations for every question:** a one-line concept, a hint that doesn't
+  give the answer away, and a reason for each of the four choices: why the
+  right one is right and why each wrong one isn't.
 - **Readiness score:** the estimated chance you'd pass today, based on one
   question drawn from each of the 35 groups, like the real exam.
 - **Practice exam:** 35 questions in the real format, no hints, scored at 26 to
@@ -27,7 +29,7 @@ drill to your weak spots.
 - No server and no accounts: progress stays on each person's own phone, and
   pushes to `main` deploy the app to GitHub Pages.
 
-Coming next: "why not" explanations for every answer choice, visual labs, scenario missions, hands-on formats (sort, order,
+Coming next: visual labs, scenario missions, hands-on formats (sort, order,
 label…), and narrated concept clips.
 
 ## Layout
@@ -38,6 +40,8 @@ label…), and narrated concept clips.
 | `app/src/data/technician-2026.json` | Generated question pool. Never edit by hand. |
 | `app/src/lib/engine.ts` | Spaced repetition, readiness, session building (unit tested) |
 | `tools/parse_pool.py` | Converts an official NCVEC `.docx` pool to JSON and checks it |
+| `pools/explanations/` | Explanations per subelement, plus the writing guide |
+| `tools/explanations.py` | Shows questions with the key, validates explanations, merges them for the app |
 | `pools/source/` | The original NCVEC pool documents |
 
 ## Develop

@@ -21,7 +21,7 @@
   },
   "T2A03": {
     "concept": "A repeater's offset is the gap between the frequency it listens on and the one it transmits on. The 70-centimeter band is much wider than 2 meters, so its customary offset is much bigger: 5 MHz.",
-    "hint": "The 70-centimeter band runs from 420 to 450 MHz, far wider than 2 meters. A wide band has room for a wide gap.",
+    "hint": "The 70-centimeter band runs from 420 to 450 MHz, far wider than 2 meters. Ask how that extra room might change the customary gap.",
     "why": [
       "On 70 centimeters, repeaters normally listen 5 MHz above or below the frequency they transmit on.",
       "600 kHz is the usual offset on the 2-meter band, not on 70 centimeters.",
@@ -41,7 +41,7 @@
   },
   "T2A05": {
     "concept": "The usual order in any call is the other station's call sign first, then your own. Theirs shows who you are talking to; yours shows who is answering.",
-    "hint": "The usual pattern is 'you, this is me'. Work out which call sign fills each slot.",
+    "hint": "Think about what the calling station needs to hear first to know the reply is meant for it, and what it needs to learn next.",
     "why": [
       "Repeating CQ would mean you are also calling any station. To answer, you address the station that called.",
       "This has the two call signs in the reverse of the customary order. The station being called is named first.",
@@ -51,7 +51,7 @@
   },
   "T2A06": {
     "concept": "CQ is the general invitation: any station that hears it may answer. On simplex you say CQ a few times, give your call sign, then stop and listen so someone has a chance to reply.",
-    "hint": "You want anyone at all to answer. Think of the well known signal for a general invitation, and remember that you must stop talking to hear a reply.",
+    "hint": "You want anyone at all to answer. Think about what people tuning across the band need to hear to notice you, and what you must do to hear a reply.",
     "why": [
       "Giving your call sign and saying you are listening is repeater style. Said once on simplex it is too short to be noticed by people tuning by.",
       "QTC is a Q signal about having messages to pass. It is not an invitation for any station to call you.",
@@ -91,7 +91,7 @@
   },
   "T2A10": {
     "concept": "FCC rules set which frequencies and modes are legal. A band plan goes further: it is a voluntary agreement among hams about where each kind of activity goes, so they stay out of each other's way.",
-    "hint": "FCC rules are law. Ask what you would call an agreement among operators that goes beyond the law and that nobody is forced to follow.",
+    "hint": "FCC rules are law. Ask what hams themselves might agree on, on top of the law, so that different activities stay out of each other's way.",
     "why": [
       "A band plan is a voluntary guide to which parts of a band are used for which modes and activities, such as repeaters, simplex or weak-signal work.",
       "A band plan divides up frequencies by use. It is not a timetable of when people operate.",
@@ -101,7 +101,7 @@
   },
   "T2A11": {
     "concept": "Simplex means both stations transmit and receive on one single frequency, taking turns. It is direct radio-to-radio contact, with no repeater shifting the signal to another frequency.",
-    "hint": "Look at the start of each word. One of them suggests a single, plain arrangement with nothing shifted.",
+    "hint": "Each of these terms describes how frequencies or signals are arranged. Count how many frequencies the station in the question uses.",
     "why": [
       "Full duplex means transmitting and receiving at the same moment, which needs two different frequencies, like a telephone call.",
       "Diplex refers to sharing one antenna or feed line between two bands. It is not about using a single frequency.",
@@ -161,7 +161,7 @@
   },
   "T2B06": {
     "concept": "DTMF stands for Dual-Tone Multi-Frequency. Each key on the keypad sends two audio tones at once, the same system as a touch-tone telephone. Repeaters use it for control commands.",
-    "hint": "Look for the name that has the idea of 'two' built into it. A telephone keypad works the same way.",
+    "hint": "Picture a keypad laid out in rows and columns. Each key press sends one tone for its row and one for its column, both at once.",
     "why": [
       "DTMF sends a pair of audio tones together for each key pressed. The 'dual-tone' in its name says exactly that.",
       "CTCSS uses a single continuous low tone under the voice, not two tones at once.",
@@ -274,9 +274,9 @@
     "hint": "Think about how you would give an unusual surname over a noisy phone line so that each letter could not be mistaken.",
     "why": [
       "Sending a voice message again in Morse code is not the standard practice, and many operators could not copy it.",
-      "QSR is not the standard technique for this. Having words read back does not help if they are misheard both ways.",
+      "Asking for a read-back with the Q signal QSR is not the standard technique for this. Spelling the words phonetically is.",
       "Spelling with a standard phonetic alphabet replaces each letter with a distinct word, so unusual words are copied correctly.",
-      "Not all three are right. Sending in Morse as well and using QSR are not the standard technique."
+      "Not all three are right. Sending in Morse as well and asking for a read-back with QSR are not the standard technique."
     ]
   },
   "T2C04": {
@@ -361,7 +361,7 @@
   },
   "T2C12": {
     "concept": "RACES (Radio Amateur Civil Emergency Service) serves civil defense organizations. To take part, an amateur must be enrolled and certified by the civil defense agency being served.",
-    "hint": "Spell out each abbreviation. One of them has the name of the certifying kind of agency inside it.",
+    "hint": "Three of these are volunteer or military-sponsored programs. One is a service written into the FCC rules to work for government emergency agencies.",
     "why": [
       "ARES (Amateur Radio Emergency Service) is a volunteer program. It does not need civil defense certification.",
       "RACES operators must be certified by, and registered with, the civil defense organization they serve.",

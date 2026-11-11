@@ -51,7 +51,7 @@
   },
   "T5A06": {
     "concept": "Frequency is measured in hertz (Hz). One hertz means one complete cycle per second.",
-    "hint": "Three of these are named after scientists. Which one do you see on a radio dial with kilo or mega in front of it?",
+    "hint": "Frequency counts cycles each second. Three of these units are named after scientists; work out which quantity each one measures.",
     "why": [
       "The hertz is the unit of frequency: one hertz is one cycle per second.",
       "The henry is the unit of inductance, the property of a coil.",
@@ -186,7 +186,7 @@
       "0.001 microfarads is only 1000 picofarads; this divides by 1,000,000,000 instead of 1,000,000.",
       "1,000,000 picofarads / 1,000,000 = 1 microfarad.",
       "1000 microfarads is 1,000,000,000 picofarads; this divides by only 1000.",
-      "1,000,000,000 comes from multiplying instead of dividing; the number should get smaller."
+      "1,000,000,000 comes from multiplying by 1000; going to the larger unit, the number should get smaller, not larger."
     ]
   },
   "T5B09": {
@@ -391,7 +391,7 @@
   },
   "T5D04": {
     "concept": "Ohm's law for resistance: R = E / I. Divide the voltage in volts by the current in amperes to get ohms.",
-    "hint": "Pick the form of Ohm's law with resistance alone on one side, then put the larger number where the voltage goes.",
+    "hint": "Pick the form of Ohm's law with resistance alone on one side. Which number is divided by which?",
     "why": [
       "3 is just the current repeated, not a calculated resistance.",
       "R = E / I = 90 volts / 3 amperes = 30 ohms.",
@@ -480,7 +480,7 @@
     ]
   },
   "T5D13": {
-    "concept": "In a series circuit the parts are joined end to end in a single loop. There is only one path, so every electron must pass through every part and the current is the same everywhere.",
+    "concept": "In a series circuit the parts are joined end to end in a single loop. There is only one path, so all the current must pass through every part and the current is the same everywhere.",
     "hint": "Picture water in one pipe with no side branches. Whatever flows through the first section must flow through the rest.",
     "why": [
       "A series circuit has only one path, so the same current flows through every component.",

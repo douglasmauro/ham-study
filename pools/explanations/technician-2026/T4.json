@@ -1,10 +1,10 @@
 {
   "T4A01": {
-    "concept": "Mobile radios are built for a car's electrical system, about 13.8 volts. A transmitter is not perfectly efficient, so it must draw well over twice its RF output power from the supply.",
+    "concept": "Mobile radios are built for a car's electrical system, about 13.8 volts. A transmitter is not perfectly efficient, so it draws considerably more power from the supply than it sends out as RF.",
     "hint": "Two things to settle: what voltage does a car's electrical system run at, and is volts times amps comfortably more than 50 watts?",
     "why": [
       "24 volts is the wrong voltage for a typical mobile radio, which is designed for a 12-volt vehicle system, and it could damage the radio.",
-      "The voltage is right, but 13.8 V x 4 A is only about 55 watts in. No transmitter is efficient enough to turn that into 50 watts out.",
+      "The voltage is right, but 13.8 V x 4 A is only about 55 watts in. A real transmitter loses far too much as heat to get 50 watts out of that.",
       "12 amperes is a suitable current, but 24 volts is the wrong voltage for a radio designed for a 12-volt vehicle system.",
       "13.8 volts matches a vehicle system, and 13.8 V x 12 A is about 166 watts, enough for 50 watts out plus the power lost as heat."
     ]
@@ -145,7 +145,7 @@
     "why": [
       "With the threshold set so the audio is always on, the squelch is open and nothing is muted, so even a very weak signal is heard.",
       "The volume control only works on audio that gets past the squelch. A muted receiver stays silent however far it is turned up.",
-      "Anti-squelch is not a real receiver function.",
+      "Anti-squelch is not a standard receiver control, and it is not how a weak signal is brought through the squelch.",
       "Squelch enhancement is not a real control for hearing weak signals."
     ]
   },

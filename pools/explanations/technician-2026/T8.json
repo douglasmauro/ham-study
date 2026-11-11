@@ -1,7 +1,7 @@
 {
   "T8A01": {
     "concept": "Amplitude modulation (AM) carries voice by varying the strength of the signal. A full AM signal has a carrier and two mirror-image sidebands; single sideband keeps just one of those sidebands.",
-    "hint": "A full AM signal has three parts. Which mode is made by throwing away two of them and sending the remaining one?",
+    "hint": "A full AM signal has a carrier and two sidebands. Ask which of these modes is built from just part of that same signal.",
     "why": [
       "Spread spectrum spreads a signal across a wide range of frequencies. It is a different technique, not a kind of AM.",
       "Packet radio is a way of sending data in small error-checked bundles. It names a data method, not a kind of AM.",
@@ -50,7 +50,7 @@
     ]
   },
   "T8A06": {
-    "concept": "By convention, hams use upper sideband on frequencies above about 10 MHz and lower sideband below. The 10-meter band and all VHF and UHF bands are above that line. Both stations must use the same sideband.",
+    "concept": "By convention, hams use upper sideband on the higher bands (20 meters and up, including all VHF and UHF) and lower sideband on the low HF bands such as 40 and 80 meters. Both stations must use the same sideband.",
     "hint": "The convention depends on frequency. Where do these bands sit compared with the low HF bands such as 40 and 80 meters?",
     "why": [
       "Upper sideband is the convention on the higher bands, including 10 meters, VHF and UHF.",
@@ -101,7 +101,7 @@
   },
   "T8A11": {
     "concept": "CW is a carrier turned on and off to form Morse code. That carries very little information per second, so it needs only a sliver of spectrum, far less than any voice mode.",
-    "hint": "It is the narrowest common amateur signal: far below the kilohertz widths of voice modes.",
+    "hint": "Think about how little information on-off Morse keying sends each second compared with a voice, and what that means for the room it needs.",
     "why": [
       "2.4 kHz is about the width of an SSB voice signal.",
       "On-off keying at normal Morse speeds needs only about 150 Hz.",
@@ -231,7 +231,7 @@
   },
   "T8B12": {
     "concept": "A linear transponder relays a whole slice of band and shares its power among all users. The satellite's beacon is a handy yardstick for how strong one fair signal should be on the downlink.",
-    "hint": "The satellite itself sends a steady reference signal. Compare your own returned signal with it.",
+    "hint": "You can hear your own signal coming back down. Think about what known, steady signal you could measure it against.",
     "why": [
       "Telemetry reports the spacecraft's condition. It does not give you a report on your own signal.",
       "Listening for distortion is not the method described and does not tell you when power is too low.",
@@ -261,7 +261,7 @@
   },
   "T8C03": {
     "concept": "Some on-air events are competitions: for a set number of hours, operators try to log as many contacts as they can, usually exchanging a short piece of information each time.",
-    "hint": "It is a competition against the clock, and each contact adds to your score.",
+    "hint": "Think about which activity keeps score by counting the contacts made before time runs out.",
     "why": [
       "Simulated emergency exercises practice passing messages in a disaster drill, not racking up contacts.",
       "A net is an organized on-air meeting run by a net control station, not a race for contacts.",
@@ -381,7 +381,7 @@
   },
   "T8D04": {
     "concept": "NTSC is the name of the analog color television standard once used for broadcast TV in North America. Amateur fast-scan TV uses the same kind of signal.",
-    "hint": "It is the name of the older television standard that TV sets in North America used before digital TV.",
+    "hint": "The letters come from a committee that set a North American broadcast standard in the mid-1900s. Think about the technology of that time.",
     "why": [
       "NTSC is not a digital standard and has nothing to do with encryption.",
       "NTSC is not a satellite uplink mode.",
@@ -460,8 +460,8 @@
     ]
   },
   "T8D12": {
-    "concept": "An amateur mesh network is a high-speed data network on amateur microwave bands. Each node links by radio to its neighbors, and data hops from node to node. It is usually built from reprogrammed Wi-Fi gear.",
-    "hint": "Think of the low-cost, mass-produced wireless networking gear found in homes, put to work on amateur frequencies.",
+    "concept": "An amateur mesh network is a high-speed data network, mostly on amateur microwave bands. Each node links by radio to its neighbors, and data hops from node to node. It is usually built from reprogrammed Wi-Fi gear.",
+    "hint": "Think about where hams could find inexpensive, mass-produced hardware that already sends fast data by radio.",
     "why": [
       "Amateur mesh networks are data networks built from commercial Wi-Fi equipment running modified firmware.",
       "A mesh network is a data network, not a digital voice mode based on DMR.",

@@ -2,6 +2,7 @@
 """Work with the teaching explanations for a question pool.
 
     python3 tools/explanations.py show T5            # print a subelement's questions with the answer key
+    python3 tools/explanations.py pair T5            # each choice beside its explanation line, for proofreading
     python3 tools/explanations.py check [T5]         # validate explanation files (one subelement or all)
     python3 tools/explanations.py merge              # check everything present, then write the app's data file
 
@@ -37,6 +38,22 @@ def show(sub):
         print(f"  Q: {q['question']}" + (f"  (uses figure {q['figure']})" if q["figure"] else ""))
         for i, c in enumerate(q["choices"]):
             print(f"  {'ABCD'[i]}{' *' if i == q['answer'] else '  '} {c}")
+        print()
+
+
+def pair(sub):
+    """Print each choice next to its explanation line, to proofread alignment."""
+    d = json.loads((SRC / f"{sub}.json").read_text(encoding="utf-8"))
+    for q in POOL["questions"]:
+        if q["sub"] != sub:
+            continue
+        e = d[q["id"]]
+        print(f"{q['id']}  Q: {q['question']}")
+        print(f"  concept: {e['concept']}")
+        print(f"  hint: {e['hint']}")
+        for i, c in enumerate(q["choices"]):
+            print(f"  {'ABCD'[i]}{' *KEY*' if i == q['answer'] else ''} {c}")
+            print(f"       why: {e['why'][i]}")
         print()
 
 
@@ -95,6 +112,8 @@ def main():
     all_subs = [s["id"] for s in POOL["subelements"]]
     if cmd == "show":
         show(sys.argv[2])
+    elif cmd == "pair":
+        pair(sys.argv[2])
     elif cmd == "check":
         subs = sys.argv[2:] or all_subs
         problems, data = check(subs)

@@ -3,6 +3,7 @@ import {
   applyEvent, buildDrill, buildExam, buildStates, canShuffleChoices, DAY, groupP,
   passProbability, pCorrect, seededRng, streak, type AnswerEvent,
 } from './engine';
+import { explanationFor } from './explain';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID } from './pool';
 
 const T0 = Date.UTC(2026, 10, 12, 15);
@@ -30,6 +31,17 @@ describe('pool data', () => {
       'For which classes of amateur radio licenses does the FCC currently issue new licenses?',
     );
     expect(POOL.questions.some((q) => q.choices.includes('P = I² x E'))).toBe(true);
+  });
+});
+
+describe('explanations', () => {
+  it('cover every question with a concept, a hint and four reasons', () => {
+    for (const q of POOL.questions) {
+      const e = explanationFor(q.id);
+      expect(e?.concept, q.id).toBeTruthy();
+      expect(e?.hint, q.id).toBeTruthy();
+      expect(e?.why, q.id).toHaveLength(4);
+    }
   });
 });
 

@@ -26,7 +26,7 @@
       "The shape of the driven element (the element connected to the feed line) does not define polarization. Its orientation matters, not its shape.",
       "Polarization is the direction of the wave's electric field. A vertical element makes a vertical electric field.",
       "The magnetic field is at right angles to the electric field, and it is not the one used to name polarization.",
-      "The direction the signal travels is the radiation pattern. Polarization is how the field is oriented as it travels."
+      "The directions in which a signal is radiated are described by the radiation pattern. Polarization is how the field is oriented as it travels."
     ]
   },
   "T9A04": {
@@ -114,7 +114,7 @@
     "hint": "Think about what rain does once it gets inside a connector, and whether any connector type is safe to leave bare outdoors.",
     "why": [
       "The PL259 is not watertight, so it needs careful taping outdoors.",
-      "The BNC, a small bayonet (push and twist) connector, is not sealed against rain and should be taped outdoors.",
+      "The BNC, a small bayonet (push and twist) connector, should not be relied on to keep rain out, so tape it outdoors.",
       "The Type N is made to resist moisture better than the others, but sealing it outdoors is still good practice.",
       "All three connector types listed should be weatherproofed outdoors to keep water out of the connector and the coax."
     ]
@@ -134,9 +134,9 @@
     "hint": "Coax is not the best at any single measure. Think about what makes something popular for everyday use.",
     "why": [
       "The shield keeps the signal inside, so coax can be routed near metal and through walls with few special precautions.",
-      "Coax does not have the lowest loss. Open-wire line and air-insulated hardline have less.",
+      "Coax does not have the lowest loss. Open-wire parallel line, for example, has less loss than ordinary coax.",
       "Coax is not the highest-power feed line. Power handling is not the reason it is so common.",
-      "Coax is not the cheapest feed line. Simple parallel-wire line can cost less."
+      "Coax is not the cheapest feed line, and low price is not the reason it is so widely used."
     ]
   },
   "T9B04": {

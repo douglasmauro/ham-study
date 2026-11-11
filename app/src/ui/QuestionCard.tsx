@@ -168,9 +168,11 @@ export function QuestionCard(p: Props) {
           <div class="verdicts">
             {verdictOrder.map((ci) => {
               const ok = ci === q.answer;
+              // When the answer is "All these choices are correct", the other three are true statements.
+              const alsoTrue = !ok && /^all (of )?these choices are correct/i.test(q.choices[q.answer]);
               return (
                 <div class={`verdict${ci === picked ? ' mine' : ''}`}>
-                  <span class="vlabel" style={{ color: ok ? 'var(--good)' : 'var(--bad)' }}>{ok ? 'Correct' : 'Not this'}</span>
+                  <span class="vlabel" style={{ color: ok ? 'var(--good)' : alsoTrue ? 'var(--accent)' : 'var(--bad)' }}>{ok ? 'Correct' : alsoTrue ? 'Also true' : 'Not this'}</span>
                   <div class="stack" style={{ gap: '2px' }}>
                     <span style={{ fontWeight: 600 }}>{q.choices[ci]}</span>
                     {exp?.why?.[ci] && <span class="small" style={{ color: 'var(--text-2)', lineHeight: 1.4 }}>{exp.why[ci]}</span>}
