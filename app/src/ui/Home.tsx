@@ -82,6 +82,12 @@ export function Home() {
         </div>
       )}
 
+      {data.events.length >= 50 && Date.now() - (data.settings.lastBackup ?? 0) > 7 * 86_400_000 && (
+        <a class="card small" href="#/settings" style={{ color: 'var(--text-2)', textDecoration: 'none' }}>
+          Your progress lives on this phone only. <span style={{ color: 'var(--accent)', fontWeight: 600 }}>Save a backup →</span>
+        </a>
+      )}
+
       <div class="grid2">
         <a class="tile-link" href={`#/exam?${Date.now()}`}><Icon name="exam" color="var(--accent)" /><span class="t">Practice exam</span><span class="small muted">35 questions, real format</span></a>
         <a class="tile-link" href="#/map"><Icon name="grid" color="var(--accent)" /><span class="t">Mastery map</span><span class="small muted">All 35 groups</span></a>

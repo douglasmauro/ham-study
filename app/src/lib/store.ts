@@ -1,6 +1,6 @@
 /**
  * Local storage of the answer log and settings. The log is append-only and every
- * event has a unique id, so merging a backup (or a copy synced from Home Assistant)
+ * event has a unique id, so merging a backup (or a copy from another device)
  * is a simple union and never loses answers.
  */
 import { useEffect, useState } from 'preact/hooks';
@@ -11,6 +11,7 @@ export interface Settings {
   dailyGoal: number; // questions per daily drill
   hintDelaySec: number;
   sound: boolean;
+  lastBackup: number | null; // epoch ms of the last saved backup file
 }
 
 export interface Data {
@@ -27,6 +28,7 @@ export const DEFAULT_SETTINGS: Settings = {
   dailyGoal: 25,
   hintDelaySec: 30,
   sound: true,
+  lastBackup: null,
 };
 
 function load(): Data {

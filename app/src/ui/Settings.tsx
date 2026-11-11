@@ -15,6 +15,7 @@ export function Settings() {
     a.download = `ham-study-backup-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(a.href);
+    updateSettings({ lastBackup: Date.now() });
     setMsg('Backup saved to your downloads.');
   }
 
@@ -65,7 +66,7 @@ export function Settings() {
 
       <div class="card stack">
         <h2>Backup</h2>
-        <span class="small" style={{ color: 'var(--text-2)' }}>{data.events.length} answers saved on this device. Home Assistant sync is coming in the next update; until then, save a backup now and then.</span>
+        <span class="small" style={{ color: 'var(--text-2)' }}>{data.events.length} answers saved on this device only. Save a backup file now and then; it restores on any phone and merges without losing answers.</span>
         <div class="grid2">
           <button class="btn secondary" onClick={download}>Save backup</button>
           <label class="btn secondary" style={{ cursor: 'pointer' }}>Load backup<input type="file" accept="application/json,.json" style={{ display: 'none' }} onChange={upload} /></label>

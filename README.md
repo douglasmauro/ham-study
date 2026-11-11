@@ -24,9 +24,10 @@ drill to your weak spots.
 - **Mastery map**, **review my misses**, **topic and group drills**, a streak, an
   exam countdown, and backup and restore.
 - Works offline and can be installed to your phone's home screen.
+- No server and no accounts: progress stays on each person's own phone, and
+  pushes to `main` deploy the app to GitHub Pages.
 
-Coming next: Home Assistant sync and sensors, "why not" explanations for every
-answer choice, visual labs, scenario missions, hands-on formats (sort, order,
+Coming next: "why not" explanations for every answer choice, visual labs, scenario missions, hands-on formats (sort, order,
 label…), and narrated concept clips.
 
 ## Layout
