@@ -9,6 +9,13 @@ export { Art, T, wave } from '../glossaryart/kit';
 
 const n = (v: number) => +v.toFixed(1);
 
+/** Like the kit's `wave`, but sampled every half unit, for waves too short for its 2-unit steps. */
+export function fineWave(x0: number, x1: number, y: number, length: number, amp: number): string {
+  let d = '';
+  for (let x = x0; x <= x1 + 0.01; x += 0.5) d += `${x === x0 ? 'M' : 'L'}${x} ${n(y - amp * Math.sin(((x - x0) / length) * 2 * Math.PI))}`;
+  return d;
+}
+
 /** A line from (x1, y1) to (x2, y2) with an arrowhead at the end, or at both ends. */
 export function Arrow({ x1, y1, x2, y2, c = 'ga-s', h = 6, both = false }: { x1: number; y1: number; x2: number; y2: number; c?: string; h?: number; both?: boolean }) {
   const a = Math.atan2(y2 - y1, x2 - x1);

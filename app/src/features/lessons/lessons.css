@@ -93,7 +93,7 @@
 .ls-facts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 .ls-facts li { display: flex; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 14px; background: var(--surface); }
 .ls-fact-icon { width: 48px; height: 48px; flex-shrink: 0; border-radius: 12px; background: var(--bg); display: flex; align-items: center; justify-content: center; }
-.ls-fact-text { display: flex; flex-direction: column; gap: 3px; font-size: 15.500px; line-height: 1.4; }
+.ls-fact-text { display: flex; flex-direction: column; gap: 3px; font-size: 15.5px; line-height: 1.4; }
 .ls-ids { font-family: var(--mono); font-size: 12px; color: var(--muted); }
 .ls-mini { width: 40px; height: 40px; display: block; }
 .ls-mini * { fill: none; stroke: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
@@ -101,7 +101,7 @@
 .ls-mini .ls-ms { stroke: var(--accent); }
 .ls-mini .ls-mw { stroke: var(--muted); }
 .ls-mini .ls-mthin { stroke-width: 2; }
-.ls-mini text.ls-mt { fill: var(--accent); stroke: none; font-family: var(--mono); font-size: 13px; font-weight: 700; }
+.ls-mini text.ls-mt { fill: var(--accent); stroke: none; font-family: var(--mono); font-size: 15px; font-weight: 700; }
 
 /* the embedded clip: the lesson supplies the page, the title and the way on */
 .ls-clip .clip-screen { padding: 0; min-height: 0; max-width: none; gap: 10px; }

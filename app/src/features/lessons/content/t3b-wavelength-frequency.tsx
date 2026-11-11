@@ -1,4 +1,4 @@
-import { Arrow, Art, Mini, T, wave } from '../drawkit';
+import { Arrow, Art, Mini, T, fineWave, wave } from '../drawkit';
 import type { Lesson, PicProps } from '../types';
 
 /*
@@ -16,16 +16,16 @@ function CrossedFields({ picked, solved, onPick }: PicProps) {
   const hit = { pointerEvents: 'all' as const, cursor: onPick ? 'pointer' : 'default' };
   return (
     <Art label="A radio wave seen head-on. The electric field is an arrow pointing up and down. The magnetic field is an arrow pointing side to side, at right angles to it.">
-      <path class="ga-w ga-thin" d="M84 70V58H96" />
-      <Arrow x1={84} y1={122} x2={84} y2={18} c={`${tone('e', 'ga-k')} ga-thick`} both h={8} />
-      <Arrow x1={22} y1={70} x2={146} y2={70} c={`${tone('m', 'ga-w')} ga-thick`} both h={8} />
-      <T x={98} y={28} c="ga-tk ga-tb">electric field</T>
-      <T x={98} y={44} c="ga-tk">up and down</T>
+      <path class="ga-w ga-thin" d="M97 66V53H84" />
+      <Arrow x1={84} y1={112} x2={84} y2={14} c={`${tone('e', 'ga-k')} ga-thick`} both h={8} />
+      <Arrow x1={22} y1={66} x2={146} y2={66} c={`${tone('m', 'ga-w')} ga-thick`} both h={8} />
+      <T x={98} y={24} c="ga-tk ga-tb">electric field</T>
+      <T x={98} y={40} c="ga-tk">up and down</T>
       <T x={150} y={92} c="ga-tb">magnetic field</T>
       <T x={150} y={108}>side to side</T>
-      <T x={22} y={134} c="ga-tm">wave coming straight at you</T>
+      <T x={120} y={134} a="middle" c="ga-tm">a wave coming straight at you</T>
       {onPick && <rect x="60" y="10" width="48" height="50" style={hit} onClick={() => onPick('e')} />}
-      {onPick && <rect x="60" y="80" width="48" height="44" style={hit} onClick={() => onPick('e')} />}
+      {onPick && <rect x="60" y="76" width="48" height="40" style={hit} onClick={() => onPick('e')} />}
       {onPick && <rect x="14" y="52" width="46" height="36" style={hit} onClick={() => onPick('m')} />}
       {onPick && <rect x="108" y="52" width="130" height="62" style={hit} onClick={() => onPick('m')} />}
     </Art>
@@ -44,11 +44,11 @@ function Race({ solved }: PicProps) {
       <path class={`${solved ? 'ga-good' : 'ga-k'} ga-dash`} d="M206 30V112" />
       <path class="ga-s" d={wave(26, end, 52, 66, 11)} />
       <Arrow x1={end} y1={52} x2={end + 8} y2={52} />
-      <path class="ga-s" d={wave(26, end, 92, 11, 11)} />
+      <path class="ga-s" d={fineWave(26, end, 92, 11, 11)} />
       <Arrow x1={end} y1={92} x2={end + 8} y2={92} />
-      <T x={30} y={30} c="ga-ts ga-tb">7 MHz</T>
-      <T x={30} y={120} c="ga-ts ga-tb">440 MHz</T>
-      <T x={206} y={22} a="middle" c="ga-tm">other station</T>
+      <T x={30} y={32} c="ga-ts ga-tb">7 MHz</T>
+      <T x={30} y={118} c="ga-ts ga-tb">440 MHz</T>
+      <T x={232} y={22} a="end" c="ga-tm">the other station</T>
       {solved && <T x={124} y={134} a="middle" c="ga-tk ga-tb">same speed: they arrive together</T>}
     </Art>
   );
@@ -69,7 +69,7 @@ function WaveOnRuler({ value = 50, solved }: PicProps) {
       <T x={Math.max(20 + len / 2, 52)} y={106} a="middle" c="ga-tk ga-tb">{`one wave: ${meters.toFixed(2)} m`}</T>
       <path class="ga-w ga-thin" d={`M20 116H220${[0, 1, 2, 3, 4, 5, 6].map((m) => `M${(20 + m * PX_PER_M).toFixed(1)} 112V120`).join('')}`} />
       {[0, 1, 2, 3, 4, 5, 6].map((m) => <T x={20 + m * PX_PER_M} y={134} a="middle" c="ga-tm">{m}</T>)}
-      <T x={232} y={120} a="end" c="ga-tm">m</T>
+      <T x={238} y={134} a="end" c="ga-tm">m</T>
     </Art>
   );
 }
@@ -99,7 +99,7 @@ function ThreeRanges() {
     <Art label="A frequency scale split into three ranges. HF runs from 3 to 30 megahertz, VHF from 30 to 300 megahertz and UHF from 300 to 3000 megahertz. The waves get shorter as frequency rises.">
       {seg.map(([name, x, len]) => (
         <>
-          <path class="ga-s ga-thin" d={wave(x, x + 66, 28, len, 11)} />
+          <path class="ga-s ga-thin" d={fineWave(x, x + 66, 28, len, 11)} />
           <rect class="ga-fk ga-soft" x={x} y="52" width="66" height="30" />
           <rect class="ga-k" x={x} y="52" width="66" height="30" />
           <text x={x + 33} y={72} class="ga-t ga-tk ga-tl" text-anchor="middle">{name}</text>
@@ -109,7 +109,7 @@ function ThreeRanges() {
       <T x={88} y={102} a="middle" c="ga-tb">30</T>
       <T x={154} y={102} a="middle" c="ga-tb">300</T>
       <T x={216} y={102} a="middle" c="ga-tb">3000</T>
-      <T x={120} y={126} a="middle" c="ga-tm">megahertz (MHz): ten times more each step</T>
+      <T x={120} y={126} a="middle" c="ga-tm">megahertz (MHz)</T>
     </Art>
   );
 }
@@ -289,10 +289,10 @@ export const T3B_WAVELENGTH_FREQUENCY: Lesson = {
       idea: 'Bands are named by wavelength',
       covers: ['T3B07'],
       picture: { draw: BandNames },
-      heading: 'Why bands have names like "2 meters"',
+      heading: 'Why a band is called 2 meters',
       text: [
         'A band is a stretch of frequencies that hams may use. A band is identified two ways: by its frequency, or by its approximate wavelength in meters.',
-        'So a radio on 146 MHz is "on 2 meters". The names are rounded. Very short waves are named in centimeters: the band near 440 MHz is called 70 centimeters.',
+        'So a radio on 146 MHz is on the 2 meter band. The names are rounded. Very short waves are named in centimeters: the band near 440 MHz is called 70 centimeters.',
       ],
       interaction: {
         kind: 'choice',
@@ -314,7 +314,7 @@ export const T3B_WAVELENGTH_FREQUENCY: Lesson = {
       heading: 'Three ranges to know: HF, VHF and UHF',
       text: [
         'The radio spectrum is cut into big ranges. HF means high frequency, VHF means very high frequency and UHF means ultra high frequency.',
-        'The edges are easy to keep: 3, 30, 300 and 3000 MHz. Most handheld ham radios work on VHF and UHF.',
+        'The edges are easy to keep: 3, 30, 300 and 3000 MHz. Each range is ten times higher than the last. Most handheld ham radios work on VHF and UHF.',
       ],
       interaction: {
         kind: 'sort',

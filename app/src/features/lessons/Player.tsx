@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { TOPICS } from '../../lib/pool';
+import { useGlossaryArt } from '../../ui/GlossaryArt';
 import { Icon } from '../../ui/Icon';
 import { CLIPS } from '../clips/items';
 import { ClipPlayer } from '../clips/Player';
@@ -181,6 +182,7 @@ export function LessonPlayer({ lesson, onDone }: { lesson: Lesson } & FeaturePro
   const firstCard = Math.max(0, steps.findIndex((s) => s.type === 'card'));
   const total = checkAt >= 0 ? (steps[checkAt] as CheckStep).questions.length : 0;
   const done = useRef(false);
+  useGlossaryArt(); // start loading the drawings now, so they are ready when the first card opens
 
   const setPos = (p: Pos) => {
     savePos(lesson.id, p);
@@ -223,7 +225,7 @@ export function LessonPlayer({ lesson, onDone }: { lesson: Lesson } & FeaturePro
         {step.type === 'check' && (
           <CheckView step={step} fast={pos.fast} ideaOf={ideaOf} nav={nav}
             onScore={(score) => go(i + 1, { score })}
-            onReview={() => go(firstCard, { fast: false })}
+            onReview={() => go(firstCard, { fast: false, max: firstCard })}
             onFinish={(score) => finish(score)} />
         )}
         {step.type === 'recap' && <RecapView step={step} score={pos.score} total={total} nav={nav} onFinish={() => finish(pos.score)} />}

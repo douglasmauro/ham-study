@@ -1,4 +1,4 @@
-import { useRef, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { TOPICS } from '../../lib/pool';
 import { useGlossaryArt } from '../../ui/GlossaryArt';
 import { Icon } from '../../ui/Icon';
@@ -12,6 +12,13 @@ export interface Nav {
 }
 
 /** The row at the bottom of every step: an optional back button and the main action. */
+/** Scroll an element into view only if it is off screen, gently unless the learner asked for less motion. */
+export function reveal(el: Element | null) {
+  if (!el) return;
+  const calm = typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  el.scrollIntoView({ block: 'nearest', behavior: calm ? 'auto' : 'smooth' });
+}
+
 export function Footer({ nav, label = 'Continue', locked = false, note, onNext }: { nav: Nav; label?: string; locked?: boolean; note?: string; onNext?: () => void }) {
   return (
     <div class="ls-foot">
@@ -26,8 +33,10 @@ export function Footer({ nav, label = 'Continue', locked = false, note, onNext }
 
 /** One line of feedback: green with a tick, red with a cross, or plain. */
 export function Say({ tone, children }: { tone: 'good' | 'bad' | 'plain'; children: string }) {
+  const el = useRef<HTMLDivElement>(null);
+  useEffect(() => reveal(el.current), [children]); // feedback must never land below the fold unseen
   return (
-    <div class={`ls-say ls-${tone}`} role="status">
+    <div class={`ls-say ls-${tone}`} role="status" ref={el}>
       {tone !== 'plain' && <Icon name={tone === 'good' ? 'check' : 'x'} size={20} />}
       <span>{tone === 'bad' ? <b>Not quite. </b> : null}{children}</span>
     </div>
@@ -264,6 +273,12 @@ export function CardView({ step, sub, nav }: { step: CardStep; sub: string; nav:
   const [solved, setSolved] = useState(!act);
   const [pic, setPic] = useState<PicProps>(act?.kind === 'slider' ? { value: act.start } : {});
   const pickRef = useRef<((id: string) => void) | null>(null);
+  const end = useRef<HTMLDivElement>(null);
+  const first = useRef(true);
+  useEffect(() => {
+    if (first.current) first.current = false;
+    else if (solved) reveal(end.current); // bring "Remember" and Continue into view
+  }, [solved]);
   return (
     <>
       {step.picture && (
@@ -276,6 +291,7 @@ export function CardView({ step, sub, nav }: { step: CardStep; sub: string; nav:
         <div class="ls-remember"><span class="ls-remember-k">Remember</span><span>{step.remember}</span></div>
       )}
       <Footer nav={nav} locked={!solved && !nav.revisit} note="Finish the activity above to continue." />
+      <div ref={end} />
     </>
   );
 }
