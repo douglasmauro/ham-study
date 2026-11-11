@@ -144,13 +144,13 @@ export const outage: Mission = {
       title: 'Pass the message',
       sub: 'T2',
       story: 'Help is on its way. Net control now gives you a formal message to relay: in a net, formal messages are called traffic. The preamble holds what is needed to track the message, and the check is the number of words in the text.',
-      pic: ({ solved }) => <MessagePic word="LEIGH" spelled={['Lima', 'Echo', 'India', 'Golf', 'Hotel']} solved={solved} />,
-      ask: 'How do you make sure LEIGH is received correctly?',
+      pic: ({ solved }) => <MessagePic word="JEFF" spelled={['Juliett', 'Echo', 'Foxtrot', 'Foxtrot']} solved={solved} />,
+      ask: 'The message names a person, JEFF. How do you make sure the name is received correctly?',
       decision: {
         type: 'pick',
         chip: 'Message passed',
         options: [
-          { text: 'Say it louder', why: 'It would still sound like “Lee”. Talking too loudly can also make FM audio drop out on voice peaks.' },
+          { text: 'Say it louder', why: 'Louder does not tell the other station whether it is spelled Jeff or Geoff. Talking too loudly can also make FM audio drop out on voice peaks.' },
           { text: 'Send the word by voice, then in Morse code', why: 'That is not the technique. Unusual words are spelled out with a standard phonetic alphabet.' },
           { text: 'Spell it with the standard phonetic alphabet', correct: true, why: 'Spelling with a standard phonetic alphabet makes sure unusual words are received correctly.' },
         ],

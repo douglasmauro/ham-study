@@ -45,9 +45,9 @@ export const TALK_REPEATER: TalkStrip = {
         { text: 'Hello? Anybody out there? Come on back.', why: 'Nobody knows who is calling. Give your call sign, then say "listening".' },
       ],
     },
-    { who: 'them', name: 'W7XYZ', text: 'KJ7ABC, this is W7XYZ. Good evening! My name is Pat. Is this your first contact?' },
-    { who: 'you', name: 'KJ7ABC (you)', text: 'It is! My name is Jamie. Thanks for coming back to me.' },
-    { note: 'Later that week you want to reach your friend Dana, K7DEF, on the same repeater.' },
+    { who: 'them', name: 'W7XYZ', text: 'KJ7ABC, this is W7XYZ. Good evening! Is this your first contact?' },
+    { who: 'you', name: 'KJ7ABC (you)', text: 'It is! My name is Doug. Thanks for coming back to me.' },
+    { note: 'Later that week you want to reach your friend Jeff, K7DEF, on the same repeater.' },
     {
       ask: 'How do you call a station whose call sign you know?', name: 'KJ7ABC (you)',
       pick: [
@@ -56,7 +56,7 @@ export const TALK_REPEATER: TalkStrip = {
         { text: 'CQ CQ CQ, K7DEF, this is KJ7ABC.', why: 'CQ means calling any station. You want one station, so say their call sign, then yours.' },
       ],
     },
-    { who: 'them', name: 'K7DEF', text: 'KJ7ABC, K7DEF. Hi Jamie! How is the new radio working?' },
+    { who: 'them', name: 'K7DEF', text: 'KJ7ABC, K7DEF. Hi Doug! How is the new radio working?' },
     { note: 'You chat about antennas. Ten minutes go by.' },
     {
       ask: 'Ten minutes have passed. What now?', name: 'KJ7ABC (you)',
@@ -66,13 +66,13 @@ export const TALK_REPEATER: TalkStrip = {
         { text: 'I will say my call sign again when thirty minutes are up. About that antenna...', why: 'The limit is 10 minutes, not thirty.' },
       ],
     },
-    { who: 'them', name: 'K7DEF', text: 'K7DEF. Good idea. I have to run, Jamie. Talk soon!' },
+    { who: 'them', name: 'K7DEF', text: 'K7DEF. Good idea. I have to run, Doug. Talk soon!' },
     {
       ask: 'How do you end the contact?', name: 'KJ7ABC (you)',
       pick: [
-        { text: 'Thanks Dana, talk soon. KJ7ABC.', ok: true, why: 'You must also give your call sign at the end of a communication.' },
-        { text: 'Thanks Dana, bye for now!', why: 'You must give your call sign at the end of the contact too.' },
-        { text: 'Thanks Dana. This is Jamie, signing off.', why: 'Your name is not your identification. Use your FCC call sign.' },
+        { text: 'Thanks Jeff, talk soon. KJ7ABC.', ok: true, why: 'You must also give your call sign at the end of a communication.' },
+        { text: 'Thanks Jeff, bye for now!', why: 'You must give your call sign at the end of the contact too.' },
+        { text: 'Thanks Jeff. This is Doug, signing off.', why: 'Your name is not your identification. Use your FCC call sign.' },
       ],
     },
   ],
@@ -119,12 +119,12 @@ export const TALK_CQ: TalkStrip = {
     {
       ask: 'How do you make sure your name is copied?', name: 'KJ7ABC (you)',
       pick: [
-        { text: 'My name is Jamie: Juliett Alfa Mike India Echo.', ok: true, why: 'Spell unusual words with the standard phonetic alphabet so they are received correctly.' },
-        { text: 'My name is Jamie: J as in jelly, A as in apple, M as in mango...', why: 'Made-up words can be misheard. Use the standard phonetic alphabet.' },
+        { text: 'My name is Doug: Delta Oscar Uniform Golf.', ok: true, why: 'Spell unusual words with the standard phonetic alphabet so they are received correctly.' },
+        { text: 'My name is Doug: D as in dog, O as in orange, U as in umbrella...', why: 'Made-up words can be misheard. Use the standard phonetic alphabet.' },
         { text: 'JAMIE! I SAID JAMIE!', why: 'Louder is not clearer. Spell the word with the standard phonetic alphabet.' },
       ],
     },
-    { who: 'them', name: 'N5QRS', text: 'Got it, Jamie. You are loud and clear in Texas. N5QRS.' },
+    { who: 'them', name: 'N5QRS', text: 'Got it, Doug. You are loud and clear in Texas. N5QRS.' },
   ],
 };
 
@@ -144,7 +144,7 @@ export const TALK_NET: TalkStrip = {
       pick: [
         { text: '(Stay quiet and wait until net control calls on you.)', ok: true, why: 'On a net, transmit only when directed by net control, unless you are reporting an emergency.' },
         { text: 'Net control, KJ7ABC, quick question about my antenna!', why: 'It is not an emergency, so wait until net control directs you to transmit.' },
-        { text: 'K7DEF, this is KJ7ABC. Dana, got a minute?', why: 'Net control directs the traffic. Do not start a side contact on the net.' },
+        { text: 'K7DEF, this is KJ7ABC. Jeff, got a minute?', why: 'Net control directs the traffic. Do not start a side contact on the net.' },
       ],
     },
     { note: 'Out of your window you see a car slide off the road. The driver is hurt.' },
