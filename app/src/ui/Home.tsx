@@ -1,6 +1,7 @@
 import { POOL, TOPICS } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { useData } from '../lib/store';
+import { LEVELS } from './Exams';
 import { Icon } from './Icon';
 
 function Dial({ value }: { value: number }) {
@@ -90,6 +91,18 @@ export function Home() {
           Your progress lives on this phone only. <span style={{ color: 'var(--accent)', fontWeight: 600 }}>Save a backup →</span>
         </a>
       )}
+
+      <a class="card stack" href="#/exams" style={{ color: 'var(--text)', textDecoration: 'none' }}>
+        <div class="row between"><h2 style={{ margin: 0 }}>The three license exams</h2><Icon name="chevron" size={18} color="var(--muted)" /></div>
+        {LEVELS.map((l) => (
+          <div class="row" style={{ gap: '10px' }}>
+            <span style={{ width: '28px', height: '28px', borderRadius: '999px', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '14px', background: l.level === 1 ? 'var(--accent)' : 'var(--raised)', color: l.level === 1 ? 'var(--accent-ink)' : 'var(--text-2)' }}>{l.level}</span>
+            <span class="grow" style={{ fontWeight: l.level === 1 ? 700 : 500 }}>{l.name}</span>
+            <span class="small muted">{l.questions} questions · {l.pass} to pass</span>
+          </div>
+        ))}
+        <span class="small muted">Take them in order, as often as you need. No waiting period after a fail. Tap for how it works.</span>
+      </a>
 
       <div class="grid2">
         <a class="tile-link" href={`#/exam?${Date.now()}`}><Icon name="exam" color="var(--accent)" /><span class="t">Practice exam</span><span class="small muted">35 questions, real format</span></a>
