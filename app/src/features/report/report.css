@@ -1,0 +1,27 @@
+.report-stat { background: var(--surface); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.report-stat .report-k { font-size: 13px; font-weight: 600; color: var(--muted); }
+.report-big { font-family: var(--display); font-size: 30px; font-weight: 700; line-height: 1.1; }
+.report-big small { font-size: 16px; font-weight: 600; color: var(--muted); }
+.report-delta { font-size: 13px; font-weight: 600; color: var(--text-2); line-height: 1.35; }
+.report-delta b.up { color: var(--good); }
+.report-delta b.down { color: var(--bad); }
+.report-chart { width: 100%; height: auto; display: block; }
+.report-chart text { font-family: var(--font); fill: var(--text-2); font-size: 13px; }
+.report-chart text.report-val { font-weight: 700; fill: var(--text); }
+.report-chart text.report-zero { fill: var(--muted); font-weight: 500; }
+.report-chart text.report-today { font-weight: 700; fill: var(--text); }
+.report-chart text.report-goal { font-size: 12px; fill: var(--muted); }
+.report-hrow { display: grid; grid-template-columns: 84px minmax(0, 1fr) 46px; align-items: center; gap: 10px; font-size: 14px; }
+.report-hrow .report-n { font-weight: 700; text-align: right; }
+.report-hbar { height: 12px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.report-hbar > div { height: 100%; border-radius: 0 4px 4px 0; min-width: 2px; }
+.report-topic { display: flex; flex-direction: column; gap: 4px; padding: 8px 0; border-top: 1px solid var(--line); }
+.report-topic:first-of-type { border-top: 0; padding-top: 0; }
+.report-topic .report-name { font-weight: 600; flex: 1; min-width: 0; }
+.report-line { font-size: 16px; line-height: 1.5; color: var(--text-2); margin: 0; }
+.report-line b { color: var(--text); }
+.report-link { min-height: 44px; display: inline-flex; align-items: center; font-weight: 600; font-size: 15px; }
+.report-exam { display: flex; align-items: center; gap: 10px; min-height: 36px; font-size: 15px; }
+.report-tip { display: flex; flex-direction: column; gap: 8px; padding: 12px 0; border-top: 1px solid var(--line); }
+.report-tip:first-of-type { border-top: 0; padding-top: 0; }
+.report-status { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; }

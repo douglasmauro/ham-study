@@ -1,0 +1,68 @@
+/* Exam-day simulation. Every class is prefixed with examsim-. */
+.examsim-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.examsim-list li { display: flex; gap: 10px; align-items: flex-start; line-height: 1.4; }
+.examsim-list li svg { flex-shrink: 0; margin-top: 2px; }
+.examsim-opts { display: flex; gap: 8px; flex-wrap: wrap; }
+.examsim-opt { min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 2px solid var(--line-strong); background: transparent; color: var(--text-2); font-weight: 600; cursor: pointer; }
+.examsim-opt[aria-pressed='true'] { border-color: var(--accent); color: var(--accent); }
+.examsim-resume { border: 2px solid var(--accent); }
+.examsim-textbtn { min-height: 44px; padding: 8px 4px; border: 0; background: transparent; color: var(--text-2); font-size: 14px; font-weight: 600; text-decoration: underline; cursor: pointer; align-self: flex-start; }
+
+/* exam screen */
+.examsim-screen { padding-bottom: 0; }
+.examsim-head { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 10px; background: var(--bg); padding: 6px 0; margin: -6px 0; }
+.examsim-count { font-family: var(--display); font-size: 18px; font-weight: 700; line-height: 1.2; }
+.examsim-timer { font-family: var(--mono); font-size: 16px; font-weight: 700; padding: 8px 12px; border-radius: 12px; background: var(--surface); min-width: 76px; text-align: center; font-variant-numeric: tabular-nums; }
+.examsim-timer.low { color: var(--accent); }
+.examsim-timer.last { color: var(--bad); }
+.examsim-timer small { display: block; font-family: var(--font); font-size: 11px; font-weight: 600; color: var(--muted); }
+.examsim-choice { align-items: flex-start; }
+.examsim-choice.picked { background: var(--raised); }
+.examsim-choice.picked .letter { background: var(--accent); color: var(--accent-ink); }
+.examsim-choice .tag { color: var(--accent); align-self: center; }
+.examsim-foot { position: sticky; bottom: 0; z-index: 2; margin-top: auto; background: var(--bg); padding: 10px 0 calc(12px + env(safe-area-inset-bottom)); display: flex; flex-direction: column; gap: 10px; border-top: 1px solid var(--line); }
+.examsim-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.examsim-flag { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 14px; border-radius: 12px; border: 2px solid var(--line-strong); background: transparent; color: var(--text-2); font-weight: 600; cursor: pointer; }
+.examsim-flag[aria-pressed='true'] { border-color: var(--accent); color: var(--accent); background: var(--surface); }
+
+/* question grid */
+.examsim-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+.examsim-tile { position: relative; min-height: 44px; border-radius: 10px; border: 2px dashed var(--line-strong); background: transparent; color: var(--muted); font-size: 15px; font-weight: 700; cursor: pointer; padding: 0; }
+.examsim-tile.answered { border-style: solid; border-color: var(--line-strong); background: var(--line-strong); color: var(--text); }
+.examsim-tile.current { border-style: solid; border-color: var(--text); }
+.examsim-tile .examsim-pin { position: absolute; top: -5px; right: -3px; color: var(--accent); display: flex; }
+.examsim-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--text-2); }
+.examsim-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.examsim-legend i { width: 16px; height: 16px; border-radius: 5px; display: inline-block; border: 2px dashed var(--line-strong); }
+.examsim-legend i.answered { border-style: solid; border-color: var(--line-strong); background: var(--line-strong); }
+.examsim-legend i.current { border-style: solid; border-color: var(--text); }
+
+/* sheets and dialogs */
+.examsim-overlay { position: fixed; inset: 0; z-index: 10; background: rgba(0, 0, 0, .6); display: flex; align-items: flex-end; justify-content: center; }
+.examsim-sheet { width: 100%; max-width: 560px; max-height: 92dvh; overflow-y: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 20px 20px 0 0; padding: 16px 16px calc(16px + env(safe-area-inset-bottom)); display: flex; flex-direction: column; gap: 14px; }
+.examsim-sheet h2 { margin: 0; font-family: var(--display); font-size: 20px; }
+.examsim-warn { border-radius: 12px; padding: 12px; background: var(--raised); border-left: 4px solid var(--accent); line-height: 1.4; }
+
+/* report */
+.examsim-topicrow { display: grid; grid-template-columns: 10px minmax(0, 1fr) 64px 40px; align-items: center; gap: 10px; min-height: 28px; }
+.examsim-topicrow .n { font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+.examsim-miss { background: var(--surface); border-radius: 20px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.examsim-miss .q { font-weight: 600; font-size: 17px; line-height: 1.4; margin: 0; }
+.examsim-ans { border-radius: 12px; padding: 10px 12px; background: var(--raised); display: flex; flex-direction: column; gap: 4px; border-left: 4px solid var(--line-strong); }
+.examsim-ans.good { border-left-color: var(--good); }
+.examsim-ans.bad { border-left-color: var(--bad); }
+.examsim-ans .lab { font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.examsim-ans.good .lab { color: var(--good); }
+.examsim-ans.bad .lab { color: var(--bad); }
+.examsim-ans .why { font-size: 14px; color: var(--text-2); line-height: 1.45; }
+.examsim-concept { margin: 0; line-height: 1.45; color: var(--text-2); }
+
+/* past scores */
+.examsim-trend { position: relative; height: 72px; display: flex; align-items: flex-end; gap: 6px; border-bottom: 1px solid var(--line-strong); }
+.examsim-trend .b { flex: 1; max-width: 28px; border-radius: 4px 4px 0 0; min-height: 3px; }
+.examsim-trend .b.pass { background: var(--good); }
+.examsim-trend .b.fail { background: var(--bad); }
+.examsim-trend .line { position: absolute; left: 0; right: 0; border-top: 2px dashed var(--muted); }
+.examsim-past { width: 100%; min-height: 48px; display: grid; grid-template-columns: minmax(0, 1fr) auto 76px 18px; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 12px; border: 0; background: var(--raised); text-align: left; cursor: pointer; font-size: 15px; }
+.examsim-past .s { font-weight: 700; font-variant-numeric: tabular-nums; }
+.examsim-past .v { font-weight: 700; font-size: 13px; text-align: right; }
