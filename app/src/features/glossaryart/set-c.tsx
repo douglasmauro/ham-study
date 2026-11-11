@@ -192,7 +192,7 @@ function SatLink({ up, down, upL, downL, sat = 'ga-w' }: { up: string; down: str
       <Arr x1={58} y1={84} x2={106} y2={38} c={up} />
       <Arr x1={134} y1={38} x2={182} y2={84} c={down} />
       <T x={74} y={48} a="end" c={tc(up)}>{upL[0]}</T>
-      {upL[1] ? <T x={66} y={64} a="end" c={tc(up)}>{upL[1]}</T> : null}
+      {upL[1] ? <T x={71} y={64} a="end" c={tc(up)}>{upL[1]}</T> : null}
       <T x={166} y={48} c={tc(down)}>{downL[0]}</T>
       {downL[1] ? <T x={174} y={64} c={tc(down)}>{downL[1]}</T> : null}
     </g>
@@ -520,7 +520,7 @@ export const ART: Record<string, TermArt> = {
       <Box x={10} y={62} w={76} h={30}>my station</Box>
       <P d="M86 77H108" />
       <Ant x={108} y={30} h={47} />
-      <Rays x={110} y={36} />
+      <Rays x={114} y={36} />
       <R x={150} y={38} w={64} h={50} c="ga-k" r={5} />
       <P d="M156 80l16 -22l12 14l10 -10l14 18" c="ga-k ga-thin" />
       <P d="M170 96h24M182 88v8" c="ga-k" />
@@ -817,9 +817,9 @@ export const ART: Record<string, TermArt> = {
 
   am: () => (
     <Art label="Top: an AM wave, a fast carrier whose height rises and falls with the voice. Bottom: its spectrum, a carrier with a sideband on each side.">
-      <P d={amPath(14, 226, 40, 7, 14, 8, 106, 1)} c="ga-k ga-thin ga-dash" />
-      <P d={amPath(14, 226, 40, 7, 14, 8, 106, -1)} c="ga-k ga-thin ga-dash" />
-      <P d={amPath(14, 226, 40, 7, 14, 8, 106)} c="ga-s ga-thin" />
+      <P d={amPath(14, 226, 40, 9, 13, 9, 106, 1)} c="ga-k ga-thin ga-dash" />
+      <P d={amPath(14, 226, 40, 9, 13, 9, 106, -1)} c="ga-k ga-thin ga-dash" />
+      <P d={amPath(14, 226, 40, 9, 13, 9, 106)} c="ga-s ga-thin" />
       <P d="M60 126H180" c="ga-w ga-thin" />
       <P d="M120 126V92" c="ga-s ga-thick" />
       <P d="M80 126L112 108V126M128 126V108L160 126" c="ga-k" />
@@ -846,13 +846,13 @@ export const ART: Record<string, TermArt> = {
   'upper-sideband': () => (
     <Art label="A carrier on a frequency axis with a sideband on each side. The lower sideband sits just below the carrier frequency and the upper sideband, highlighted, sits just above it.">
       <FAxis y={100} />
-      <P d="M120 100V36" c="ga-w ga-thick" />
-      <P d="M60 100L112 62V100" c="ga-w" />
-      <P d="M128 100V62L180 100Z" c="ga-fk ga-soft" />
-      <P d="M128 100V62L180 100" c="ga-k" />
+      <P d="M120 100V36" c="ga-w" />
+      <P d="M54 100L106 62V100" c="ga-w" />
+      <P d="M134 100V62L186 100Z" c="ga-fk ga-soft" />
+      <P d="M134 100V62L186 100" c="ga-k" />
       <T x={120} y={26} a="middle" c="ga-tm">carrier</T>
-      <T x={76} y={56} a="middle" c="ga-tm">lower</T>
-      <T x={164} y={56} a="middle" c="ga-tk ga-tb">upper</T>
+      <T x={70} y={56} a="middle" c="ga-tm">lower</T>
+      <T x={170} y={56} a="middle" c="ga-tk ga-tb">upper</T>
     </Art>
   ),
 
@@ -950,7 +950,7 @@ export const ART: Record<string, TermArt> = {
 
   'u-v-mode': () => (
     <Art label="A satellite with its uplink labelled 70 centimeters, UHF, and its downlink labelled 2 meters, VHF: U/V mode.">
-      <SatLink up="ga-k" down="ga-k" upL={['uplink', '70 cm, UHF']} downL={['downlink', '2 m, VHF']} />
+      <SatLink up="ga-k" down="ga-k" upL={['uplink', '70 cm UHF']} downL={['downlink', '2 m VHF']} />
       <T x={120} y={82} a="middle" c="ga-tk ga-tl">U / V</T>
     </Art>
   ),
@@ -1059,12 +1059,12 @@ export const ART: Record<string, TermArt> = {
   'linear-transponder': () => (
     <Art label="A satellite transponder. A slice of one band holding several signals goes in, and the whole slice comes out again on another band.">
       <Sat x={123} y={32} />
-      <P d="M12 92H70M176 92H232" c="ga-w ga-thin" />
-      <P d="M22 92V62M38 92V74M56 92V56M186 92V62M202 92V74M220 92V56" c="ga-s ga-thick" />
-      <Arr x1={74} y1={72} x2={84} y2={72} />
-      <Box x={88} y={56} w={72} h={32} c="ga-k" tc="ga-tk">transponder</Box>
-      <Arr x1={164} y1={72} x2={174} y2={72} />
-      <T x={41} y={110} a="middle" c="ga-tm">one band</T>
+      <P d="M10 92H58M182 92H230" c="ga-w ga-thin" />
+      <P d="M18 92V62M32 92V74M48 92V56M192 92V62M206 92V74M222 92V56" c="ga-s ga-thick" />
+      <Arr x1={62} y1={72} x2={76} y2={72} />
+      <Box x={80} y={56} w={86} h={32} c="ga-k" tc="ga-tk">transponder</Box>
+      <Arr x1={170} y1={72} x2={184} y2={72} />
+      <T x={34} y={110} a="middle" c="ga-tm">one band</T>
       <T x={201} y={110} a="middle" c="ga-tm">other band</T>
       <T x={120} y={130} a="middle" c="ga-tm">every signal in the slice is relayed</T>
     </Art>
@@ -1103,8 +1103,8 @@ export const ART: Record<string, TermArt> = {
 
   erp: () => (
     <Art label="Transmitter power goes into a directional antenna. The antenna's gain concentrates it into a strong beam in its best direction: the effective radiated power.">
-      <Box x={8} y={56} w={70} h={28}>TX power</Box>
-      <P d="M78 70H96" />
+      <Box x={8} y={56} w={64} h={28}>TX power</Box>
+      <P d="M72 70H96" />
       <Yagi x={112} y={70} c="ga-w" />
       <P d="M132 70C152 40 216 44 224 70C216 96 152 100 132 70Z" c="ga-fs ga-soft" />
       <P d="M132 70C152 40 216 44 224 70C216 96 152 100 132 70Z" c="ga-s" />
@@ -1177,13 +1177,13 @@ export const ART: Record<string, TermArt> = {
 
   'radio-direction-finding': () => (
     <Art label="Two directional antennas at different places each point toward the strongest signal. Their two bearing lines cross at the signal source.">
-      <P d="M56 89L160 44M193 86L172 46" c="ga-k ga-thin ga-dash" />
-      <Yagi x={40} y={96} ang={-23.3} />
-      <Yagi x={200} y={100} ang={-116.6} />
+      <P d="M57 82L160 43M190 75L172 46" c="ga-k ga-thin ga-dash" />
+      <Yagi x={40} y={88} ang={-20.6} />
+      <Yagi x={200} y={90} ang={-122.6} />
       <Dot x={168} y={40} c="ga-fs" r={5} />
       <P d="M156 32a14 14 0 0 1 24 0M152 26a20 20 0 0 1 32 0" c="ga-s ga-thin" />
       <T x={100} y={30} a="middle" c="ga-ts">signal source</T>
-      <T x={112} y={130} a="middle" c="ga-tk">two bearings cross at the source</T>
+      <T x={120} y={128} a="middle" c="ga-tk">two bearings cross at the source</T>
     </Art>
   ),
 
@@ -1370,7 +1370,7 @@ export const ART: Record<string, TermArt> = {
       <C x={208} y={42} r={3} c="ga-k ga-thin" />
       <Arr x1={50} y1={66} x2={178} y2={36} c="ga-s" />
       <Arr x1={182} y1={46} x2={110} y2={70} c="ga-s ga-thin" />
-      <T x={202} y={74} a="middle" c="ga-tk ga-tb">Moon</T>
+      <T x={174} y={22} a="end" c="ga-tk ga-tb">Moon</T>
       <T x={150} y={88} c="ga-ts">weak echo</T>
       <T x={70} y={124} a="middle" c="ga-tm">Earth</T>
     </Art>
