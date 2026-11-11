@@ -14,11 +14,22 @@ export interface Settings {
   lastBackup: number | null; // epoch ms of the last saved backup file
 }
 
+/** A finished activity, lab, mission or clip. */
+export interface ActivityEvent {
+  id: string; // unique event id
+  t: number; // epoch ms
+  area: string; // feature area, e.g. 'dragdrop'
+  item: string; // FeatureDef id
+  score?: number;
+  total?: number;
+}
+
 export interface Data {
   version: 1;
   poolId: string;
   settings: Settings;
   events: AnswerEvent[];
+  activities?: ActivityEvent[];
 }
 
 const KEY = 'hamstudy:v1';
@@ -65,6 +76,11 @@ export function addEvent(ev: AnswerEvent) {
   save();
 }
 
+export function addActivity(ev: ActivityEvent) {
+  data = { ...data, activities: [...(data.activities ?? []), ev] };
+  save();
+}
+
 export function markGuess(eventId: string, guess: boolean) {
   data = { ...data, events: data.events.map((e) => (e.id === eventId ? { ...e, guess } : e)) };
   save();
@@ -79,8 +95,11 @@ export function updateSettings(patch: Partial<Settings>) {
 export function mergeData(incoming: Data, preferIncomingSettings = true) {
   const seen = new Set(data.events.map((e) => e.id));
   const extra = incoming.events.filter((e) => !seen.has(e.id));
+  const seenAct = new Set((data.activities ?? []).map((a) => a.id));
+  const extraAct = (incoming.activities ?? []).filter((a) => !seenAct.has(a.id));
   data = {
     ...data,
+    activities: [...(data.activities ?? []), ...extraAct].sort((a, b) => a.t - b.t),
     settings: preferIncomingSettings ? { ...data.settings, ...incoming.settings } : data.settings,
     events: [...data.events, ...extra].sort((a, b) => a.t - b.t),
   };

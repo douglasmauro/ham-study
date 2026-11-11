@@ -1,8 +1,11 @@
+import { lazy, Suspense } from 'preact/compat';
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { canShuffleChoices, shuffle, seededRng, type Mode } from '../lib/engine';
 import { explanationFor } from '../lib/explain';
 import { groupTitle, topicOf, type Question } from '../lib/pool';
 import { Icon } from './Icon';
+
+const WorkedSteps = lazy(() => import('../features/worked'));
 
 export interface AnswerResult {
   choice: number; // original index
@@ -181,6 +184,7 @@ export function QuestionCard(p: Props) {
               );
             })}
           </div>
+          <Suspense fallback={null}><WorkedSteps q={q} /></Suspense>
           {q.refs && <span class="small muted">FCC rule reference: §{q.refs}</span>}
           <div class="row between" style={{ flexWrap: 'wrap' }}>
             {picked === q.answer && hintStep === 0 ? (

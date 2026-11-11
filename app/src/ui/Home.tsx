@@ -39,7 +39,10 @@ export function Home() {
           <span class="small muted">{POOL.pool.name} · {POOL.pool.effective.slice(0, 4)} pool</span>
           <span style={{ fontFamily: 'var(--display)', fontSize: '26px', fontWeight: 700 }}>Ham Study</span>
         </div>
-        <span class="chip"><Icon name="flame" size={18} color="var(--accent)" />{s.streak}-day streak</span>
+        <span class="row" style={{ gap: '8px' }}>
+          <span class="chip"><Icon name="flame" size={18} color="var(--accent)" />{s.streak}-day streak</span>
+          <a class="iconbtn" href="#/settings" aria-label="Settings"><Icon name="gear" /></a>
+        </span>
       </div>
 
       <div class="card row" style={{ gap: '20px' }}>
@@ -92,7 +95,7 @@ export function Home() {
         <a class="tile-link" href={`#/exam?${Date.now()}`}><Icon name="exam" color="var(--accent)" /><span class="t">Practice exam</span><span class="small muted">35 questions, real format</span></a>
         <a class="tile-link" href="#/map"><Icon name="grid" color="var(--accent)" /><span class="t">Mastery map</span><span class="small muted">All 35 groups</span></a>
         <a class="tile-link" href={`#/review?${Date.now()}`}><Icon name="replay" color="var(--accent)" /><span class="t">Review misses</span><span class="small muted">Last 7 days</span></a>
-        <a class="tile-link" href="#/settings"><Icon name="gear" color="var(--accent)" /><span class="t">Settings</span><span class="small muted">Exam date, backup</span></a>
+        <a class="tile-link" href="#/learn"><Icon name="bulb" color="var(--accent)" /><span class="t">Learn</span><span class="small muted">Labs, hands-on, missions, clips</span></a>
       </div>
     </div>
   );
