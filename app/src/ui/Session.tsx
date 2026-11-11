@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks';
 import { buildDrill, buildExam, DAY, pCorrect, seededRng, type Mode } from '../lib/engine';
 import { TERMS_BY_ID } from '../lib/glossary';
+import { lockedGroups } from '../lib/lessons';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID, TOPICS, topicOf } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { addEvent, getData, markGuess, newId } from '../lib/store';
@@ -50,11 +51,15 @@ function plan(kind: SessionKind, target: string | undefined): { ids: string[]; t
         .sort((a, b) => pCorrect(stats.states[a]) - pCorrect(stats.states[b]));
       return { ids: ids.slice(0, 20), title: 'Notebook drill' };
     }
-    default:
+    default: {
+      // Learn first: hold back new questions from groups whose lesson is not finished yet.
+      const locked = lockedGroups(data);
+      const open = POOL.questions.filter((q) => stats.states[q.id] || !locked.has(q.group));
       return {
-        ids: buildDrill(POOL.questions, stats.states, now, { size: data.settings.dailyGoal, newCount: stats.newToday, rng }),
+        ids: buildDrill(open, stats.states, now, { size: data.settings.dailyGoal, newCount: stats.newToday, rng }),
         title: "Today's drill",
       };
+    }
   }
 }
 

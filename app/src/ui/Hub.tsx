@@ -94,7 +94,9 @@ export function FeatureHost({ area, id }: { area?: string; id?: string }) {
         </div>
         <div class="grid2">
           <a class="btn secondary" href={back}>More {AREAS[current].title.toLowerCase()}</a>
-          <a class="btn primary" href="#/">Home</a>
+          {current === 'lessons' && item.groups[0]
+            ? <a class="btn primary" href={`#/group/${item.groups[0]}?${Date.now()}`}>Now try its questions</a>
+            : <a class="btn primary" href="#/">Home</a>}
         </div>
       </div>
     );

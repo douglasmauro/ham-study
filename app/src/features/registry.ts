@@ -2,6 +2,7 @@ import type { FeatureDef } from './types';
 
 /** Each area is loaded on demand, so a large area never slows the first screen. */
 export const AREAS = {
+  lessons: { title: 'Lessons', blurb: 'Learn a topic first: a short clip, then cards, then a check', load: () => import('./lessons') },
   dragdrop: { title: 'Hands-on', blurb: 'Sort, order, match, label and build', load: () => import('./dragdrop') },
   cards: { title: 'Quick cards', blurb: 'Flashcards, true or false, spot the mistake', load: () => import('./cards') },
   labs: { title: 'Visual labs', blurb: 'Play with a concept and watch it change', load: () => import('./labs') },

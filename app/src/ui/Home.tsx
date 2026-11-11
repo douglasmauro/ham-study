@@ -1,6 +1,7 @@
 import { POOL, TOPICS } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { useData } from '../lib/store';
+import { nextLesson } from '../lib/lessons';
 import { LEVELS } from './Exams';
 import { Icon } from './Icon';
 import { Version } from './Version';
@@ -33,6 +34,7 @@ export function Home() {
   const examDate = data.settings.examDate;
   const weak = s.weakest;
   const wt = weak ? TOPICS[weak.id] : null;
+  const lesson = nextLesson(data);
 
   return (
     <div class="screen">
@@ -64,6 +66,18 @@ export function Home() {
           </span>
         </div>
       </div>
+
+      {lesson && (
+        <a class="card row" href={`#/do/lessons/${lesson.id}?${Date.now()}`} style={{ color: 'var(--text)', textDecoration: 'none', gap: '12px', border: '1px solid var(--accent)' }}>
+          <Icon name="bulb" color="var(--accent)" size={26} />
+          <span class="grow stack" style={{ gap: '2px' }}>
+            <span class="small muted" style={{ fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase' }}>Next lesson · {lesson.minutes} min</span>
+            <span style={{ fontWeight: 700, fontSize: '17px' }}>{lesson.title}</span>
+            <span class="small muted">Learn it first. Its questions join your drill afterward.</span>
+          </span>
+          <Icon name="chevron" color="var(--muted)" />
+        </a>
+      )}
 
       <a class="btn primary block" href={`#/drill?${Date.now()}`} style={{ justifyContent: 'space-between', padding: '16px 20px' }}>
         <span class="stack" style={{ gap: '2px', alignItems: 'flex-start' }}>
