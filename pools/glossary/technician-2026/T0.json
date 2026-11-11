@@ -325,7 +325,7 @@
       "aka": ["Federal Communications Commission"],
       "def": "Federal Communications Commission: the US government agency that regulates radio, including amateur radio.",
       "more": "It sets the RF exposure limits, but the station licensee must make sure the station meets them. It does not set tower grounding requirements; local electrical codes do.",
-      "questions": ["T0C06", "T0C09", "T0C13"]
+      "questions": ["T0C06", "T0C13"]
     }
   ]
 }
