@@ -31,6 +31,8 @@ export function App() {
       return <Session key={key} kind="drill" />;
     case 'exam':
       return <Session key={key} kind="exam" />;
+    case 'notebook-drill':
+      return <Session key={key} kind="notebook" />;
     case 'review':
       return <Session key={key} kind="review" />;
     case 'topic':

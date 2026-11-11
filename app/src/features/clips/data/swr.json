@@ -1,0 +1,65 @@
+{
+  "id": "swr",
+  "title": "SWR",
+  "blurb": "Forward and reflected power on the feed line, and what 1:1 means.",
+  "sub": "T9",
+  "groups": [
+    "T7C",
+    "T9B"
+  ],
+  "questionIds": [
+    "T7C04",
+    "T7C05",
+    "T7C06",
+    "T7C08",
+    "T9B12"
+  ],
+  "lines": [
+    {
+      "caption": "Your transmitter sends power along the feed line to the antenna. Call it forward power.",
+      "questionIds": []
+    },
+    {
+      "caption": "When the antenna is well matched to the feed line, it takes that power and radiates it.",
+      "questionIds": [
+        "T9B12"
+      ]
+    },
+    {
+      "caption": "When the match is poor, some power is reflected back down the line toward your radio.",
+      "questionIds": [
+        "T7C06"
+      ]
+    },
+    {
+      "caption": "SWR, standing wave ratio, is a measure of how well a load is matched to a transmission line.",
+      "questionIds": [
+        "T9B12"
+      ]
+    },
+    {
+      "caption": "A reading of 1:1 is a perfect match. No power comes back.",
+      "questionIds": [
+        "T7C04"
+      ]
+    },
+    {
+      "caption": "A reading like 4:1 means an impedance mismatch.",
+      "questionIds": [
+        "T7C06"
+      ]
+    },
+    {
+      "caption": "High SWR matters. Most solid-state transmitters cut their output power as SWR rises, to protect the output transistors.",
+      "questionIds": [
+        "T7C05"
+      ]
+    },
+    {
+      "caption": "You can check it with an SWR meter or a directional wattmeter.",
+      "questionIds": [
+        "T7C08"
+      ]
+    }
+  ]
+}

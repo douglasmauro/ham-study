@@ -1,0 +1,76 @@
+{
+  "id": "propagation",
+  "title": "How radio waves travel",
+  "blurb": "Line of sight on VHF and UHF, the ionosphere on HF.",
+  "sub": "T3",
+  "groups": [
+    "T3A",
+    "T3B",
+    "T3C"
+  ],
+  "questionIds": [
+    "T3A04",
+    "T3A11",
+    "T3B08",
+    "T3B09",
+    "T3B10",
+    "T3C01",
+    "T3C02",
+    "T3C11"
+  ],
+  "lines": [
+    {
+      "caption": "Radio waves leave your antenna and travel in nearly straight lines.",
+      "questionIds": [
+        "T3C11"
+      ]
+    },
+    {
+      "caption": "On VHF and UHF, the bands a handheld radio uses, that means line of sight.",
+      "questionIds": [
+        "T3A04",
+        "T3C01"
+      ]
+    },
+    {
+      "caption": "The signal reaches about as far as the radio horizon. Past that, it heads out into space.",
+      "questionIds": [
+        "T3C01",
+        "T3C11"
+      ]
+    },
+    {
+      "caption": "High above us is a region of the atmosphere called the ionosphere.",
+      "questionIds": [
+        "T3A11"
+      ]
+    },
+    {
+      "caption": "The ionosphere can reflect HF radio waves, 3 to 30 MHz, back toward the ground.",
+      "questionIds": [
+        "T3A11",
+        "T3B10"
+      ]
+    },
+    {
+      "caption": "They come down far beyond the horizon. Long-distance contacts are far more common on HF.",
+      "questionIds": [
+        "T3C02"
+      ]
+    },
+    {
+      "caption": "VHF and UHF signals usually are not sent back by the ionosphere, so they are rarely heard beyond the horizon.",
+      "questionIds": [
+        "T3C01",
+        "T3B08",
+        "T3B09"
+      ]
+    },
+    {
+      "caption": "So think of VHF and UHF for local contacts, and HF for long distance.",
+      "questionIds": [
+        "T3C02"
+      ]
+    }
+  ]
+}

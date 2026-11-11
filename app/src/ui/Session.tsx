@@ -1,12 +1,12 @@
 import { useState } from 'preact/hooks';
-import { buildDrill, buildExam, DAY, seededRng, type Mode } from '../lib/engine';
+import { buildDrill, buildExam, DAY, pCorrect, seededRng, type Mode } from '../lib/engine';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID, TOPICS, topicOf } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { addEvent, getData, markGuess, newId } from '../lib/store';
 import { Icon } from './Icon';
 import { QuestionCard, type AnswerResult } from './QuestionCard';
 
-export type SessionKind = 'drill' | 'topic' | 'group' | 'review' | 'exam';
+export type SessionKind = 'drill' | 'topic' | 'group' | 'review' | 'notebook' | 'exam';
 
 interface Result {
   q: string;
@@ -35,6 +35,15 @@ function plan(kind: SessionKind, target: string | undefined): { ids: string[]; t
       const missed = [...new Set(data.events.filter((e) => !e.correct && e.t >= since).map((e) => e.q))];
       return { ids: missed.slice(-20).reverse(), title: 'Review my misses' };
     }
+    case 'notebook': {
+      // The picture notebook's entries: any question answered wrong, with a hint or as a guess,
+      // and not yet mastered. Weakest first, up to 20 per session.
+      const trouble = new Set(data.events.filter((e) => !e.correct || e.hint > 0 || e.guess).map((e) => e.q));
+      const ids = [...trouble]
+        .filter((id) => (stats.states[id]?.box ?? 0) < 3)
+        .sort((a, b) => pCorrect(stats.states[a]) - pCorrect(stats.states[b]));
+      return { ids: ids.slice(0, 20), title: 'Notebook drill' };
+    }
     default:
       return {
         ids: buildDrill(POOL.questions, stats.states, now, { size: data.settings.dailyGoal, newCount: stats.newToday, rng }),
@@ -51,7 +60,7 @@ export function Session({ kind, target }: { kind: SessionKind; target?: string }
   const [results, setResults] = useState<Result[]>([]);
   const [startReadiness] = useState(() => computeStats(getData()).readiness);
   const settings = getData().settings;
-  const mode: Mode = kind === 'exam' ? 'exam' : kind === 'review' ? 'review' : 'drill';
+  const mode: Mode = kind === 'exam' ? 'exam' : kind === 'review' || kind === 'notebook' ? 'review' : 'drill';
 
   if (!queue.length) {
     return (

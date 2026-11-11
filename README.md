@@ -29,8 +29,17 @@ drill to your weak spots.
 - No server and no accounts: progress stays on each person's own phone, and
   pushes to `main` deploy the app to GitHub Pages.
 
-Coming next: visual labs, scenario missions, hands-on formats (sort, order,
-label…), and narrated concept clips.
+- **Learn hub:** six visual labs, 16 hands-on activities (sort, order, match,
+  label, build), 15 quick-card activities (flashcards, true or false, spot the
+  mistake, radio conversations), three scenario missions and six narrated
+  concept clips with a hands-free Listen mode.
+- **Worked math steps:** a formula picture and numbered steps for all 36
+  calculation questions.
+- **Exam-day simulation**, a **picture notebook** of concepts you struggled
+  with, and a **weekly report**.
+
+Coming next: practice variants (the same concept asked different ways) and the
+General pool.
 
 ## Layout
 
@@ -41,6 +50,8 @@ label…), and narrated concept clips.
 | `app/src/lib/engine.ts` | Spaced repetition, readiness, session building (unit tested) |
 | `tools/parse_pool.py` | Converts an official NCVEC `.docx` pool to JSON and checks it |
 | `pools/explanations/` | Explanations per subelement, plus the writing guide |
+| `app/src/features/` | One folder per feature area; see `app/FEATURES.md` |
+| `tools/make_clip_audio.py` | Records the clip narration with Piper text-to-speech |
 | `tools/explanations.py` | Shows questions with the key, validates explanations, merges them for the app |
 | `pools/source/` | The original NCVEC pool documents |
 

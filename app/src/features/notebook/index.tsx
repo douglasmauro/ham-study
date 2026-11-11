@@ -217,8 +217,8 @@ export default function Notebook() {
 
           {active.length > 0 && (
             <div class="notebook-cta">
-              <a class="btn primary block" href={`#/review?${Date.now()}`}><Icon name="replay" color="var(--accent-ink)" />Drill these</a>
-              <span class="small muted" style={{ textAlign: 'center' }}>Runs a review of your misses from the last 7 days, up to 20 questions.</span>
+              <a class="btn primary block" href={`#/notebook-drill?${Date.now()}`}><Icon name="replay" color="var(--accent-ink)" />Drill these</a>
+              <span class="small muted" style={{ textAlign: 'center' }}>Drills the concepts in this notebook, weakest first, up to 20 at a time.</span>
             </div>
           )}
         </>

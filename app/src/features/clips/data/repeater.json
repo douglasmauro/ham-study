@@ -1,0 +1,63 @@
+{
+  "id": "repeater",
+  "title": "How a repeater works",
+  "blurb": "It listens on one frequency and retransmits on another.",
+  "sub": "T2",
+  "groups": [
+    "T2A",
+    "T2B"
+  ],
+  "questionIds": [
+    "T2A01",
+    "T2A03",
+    "T2A07",
+    "T2B02",
+    "T2B04"
+  ],
+  "lines": [
+    {
+      "caption": "Two handheld radios often cannot reach each other. A hill or a building is in the way.",
+      "questionIds": []
+    },
+    {
+      "caption": "A repeater is a station up high, on a tower or a hilltop, where it can hear them both.",
+      "questionIds": []
+    },
+    {
+      "caption": "It listens on one frequency and, at the same moment, retransmits what it hears on another.",
+      "questionIds": [
+        "T2A07"
+      ]
+    },
+    {
+      "caption": "The difference between its transmit and receive frequencies is called the repeater offset.",
+      "questionIds": [
+        "T2A07"
+      ]
+    },
+    {
+      "caption": "On the 2 meter band, a common offset is plus or minus 600 kHz.",
+      "questionIds": [
+        "T2A01"
+      ]
+    },
+    {
+      "caption": "On the 70 centimeter band, a common offset is plus or minus 5 MHz.",
+      "questionIds": [
+        "T2A03"
+      ]
+    },
+    {
+      "caption": "Many repeaters also want a tone. CTCSS is a sub-audible tone, sent along with your voice, that opens the repeater's squelch.",
+      "questionIds": [
+        "T2B02"
+      ]
+    },
+    {
+      "caption": "If you can hear a repeater but cannot get into it, check your offset and your tone.",
+      "questionIds": [
+        "T2B04"
+      ]
+    }
+  ]
+}

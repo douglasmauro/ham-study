@@ -1,0 +1,73 @@
+{
+  "id": "ohms-law",
+  "title": "Ohm's law",
+  "blurb": "Voltage pushes, current flows, resistance pushes back.",
+  "sub": "T5",
+  "groups": [
+    "T5A",
+    "T5D"
+  ],
+  "questionIds": [
+    "T5A01",
+    "T5A03",
+    "T5A05",
+    "T5A11",
+    "T5D01",
+    "T5D02",
+    "T5D03",
+    "T5D05",
+    "T5D06"
+  ],
+  "lines": [
+    {
+      "caption": "Here is a simple circuit: a battery, some wire, and a resistor.",
+      "questionIds": []
+    },
+    {
+      "caption": "Voltage, measured in volts, is the push. Think of it like water pressure.",
+      "questionIds": [
+        "T5A05"
+      ]
+    },
+    {
+      "caption": "Current, measured in amperes, is the flow of charge around the loop.",
+      "questionIds": [
+        "T5A01",
+        "T5A03"
+      ]
+    },
+    {
+      "caption": "Resistance, measured in ohms, pushes back against that flow.",
+      "questionIds": [
+        "T5A11"
+      ]
+    },
+    {
+      "caption": "Ohm's law ties them together. Voltage equals current times resistance: E = I × R.",
+      "questionIds": [
+        "T5D02"
+      ]
+    },
+    {
+      "caption": "With 12 volts across 4 ohms, the current is 12 divided by 4. That is 3 amperes.",
+      "questionIds": [
+        "T5D01",
+        "T5D06"
+      ]
+    },
+    {
+      "caption": "Double the resistance to 8 ohms, and the current is cut in half, to 1.5 amperes.",
+      "questionIds": [
+        "T5D05"
+      ]
+    },
+    {
+      "caption": "On the triangle, cover the one you want. The other two show you how to find it.",
+      "questionIds": [
+        "T5D01",
+        "T5D02",
+        "T5D03"
+      ]
+    }
+  ]
+}

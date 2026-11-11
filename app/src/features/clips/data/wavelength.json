@@ -1,0 +1,74 @@
+{
+  "id": "wavelength",
+  "title": "Wavelength and frequency",
+  "blurb": "Higher frequency, shorter wave. 300 divided by megahertz gives meters.",
+  "sub": "T3",
+  "groups": [
+    "T3B",
+    "T5A"
+  ],
+  "questionIds": [
+    "T3B04",
+    "T3B05",
+    "T3B06",
+    "T3B07",
+    "T3B11",
+    "T3B12",
+    "T5A04",
+    "T5A06",
+    "T5C07"
+  ],
+  "lines": [
+    {
+      "caption": "A radio wave travels at the speed of light: about 300 million meters every second.",
+      "questionIds": [
+        "T3B04",
+        "T3B11"
+      ]
+    },
+    {
+      "caption": "Frequency is how many cycles the wave makes each second. It is measured in hertz.",
+      "questionIds": [
+        "T5A04",
+        "T5A06"
+      ]
+    },
+    {
+      "caption": "Wavelength is the length of one cycle.",
+      "questionIds": []
+    },
+    {
+      "caption": "All radio waves travel at the same speed. So as frequency goes up, wavelength gets shorter.",
+      "questionIds": [
+        "T3B12",
+        "T3B05"
+      ]
+    },
+    {
+      "caption": "Here is the shortcut. Wavelength in meters equals 300 divided by the frequency in megahertz.",
+      "questionIds": [
+        "T3B06",
+        "T5C07"
+      ]
+    },
+    {
+      "caption": "At 146 MHz, 300 divided by 146 is about 2 meters.",
+      "questionIds": [
+        "T3B06"
+      ]
+    },
+    {
+      "caption": "At 50 MHz, 300 divided by 50 is 6 meters. Lower frequency, longer wave.",
+      "questionIds": [
+        "T3B06",
+        "T3B05"
+      ]
+    },
+    {
+      "caption": "That is why ham bands are also named by wavelength: the 2 meter band, the 6 meter band.",
+      "questionIds": [
+        "T3B07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "power",
+  "title": "Power",
+  "blurb": "Watts are amperes times volts: P = I × E.",
+  "sub": "T5",
+  "groups": [
+    "T5A",
+    "T5C"
+  ],
+  "questionIds": [
+    "T5A02",
+    "T5A10",
+    "T5C08",
+    "T5C09",
+    "T5C11"
+  ],
+  "lines": [
+    {
+      "caption": "Power is the rate at which electrical energy is used.",
+      "questionIds": [
+        "T5A10"
+      ]
+    },
+    {
+      "caption": "It is measured in watts.",
+      "questionIds": [
+        "T5A02"
+      ]
+    },
+    {
+      "caption": "Power equals current times voltage: P = I × E.",
+      "questionIds": [
+        "T5C08"
+      ]
+    },
+    {
+      "caption": "Say a radio draws 10 amperes from a 13.8 volt power supply.",
+      "questionIds": [
+        "T5C09"
+      ]
+    },
+    {
+      "caption": "10 times 13.8 is 138. The radio is using 138 watts.",
+      "questionIds": [
+        "T5C09"
+      ]
+    },
+    {
+      "caption": "You can turn the formula around. To find current, divide power by voltage.",
+      "questionIds": [
+        "T5C11"
+      ]
+    },
+    {
+      "caption": "So 120 watts at 12 volts takes 10 amperes.",
+      "questionIds": [
+        "T5C11"
+      ]
+    }
+  ]
+}
