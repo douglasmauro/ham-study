@@ -1,0 +1,119 @@
+/* Hands-on formats: Sort it, Put it in order, Match it, Label the picture, Build it. */
+.dd-screen { user-select: none; -webkit-user-select: none; gap: 12px; }
+.dd-head { display: flex; flex-direction: column; min-width: 0; }
+.dd-head h1 { font-size: 21px; line-height: 1.15; }
+.dd-how { margin: 0; font-size: 14px; line-height: 1.4; color: var(--text-2); }
+.dd-count, .dd-end, .dd-col-title { font-size: 13px; font-weight: 600; color: var(--muted); }
+
+/* anything that can be picked up */
+.dd-drag { touch-action: none; cursor: grab; -webkit-tap-highlight-color: transparent; }
+.dd-dragging { position: relative; z-index: 50; cursor: grabbing; border-color: var(--accent) !important; box-shadow: 0 10px 24px rgba(0, 0, 0, .45); }
+.dd-sel { border-color: var(--accent) !important; background: color-mix(in srgb, var(--accent) 18%, var(--raised)) !important; }
+.dd-gone { visibility: hidden; }
+.dd-screen button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* feedback line */
+.dd-msg { min-height: 64px; display: flex; align-items: flex-start; gap: 8px; font-size: 15px; line-height: 1.4; font-weight: 600; color: var(--muted); }
+.dd-msg.dd-good { color: var(--good); }
+.dd-msg.dd-bad { color: var(--bad); }
+.dd-msg-icon { flex-shrink: 0; display: inline-flex; padding-top: 1px; }
+
+/* cards and tray */
+.dd-tray { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.dd-card { min-height: 48px; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 6px 10px; border-radius: 12px; background: var(--raised); border: 2px solid var(--line-strong); color: var(--text); font-size: 15px; line-height: 1.25; font-weight: 600; text-align: center; }
+.dd-tray-long .dd-card { font-size: 14px; }
+.dd-card.dd-spare { opacity: .4; }
+.dd-card:disabled { cursor: default; }
+
+/* buckets */
+.dd-buckets { display: grid; gap: 10px; }
+.dd-bucket { display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 6px; padding: 10px; border-radius: 18px; border: 2px dashed var(--line-strong); background: var(--surface); color: var(--text); text-align: left; cursor: pointer; }
+.dd-bucket-title { font-size: 15px; font-weight: 700; }
+.dd-bucket-sub { font-size: 13px; color: var(--muted); margin-top: -4px; }
+.dd-chip.dd-placed { min-height: 40px; display: flex; align-items: center; justify-content: center; padding: 4px 6px; border-radius: 10px; font-size: 14px; line-height: 1.2; font-weight: 600; text-align: center; }
+.dd-placed { background: var(--good-bg) !important; border: 2px solid var(--good) !important; color: var(--text); opacity: 1; }
+.dd-ready { border-color: var(--accent); }
+.dd-over { border-color: var(--accent) !important; background: var(--raised); }
+
+/* order rows */
+.dd-rows { position: relative; }
+.dd-row { position: absolute; left: 0; right: 0; height: 60px; display: flex; align-items: center; gap: 12px; padding: 0 12px; border-radius: 14px; background: var(--surface); border: 2px solid var(--line-strong); color: var(--text); text-align: left; }
+.dd-row-num { width: 32px; height: 32px; flex-shrink: 0; border-radius: 10px; background: var(--line); display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; color: var(--text-2); }
+.dd-row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.dd-row-name { font-size: 16px; font-weight: 600; line-height: 1.2; }
+.dd-row-sub { font-size: 13px; color: var(--muted); line-height: 1.2; }
+.dd-row-tag { font-size: 13px; font-weight: 700; }
+.dd-row.dd-right { background: var(--good-bg); border-color: var(--good); }
+.dd-row.dd-right .dd-row-tag { color: var(--good); }
+.dd-row.dd-wrong { background: var(--bad-bg); border-color: var(--bad); }
+.dd-row.dd-wrong .dd-row-tag { color: var(--bad); }
+.dd-row.dd-lifted { z-index: 50; border-color: var(--accent); box-shadow: 0 10px 24px rgba(0, 0, 0, .45); cursor: grabbing; }
+.dd-grip { flex-shrink: 0; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linecap: round; }
+
+/* match */
+.dd-match { position: relative; display: grid; grid-template-columns: minmax(0, .85fr) 36px minmax(0, 1.15fr); row-gap: 8px; align-items: stretch; }
+.dd-pair { min-height: 52px; padding: 6px 10px; border-radius: 12px; background: var(--raised); border: 2px solid var(--line-strong); color: var(--text); font-size: 15px; line-height: 1.25; font-weight: 600; }
+.dd-pair-R { text-align: left; font-size: 14px; font-weight: 500; }
+.dd-pair:disabled { cursor: default; }
+.dd-lines { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.dd-line-made line { stroke: var(--good); stroke-width: 3; stroke-linecap: round; }
+.dd-line-made circle { fill: var(--good); }
+.dd-line-band { stroke: var(--accent); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 2 7; }
+
+/* picture with drop spots (label and build) */
+.dd-board { position: relative; width: 100%; border-radius: 16px; background: var(--surface); }
+.dd-board > svg { display: block; width: 100%; height: 100%; }
+.dd-spot { position: absolute; display: flex; align-items: center; justify-content: center; gap: 4px; padding: 2px 4px; border-radius: 10px; border: 2px dashed var(--muted); background: color-mix(in srgb, var(--bg) 80%, transparent); color: var(--text); font-size: 13px; line-height: 1.15; font-weight: 600; text-align: center; cursor: pointer; }
+.dd-spot-prompt { font-size: 12.5px; font-weight: 500; color: var(--muted); }
+.dd-spot:disabled { cursor: default; }
+.dd-leader line { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 3 3; }
+.dd-leader circle { fill: var(--muted); }
+.dd-symbol { flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.dd-symbol .dd-fill { fill: currentColor; }
+.dd-symbol text { fill: currentColor; stroke: none; font: 700 15px var(--font); }
+
+/* house-style drawing classes for the pictures */
+.dd-art { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.dd-wire { stroke: var(--muted); stroke-width: 2.5; }
+.dd-ink { stroke: var(--text); stroke-width: 2.5; }
+.dd-thin { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 4 4; }
+.dd-topic { stroke: var(--dd-topic, var(--text)); stroke-width: 3; }
+.dd-topic-fill { fill: var(--dd-topic, var(--text)); stroke: none; }
+.dd-ink-fill { fill: var(--text); stroke: none; }
+.dd-body { fill: var(--raised); stroke: var(--text); stroke-width: 2.5; }
+.dd-art text { fill: var(--muted); stroke: none; font: 500 12px var(--font); }
+.dd-art text.dd-strong { fill: var(--text-2); font-weight: 600; }
+.dd-signal { stroke: var(--accent); stroke-width: 3; }
+.dd-signal-fill { fill: var(--accent); stroke: none; }
+/* only drawn once the thing works */
+.dd-flow { stroke: var(--accent); stroke-width: 3.5; stroke-dasharray: 2 12; opacity: 0; }
+.dd-when-on { opacity: 0; }
+.dd-on .dd-flow, .dd-on .dd-when-on { opacity: 1; }
+.dd-on .dd-when-off { opacity: 0; }
+
+.dd-finish { position: sticky; bottom: 12px; z-index: 5; display: flex; flex-direction: column; gap: 8px; padding: 12px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); box-shadow: 0 -8px 24px rgba(0, 0, 0, .4); margin-top: auto; }
+.dd-finish-text { font-size: 15px; font-weight: 700; color: var(--good); text-align: center; }
+
+@keyframes dd-shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-7px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(2px); } }
+@keyframes dd-pop { 0% { transform: scale(.86); } 60% { transform: scale(1.05); } 100% { transform: scale(1); } }
+@keyframes dd-flow { to { stroke-dashoffset: -28; } }
+@keyframes dd-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+
+.dd-shake { border-color: var(--bad) !important; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .dd-card, .dd-pair, .dd-bucket, .dd-spot { transition: transform .2s ease, border-color .15s, background .15s; }
+  .dd-row { transition: top .22s ease, border-color .15s, background .15s; }
+  .dd-row.dd-lifted { transition: none; }
+  .dd-shake { animation: dd-shake .35s ease; }
+  .dd-chip.dd-placed, .dd-spot.dd-placed { animation: dd-pop .25s ease; }
+  .dd-on .dd-flow { animation: dd-flow .7s linear infinite; }
+  .dd-on .dd-pulse { animation: dd-pulse 1.4s ease-in-out infinite; }
+  .dd-flow, .dd-when-on, .dd-when-off { transition: opacity .4s; }
+}
+
+/* symbols inside pictures keep their line weight when scaled, and take the color of their group */
+.dd-art * { vector-effect: non-scaling-stroke; }
+.dd-topic .dd-fill { fill: var(--dd-topic, var(--text)); }
+.dd-ink .dd-fill { fill: var(--text); }
+.dd-wire .dd-fill { fill: var(--muted); }
