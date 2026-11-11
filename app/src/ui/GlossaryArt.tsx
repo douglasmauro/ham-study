@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import type { TermArt } from '../features/glossaryart/kit';
-import { TERMS, type Term } from '../lib/glossary';
+import { TERMS, termsForQuestion, type Term } from '../lib/glossary';
 import { TOPICS } from '../lib/pool';
 import { Icon } from './Icon';
 
@@ -47,6 +47,41 @@ export function GlossaryGallery({ sub }: { sub?: string }) {
           </div>
         ))}
       </div>
+    </div>
+  );
+}
+
+/**
+ * "Key terms" for one question: up to three glossary terms it tests, each opening to its
+ * picture and definition. Shown after answering (never before, since a picture can give the
+ * answer away), in the notebook and in lessons.
+ */
+export function KeyTerms({ qid, max = 3 }: { qid: string; max?: number }) {
+  const art = useGlossaryArt();
+  const [open, setOpen] = useState<string | null>(null);
+  const all = termsForQuestion(qid);
+  if (!all.length) return null;
+  // Prefer terms that have a picture, keeping the most specific first.
+  const terms = [...all.filter((t) => art?.[t.id]), ...all.filter((t) => !art?.[t.id])].slice(0, max);
+  const shown = terms.find((t) => t.id === open);
+  return (
+    <div class="stack" style={{ gap: '8px' }}>
+      <span class="small muted" style={{ fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase' }}>Key terms</span>
+      <div class="row" style={{ flexWrap: 'wrap', gap: '8px' }}>
+        {terms.map((t) => (
+          <button class={`toggle${open === t.id ? ' on' : ''}`} aria-expanded={open === t.id} onClick={() => setOpen(open === t.id ? null : t.id)}>
+            {art?.[t.id] && <Icon name="signal" size={16} />}{t.term}
+          </button>
+        ))}
+      </div>
+      {shown && (
+        <div class="stack" style={{ gap: '8px', background: 'var(--raised)', borderRadius: '12px', padding: '12px' }}>
+          <TermPicture t={shown} art={art} />
+          <span style={{ fontWeight: 700 }}>{shown.term}</span>
+          <span style={{ lineHeight: 1.5 }}>{shown.def}</span>
+          {shown.more && <span class="small" style={{ color: 'var(--text-2)', lineHeight: 1.5 }}>{shown.more}</span>}
+        </div>
+      )}
     </div>
   );
 }

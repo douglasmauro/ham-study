@@ -26,3 +26,11 @@ export function termQuestions(t: Term): Question[] {
 export function termStatus(t: Term, states: Record<string, QState>): Status {
   return groupStatus(termQuestions(t), states);
 }
+
+const BY_QUESTION: Record<string, Term[]> = {};
+for (const t of TERMS) for (const q of t.questions) (BY_QUESTION[q] ||= []).push(t);
+
+/** The glossary terms a question tests, most specific first (a term used by few questions is more specific). */
+export function termsForQuestion(qid: string): Term[] {
+  return (BY_QUESTION[qid] ?? []).slice().sort((a, b) => a.questions.length - b.questions.length);
+}

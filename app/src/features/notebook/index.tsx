@@ -7,6 +7,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import { isMastered, type AnswerEvent, type QState } from '../../lib/engine';
 import { explanationFor } from '../../lib/explain';
+import { KeyTerms } from '../../ui/GlossaryArt';
 import { QUESTIONS_BY_ID, TOPICS, type Question } from '../../lib/pool';
 import { computeStats } from '../../lib/stats';
 import { useData } from '../../lib/store';
@@ -97,6 +98,7 @@ function EntryCard({ e, showTopic }: { e: Entry; showTopic?: boolean }) {
             <span class="notebook-choice">{LETTERS[q.answer]}. {q.choices[q.answer]}</span>
             {ex?.why?.[q.answer] && <span class="notebook-why">{ex.why[q.answer]}</span>}
           </div>
+          <KeyTerms qid={q.id} />
           {e.topPick !== null ? (
             <div class="notebook-ans wrong">
               <span class="notebook-label"><Icon name="x" size={16} />{e.wrong > 1 ? 'You picked most often' : 'You picked'}</span>

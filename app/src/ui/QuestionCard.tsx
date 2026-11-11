@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { canShuffleChoices, shuffle, seededRng, type Mode } from '../lib/engine';
 import { explanationFor } from '../lib/explain';
 import { groupTitle, topicOf, type Question } from '../lib/pool';
+import { KeyTerms } from './GlossaryArt';
 import { Icon } from './Icon';
 
 const WorkedSteps = lazy(() => import('../features/worked'));
@@ -184,6 +185,7 @@ export function QuestionCard(p: Props) {
               );
             })}
           </div>
+          <KeyTerms qid={q.id} />
           <Suspense fallback={null}><WorkedSteps q={q} /></Suspense>
           {q.refs && <span class="small muted">FCC rule reference: §{q.refs}</span>}
           <div class="row between" style={{ flexWrap: 'wrap' }}>
