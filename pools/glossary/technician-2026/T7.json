@@ -401,8 +401,7 @@
     {
       "term": "Dummy load",
       "aka": [
-        "dummy antenna",
-        "non-inductive resistor"
+        "dummy antenna"
       ],
       "def": "A device connected to a transmitter in place of an antenna that turns the transmitter's power into heat.",
       "more": "Its primary purpose is to prevent transmitting signals over the air when making tests. A typical one is a 50-ohm non-inductive resistor mounted on a heat sink.",
@@ -551,9 +550,7 @@
       "aka": [
         "jacket",
         "cable jacket",
-        "UV-resistant jacket",
-        "ultraviolet light",
-        "UV"
+        "UV-resistant jacket"
       ],
       "def": "The outside plastic covering of a coaxial cable, which protects the parts inside.",
       "more": "It should be resistant to ultraviolet light, because ultraviolet light can damage the jacket and allow water to enter the cable.",
@@ -684,8 +681,7 @@
     {
       "term": "Acid-core solder",
       "aka": [
-        "acid core solder",
-        "solder"
+        "acid core solder"
       ],
       "def": "Solder with a corrosive acid flux inside it.",
       "more": "It should not be used for radio and electronic work. Rosin-core solder is the usual choice for electronics.",

@@ -22,8 +22,7 @@
       "term": "Potentiometer",
       "aka": [
         "variable resistor",
-        "pot",
-        "volume control"
+        "pot"
       ],
       "def": "A resistor whose resistance can be adjusted, usually by turning a knob.",
       "more": "Often used as a volume control. The parameter it controls is resistance. Its symbol is a resistor zigzag with an arrow.",
@@ -216,7 +215,6 @@
     {
       "term": "Rechargeable battery",
       "aka": [
-        "battery chemistry",
         "nickel-cadmium",
         "NiCd"
       ],
@@ -328,8 +326,7 @@
       "term": "LED",
       "aka": [
         "light-emitting diode",
-        "light emitting diode",
-        "visual indicator"
+        "light emitting diode"
       ],
       "def": "Light-emitting diode: a diode that gives off light when forward current flows through it.",
       "more": "Commonly used as a visual indicator. Its schematic symbol is a diode symbol with small arrows pointing away from it.",
@@ -341,9 +338,6 @@
     },
     {
       "term": "Transistor",
-      "aka": [
-        "electronic switch"
-      ],
       "def": "A semiconductor component in which a small signal controls a larger current, so it can amplify or act as a switch.",
       "more": "It can be used as an electronic switch, can provide power gain, and can consist of three regions of semiconductor material.",
       "questions": [
