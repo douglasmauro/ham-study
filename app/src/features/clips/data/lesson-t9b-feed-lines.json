@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t9b-feed-lines",
+  "title": "Feed lines and connectors",
+  "blurb": "The big idea before the cards.",
+  "sub": "T9",
+  "groups": ["T9B"],
+  "questionIds": ["T9B01", "T9B02", "T9B03", "T9B05", "T9B08", "T9B12"],
+  "lines": [
+    { "caption": "A feed line carries your signal between the radio and the antenna. The most common kind is coaxial cable.", "art": "feed-line", "label": "radio to antenna", "questionIds": ["T9B03"] },
+    { "caption": "Coax is popular because it is easy to use. Most of it has an impedance of 50 ohms.", "art": "coaxial-cable", "label": "50 ohms", "questionIds": ["T9B02", "T9B03"] },
+    { "caption": "Some signal is always lost as heat on the way. The loss grows as the frequency goes up.", "art": "feed-line-loss", "label": "higher frequency, more loss", "questionIds": ["T9B05"] },
+    { "caption": "Connectors join the cable to the radio and the antenna. Outdoors, tape them so that water cannot get in.", "art": "weatherproofing", "label": "keep water out", "questionIds": ["T9B01", "T9B08"] },
+    { "caption": "SWR tells you how well the antenna is matched to the feed line. With a good match, your power goes into the antenna.", "art": "impedance-matching", "label": "SWR measures the match", "questionIds": ["T9B12"] }
+  ]
+}
