@@ -45,9 +45,9 @@ export function Version() {
 
   return (
     <div class="stack" style={{ gap: '8px', alignItems: 'center', textAlign: 'center', padding: '8px 0 4px' }}>
-      <span class="small muted">
+      <a class="small muted" href="#/whats-new" style={{ color: 'var(--muted)', textDecoration: 'underline', textUnderlineOffset: '3px', minHeight: '32px', display: 'inline-flex', alignItems: 'center' }}>
         Version {BUILD.number} · built {when(BUILD.time)}
-      </span>
+      </a>
       {newer ? (
         <button class="btn primary" onClick={update}>Update to version {latest!.number}</button>
       ) : (
@@ -60,7 +60,6 @@ export function Version() {
       {!newer && state !== 'checking' && (
         <button class="toggle" onClick={check}>Check for update</button>
       )}
-      <a class="small" href="#/whats-new" style={{ fontWeight: 600, minHeight: '32px', display: 'inline-flex', alignItems: 'center' }}>What's new in each version</a>
     </div>
   );
 }
