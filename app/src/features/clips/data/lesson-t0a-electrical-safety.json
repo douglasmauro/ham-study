@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t0a-electrical-safety",
+  "title": "Electrical safety",
+  "blurb": "The big idea before the cards.",
+  "sub": "T0",
+  "groups": ["T0A"],
+  "questionIds": ["T0A01", "T0A02", "T0A03", "T0A04", "T0A07"],
+  "lines": [
+    { "caption": "Current through your body can burn you inside, upset your heart, and lock your hand onto a wire.", "art": "electrical-shock", "label": "current hurts", "questionIds": ["T0A02"] },
+    { "caption": "In a power cable, the black wire is hot. It carries the full 120 volts.", "art": "hot-wire", "label": "black is hot", "questionIds": ["T0A03"] },
+    { "caption": "A fuse melts when too much current flows, and cuts the power before the wires can start a fire.", "art": "fuse", "label": "cuts an overload", "questionIds": ["T0A04"] },
+    { "caption": "Even a 12 volt battery is dangerous. Metal across its terminals can cause burns, fire, or an explosion.", "art": "short-circuit", "label": "never short it", "questionIds": ["T0A01"] },
+    { "caption": "And lightning gets a path to earth, through an arrester, before your feed line comes indoors.", "art": "lightning-arrester", "label": "ground it outside", "questionIds": ["T0A07"] }
+  ]
+}

@@ -108,7 +108,7 @@ const LESSON: Lesson = {
       heading: 'A satellite is a relay in low Earth orbit',
       text: [
         'An amateur satellite is a relay in space. It hears your signal and sends it back down, so stations far beyond your horizon can hear you. Satellites use the modes you already know: SSB, FM, and CW or data are all common.',
-        'Most of them fly in low Earth orbit, LEO for short. That close to the Earth a satellite has to move fast. Its period, the time for one trip around, is about 100 minutes, and it crosses your sky in a few minutes.',
+        'Most of them fly in low Earth orbit, LEO for short. That close to the Earth a satellite has to move fast. Its period, the time for one trip around, is about 100 minutes, and a pass across your sky lasts only minutes.',
       ],
       interaction: {
         kind: 'choice',
@@ -151,7 +151,7 @@ const LESSON: Lesson = {
       picture: { art: 'satellite-tracking-program' },
       heading: 'A tracking program tells you when and where',
       text: [
-        'A LEO satellite is in your sky for only a few minutes, so you need to know when it is coming. A satellite tracking program works that out. Its input is the Keplerian elements: a set of numbers that describes the orbit.',
+        'A LEO satellite is in your sky for only minutes at a time, so you need to know when it is coming. A satellite tracking program works that out. Its input is the Keplerian elements: a set of numbers that describes the orbit.',
         'It provides a map of where the satellite is right now. It gives the time, azimuth (compass direction) and elevation (angle above the horizon) for the start, highest point and end of a pass. And it gives the frequency you will hear, corrected for Doppler shift, which the next card explains.',
       ],
       interaction: {
@@ -230,7 +230,7 @@ const LESSON: Lesson = {
       picture: { draw: Downlink },
       heading: 'Share the satellite: use just enough power',
       text: [
-        'Many satellites carry a linear transponder: a relay that sends down a whole slice of band, every signal in it, from one small shared transmitter. Too much effective radiated power (transmitter power plus antenna gain) on your uplink blocks access by other users.',
+        'Many satellites carry a linear transponder: a relay that sends down a whole slice of band, every signal in it, from one small shared transmitter. Too much effective radiated power (your transmitter power boosted by the gain of your antenna) on your uplink blocks access by other users.',
         'The test is easy. Listen to your own signal on the downlink. It should be about the same strength as the beacon: then your power is neither too low nor too high.',
       ],
       interaction: {

@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t8c-activities",
+  "title": "Operating activities",
+  "blurb": "The big idea before the cards.",
+  "sub": "T8",
+  "groups": ["T8C"],
+  "questionIds": ["T8C01", "T8C02", "T8C03", "T8C05", "T8C07", "T8C08", "T8C09"],
+  "lines": [
+    { "caption": "With an antenna that hears best in one direction, you can follow a signal back to where it comes from.", "art": "radio-direction-finding", "label": "direction finding", "questionIds": ["T8C01", "T8C02"] },
+    { "caption": "In a contest, you try to contact as many stations as you can before time runs out.", "art": "contesting", "label": "contesting", "questionIds": ["T8C03"] },
+    { "caption": "A grid locator is a short code of letters and numbers that names your patch of the map.", "art": "grid-locator", "label": "grid locator", "questionIds": ["T8C05"] },
+    { "caption": "Voice over internet protocol sends your voice across the internet as digital data.", "art": "voip", "label": "VoIP", "questionIds": ["T8C07"] },
+    { "caption": "IRLP uses it to join repeaters through the internet.", "say": "I R L P uses it to join repeaters through the internet.", "art": "irlp", "label": "IRLP", "questionIds": ["T8C08"] },
+    { "caption": "EchoLink does too, and you can even connect from a computer or phone, with no radio.", "say": "Echo Link does too, and you can even connect from a computer or phone, with no radio.", "art": "echolink", "label": "EchoLink", "questionIds": ["T8C09"] }
+  ]
+}

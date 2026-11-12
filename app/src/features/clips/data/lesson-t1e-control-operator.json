@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t1e-control-operator",
+  "title": "Control operators",
+  "blurb": "The big idea before the cards.",
+  "sub": "T1",
+  "groups": ["T1E"],
+  "questionIds": ["T1E01", "T1E03", "T1E04", "T1E05", "T1E07", "T1E08", "T1E09", "T1E10", "T1E11"],
+  "lines": [
+    { "caption": "Every amateur transmission has one licensed person in charge. That person is the control operator.", "art": "control-operator", "label": "the person in charge", "questionIds": ["T1E11", "T1E01"] },
+    { "caption": "The station licensee, whose license covers the station, picks the control operator. Both of them are responsible.", "art": "station-licensee", "label": "chosen by the licensee", "questionIds": ["T1E03", "T1E07"] },
+    { "caption": "The control operator's own license class decides which frequencies the station may use.", "art": "license-class", "label": "their license, their limits", "questionIds": ["T1E04"] },
+    { "caption": "The control point is wherever the control operator does the job, not where the antenna stands.", "art": "control-point", "label": "the control point", "questionIds": ["T1E05"] },
+    { "caption": "You may run any station from far away through a link, such as the internet. That is remote control.", "art": "remote-control", "label": "remote control", "questionIds": ["T1E09", "T1E10"] },
+    { "caption": "A repeater runs itself under automatic control. Even so, it still has a control operator.", "art": "automatic-control", "label": "automatic control", "questionIds": ["T1E08", "T1E01"] }
+  ]
+}

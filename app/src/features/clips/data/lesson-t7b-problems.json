@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t7b-problems",
+  "title": "Interference and audio problems",
+  "blurb": "The big idea before the cards.",
+  "sub": "T7",
+  "groups": ["T7B"],
+  "questionIds": ["T7B01", "T7B02", "T7B03", "T7B05", "T7B06", "T7B07", "T7B08", "T7B10", "T7B11"],
+  "lines": [
+    { "caption": "Fixing radio trouble is like being a doctor. Find the symptom, then the cause, then the cure.", "art": "radio-frequency-interference", "label": "symptom, cause, cure", "questionIds": [] },
+    { "caption": "On FM, talking too loud or too close to the microphone makes your signal swing too wide. The cure is to back away from the microphone.", "art": "deviation", "label": "back off the mic", "questionIds": ["T7B01", "T7B10"] },
+    { "caption": "If your own radio signal sneaks back along the microphone cable, your voice distorts. A clip-on ferrite choke stops it.", "art": "ferrite-choke", "label": "choke the cable", "questionIds": ["T7B11"] },
+    { "caption": "Harmonics, spurious emissions and fundamental overload can all cause interference to other radios.", "art": "harmonics", "label": "three causes", "questionIds": ["T7B03"] },
+    { "caption": "When a strong, clean signal overloads a receiver, the cure is a filter at that receiver, such as a band-reject filter.", "art": "band-reject-filter", "label": "filter at the receiver", "questionIds": ["T7B02", "T7B05", "T7B07"] },
+    { "caption": "And when a neighbor reports interference, check your own station first.", "art": "good-amateur-practice", "label": "start at home", "questionIds": ["T7B06", "T7B08"] }
+  ]
+}

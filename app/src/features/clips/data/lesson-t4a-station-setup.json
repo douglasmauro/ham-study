@@ -10,7 +10,6 @@
     { "caption": "It starts with power. A power supply gives the radio 13.8 volts, through short, thick wires.", "art": "power-supply", "label": "power first", "questionIds": ["T4A01", "T4A03"] },
     { "caption": "A meter that measures your signal goes in the feed line, between the radio and the antenna.", "art": "rf-power-meter", "label": "meters in the feed line", "questionIds": ["T4A05"] },
     { "caption": "On a battery, ampere-hours divided by the amperes you draw gives the hours it will last.", "art": "ampere-hour", "label": "battery time", "questionIds": ["T4A09"] },
-    { "caption": "For digital modes, add a computer. It trades audio with the radio and switches it to transmit.", "art": "computer-radio-interface", "label": "add a computer", "questionIds": ["T4A04", "T4A06"] },
-    { "caption": "Now build the station yourself, one piece at a time.", "questionIds": [] }
+    { "caption": "For digital modes, add a computer. It trades audio with the radio and switches it to transmit.", "art": "computer-radio-interface", "label": "add a computer", "questionIds": ["T4A04", "T4A06"] }
   ]
 }

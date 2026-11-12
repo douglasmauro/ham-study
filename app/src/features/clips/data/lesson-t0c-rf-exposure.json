@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t0c-rf-exposure",
+  "title": "RF exposure",
+  "blurb": "The big idea before the cards.",
+  "sub": "T0",
+  "groups": ["T0C"],
+  "questionIds": ["T0C01", "T0C02", "T0C04", "T0C07", "T0C10", "T0C12", "T0C13"],
+  "lines": [
+    { "caption": "Radio waves are non-ionizing. They cannot damage the DNA in your cells. But strong radio energy heats body tissue.", "art": "non-ionizing-radiation", "label": "non-ionizing, but it heats", "questionIds": ["T0C01", "T0C12"] },
+    { "caption": "How much reaches you depends on the power, the frequency, how far you are from the antenna, and which way it beams.", "art": "rf-exposure", "label": "closer means more", "questionIds": ["T0C04"] },
+    { "caption": "Your body soaks up some frequencies more than others. Of the bands on the exam, 50 megahertz has the lowest limit.", "art": "mpe", "label": "50 megahertz: lowest limit", "questionIds": ["T0C02"] },
+    { "caption": "Exposure is averaged over time. Transmit less of the time and the average goes down.", "art": "duty-cycle", "label": "duty cycle", "questionIds": ["T0C10"] },
+    { "caption": "Never touch an antenna while it transmits. And as the licensee, keeping everyone safe is your job.", "art": "rf-burn", "label": "your station, your job", "questionIds": ["T0C07", "T0C13"] }
+  ]
+}

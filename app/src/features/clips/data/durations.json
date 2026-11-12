@@ -9,6 +9,124 @@
       5538
     ]
   },
+  "lesson-t5a-current-voltage": {
+    "title": 2247,
+    "lines": [
+      5878,
+      4519,
+      3814,
+      4598,
+      4545,
+      4519
+    ]
+  },
+  "lesson-t5b-units-decibels": {
+    "title": 2194,
+    "lines": [
+      5198,
+      5695,
+      6452,
+      5433,
+      6087
+    ]
+  },
+  "lesson-t6a-components": {
+    "title": 3187,
+    "lines": [
+      4441,
+      2299,
+      4389,
+      5512,
+      4441,
+      6243
+    ]
+  },
+  "lesson-t6b-semiconductors": {
+    "title": 1646,
+    "lines": [
+      3709,
+      2900,
+      4441,
+      4963,
+      5956,
+      5224
+    ]
+  },
+  "lesson-t6c-schematics": {
+    "title": 1306,
+    "lines": [
+      6034,
+      6296,
+      7236,
+      5094,
+      5068,
+      4284
+    ]
+  },
+  "lesson-t6d-component-functions": {
+    "title": 1646,
+    "lines": [
+      4493,
+      3500,
+      3396,
+      5747,
+      4624,
+      4441
+    ]
+  },
+  "lesson-t7a-station-equipment": {
+    "title": 1358,
+    "lines": [
+      4598,
+      7863,
+      4310,
+      3187,
+      3866,
+      6609
+    ]
+  },
+  "lesson-t8a-modes": {
+    "title": 2978,
+    "lines": [
+      4049,
+      5433,
+      6348,
+      3918,
+      4728,
+      6400
+    ]
+  },
+  "lesson-t8b-satellites": {
+    "title": 784,
+    "lines": [
+      5303,
+      4728,
+      5642,
+      4467,
+      5538,
+      4258
+    ]
+  },
+  "lesson-t9a-antennas": {
+    "title": 888,
+    "lines": [
+      5669,
+      4049,
+      6635,
+      7053,
+      6635
+    ]
+  },
+  "lesson-t9b-feed-lines": {
+    "title": 1907,
+    "lines": [
+      6426,
+      4963,
+      4963,
+      5695,
+      7367
+    ]
+  },
   "ohms-law": {
     "title": 967,
     "lines": [

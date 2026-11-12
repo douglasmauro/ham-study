@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t1c-licenses",
+  "title": "Licenses and call signs",
+  "blurb": "The big idea before the cards.",
+  "sub": "T1",
+  "groups": ["T1C"],
+  "questionIds": ["T1C01", "T1C05", "T1C07", "T1C08", "T1C09", "T1C10", "T1C11"],
+  "lines": [
+    { "caption": "Today the FCC issues three license classes: Technician, General and Amateur Extra.", "art": "license-class", "label": "three classes", "questionIds": ["T1C01"] },
+    { "caption": "After you pass, wait for the grant. Once it shows in the FCC license database, you may transmit.", "art": "license-grant", "label": "then you may transmit", "questionIds": ["T1C10"] },
+    { "caption": "The grant brings a call sign. A Technician can be given two letters, a digit and three letters.", "art": "group-d-call-sign", "label": "your call sign", "questionIds": ["T1C05"] },
+    { "caption": "The license lasts ten years. You may renew it starting ninety days before it ends.", "art": "license-term", "label": "ten years", "questionIds": ["T1C07", "T1C08"] },
+    { "caption": "Miss the date and you have two years to renew. But no transmitting until you do.", "art": "grace-period", "label": "two years of grace", "questionIds": ["T1C09", "T1C11"] },
+    { "caption": "Now follow Doug's license, one step at a time.", "questionIds": [] }
+  ]
+}

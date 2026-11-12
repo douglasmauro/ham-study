@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t2a-making-contacts",
+  "title": "Making contacts",
+  "blurb": "The big idea before the cards.",
+  "sub": "T2",
+  "groups": ["T2A"],
+  "questionIds": ["T2A02", "T2A05", "T2A07", "T2A08", "T2A10", "T2A11"],
+  "lines": [
+    { "caption": "Simplex means two radios on one frequency, talking directly and taking turns.", "art": "simplex", "label": "simplex", "questionIds": ["T2A11"] },
+    { "caption": "A repeater listens on one frequency and retransmits on another. The gap between them is the offset.", "art": "repeater", "label": "repeater", "questionIds": ["T2A07"] },
+    { "caption": "A band plan is a voluntary guide to where each activity goes in a band.", "art": "band-plan", "label": "band plan", "questionIds": ["T2A10"] },
+    { "caption": "On 2 meters, FM simplex calls start on the calling frequency, 146.520 megahertz.", "say": "On 2 meters, F M simplex calls start on the calling frequency, one forty-six point five two zero megahertz.", "art": "national-calling-frequency", "label": "146.520 MHz", "questionIds": ["T2A02"] },
+    { "caption": "CQ means calling any station.", "say": "C Q means calling any station.", "art": "cq", "label": "CQ", "questionIds": ["T2A08"] },
+    { "caption": "To answer a call, say the other station's call sign first, then your own.", "art": "call-sign", "label": "theirs, then yours", "questionIds": ["T2A05"] }
+  ]
+}

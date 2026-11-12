@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t4b-operating-controls",
+  "title": "Your radio's controls",
+  "blurb": "The big idea before the cards.",
+  "sub": "T4",
+  "groups": ["T4B"],
+  "questionIds": ["T4B01", "T4B03", "T4B06", "T4B07", "T4B08", "T4B10", "T4B11"],
+  "lines": [
+    { "caption": "Each control on your radio fixes a problem. A weak FM station hidden? Open the squelch.", "art": "squelch", "label": "open the squelch", "questionIds": ["T4B03"] },
+    { "caption": "A single sideband voice too high or too low? The RIT moves only your receive frequency.", "art": "rit", "label": "fix the pitch", "questionIds": ["T4B06"] },
+    { "caption": "Too much noise? Pick a filter as wide as the signal: 2400 hertz for single sideband voice.", "art": "receiver-filter-bandwidth", "label": "match the filter", "questionIds": ["T4B08", "T4B10"] },
+    { "caption": "Your own audio harsh? Turn down the microphone gain.", "art": "microphone-gain", "label": "less gain", "questionIds": ["T4B01"] },
+    { "caption": "Digital radios need settings first: a code plug for DMR, and your call sign for D-STAR.", "art": "code-plug", "label": "settings first", "questionIds": ["T4B07", "T4B11"] }
+  ]
+}

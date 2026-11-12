@@ -235,7 +235,7 @@ const LESSON: Lesson = {
       picture: { art: 'weatherproofing' },
       heading: 'Keep the loss down: dry, matched and simple',
       text: [
-        'Three things add loss to a coaxial feed line: water getting into the connectors, high SWR, and multiple connectors in the line.',
+        'Besides the cable itself, three things add loss to a coaxial feed line: water getting into the connectors, high SWR, and multiple connectors in the line.',
         'Water is the one you can keep out. No common connector should be left bare outdoors. PL-259, BNC and Type N connectors should all be carefully taped for weather protection.',
       ],
       interaction: {
