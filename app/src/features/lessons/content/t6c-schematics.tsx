@@ -332,7 +332,7 @@ const LESSON: Lesson = {
       picture: { draw: FigureT2 },
       heading: 'Name the parts of figure T-2',
       text: [
-        'Figure T-2 has ten numbered components. The exam asks you to name four of them: 4, 6, 8 and 9. Components 1, 2 and 3 are off the left edge here, so that the rest is large enough to read.',
+        'Figure T-2 has ten numbered components. The questions for this lesson ask you to name four of them: 4, 6, 8 and 9. Components 1, 2 and 3 are off the left edge here, so that the rest is large enough to read.',
       ],
       interaction: {
         kind: 'sort',

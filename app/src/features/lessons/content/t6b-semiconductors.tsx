@@ -270,7 +270,7 @@ const LESSON: Lesson = {
           review: 'electrodes',
           covers: ['T6B06', 'T6B09'],
           choices: [
-            { label: 'It is the longer end of the package', why: 'The two ends of the package are the same size. Look for the stripe.' },
+            { label: 'It is the longer end of the package', why: 'The shape of the package does not tell you. Look for the stripe.' },
             { label: 'It is the end with the stripe', right: true, why: 'The cathode of a diode is often marked with a stripe on the package.' },
             { label: 'It does not matter. A diode works both ways', why: 'A diode passes current one way only, so it does matter. The stripe marks the cathode.' },
           ],

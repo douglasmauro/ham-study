@@ -266,7 +266,7 @@ const LESSON: Lesson = {
       picture: { art: 'picofarad' },
       heading: 'Pico to micro is a million',
       text: [
-        'A capacitor is a part you will meet in the next lesson. Its size is measured in farads, but real ones are tiny fractions of a farad: microfarads (µF) and picofarads (pF).',
+        'A capacitor is a part you will meet in the next lesson. Its size is measured in farads, but most real ones are tiny fractions of a farad: microfarads (µF) and picofarads (pF).',
         'On the ladder, pico is two rungs below micro. Two rungs is six places, a factor of one million. So picofarads divided by 1,000,000 gives microfarads. Example: 2,000,000 pF is 2 µF.',
       ],
       interaction: {
@@ -396,7 +396,7 @@ const LESSON: Lesson = {
           ],
         },
         {
-          q: 'A repeater is listed as 146.52 MHz. What is that in kilohertz?',
+          q: 'A frequency is listed as 146.52 MHz. What is that in kilohertz?',
           review: 'down',
           covers: ['T5B07'],
           choices: [

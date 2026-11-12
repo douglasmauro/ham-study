@@ -5,7 +5,7 @@ import type { Lesson, PicProps } from '../types';
  * Lesson 2: How radio signals travel (question group T3A, all 12 questions).
  * Every exam fact below comes from a T3A question and its keyed answer; the ids are in each
  * step's `covers`. Facts added for teaching that the pool does not state: FM and repeater work
- * uses vertical antennas, a 2 meter wave is about 6 feet long, and the feet in the first
+ * uses vertical antennas, a 2 meter wave is about 6 and a half feet long, and the feet in the first
  * card's activity are an example, not a rule.
  */
 
@@ -132,7 +132,7 @@ const LESSON: Lesson = {
       heading: 'One signal, more than one path',
       text: [
         'On VHF and UHF a signal rarely reaches you by one path only. One copy comes straight to you. Others bounce off buildings and hills and arrive a moment later. This is multipath propagation. Propagation just means the way a signal travels.',
-        'Where two copies arrive in step, they add up and the signal is strong. Where they arrive out of step, they cancel. A 2 meter wave is only about 6 feet long, so a strong spot and a dead spot can be a few feet apart.',
+        'Where two copies arrive in step, they add up and the signal is strong. Where they arrive out of step, they cancel. A 2 meter wave is only about 6 and a half feet long, so a strong spot and a dead spot can be a few feet apart.',
       ],
       interaction: {
         kind: 'slider',
@@ -216,7 +216,9 @@ const LESSON: Lesson = {
         start: 90,
         readouts: (v) => [{ label: 'Your antenna', value: tiltWord(v) }, { label: 'Signal', value: tiltSignal(v) }],
         goal: (v) => v === 0,
-        hint: (v) => `Better, but the antenna is still ${v}° away from the repeater antenna. Keep going toward upright.`,
+        hint: (v) => (v === 90
+          ? 'Your antenna is at right angles to the repeater antenna. Tilt it toward upright.'
+          : `Better, but the antenna is still ${v}° away from the repeater antenna. Keep going toward upright.`),
         done: 'Upright, your antenna matches the vertical wave from the repeater. On its side the two were cross-polarized, and the received signal strength was reduced.',
       },
       remember: 'Cross-polarized antennas on a line-of-sight VHF or UHF path reduce the received signal strength.',
@@ -282,7 +284,7 @@ const LESSON: Lesson = {
       picture: { art: 'ionosphere' },
       heading: 'The ionosphere can send HF back down',
       text: [
-        'High above the weather is a region of the atmosphere called the ionosphere. Sunlight gives it an electric charge, and that lets it reflect HF radio waves back to the ground a long way off. The next lesson is about this.',
+        'High above the weather is a region of the atmosphere called the ionosphere. Radiation from the Sun knocks electrons loose from its thin gas, and that lets it reflect HF radio waves back to the ground a long way off. The next lesson is about this.',
         'The reflected signal usually comes down by several paths at once, and the ionosphere keeps shifting. It is multipath again. The copies combine at random, sometimes adding and sometimes cancelling, so the signal fades up and down with no regular pattern.',
       ],
       interaction: {

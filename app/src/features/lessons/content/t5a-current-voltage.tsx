@@ -221,8 +221,8 @@ const LESSON: Lesson = {
       picture: { art: 'power' },
       heading: 'Power is how fast energy is used',
       text: [
-        'Power is the rate at which electrical energy is used: how fast, not how much in total. It is measured in watts. A 50 watt transmitter uses energy ten times as fast as a 5 watt handheld.',
-        'Do not confuse watts with watt-hours. A watt-hour is an amount of energy, the total used over time. That makes four units so far. Sort them out below.',
+        'Power is the rate at which electrical energy is used: how fast, not how much in total. It is measured in watts. A 50 watt lamp uses energy ten times as fast as a 5 watt lamp.',
+        'Do not confuse watts with watt-hours. A watt-hour is an amount of energy, the total used over time. You have now met several units. Sort four of them out below.',
       ],
       interaction: {
         kind: 'sort',
