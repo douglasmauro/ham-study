@@ -224,9 +224,9 @@ function Compute({ def, onSolved }: { def: ComputeDef; onSolved: () => void }) {
     <div class="ls-act">
       {def.rounds.length > 1 && <span class="ls-count">Sum {round + 1} of {def.rounds.length}</span>}
       <p class="ls-prompt">{r.prompt}</p>
-      <div class="ls-formula" role="img" aria-label={`${r.left} equals ${r.top} divided by ${r.bottom}, equals ${entry || 'blank'}`}>
+      <div class="ls-formula" role="img" aria-label={r.bottom ? `${r.left} equals ${r.top} divided by ${r.bottom}, equals ${entry || 'blank'}` : `${r.left} equals ${r.top.replace(/×/g, 'times')}, equals ${entry || 'blank'}`}>
         <span class="ls-f-left">{r.left} =</span>
-        <span class="ls-frac"><span>{r.top}</span><i /><span>{r.bottom}</span></span>
+        {r.bottom ? <span class="ls-frac"><span>{r.top}</span><i /><span>{r.bottom}</span></span> : <span>{r.top}</span>}
         <span class="ls-f-left">=</span>
         <span class={`ls-box${right ? ' right' : say ? ' wrong' : ''}`}>{entry || '?'}</span>
       </div>

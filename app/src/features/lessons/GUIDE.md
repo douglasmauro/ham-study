@@ -55,7 +55,9 @@ card and by a recap fact: put the question ids in `covers` on each step.
   with a picture of the situation, then the rule, then a choice. Group related
   rules onto one card so the lesson does not become a list.
 - **Math**: show the formula as a picture, work one example in the text, then
-  let the learner do one with the compute activity.
+  let the learner do one with the compute activity. A compute round is drawn
+  as a fraction (`top` over `bottom`); for a multiplication, leave `bottom`
+  empty and put the whole sum in `top` (for example `2.5 × 12`).
 - No emoji, no markdown in strings, no exclamation marks.
 
 ## Pictures

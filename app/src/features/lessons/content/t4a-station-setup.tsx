@@ -240,7 +240,7 @@ const LESSON: Lesson = {
       heading: 'Add a meter, in the feed line',
       text: [
         'The feed line is the cable that carries your signal, as RF, from the radio to the antenna. An RF power meter measures that signal, so it has to sit in its path: in the feed line, between the transmitter and the antenna.',
-        'An SWR meter, which shows how well the antenna is matched to the feed line, goes in the same place. Each meter is built for a certain frequency range and power range. Choose one that fits the frequency and power level you will measure.',
+        'An SWR meter, which shows how well the antenna is matched to the feed line, goes there too. A meter only reads properly at the frequencies and power it was built for, so choose one by the frequency and power level you will measure.',
       ],
       interaction: {
         kind: 'choice',
@@ -283,7 +283,7 @@ const LESSON: Lesson = {
       heading: 'Running from a battery: how long will it last?',
       text: [
         'A battery is rated in ampere-hours: how many amperes it can give, for how many hours. Think of it as the size of the tank.',
-        'Divide the ampere-hour rating by the average current your equipment draws, and you get the hours it will run. Use the average, not the peak: a radio draws much less while listening than while transmitting. A 20 ampere-hour battery feeding 4 amperes lasts 20 ÷ 4 = 5 hours.',
+        'Divide the ampere-hour rating by the average current your equipment draws, and you get the hours it will run. Use the average, not the peak: a radio draws far less while listening. A 20 ampere-hour battery feeding 4 amperes lasts 20 ÷ 4 = 5 hours.',
       ],
       interaction: {
         kind: 'compute',
@@ -328,8 +328,8 @@ const LESSON: Lesson = {
       picture: { art: 'computer-radio-interface' },
       heading: 'Add a computer for digital modes',
       text: [
-        'In a digital mode such as FT8, software on a computer turns your message into audio tones and decodes the tones the radio hears. So the radio\'s audio goes to the audio input and output of a computer running FT8 software.',
-        'The interface carries three signals: receive audio, transmit audio and transmitter keying, which switches the radio to transmit. Sound always runs from an output to an input. The radio\'s speaker connector is its audio output. The computer\'s "line in" is an audio input and "line out" is an audio output.',
+        'In a digital mode such as FT8, software on a computer turns your message into audio tones and decodes the tones the radio hears. So the radio\'s audio input and output connect to the audio output and input of a computer running FT8 software.',
+        'The interface carries three signals: receive audio, transmit audio and transmitter keying, which switches the radio to transmit. Sound always runs from an output to an input: the radio\'s speaker connector is an output, the computer\'s "line in" is an input and its "line out" is an output.',
       ],
       interaction: {
         kind: 'sort',
@@ -430,7 +430,7 @@ const LESSON: Lesson = {
         { icon: IconGround, text: 'In a vehicle, the negative power return goes to the 12 volt battery chassis ground. Flat copper strap is preferred for bonding at RF.', covers: ['T4A11', 'T4A08'] },
         { icon: IconMeter, text: 'An RF power meter goes in the feed line, between the transmitter and antenna. Select an SWR meter by frequency and power level.', covers: ['T4A05', 'T4A02'] },
         { icon: IconBattery, text: 'Battery running time = ampere-hour rating divided by the average current draw.', covers: ['T4A09'] },
-        { icon: IconComputer, text: 'Digital modes such as FT8: the radio trades audio with a computer running the software. The interface carries receive audio, transmit audio and transmitter keying. Computer line in goes to the speaker connector.', covers: ['T4A04', 'T4A06', 'T4A07'] },
+        { icon: IconComputer, text: 'For FT8, the radio trades audio with a computer running FT8 software. The interface carries receive audio, transmit audio and transmitter keying. Computer line in goes to the radio\'s speaker connector.', covers: ['T4A04', 'T4A06', 'T4A07'] },
         { icon: IconAddOns, text: 'A hotspot links nearby radios to a digital voice or data network. An electronic keyer assists in manual sending of Morse code.', covers: ['T4A10', 'T4A12'] },
       ],
     },

@@ -48,7 +48,11 @@ export interface SortDef {
   items: { id: string; label: string; slot: string; why: string }[]; // why: said after the right drop
 }
 
-/** A guided sum: top divided by bottom, the learner types the result. */
+/**
+ * A guided sum the learner types the result of. With a `bottom` it is drawn as a fraction,
+ * top divided by bottom. With an empty `bottom`, `top` is shown as a plain sum on one line,
+ * for multiplication (for example '2.5 × 12').
+ */
 export interface ComputeRound {
   prompt: string;
   left: string; // what is being worked out, e.g. "meters"
