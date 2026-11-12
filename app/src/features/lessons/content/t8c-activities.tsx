@@ -125,7 +125,7 @@ export const T8C_ACTIVITIES: Lesson = {
       heading: 'In a contest, make as many contacts as you can',
       text: [
         'Contesting is an on-air competition: for a set period, you try to contact as many stations as possible. Each contact swaps a short piece of information called the exchange.',
-        'Many stations are waiting their turn, so keep it short. Give your full call sign and the exchange, nothing more. Do not cut your call to its last letters, add extra words, or contact the same station twice.',
+        'Many stations are waiting their turn, so keep it short. Give your full call sign and the exchange, nothing more. Do not cut your call to its last letters, add extra words, or contact the same station twice just to be sure you are in the log.',
       ],
       interaction: {
         kind: 'choice',
@@ -238,7 +238,7 @@ export const T8C_ACTIVITIES: Lesson = {
       heading: 'A gateway is the door to the internet',
       text: [
         'A gateway is an amateur station that connects other amateur stations to the internet. Signals arrive by radio and leave by internet, and the other way round.',
-        'Three similar stations do something else. A repeater re-sends voice by radio. A digipeater re-sends data packets by radio. A beacon sends one-way signals so others can check conditions.',
+        'Three similar stations do something else. A repeater re-sends signals by radio. A digipeater re-sends data packets by radio. A beacon sends one-way signals so others can check conditions.',
       ],
       interaction: {
         kind: 'choice',
@@ -284,7 +284,7 @@ export const T8C_ACTIVITIES: Lesson = {
           choices: [
             { label: 'A CTCSS tone', why: 'CTCSS is one steady tone. It cannot carry numbers.' },
             { label: 'His internet password', why: 'Nothing is typed over the internet. The radio sends tones over the air.' },
-            { label: 'DTMF keypad tones', right: true, why: 'Each key sends a DTMF tone, which tells the node what to connect to.' },
+            { label: 'DTMF keypad tones', right: true, why: 'Each key sends a pair of DTMF tones, which tell the node what to connect to.' },
           ],
         },
         {

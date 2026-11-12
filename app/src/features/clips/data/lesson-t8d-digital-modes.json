@@ -9,7 +9,7 @@
     { "caption": "A digital mode sends information as coded data. Packet radio, Wi-Fi and FT8 all do.", "say": "A digital mode sends information as coded data. Packet radio, Wi-Fi and F T 8 all do.", "art": "packet-radio", "label": "digital modes", "questionIds": ["T8D01"] },
     { "caption": "Each packet carries a check number. When one arrives damaged, the receiver asks for it again.", "art": "arq", "label": "ask again", "questionIds": ["T8D08", "T8D11"] },
     { "caption": "APRS sends positions, short messages and weather, and shows every station on a live map.", "say": "A P R S sends positions, short messages and weather, and shows every station on a live map.", "art": "aprs", "label": "APRS", "questionIds": ["T8D03", "T8D05"] },
-    { "caption": "FT8 and the other WSJT-X modes pull signals out from below the noise.", "say": "F T 8 and the other W S J T X modes pull signals out from below the noise.", "art": "wsjt-x", "label": "weak signals", "questionIds": ["T8D02", "T8D10"] },
+    { "caption": "FT8 can pull a signal out from below the noise. It is one of the WSJT-X weak-signal modes.", "say": "F T 8 can pull a signal out from below the noise. It is one of the W S J T X weak-signal modes.", "art": "wsjt-x", "label": "weak signals", "questionIds": ["T8D02", "T8D10"] },
     { "caption": "DMR lets two conversations take turns on one repeater channel.", "say": "D M R lets two conversations take turns on one repeater channel.", "art": "dmr", "label": "DMR", "questionIds": ["T8D07"] },
     { "caption": "And a mesh network turns everyday Wi-Fi gear into a ham data network.", "art": "mesh-network", "label": "mesh network", "questionIds": ["T8D12"] }
   ]
