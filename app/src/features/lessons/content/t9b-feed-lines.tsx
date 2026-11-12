@@ -21,7 +21,7 @@ function LossByFrequency({ value = 0, solved }: PicProps) {
   return (
     <Art label={`A radio feeding an antenna through coaxial cable at ${FREQS[value]} megahertz. Some of the signal is lost as heat in the cable. The higher the frequency, the less comes out at the antenna.`}>
       <T x={60} y={14} c="ga-ts">signal in</T>
-      <T x={186} y={14} a="end" c={solved ? 'ga-tk ga-tb' : 'ga-ts'}>what comes out</T>
+      <T x={188} y={14} a="end" c={solved ? 'ga-tk ga-tb' : 'ga-ts'}>comes out</T>
       <path class="ga-fs" d={`M60 22L184 ${33 - out / 2}V${33 + out / 2}L60 44Z`} />
       <rect class="ga-w" x="14" y="58" width="40" height="26" rx="4" />
       <T x={34} y={75} a="middle">radio</T>
@@ -94,7 +94,7 @@ const LESSON: Lesson = {
       picture: { art: 'coaxial-cable' },
       heading: 'Coax is the feed line most hams use',
       text: [
-        'A feed line carries your signal between the radio and the antenna. The most common kind is coaxial cable, or coax: a center wire, a layer of insulation, a metal shield around that, and a jacket outside.',
+        'A feed line carries your signal between the radio and the antenna. The most common kind is coaxial cable, or coax: a center wire and a metal shield, with insulation between them.',
         'Coax is popular because it is easy to use and requires few special installation considerations. The shield keeps the signal inside, so the cable can run along a metal mast or through a wall. The most common impedance of coax in amateur radio is 50 ohms.',
       ],
       interaction: {
@@ -165,7 +165,7 @@ const LESSON: Lesson = {
       heading: 'Connectors: PL-259 and Type N',
       text: [
         'An RF connector joins the coax to the radio or the antenna. The PL-259 is a threaded plug that screws on. It is commonly used at HF and VHF frequencies.',
-        'Higher up it does not work as well. For frequencies above 400 MHz the most suitable connector is the Type N, which is also threaded. A third kind, the BNC, is a small bayonet connector: you push it on and twist to lock it.',
+        'For frequencies above 400 MHz the most suitable connector is the Type N, which is also threaded. A third kind, the BNC, is a small bayonet connector: you push it on and twist to lock it.',
       ],
       interaction: {
         kind: 'sort',
@@ -191,8 +191,8 @@ const LESSON: Lesson = {
       picture: { art: 'impedance-matching' },
       heading: 'SWR tells you how good the match is',
       text: [
-        'The load is whatever sits at the far end of the feed line, usually the antenna. When the load is matched to the line, the power passes into it. When it is not, some power is reflected back. Standing wave ratio, or SWR, is a measure of how well a load is matched to a transmission line, which is another name for a feed line.',
-        'A steady SWR reading describes your antenna system. A reading that jumps about means something is changing, and the usual cause is a loose connection in the antenna or feed line.',
+        'The load is whatever sits at the far end of the feed line, usually the antenna. If the load is matched to the line, the power passes into it. If not, some of it is reflected back.',
+        'Standing wave ratio, or SWR, is a measure of how well a load is matched to a transmission line, which is another name for a feed line. If the reading jumps about, something is changing, and the usual cause is a loose connection in the antenna or feed line.',
       ],
       interaction: {
         kind: 'choice',

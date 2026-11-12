@@ -151,8 +151,8 @@ const LESSON: Lesson = {
       picture: { art: 'satellite-tracking-program' },
       heading: 'A tracking program tells you when and where',
       text: [
-        'A LEO satellite is above your horizon for only a few minutes at a time, so you need to know when it is coming. A satellite tracking program works that out. Its input is the Keplerian elements: a set of numbers that describes the orbit.',
-        'In return it draws a map of where the satellite is right now. It lists the time, the azimuth (compass direction) and the elevation (angle above the horizon) for the start, highest point and end of each pass. And it gives the frequency you will actually hear, which shifts as the satellite moves. The next card shows why.',
+        'A LEO satellite is in your sky for only a few minutes, so you need to know when it is coming. A satellite tracking program works that out. Its input is the Keplerian elements: a set of numbers that describes the orbit.',
+        'It provides a map of where the satellite is right now. It gives the time, azimuth (compass direction) and elevation (angle above the horizon) for the start, highest point and end of a pass. And it gives the frequency you will hear, corrected for Doppler shift, which the next card explains.',
       ],
       interaction: {
         kind: 'sort',
@@ -230,19 +230,19 @@ const LESSON: Lesson = {
       picture: { draw: Downlink },
       heading: 'Share the satellite: use just enough power',
       text: [
-        'Many satellites carry a linear transponder: a relay that sends down a whole slice of band, with every signal in it. Its small transmitter is shared by all of them. Use too much effective radiated power (transmitter power plus antenna gain) on the uplink and you block access by other users.',
-        'There is an easy test. Listen to your own signal on the downlink and compare it with the beacon. Your signal should be about the same strength as the beacon: then your power is neither too low nor too high.',
+        'Many satellites carry a linear transponder: a relay that sends down a whole slice of band, every signal in it, from one small shared transmitter. Too much effective radiated power (transmitter power plus antenna gain) on your uplink blocks access by other users.',
+        'The test is easy. Listen to your own signal on the downlink. It should be about the same strength as the beacon: then your power is neither too low nor too high.',
       ],
       interaction: {
         kind: 'slider',
-        prompt: 'Your signal towers over the beacon and the other users have almost vanished. Set your uplink power so your signal matches the beacon.',
+        prompt: 'You start with far too much power. Set your uplink power so that your signal on the downlink matches the beacon.',
         label: 'Your uplink power',
         min: 1,
         max: 9,
         step: 1,
         start: 9,
         readouts: (v) => [
-          { label: 'Your signal', value: v > 5 ? 'Too strong' : v < 5 ? 'Too weak' : 'Like beacon' },
+          { label: 'Your signal', value: v > 5 ? 'Too strong' : v < 5 ? 'Too weak' : 'Matches' },
           { label: 'Other users', value: v > 7 ? 'Blocked' : v > 5 ? 'Squeezed' : 'Fine' },
         ],
         goal: (v) => v === 5,

@@ -6,7 +6,7 @@ import type { Data } from './store';
  * address for review, before it is listed here; only listed lessons appear in the app, show as
  * the next lesson, or hold back their group's questions.
  */
-export const LIVE_LESSONS = new Set<string>(['t3b-wavelength-frequency']);
+export const LIVE_LESSONS = new Set<string>(['t3b-wavelength-frequency', 't3a-signals-travel', 't3c-propagation']);
 
 /** Live lessons in teaching order. */
 export const ALL_LESSONS: LessonInfo[] = LESSONS.filter((l) => LIVE_LESSONS.has(l.id)).sort((a, b) => a.order - b.order);

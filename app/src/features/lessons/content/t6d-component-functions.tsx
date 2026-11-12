@@ -75,7 +75,7 @@ function SupplyChain() {
     for (let x = x0; x <= x1 + 0.01; x += 0.5) d += `${x === x0 ? 'M' : 'L'}${x} ${(y - amp * Math.max(0, Math.sin(((x - x0) / len) * 2 * Math.PI))).toFixed(1)}`;
     return d;
   };
-  // each row: y of the zero line, name, the wave going in, the wave coming out
+  // each row: y of the zero line (not drawn for the regulator), name, the wave going in, the wave coming out
   const rows: [number, string, string, string][] = [
     [38, 'transformer', fineWave(14, 62, 38, 16, 14), fineWave(178, 226, 38, 16, 6)],
     [84, 'rectifier', fineWave(14, 62, 84, 16, 6), humps(178, 226, 84, 16, 9)],
@@ -89,7 +89,7 @@ function SupplyChain() {
         const mid = i === 2 ? 116 : y; // the regulator's lines sit above its zero line
         return (
           <>
-            <path class="ga-w ga-thin" d={`M12 ${y}H64M176 ${y}H228`} />
+            {i < 2 && <path class="ga-w ga-thin" d={`M12 ${y}H64M176 ${y}H228`} />}
             <path class="ga-s" d={a} />
             <path class="ga-s" d={b} />
             <Arrow x1={70} y1={mid} x2={80} y2={mid} c="ga-w ga-thin" h={5} />
