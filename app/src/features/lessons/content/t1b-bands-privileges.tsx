@@ -43,13 +43,12 @@ function TenMeterStrip({ value = 28100, solved }: PicProps) {
 function VhfStrips() {
   const strip = (y: number, name: string, lo: string, hi: string, cw: string) => (
     <>
-      <T x={14} y={y - 6} c="ga-tb">{name}</T>
+      <T x={14} y={y - 6} c="ga-tb">{`${name}: ${lo} to ${hi} MHz`}</T>
       <rect class="ga-fk ga-soft" x={14} y={y} width={18} height={22} />
       <rect class="ga-fs ga-soft" x={32} y={y} width={194} height={22} />
       <path class="ga-w" d={`M14 ${y}H226V${y + 22}H14ZM32 ${y}V${y + 22}`} />
       <T x={129} y={y + 15} a="middle" c="ga-ts">voice, data and CW</T>
       <T x={14} y={y + 36} c="ga-tk">{cw}</T>
-      <T x={226} y={y + 36} a="end" c="ga-tm">{`${lo} to ${hi} MHz`}</T>
     </>
   );
   return (
@@ -131,7 +130,7 @@ export const T1B_BANDS_PRIVILEGES: Lesson = {
       picture: { draw: TenMeterStrip },
       heading: 'On HF, a Technician talks by voice only on 10 meters',
       text: [
-        'HF is 3 to 30 MHz. A Technician gets a slice of the 10 meter band, near 28 MHz. From 28.000 to 28.300 MHz it is for CW, which is Morse code, and for data. From 28.300 to 28.500 MHz it is also for phone, which means voice.',
+        'HF is 3 to 30 MHz. A Technician gets a slice of the 10 meter band, near 28 MHz. From 28.000 to 28.300 MHz it is for CW, which is Morse code, and for data. From 28.300 to 28.500 MHz is the phone part, where voice is allowed.',
         'That is the only HF band where a Technician may use phone.',
       ],
       interaction: {
@@ -237,14 +236,14 @@ export const T1B_BANDS_PRIVILEGES: Lesson = {
       heading: 'How much power: 200 watts on HF, 1500 above 30 MHz',
       text: [
         'Power limits are given as PEP, peak envelope power: the transmitter output at the highest peaks of the signal.',
-        'In their HF segments, such as 10 meters, Technicians may use up to 200 watts PEP. Above 30 MHz, apart from some specific restrictions, the limit is 1500 watts PEP, the same as for every license class.',
+        'In their HF segments, such as 10 meters, Technicians may use up to 200 watts PEP. Above 30 MHz, apart from some specific restrictions, the limit is 1500 watts PEP.',
       ],
       interaction: {
         kind: 'choice',
         prompt: 'Doug runs 300 watts PEP on 28.400 MHz. Jeff, K7DEF, also a Technician, runs 500 watts PEP on 146.52 MHz. Who is over the limit?',
         options: [
-          { id: 'doug', label: 'Doug', right: true, why: 'Yes. 28.400 MHz is HF, where a Technician may use 200 watts PEP. Jeff is above 30 MHz, where the limit is 1500 watts PEP.' },
           { id: 'jeff', label: 'Jeff', why: '146.52 MHz is above 30 MHz, where the limit is 1500 watts PEP. Jeff is fine. Look at Doug on HF.' },
+          { id: 'doug', label: 'Doug', right: true, why: 'Yes. 28.400 MHz is HF, where a Technician may use 200 watts PEP. Jeff is above 30 MHz, where the limit is 1500 watts PEP.' },
           { id: 'both', label: 'Both', why: 'Jeff is fine: above 30 MHz the limit is 1500 watts PEP. Only one of them is over.' },
           { id: 'none', label: 'Neither', why: 'On HF a Technician may use only 200 watts PEP, and Doug is on HF.' },
         ],
@@ -266,8 +265,8 @@ export const T1B_BANDS_PRIVILEGES: Lesson = {
         kind: 'choice',
         prompt: 'Doug is in a segment where amateurs are secondary and hears a non-amateur station. What must he do?',
         options: [
-          { id: 'avoid', label: 'Avoid interfering with it', right: true, why: 'Yes. Where hams are secondary, they must not interfere with the other stations there.' },
           { id: 'leave', label: 'Ask it to move, since hams were there first', why: 'Secondary means the other service has priority. Doug is the one who must stay out of its way.' },
+          { id: 'avoid', label: 'Avoid interfering with it', right: true, why: 'Yes. Where hams are secondary, they must not interfere with the other stations there.' },
           { id: 'foreign', label: 'Give way only to foreign hams', why: 'Secondary is not about foreign amateurs. It is about other radio services having priority.' },
         ],
       },
@@ -283,8 +282,8 @@ export const T1B_BANDS_PRIVILEGES: Lesson = {
           review: 'ten',
           covers: ['T1B01', 'T1B06'],
           choices: [
-            { label: '10 meters, 28.300 to 28.500 MHz', right: true, why: 'That is the only HF segment where a Technician may use voice.' },
             { label: '10 meters, 28.000 to 28.300 MHz', why: 'That part is for CW and data. Voice starts at 28.300 MHz.' },
+            { label: '10 meters, 28.300 to 28.500 MHz', right: true, why: 'That is the only HF segment where a Technician may use voice.' },
             { label: 'On any HF band', why: 'A Technician has HF voice on 10 meters only.' },
           ],
         },

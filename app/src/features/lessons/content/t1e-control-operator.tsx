@@ -176,7 +176,7 @@ export const T1E_CONTROL_OPERATOR: Lesson = {
         prompt: 'Doug is a Technician. Sort what he may do as control operator. Tap a situation, then tap where it goes.',
         slots: [
           { id: 'may', label: 'Doug may', rule: 'Ask whether Doug\'s own Technician license allows that frequency.' },
-          { id: 'not', label: 'Doug may not', rule: 'Here Doug stays inside what his own license allows.' },
+          { id: 'not', label: 'Doug may not', rule: 'This one is inside what Doug\'s own license allows, so he may.' },
         ],
         items: [
           { id: 'a', label: 'Extra segment at Jeff\'s station', slot: 'not', why: 'Doug is the control operator, so his Technician license sets the limit, whoever owns the radio.' },

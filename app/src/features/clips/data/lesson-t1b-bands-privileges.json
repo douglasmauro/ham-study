@@ -3,68 +3,14 @@
   "title": "Bands and privileges",
   "blurb": "The big idea before the cards.",
   "sub": "T1",
-  "groups": [
-    "T1B"
-  ],
-  "questionIds": [
-    "T1B01",
-    "T1B03",
-    "T1B04",
-    "T1B06",
-    "T1B08",
-    "T1B11",
-    "T1B12"
-  ],
+  "groups": ["T1B"],
+  "questionIds": ["T1B01", "T1B03", "T1B04", "T1B06", "T1B08", "T1B11", "T1B12"],
   "lines": [
-    {
-      "caption": "Hams transmit inside bands: set ranges of frequencies. Six meters runs from 50 to 54 megahertz.",
-      "say": "Hams transmit inside bands: set ranges of frequencies. Six meters runs from fifty to fifty-four megahertz.",
-      "art": "band",
-      "label": "ranges, not anywhere",
-      "questionIds": [
-        "T1B03"
-      ]
-    },
-    {
-      "caption": "Two meters runs from 144 to 148 megahertz. 146.52 megahertz is inside it.",
-      "say": "Two meters runs from one forty-four to one forty-eight megahertz. One forty-six point five two megahertz is inside it.",
-      "art": "2-meter-band",
-      "label": "144 to 148 MHz",
-      "questionIds": [
-        "T1B04"
-      ]
-    },
-    {
-      "caption": "On HF, a Technician may talk by voice only on 10 meters, from 28.3 to 28.5 megahertz.",
-      "say": "On H F, a Technician may talk by voice only on ten meters, from twenty-eight point three to twenty-eight point five megahertz.",
-      "art": "10-meter-band",
-      "label": "HF voice: 10 meters",
-      "questionIds": [
-        "T1B01",
-        "T1B06"
-      ]
-    },
-    {
-      "caption": "Power has limits too: 200 watts on HF, and 1500 watts above 30 megahertz.",
-      "say": "Power has limits too: two hundred watts on H F, and fifteen hundred watts above thirty megahertz.",
-      "art": "technician-class",
-      "label": "200 W and 1500 W",
-      "questionIds": [
-        "T1B11",
-        "T1B12"
-      ]
-    },
-    {
-      "caption": "Where hams share a band as a secondary service, other stations come first.",
-      "art": "secondary-service",
-      "label": "others come first",
-      "questionIds": [
-        "T1B08"
-      ]
-    },
-    {
-      "caption": "Now place some signals yourself.",
-      "questionIds": []
-    }
+    {"caption": "Hams transmit inside bands: set ranges of frequencies. Six meters runs from 50 to 54 megahertz.", "say": "Hams transmit inside bands: set ranges of frequencies. Six meters runs from fifty to fifty-four megahertz.", "art": "band", "label": "ranges, not anywhere", "questionIds": ["T1B03"]},
+    {"caption": "Two meters runs from 144 to 148 megahertz. 146.52 megahertz is inside it.", "say": "Two meters runs from one forty-four to one forty-eight megahertz. One forty-six point five two megahertz is inside it.", "art": "2-meter-band", "label": "144 to 148 MHz", "questionIds": ["T1B04"]},
+    {"caption": "On HF, a Technician may talk by voice only on 10 meters, from 28.3 to 28.5 megahertz.", "say": "On H F, a Technician may talk by voice only on ten meters, from twenty-eight point three to twenty-eight point five megahertz.", "art": "10-meter-band", "label": "HF voice: 10 meters", "questionIds": ["T1B01", "T1B06"]},
+    {"caption": "Power has limits too: 200 watts on HF, and 1500 watts above 30 megahertz.", "say": "Power has limits too: two hundred watts on H F, and fifteen hundred watts above thirty megahertz.", "art": "technician-class", "label": "200 W and 1500 W", "questionIds": ["T1B11", "T1B12"]},
+    {"caption": "Where hams share a band as a secondary service, other stations come first.", "art": "secondary-service", "label": "others come first", "questionIds": ["T1B08"]},
+    {"caption": "Now place some signals yourself.", "questionIds": []}
   ]
 }

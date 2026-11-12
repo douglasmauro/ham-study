@@ -241,8 +241,8 @@ export const T1A_PURPOSE_TERMS: Lesson = {
           review: 'license',
           covers: ['T1A04', 'T1A05'],
           choices: [
-            { label: 'It shows up in the FCC ULS database', right: true, why: 'The listing in the ULS is the proof of the grant.' },
             { label: 'He passed the exam, so it is automatic', why: 'Passing is not the grant. The license is issued when it appears in the ULS.' },
+            { label: 'It shows up in the FCC ULS database', right: true, why: 'The listing in the ULS is the proof of the grant.' },
             { label: 'A letter arrives by post', why: 'The FCC sends an email with a link, not a letter.' },
           ],
         },
