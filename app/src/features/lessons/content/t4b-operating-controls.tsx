@@ -19,7 +19,7 @@ const rnd = (i: number) => {
 const SQ_Y0 = 98; // level 0
 const SQ_PX = 7; // px per squelch step
 /** Signal level at x: hiss everywhere, and a weak station in the middle that dips into the hiss. */
-const sqLevel = (x: number, i: number) => (x >= 76 && x <= 146 ? 1.2 + 1.8 * rnd(i + 7) : 0.3 + 1.2 * rnd(i));
+const sqLevel = (x: number, i: number) => (x >= 76 && x <= 146 ? 0.7 + 2.3 * rnd(i + 7) : 0.3 + 1.2 * rnd(i));
 const sqTrace = (() => {
   let d = '';
   for (let x = 14, i = 0; x <= 167; x += 3, i++) d += `${x === 14 ? 'M' : 'L'}${x} ${(SQ_Y0 - sqLevel(x, i) * SQ_PX).toFixed(1)}`;

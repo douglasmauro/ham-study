@@ -70,12 +70,12 @@ function TimeSlots({ solved }: PicProps) {
       <T x={120} y={18} a="middle" c="ga-tm">one 12.5 kHz repeater channel</T>
       {Array.from({ length: n }, (_, i) => (
         <>
-          <rect class={i % 2 ? 'ga-fs' : 'ga-fk'} x={14 + i * w + 1} y={32} width={w - 2} height={30} rx={3} />
-          <text x={14 + i * w + w / 2} y={52} class="ga-t ga-tb" text-anchor="middle" style={{ fill: 'var(--bg, #111)' }}>{i % 2 ? '2' : '1'}</text>
+          <rect class={i % 2 ? 'ga-fs' : 'ga-fk'} x={14 + i * w + 1} y={30} width={w - 2} height={28} rx={3} />
+          <T x={14 + i * w + w / 2} y={74} a="middle" c={i % 2 ? 'ga-ts ga-tb' : 'ga-tk ga-tb'}>{i % 2 ? '2' : '1'}</T>
         </>
       ))}
-      <path class="ga-w ga-thin" d="M14 74H220M214 70L220 74L214 78" />
-      <T x={120} y={90} a="middle" c="ga-tm">time</T>
+      <path class="ga-w ga-thin" d="M14 86H196M190 82L196 86L190 90" />
+      <T x={202} y={90} c="ga-tm">time</T>
       <rect class="ga-fk" x={14} y={104} width={12} height={12} rx={2} />
       <T x={32} y={115} c="ga-tk ga-tb">slot 1: Doug</T>
       <rect class="ga-fs" x={122} y={104} width={12} height={12} rx={2} />
