@@ -395,3 +395,4 @@ export const T3B_WAVELENGTH_FREQUENCY: Lesson = {
     },
   ],
 };
+export default T3B_WAVELENGTH_FREQUENCY;

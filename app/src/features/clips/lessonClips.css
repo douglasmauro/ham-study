@@ -1,0 +1,8 @@
+/* Narrated slide show used as a lesson's intro clip. */
+.lclip { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 220px; padding: 8px; box-sizing: border-box; }
+.lclip-art { width: 100%; }
+.lclip-label { font-family: var(--display); font-size: 18px; font-weight: 700; text-align: center; color: var(--text); }
+@media (prefers-reduced-motion: no-preference) {
+  .lclip-art, .lclip-label { animation: lclip-in .35s ease both; }
+  @keyframes lclip-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+}

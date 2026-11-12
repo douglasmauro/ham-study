@@ -3,6 +3,7 @@ import { TOPICS } from '../../lib/pool';
 import { useGlossaryArt } from '../../ui/GlossaryArt';
 import { Icon } from '../../ui/Icon';
 import { CLIPS } from '../clips/items';
+import { LESSON_CLIPS } from '../clips/lessonClips';
 import { ClipPlayer } from '../clips/Player';
 import type { FeatureProps } from '../types';
 import { CardView, Footer, Say, type Nav } from './Card';
@@ -37,7 +38,7 @@ function savePos(id: string, p: Pos | null) {
 /* ---------- clip step ---------- */
 
 function ClipView({ step, nav }: { step: ClipStep; nav: Nav }) {
-  const clip = CLIPS.find((c) => c.data.id === step.clip);
+  const clip = CLIPS.find((c) => c.data.id === step.clip) ?? LESSON_CLIPS.find((c) => c.data.id === step.clip);
   const wrap = useRef<HTMLDivElement>(null);
   const [ended, setEnded] = useState(false);
   // The clip player shows "Play again" on its play button once the last line has been said.
