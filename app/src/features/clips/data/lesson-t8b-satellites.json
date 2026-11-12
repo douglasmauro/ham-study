@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t8b-satellites",
+  "title": "Satellites",
+  "blurb": "The big idea before the cards.",
+  "sub": "T8",
+  "groups": ["T8B"],
+  "questionIds": ["T8B02", "T8B03", "T8B07", "T8B08", "T8B10"],
+  "lines": [
+    { "caption": "An amateur satellite is a relay in orbit. You send a signal up, and it sends it back down.", "art": "amateur-satellite", "label": "a relay in orbit", "questionIds": [] },
+    { "caption": "The path up is the uplink. The path down is the downlink. They use two different bands.", "art": "u-v-mode", "label": "uplink and downlink", "questionIds": ["T8B08"] },
+    { "caption": "Most amateur satellites fly in low Earth orbit. They circle the Earth in around one hundred minutes.", "art": "leo", "label": "low Earth orbit", "questionIds": ["T8B10"] },
+    { "caption": "A tracking program tells you when a satellite will pass, and where to point.", "art": "satellite-tracking-program", "label": "tracking", "questionIds": ["T8B03"] },
+    { "caption": "Because it moves so fast, the frequency you hear slides from high to low. That is Doppler shift.", "art": "doppler-shift", "label": "Doppler shift", "questionIds": ["T8B07"] },
+    { "caption": "The satellite's power is shared by everyone. Use only as much as you need.", "art": "linear-transponder", "label": "share the power", "questionIds": ["T8B02"] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t5b-units-decibels",
+  "title": "Units, prefixes and decibels",
+  "blurb": "The big idea before the cards.",
+  "sub": "T5",
+  "groups": ["T5B"],
+  "questionIds": ["T5B01", "T5B02", "T5B03", "T5B04", "T5B09", "T5B11"],
+  "lines": [
+    { "caption": "Radio numbers run from tiny to huge. A prefix in front of the unit keeps them short.", "art": "metric-prefix", "label": "metric prefixes", "questionIds": ["T5B03", "T5B04"] },
+    { "caption": "Kilo means a thousand and mega means a million. Milli means a thousandth and micro means a millionth.", "art": "metric-prefix", "label": "big and small", "questionIds": ["T5B03", "T5B04"] },
+    { "caption": "Changing the prefix only moves the decimal point. 1.5 amperes is the same as 1500 milliamperes.", "say": "Changing the prefix only moves the decimal point. One and a half amperes is the same as fifteen hundred milliamperes.", "art": "milliampere", "label": "same amount, new unit", "questionIds": ["T5B01"] },
+    { "caption": "Frequencies work the same way. 1,500,000 hertz is 1500 kilohertz.", "say": "Frequencies work the same way. One and a half million hertz is fifteen hundred kilohertz.", "art": "khz", "label": "three places at a time", "questionIds": ["T5B02"] },
+    { "caption": "Decibels compare two powers. Twice the power is 3 decibels. Ten times the power is 10 decibels.", "art": "decibel", "label": "decibels", "questionIds": ["T5B09", "T5B11"] }
+  ]
+}

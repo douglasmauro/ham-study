@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t5a-current-voltage",
+  "title": "Current, voltage and resistance",
+  "blurb": "The big idea before the cards.",
+  "sub": "T5",
+  "groups": ["T5A"],
+  "questionIds": ["T5A01", "T5A02", "T5A03", "T5A04", "T5A05", "T5A06", "T5A09", "T5A10", "T5A11"],
+  "lines": [
+    { "caption": "Electricity is electrons moving through a wire. That flow is called current, and it is measured in amperes.", "art": "current", "label": "current: the flow", "questionIds": ["T5A01", "T5A03"] },
+    { "caption": "Electrons only move when something pushes them. The push is a difference in voltage.", "art": "voltage", "label": "voltage: the push", "questionIds": ["T5A05"] },
+    { "caption": "Resistance holds the flow back. It opposes every kind of current.", "art": "resistance", "label": "resistance: the opposition", "questionIds": ["T5A11"] },
+    { "caption": "Some current flows one way only. Alternating current keeps reversing direction.", "art": "ac", "label": "alternating current", "questionIds": ["T5A09"] },
+    { "caption": "The number of complete cycles each second is the frequency, measured in hertz.", "art": "hertz", "label": "frequency, in hertz", "questionIds": ["T5A04", "T5A06"] },
+    { "caption": "And power is how fast electrical energy is used. It is measured in watts.", "art": "power", "label": "power, in watts", "questionIds": ["T5A02", "T5A10"] }
+  ]
+}

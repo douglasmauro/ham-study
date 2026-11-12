@@ -1,0 +1,63 @@
+{
+  "id": "lesson-t3a-signals-travel",
+  "title": "How radio signals travel",
+  "blurb": "The big idea before the cards.",
+  "sub": "T3",
+  "groups": [
+    "T3A"
+  ],
+  "questionIds": [
+    "T3A01",
+    "T3A02",
+    "T3A04",
+    "T3A06",
+    "T3A07",
+    "T3A11",
+    "T3A12"
+  ],
+  "lines": [
+    {
+      "caption": "A radio signal rarely takes just one path. Copies of it also bounce off buildings and hills.",
+      "art": "multipath-propagation",
+      "label": "more than one path",
+      "questionIds": [
+        "T3A01"
+      ]
+    },
+    {
+      "caption": "Where the copies meet, they can add up or cancel. Move a few feet and the signal changes.",
+      "art": "picket-fencing",
+      "label": "stronger, weaker",
+      "questionIds": [
+        "T3A01",
+        "T3A06"
+      ]
+    },
+    {
+      "caption": "Antennas work best when they are turned the same way. Cross them, and the signal gets weaker.",
+      "art": "cross-polarization",
+      "label": "match your antennas",
+      "questionIds": [
+        "T3A04"
+      ]
+    },
+    {
+      "caption": "Trees and rain soak up the shortest waves. Longer waves hardly notice them.",
+      "art": "absorption",
+      "label": "absorbed on the way",
+      "questionIds": [
+        "T3A02",
+        "T3A07",
+        "T3A12"
+      ]
+    },
+    {
+      "caption": "And high above us, the ionosphere can reflect some radio waves back to the ground far away.",
+      "art": "ionosphere",
+      "label": "back from the sky",
+      "questionIds": [
+        "T3A11"
+      ]
+    }
+  ]
+}

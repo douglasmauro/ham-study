@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t6d-component-functions",
+  "title": "What parts do in a circuit",
+  "blurb": "The big idea before the cards.",
+  "sub": "T6",
+  "groups": ["T6D"],
+  "questionIds": ["T6D01", "T6D02", "T6D04", "T6D05", "T6D06", "T6D07", "T6D08", "T6D10", "T6D11"],
+  "lines": [
+    { "caption": "Every part in a circuit has a job. A transistor controls the flow of current.", "art": "transistor", "label": "controls current", "questionIds": ["T6D10"] },
+    { "caption": "A relay is a switch that is worked by electricity instead of a finger.", "art": "relay", "label": "an electric switch", "questionIds": ["T6D02"] },
+    { "caption": "A transformer changes wall power to a lower AC voltage.", "say": "A transformer changes wall power to a lower A C voltage.", "art": "transformer", "label": "lower AC voltage", "questionIds": ["T6D06"] },
+    { "caption": "A rectifier turns AC into varying DC. Then a regulator controls the amount of voltage.", "say": "A rectifier turns A C into varying D C. Then a regulator controls the amount of voltage.", "art": "rectifier", "label": "AC to varying DC", "questionIds": ["T6D01", "T6D05"] },
+    { "caption": "An inductor and a capacitor together make a resonant circuit, tuned to one frequency.", "art": "resonant-circuit", "label": "a tuned circuit", "questionIds": ["T6D08", "T6D11"] },
+    { "caption": "An LED is an indicator light, and a meter shows a value as a number.", "say": "An L E D is an indicator light, and a meter shows a value as a number.", "art": "led", "label": "light or number", "questionIds": ["T6D04", "T6D07"] }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t6a-components",
+  "title": "Resistors, capacitors, inductors and batteries",
+  "blurb": "The big idea before the cards.",
+  "sub": "T6",
+  "groups": ["T6A"],
+  "questionIds": ["T6A01", "T6A02", "T6A04", "T6A05", "T6A06", "T6A07", "T6A08"],
+  "lines": [
+    { "caption": "Every radio is built from a few simple parts. Each part does one job.", "art": "component", "label": "the parts", "questionIds": [] },
+    { "caption": "A resistor opposes the flow of current.", "art": "resistor", "label": "resistor", "questionIds": ["T6A01"] },
+    { "caption": "A potentiometer is a resistor you adjust with a knob, like a volume control.", "art": "potentiometer", "label": "potentiometer", "questionIds": ["T6A02"] },
+    { "caption": "A capacitor is two plates with an insulator between them. It stores energy in an electric field.", "art": "capacitor", "label": "capacitor", "questionIds": ["T6A04", "T6A05"] },
+    { "caption": "An inductor is a coil of wire. It stores energy in a magnetic field.", "art": "inductor", "label": "inductor", "questionIds": ["T6A06", "T6A07"] },
+    { "caption": "Switches open, close or redirect a circuit, and batteries supply the power. You will meet both in the cards.", "art": "spdt", "label": "switch", "questionIds": ["T6A08"] }
+  ]
+}

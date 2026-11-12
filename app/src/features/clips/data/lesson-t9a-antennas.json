@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t9a-antennas",
+  "title": "Antennas",
+  "blurb": "The big idea before the cards.",
+  "sub": "T9",
+  "groups": ["T9A"],
+  "questionIds": ["T9A01", "T9A05", "T9A06", "T9A08", "T9A10", "T9A11"],
+  "lines": [
+    { "caption": "An antenna turns the power from your radio into radio waves. Its length is chosen to fit the wave.", "art": "dipole", "label": "cut to fit the wave", "questionIds": [] },
+    { "caption": "A shorter antenna fits a shorter wave, so it is resonant at a higher frequency.", "art": "resonant-frequency", "label": "shorter: higher frequency", "questionIds": ["T9A05"] },
+    { "caption": "On the 2 meter band, a quarter of a wave is about 19 inches. That is the size of a common vertical antenna.", "art": "quarter-wave-antenna", "label": "19 inches on 2 meters", "questionIds": ["T9A08"] },
+    { "caption": "Antennas do not send your signal equally everywhere. A dipole is strongest broadside, at right angles to its wire.", "art": "broadside", "label": "strongest broadside", "questionIds": ["T9A10"] },
+    { "caption": "A beam antenna, such as a Yagi, concentrates the signal in one direction. That extra strength is called gain.", "art": "yagi", "label": "a beam has gain", "questionIds": ["T9A01", "T9A06", "T9A11"] }
+  ]
+}

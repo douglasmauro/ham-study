@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t7a-station-equipment",
+  "title": "Inside your radio",
+  "blurb": "The big idea before the cards.",
+  "sub": "T7",
+  "groups": ["T7A"],
+  "questionIds": ["T7A01", "T7A02", "T7A03", "T7A04", "T7A05", "T7A08", "T7A10"],
+  "lines": [
+    { "caption": "Most ham radios are transceivers: a transmitter and a receiver in one box.", "art": "transceiver", "label": "two radios in one", "questionIds": ["T7A02"] },
+    { "caption": "Inside is a chain of blocks, and each block does one job. First, an oscillator generates a signal at one specific frequency.", "art": "oscillator", "label": "makes the signal", "questionIds": ["T7A05"] },
+    { "caption": "Modulation combines your speech with that signal, which is called the carrier.", "art": "modulation", "label": "adds your voice", "questionIds": ["T7A08"] },
+    { "caption": "A mixer converts a signal from one frequency to another.", "art": "mixer", "label": "changes the frequency", "questionIds": ["T7A03"] },
+    { "caption": "A power amplifier makes the signal stronger on its way to the antenna.", "art": "rf-power-amplifier", "label": "adds power", "questionIds": ["T7A10"] },
+    { "caption": "Coming the other way, a good receiver is sensitive enough to detect weak signals, and selective enough to pick out just one.", "art": "receiver", "label": "sensitive and selective", "questionIds": ["T7A01", "T7A04"] }
+  ]
+}

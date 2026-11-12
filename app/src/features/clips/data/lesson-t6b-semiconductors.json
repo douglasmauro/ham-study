@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t6b-semiconductors",
+  "title": "Diodes and transistors",
+  "blurb": "The big idea before the cards.",
+  "sub": "T6",
+  "groups": ["T6B"],
+  "questionIds": ["T6B02", "T6B03", "T6B06", "T6B07", "T6B09", "T6B10", "T6B11"],
+  "lines": [
+    { "caption": "The diode and the transistor are both made of semiconductor material.", "art": "semiconductor", "label": "semiconductor", "questionIds": [] },
+    { "caption": "A diode lets current flow in only one direction.", "art": "diode", "label": "diode", "questionIds": ["T6B02"] },
+    { "caption": "Its two ends are the anode and the cathode. A stripe on the package marks the cathode.", "art": "cathode", "label": "anode and cathode", "questionIds": ["T6B09", "T6B06"] },
+    { "caption": "A light-emitting diode, or LED, gives off light when forward current flows through it.", "say": "A light emitting diode, or L E D, gives off light when forward current flows through it.", "art": "led", "label": "LED", "questionIds": ["T6B07"] },
+    { "caption": "A transistor uses a small signal to control a larger current. It can work as an electronic switch.", "art": "transistor", "label": "transistor", "questionIds": ["T6B03"] },
+    { "caption": "It can also amplify. Gain tells you how much larger the output is than the input.", "art": "gain", "label": "gain", "questionIds": ["T6B10", "T6B11"] }
+  ]
+}

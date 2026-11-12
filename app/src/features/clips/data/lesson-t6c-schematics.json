@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t6c-schematics",
+  "title": "Reading a schematic",
+  "blurb": "The big idea before the cards.",
+  "sub": "T6",
+  "groups": ["T6C"],
+  "questionIds": ["T6C01", "T6C02", "T6C06", "T6C07", "T6C08", "T6C09", "T6C10", "T6C12"],
+  "lines": [
+    { "caption": "A schematic is a drawing of a circuit. It uses a standard symbol for each part, and lines for the wires.", "art": "schematic", "label": "a schematic", "questionIds": ["T6C01"] },
+    { "caption": "It shows exactly how the parts are connected. It does not show how long the wires are, or what the parts look like.", "art": "schematic", "label": "connections, not looks", "questionIds": ["T6C12"] },
+    { "caption": "Each symbol is a small sketch. A zigzag is a resistor. Two plates are a capacitor. Two coils side by side are a transformer.", "art": "schematic-symbol", "label": "one symbol per part", "questionIds": ["T6C02", "T6C06", "T6C09"] },
+    { "caption": "An arrow touching a symbol means the part can be adjusted, like this variable inductor.", "art": "variable-inductor", "label": "arrow: adjustable", "questionIds": ["T6C08", "T6C10"] },
+    { "caption": "Small arrows pointing away mean light. A diode with those arrows is a light emitting diode.", "art": "led", "label": "arrows away: light", "questionIds": ["T6C07"] },
+    { "caption": "The exam shows three small schematics and asks you to name the numbered parts. Now read them yourself.", "art": "component", "label": "name the parts", "questionIds": [] }
+  ]
+}

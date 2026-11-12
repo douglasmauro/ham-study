@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t8a-modes",
+  "title": "Modes: FM, SSB and CW",
+  "blurb": "The big idea before the cards.",
+  "sub": "T8",
+  "groups": ["T8A"],
+  "questionIds": ["T8A01", "T8A04", "T8A05", "T8A07"],
+  "lines": [
+    { "caption": "A mode is the way your voice, or your data, rides on a radio signal.", "art": "modulation", "label": "modulation", "questionIds": [] },
+    { "caption": "FM changes the frequency of the signal. It is the mode of handheld radios and repeaters.", "art": "fm", "label": "FM", "questionIds": ["T8A04"] },
+    { "caption": "Single sideband is a slimmed-down form of amplitude modulation. It sends one sideband and nothing else.", "art": "ssb", "label": "single sideband", "questionIds": ["T8A01"] },
+    { "caption": "CW is Morse code: the signal is simply switched on and off.", "say": "C W is Morse code: the signal is simply switched on and off.", "art": "cw", "label": "CW", "questionIds": [] },
+    { "caption": "Each mode takes up a different amount of room on the band. That room is called bandwidth.", "art": "bandwidth", "label": "bandwidth", "questionIds": [] },
+    { "caption": "CW is the narrowest. Single sideband is next, then FM. Television is the widest by far.", "say": "C W is the narrowest. Single sideband is next, then F M. Television is the widest by far.", "art": "bandwidth", "label": "narrow to wide", "questionIds": ["T8A05", "T8A07"] }
+  ]
+}
