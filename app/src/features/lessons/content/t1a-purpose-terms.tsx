@@ -18,13 +18,12 @@ function SpaceHeight({ value = 10, solved }: PicProps) {
   const c = above && solved ? 'ga-good' : 'ga-k';
   return (
     <Art label={`An amateur station ${value} kilometers above the Earth. A dashed line marks 50 kilometers. ${above ? 'It is above the line, so it is a space station.' : 'It is not above the line, so it is not a space station.'}`}>
-      <path class="ga-w" d="M8 130Q120 114 232 130" />
-      <T x={120} y={136} a="middle" c="ga-tm">Earth</T>
+      <path class="ga-w" d="M8 126Q120 110 232 126" />
+      <T x={120} y={133} a="middle" c="ga-tm">Earth</T>
       <path class={`${above ? 'ga-good' : 'ga-w'} ga-dash ga-thin`} d={`M8 ${line}H232`} />
       <T x={10} y={line - 6} c="ga-tb">50 km up</T>
       <T x={10} y={20} c={above ? 'ga-tk ga-tb' : 'ga-tm'}>{above ? 'space station' : 'not a space station'}</T>
-      <path class="ga-w ga-thin" d={`M204 124V${(y + 2).toFixed(1)}M200 ${(y + 2).toFixed(1)}H208`} />
-      <T x={198} y={y + 4} a="end" c="ga-tm">{`${value} km`}</T>
+      <path class="ga-w ga-thin" d={`M204 121V${(y + 2).toFixed(1)}M200 ${(y + 2).toFixed(1)}H208`} />
       <rect class={c} x={120} y={y - 6} width={20} height={12} rx={2} />
       <path class={c} d={`M110 ${y}H120M140 ${y}H150`} />
       <rect class="ga-w ga-thin" x={98} y={y - 4} width={12} height={8} />

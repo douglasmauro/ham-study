@@ -1,0 +1,15 @@
+{
+  "id": "lesson-t0b-tower-safety",
+  "title": "Tower and antenna safety",
+  "blurb": "The big idea before the cards.",
+  "sub": "T0",
+  "groups": ["T0B"],
+  "questionIds": ["T0B01", "T0B02", "T0B03", "T0B05", "T0B06"],
+  "lines": [
+    { "caption": "On a tower, the big danger is a fall. Climbers wear an approved harness and stay tied off at all times.", "art": "climbing-harness", "label": "always tied off", "questionIds": ["T0B02"] },
+    { "caption": "And nobody climbs alone. A helper on the ground watches, and can call for help.", "art": "helper-or-observer", "label": "never alone", "questionIds": ["T0B03"] },
+    { "caption": "Keep antennas far from power lines. If one falls, no part may come within ten feet of the wires.", "art": "overhead-power-line", "label": "ten feet clear", "questionIds": ["T0B06"] },
+    { "caption": "Guy lines hold the tower steady. A safety wire stops their turnbuckles from shaking loose.", "art": "turnbuckle", "label": "no loosening", "questionIds": ["T0B05"] },
+    { "caption": "And a tower needs a short, direct path to earth, so lightning goes into the ground and not into your house.", "art": "lightning-protection", "label": "a path to earth", "questionIds": ["T0B01"] }
+  ]
+}

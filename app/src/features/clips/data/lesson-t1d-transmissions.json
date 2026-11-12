@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t1d-transmissions",
+  "title": "What you may and may not transmit",
+  "blurb": "The big idea before the cards.",
+  "sub": "T1",
+  "groups": ["T1D"],
+  "questionIds": ["T1D02", "T1D03", "T1D04", "T1D05", "T1D08", "T1D10"],
+  "lines": [
+    { "caption": "Amateur radio is for hams talking with hams. It is not for entertaining the public.", "art": "amateur-radio-service", "label": "ham to ham", "questionIds": [] },
+    { "caption": "So broadcasting, meaning transmissions for the general public, is not allowed.", "art": "broadcasting", "label": "no broadcasting", "questionIds": ["T1D02", "T1D10"] },
+    { "caption": "Music is out too, except when it is part of an authorized relay of manned spacecraft communications.", "art": "music", "label": "no music", "questionIds": ["T1D04"] },
+    { "caption": "Codes that hide your meaning are out, except commands sent to space stations and model craft.", "art": "encoded-messages", "label": "no secret codes", "questionIds": ["T1D03"] },
+    { "caption": "No pay for operating and no business. But you may mention ham gear for sale, now and then.", "art": "compensation", "label": "no pay, no business", "questionIds": ["T1D05", "T1D08"] },
+    { "caption": "Now sort real situations into allowed and not allowed.", "questionIds": [] }
+  ]
+}
