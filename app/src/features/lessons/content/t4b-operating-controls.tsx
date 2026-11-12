@@ -134,7 +134,7 @@ const LESSON: Lesson = {
       picture: { art: 'vfo' },
       heading: 'Problem: getting to the right frequency',
       text: [
-        'You know the frequency you want? Type it on the keypad, or turn the VFO knob until the display shows it. VFO means variable frequency oscillator: it is the main tuning knob.',
+        'You know the frequency you want? Type it on the keypad, or turn the VFO knob until the display shows it. VFO means variable frequency oscillator. The VFO knob is the main tuning knob.',
         'Not sure where anyone is talking? The scan function tunes through a range of frequencies, or your saved memory channels, checking each one for activity. It stops when it hears a signal.',
       ],
       interaction: {

@@ -11,7 +11,7 @@ import type { Lesson } from '../types';
 /* ---------- recap icons ---------- */
 
 const IconGlobe = () => <Mini><circle class="ls-mk" cx="24" cy="24" r="18" /><path class="ls-mk ls-mthin" d="M6 24H42M24 6C14 16 14 32 24 42M24 6C34 16 34 32 24 42" /></Mini>;
-const IconBroadcast = () => <Mini><path class="ls-mw" d="M14 42L20 14L26 42M16 32H24" /><path class="ls-ms ls-mthin" d="M28 12A8 8 0 0 1 28 22" /><path class="ls-mk" d="M32 28L44 40M44 28L32 40" /></Mini>;
+const IconBroadcast = () => <Mini><path class="ls-mw" d="M18 38L24 12L30 38M20 30H28" /><circle class="ls-mk" cx="24" cy="24" r="19" /><path class="ls-mk" d="M11 11L37 37" /></Mini>;
 const IconMusic = () => <Mini><path class="ls-mk" d="M18 36V10L38 6V32" /><circle class="ls-mk" cx="13" cy="36" r="5" /><circle class="ls-mk" cx="33" cy="32" r="5" /></Mini>;
 const IconLock = () => <Mini><rect class="ls-mk" x="10" y="22" width="28" height="20" rx="3" /><path class="ls-mk" d="M16 22V15A8 8 0 0 1 32 15V22" /></Mini>;
 const IconPay = () => <Mini><circle class="ls-mk" cx="24" cy="24" r="17" /><path class="ls-ms" d="M30 17H21A4 4 0 0 0 21 25H27A4 4 0 0 1 27 33H17M24 12V36" /></Mini>;
@@ -71,7 +71,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
       heading: 'Talk to hams, not to the public',
       text: [
         'An FM music station talks to everyone who tunes in. That is broadcasting: transmissions intended for reception by the general public. Amateurs may not broadcast.',
-        'Most ham contacts are two-way, but some one-way transmissions are allowed because they are meant for hams or for equipment: Morse code practice, bulletins about ham radio, telecommand (control signals sent to a device) and telemetry (measurements a device sends back).',
+        'Some one-way transmissions are allowed, because they are meant for hams or for equipment: Morse code practice, bulletins about ham radio, telecommand (control signals sent to a device) and telemetry (readings a device sends back).',
       ],
       interaction: {
         kind: 'sort',
@@ -81,10 +81,10 @@ export const T1D_TRANSMISSIONS: Lesson = {
           { id: 'no', label: 'Not allowed', rule: 'One-way signals meant for hams, or to control equipment, are allowed.' },
         ],
         items: [
-          { id: 'cw', label: 'Morse code practice for learners', slot: 'ok', why: 'Allowed. One-way code practice is one of the listed exceptions.' },
-          { id: 'show', label: 'A talk show for anyone who tunes in', slot: 'no', why: 'Not allowed. It is meant for the general public, so it is broadcasting.' },
-          { id: 'news', label: 'A notice about a ham radio event next month', slot: 'ok', why: 'Allowed. A bulletin of interest to hams is not broadcasting.' },
-          { id: 'tlm', label: 'Readings sent down from a weather balloon', slot: 'ok', why: 'Allowed. That is telemetry, a one-way signal from a device.' },
+          { id: 'cw', label: 'Morse practice', slot: 'ok', why: 'Allowed. One-way code practice is one of the listed exceptions.' },
+          { id: 'show', label: 'Talk show for all', slot: 'no', why: 'Not allowed. A talk show for anyone who tunes in is meant for the general public, so it is broadcasting.' },
+          { id: 'news', label: 'Ham event notice', slot: 'ok', why: 'Allowed. A notice about a ham radio event is a bulletin for hams, not broadcasting.' },
+          { id: 'tlm', label: 'Balloon readings', slot: 'ok', why: 'Allowed. Readings sent down from a weather balloon are telemetry, a one-way signal from a device.' },
         ],
       },
       remember: 'Broadcasting means transmissions intended for the general public, and it is prohibited. Code practice, bulletins for hams, telecommand and telemetry are allowed.',
@@ -119,8 +119,8 @@ export const T1D_TRANSMISSIONS: Lesson = {
       picture: { art: 'music' },
       heading: 'No music, no help for the news, with one exception each',
       text: [
-        'Music is not allowed on the air: not a short clip, not a clean signal, not on any band. The one exception is music that happens to be in an authorized retransmission of manned spacecraft communications, such as a relay of astronauts talking from space.',
-        'Hams also may not support broadcasting, program production or news gathering. The one exception is when the communications are directly related to the immediate safety of human life or the protection of property, and no other means is available.',
+        'Music is not allowed on the air, however short the clip or clean the signal. The one exception: music that happens to be in an authorized retransmission of manned spacecraft communications, such as a relay of astronauts in space.',
+        'Hams also may not help broadcasting, program production or news gathering, except when it is directly about the immediate safety of human life or protection of property, and nothing else is available.',
       ],
       interaction: {
         kind: 'choice',
@@ -174,13 +174,13 @@ export const T1D_TRANSMISSIONS: Lesson = {
           { id: 'no', label: 'Not allowed', rule: 'That one fits an exception: an occasional sale of ham gear, or a teacher in class.' },
         ],
         items: [
-          { id: 'sell', label: 'Doug mentions once that his spare handheld radio is for sale', slot: 'ok', why: 'Allowed. It is amateur equipment, and he does not do it regularly.' },
-          { id: 'store', label: 'A radio store announces its specials every week', slot: 'no', why: 'Not allowed. That is regular business on the air.' },
-          { id: 'teach', label: 'A teacher on normal salary uses the school station in class', slot: 'ok', why: 'Allowed. Pay is permitted when the operating is part of classroom instruction.' },
-          { id: 'boss', label: 'Doug\'s employer pays him to tell hams about its radios', slot: 'no', why: 'Not allowed. Helping an employer sell is business, and he would be paid to operate.' },
+          { id: 'sell', label: 'Selling a spare radio, once', slot: 'ok', why: 'Allowed. Doug mentioning his spare handheld once is a sale of amateur equipment, not done regularly.' },
+          { id: 'store', label: 'Weekly store ads', slot: 'no', why: 'Not allowed. A store announcing its specials every week is regular business on the air.' },
+          { id: 'teach', label: 'Teacher in class', slot: 'ok', why: 'Allowed. A teacher may keep their normal pay when operating is part of classroom instruction.' },
+          { id: 'boss', label: 'Paid ads for an employer', slot: 'no', why: 'Not allowed. Being paid by an employer to tell hams about its radios is business, and paid operating.' },
         ],
       },
-      remember: 'You may be paid to operate only as part of classroom instruction. You may offer amateur equipment for sale or trade, but not on a regular basis.',
+      remember: 'A teacher may be paid while operating as part of classroom instruction. You may offer amateur equipment for sale or trade, but not on a regular basis.',
     },
     {
       type: 'card',
@@ -191,7 +191,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
       heading: 'Say who you are, even on a quick test',
       text: [
         'Almost everything you send must carry your call sign, so listeners know which station is on the air. A test is still a transmission: when Doug checks his new antenna for a few seconds, he still identifies as KJ7ABC.',
-        'The exception is the signals that steer a radio-controlled model plane, boat or car. They are only control pulses, so they need no on-air identification.',
+        'One exception to know: the signals that steer a radio-controlled model plane, boat or car. They are only control pulses, and they need no on-air identification.',
       ],
       interaction: {
         kind: 'choice',
@@ -203,7 +203,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
           { id: 'night', label: 'Wait until late at night', why: 'There is no rule about the time of day for tests. He only has to identify.' },
         ],
       },
-      remember: 'Identify your station on test transmissions too. Only signals that control a model craft may be sent without identifying.',
+      remember: 'Identify your station on test transmissions too. Signals that control a model craft need no on-air identification.',
     },
     {
       type: 'check',
@@ -245,7 +245,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
           review: 'identify',
           covers: ['T1D11'],
           choices: [
-            { label: 'Yes, every ten seconds', why: 'Signals that control a model craft are excused from on-air identification.' },
+            { label: 'Yes, like any other transmission', why: 'Signals that control a model craft are excused from on-air identification.' },
             { label: 'No. Model craft control signals need no on-air identification', right: true, why: 'Right. This is the exception to the identification rule.' },
           ],
         },
@@ -260,8 +260,8 @@ export const T1D_TRANSMISSIONS: Lesson = {
         { icon: IconBroadcast, text: 'Broadcasting, meaning transmissions for the general public, is prohibited. One-way signals for hams or equipment are fine, like code practice, telemetry, or an auxiliary link from a remote receiver to the main repeater transmitter.', covers: ['T1D02', 'T1D07', 'T1D10'] },
         { icon: IconMusic, text: 'Music only when incidental to an authorized retransmission of manned spacecraft communications. Help for broadcasting or news gathering only for the immediate safety of life or property.', covers: ['T1D04', 'T1D09'] },
         { icon: IconLock, text: 'No codes that hide meaning, except control commands to space stations or model craft. Any obscene or indecent language is prohibited.', covers: ['T1D03', 'T1D06'] },
-        { icon: IconPay, text: 'Paid operating only as part of classroom instruction. Amateur equipment may be offered for sale or trade, but not on a regular basis.', covers: ['T1D05', 'T1D08'] },
-        { icon: IconId, text: 'Identify on test transmissions too. Only signals that control a model craft may skip identification.', covers: ['T1D11', 'T1D12'] },
+        { icon: IconPay, text: 'No pay for operating, but a teacher may be paid while operating as part of classroom instruction. Amateur equipment may be offered for sale or trade, but not on a regular basis.', covers: ['T1D05', 'T1D08'] },
+        { icon: IconId, text: 'Identify on test transmissions too. Signals that control a model craft need no on-air identification.', covers: ['T1D11', 'T1D12'] },
       ],
     },
   ],

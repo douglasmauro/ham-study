@@ -11,6 +11,7 @@ export const LIVE_LESSONS = new Set<string>([
   't5a-current-voltage', 't5b-units-decibels', 't5c-capacitance-power', 't5d-ohms-law',
   't6a-components', 't6b-semiconductors', 't6c-schematics', 't6d-component-functions',
   't7a-station-equipment', 't8a-modes',
+  't4a-station-setup', 't4b-operating-controls', 't9a-antennas', 't9b-feed-lines', 't7c-swr',
 ]);
 
 /** Live lessons in teaching order. */

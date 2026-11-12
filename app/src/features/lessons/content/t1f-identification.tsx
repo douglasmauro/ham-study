@@ -66,7 +66,7 @@ const IconClock = () => <Mini><circle class="ls-mk" cx="24" cy="24" r="18" /><pa
 const IconVoice = () => <Mini><path class="ls-mk" d="M6 10h36v20H22l-8 8v-8H6Z" /><path class="ls-mw ls-mthin" d="M18 26L28 14" /></Mini>;
 const IconThird = () => <Mini><circle class="ls-mw" cx="8" cy="18" r="4" /><circle class="ls-mk" cx="24" cy="18" r="4" /><circle class="ls-mw" cx="40" cy="18" r="4" /><path class="ls-ms ls-mthin" d="M13 32H35M30 27L35 32L30 37" /></Mini>;
 const IconRepeater = () => <Mini><path class="ls-mw" d="M18 44L24 12L30 44M20 34H28" /><path class="ls-ms ls-mthin" d="M12 8A10 10 0 0 0 12 22M36 8A10 10 0 0 1 36 22" /></Mini>;
-const IconClub = () => <Mini><path class="ls-mk" d="M6 42V22L24 8L42 22V42Z" /><path class="ls-mw ls-mthin" d="M14 34h4M22 34h4M30 34h4M18 28h0" /><text class="ls-mt" x="24" y="31" text-anchor="middle">4</text></Mini>;
+const IconClub = () => <Mini><path class="ls-mk" d="M6 42V22L24 8L42 22V42Z" /><text class="ls-mt" x="24" y="37" text-anchor="middle">4</text></Mini>;
 const IconInspect = () => <Mini><rect class="ls-mw" x="6" y="6" width="24" height="32" rx="2" /><path class="ls-mw ls-mthin" d="M11 14h14M11 20h14M11 26h8" /><circle class="ls-mk" cx="32" cy="30" r="8" /><path class="ls-mk" d="M38 36L44 42" /></Mini>;
 
 /* ---------- the lesson ---------- */
@@ -144,7 +144,7 @@ export const T1F_IDENTIFICATION: Lesson = {
       picture: { draw: CallBuilder },
       heading: 'On voice: in English, or in Morse code',
       text: [
-        'Phone means voice. When Doug identifies on phone, he must say his call sign in English. He may also send it in CW, which is Morse code: many repeaters identify that way.',
+        'Phone means voice. When Doug identifies on phone, he must say his call sign in English. He may also send it in CW, which is Morse code.',
         'Sometimes you add something to your own call sign, such as the call district you are operating from. That is a self-assigned indicator. Doug adds W3 after his call sign. On voice the mark between them, written /, may be said as stroke, slant or slash.',
       ],
       interaction: {
@@ -201,8 +201,8 @@ export const T1F_IDENTIFICATION: Lesson = {
         kind: 'choice',
         prompt: 'Jeff talks through the repeater and says something against the rules. The repeater sends it out before anyone can stop it. Who is accountable?',
         options: [
-          { id: 'jeff', label: 'Jeff, the control operator of the station that sent it', right: true, why: 'Yes. The control operator of the originating station is accountable.' },
           { id: 'rco', label: 'The repeater\'s control operator', why: 'The repeater\'s control operator is not held accountable for what it passes on by accident.' },
+          { id: 'jeff', label: 'Jeff, the control operator of the station that sent it', right: true, why: 'Yes. The control operator of the originating station is accountable.' },
           { id: 'own', label: 'The repeater\'s owner', why: 'The owner did not say it. Accountability is with the station that originated it.' },
           { id: 'both', label: 'Jeff and the repeater\'s owner together', why: 'It is not shared with the owner. It rests with the originating station.' },
         ],
@@ -247,6 +247,7 @@ export const T1F_IDENTIFICATION: Lesson = {
           review: 'every10',
           covers: ['T1F03'],
           choices: [
+            { label: '7:05', why: 'Doug may identify that early, but he does not have to. The limit is 10 minutes, so he has until 7:10.' },
             { label: '7:10', right: true, why: 'At least every 10 minutes during the chat, so by 7:10, and again at the end.' },
             { label: '7:15', why: '15 minutes is too long. The limit is 10 minutes.' },
             { label: 'Only when the chat ends', why: 'The end is not enough on its own. He must also identify at least every 10 minutes.' },

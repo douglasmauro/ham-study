@@ -1,4 +1,15 @@
 {
+  "lesson-t2c-nets-emergencies": {
+    "title": 1515,
+    "lines": [
+      7340,
+      4963,
+      4859,
+      4545,
+      4754,
+      4859
+    ]
+  },
   "lesson-t3a-signals-travel": {
     "title": 1881,
     "lines": [
@@ -7,6 +18,26 @@
       5172,
       4310,
       5538
+    ]
+  },
+  "lesson-t4a-station-setup": {
+    "title": 1202,
+    "lines": [
+      4676,
+      6217,
+      5198,
+      5303,
+      5329
+    ]
+  },
+  "lesson-t4b-operating-controls": {
+    "title": 1750,
+    "lines": [
+      5277,
+      5747,
+      6269,
+      3056,
+      6296
     ]
   },
   "lesson-t5a-current-voltage": {

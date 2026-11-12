@@ -107,7 +107,7 @@ export const T2C_NETS_EMERGENCIES: Lesson = {
       heading: 'The storm hits, and a life is in danger',
       text: [
         'A storm knocks out power and phones in Doug\'s town. Down the street a tree has fallen on a car, and someone is trapped. Doug picks up his radio.',
-        'The FCC rules for amateur radio, called Part 97, always apply. But they contain one exception: when human life is in immediate danger, or property needs immediate protection, an operator may go outside the frequency privileges of their license to get help.',
+        'The FCC rules for amateur radio, called Part 97, always apply. The rules themselves allow one exception: when human life is in immediate danger, or property needs immediate protection, an operator may go outside the frequency privileges of their license to get help.',
       ],
       interaction: {
         kind: 'choice',
@@ -262,7 +262,7 @@ export const T2C_NETS_EMERGENCIES: Lesson = {
         options: [
           { id: 'morse', label: 'Say it, then send it again in Morse code', why: 'That is not the standard practice, and many stations on a voice net could not copy Morse.' },
           { id: 'spell', label: 'Spell it with the phonetic alphabet', right: true, why: 'Right. Each letter becomes a word that cannot be mistaken, so the word arrives exactly.' },
-          { id: 'qsr', label: 'Ask Jeff to repeat it back using the Q signal QSR', why: 'A read-back with QSR is not the standard technique. Spelling it phonetically is.' },
+          { id: 'qsr', label: 'Ask Jeff to repeat it back using the Q signal QSR', why: 'QSR is not a request to read words back, and it is not the standard technique. Spelling it phonetically is.' },
         ],
       },
       remember: 'To make sure unusual words are copied correctly by voice, spell them with a standard phonetic alphabet.',

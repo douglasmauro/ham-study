@@ -325,7 +325,7 @@ export const T0A_ELECTRICAL_SAFETY: Lesson = {
           choices: [
             { label: 'It would blow too often', why: 'The opposite. A bigger fuse blows less often, which is the danger.' },
             { label: 'Far too much current could flow before it opens, and start a fire', right: true, why: 'Excessive current would overheat the wiring with no fuse to stop it. Use the same rating.' },
-            { label: 'Nothing, as long as it fits', why: 'Fitting is not enough. The wrong rating lets an overload heat the wiring until it catches fire.' },
+            { label: 'Nothing, as long as it fits', why: 'Dangerous. Fitting is not enough: the wrong rating lets an overload heat the wiring until it catches fire.' },
           ],
         },
         {
@@ -333,7 +333,7 @@ export const T0A_ELECTRICAL_SAFETY: Lesson = {
           review: 'capacitors',
           covers: ['T0A11'],
           choices: [
-            { label: 'Yes, it is unplugged', why: 'Unplugged is not enough. The filter capacitors can still hold a charge that can shock you.' },
+            { label: 'Yes, it is unplugged', why: 'Dangerous. Unplugged is not enough: the filter capacitors can still hold a charge that can shock you.' },
             { label: 'Not yet. The filter capacitors may still be charged', right: true, why: 'Stored charge stays after switch-off. Make sure the capacitors are discharged first.' },
           ],
         },

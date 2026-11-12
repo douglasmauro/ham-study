@@ -1,4 +1,4 @@
-import { Art, Mini, T } from '../drawkit';
+import { Arrow, Art, Mini, T } from '../drawkit';
 import type { Lesson, PicProps } from '../types';
 
 /*
@@ -12,50 +12,50 @@ import type { Lesson, PicProps } from '../types';
 /* ---------- pictures ---------- */
 
 /** Power lines on a pole at the left, and three places to put up a mast. Each can be tapped. T0B06 */
-const WIRE = { x: 38, y: 30 };
-const H = 90; // mast height in px, also the radius it sweeps if it falls
+const WIRE = { x: 30, y: 70 };
+const H = 80; // mast height in px, also the radius it sweeps if it falls
 const GROUND = 118;
 const SPOTS: Record<string, { x: number; tone: 'hit' | 'near' | 'ok'; line1: string; line2: string }> = {
-  a: { x: 54, tone: 'hit', line1: 'falls across', line2: 'the wires' },
-  b: { x: 95, tone: 'near', line1: 'comes within', line2: '10 ft of them' },
-  c: { x: 130, tone: 'ok', line1: 'stays at least', line2: '10 ft clear' },
+  a: { x: 80, tone: 'hit', line1: 'lands on', line2: 'the wires' },
+  b: { x: 116, tone: 'near', line1: 'closer than', line2: '10 ft' },
+  c: { x: 144, tone: 'ok', line1: 'at least', line2: '10 ft clear' },
 };
 
 function FallZone({ picked, solved, onPick }: PicProps) {
   const hit = { pointerEvents: 'all' as const, cursor: onPick ? 'pointer' : 'default' };
   const s = picked ? SPOTS[picked] : null;
   const tone = !s ? 'ga-w' : s.tone === 'ok' && solved ? 'ga-good' : 'ga-bad';
-  let gap = '';
+  let gap: { x: number; y: number } | null = null;
   if (s && s.tone !== 'hit') {
     const dx = WIRE.x - s.x, dy = WIRE.y - GROUND, len = Math.hypot(dx, dy);
-    const px = s.x + (H * dx) / len, py = GROUND + (H * dy) / len;
-    gap = `M${px.toFixed(1)} ${py.toFixed(1)}L${WIRE.x} ${WIRE.y}`;
+    gap = { x: +(s.x + (H * dx) / len).toFixed(1), y: +(GROUND + (H * dy) / len).toFixed(1) };
   }
   return (
     <Art label={s
-      ? `Power lines on a pole, and a mast put up at spot ${picked!.toUpperCase()}. A dashed arc shows where it would land if it fell: it ${s.line1} ${s.line2}.`
+      ? `Power lines on a pole, and a mast put up at spot ${picked!.toUpperCase()}. A dashed arc shows where it would land if it fell: ${s.line1} ${s.line2}.`
       : 'Power lines on a pole at the left. Three spots for a mast, A, B and C, each farther from the wires.'}>
       <path class="ga-w ga-thin" d={`M8 ${GROUND}H232`} />
-      <path class="ga-w" d={`M30 ${GROUND}V26M18 34H42`} />
-      <circle class="ga-fbad" cx="22" cy="30" r="3.5" />
+      <path class="ga-w" d={`M24 ${GROUND}V66M12 74H36`} />
+      <circle class="ga-fbad" cx="18" cy={WIRE.y} r="3.5" />
       <circle class="ga-fbad" cx={WIRE.x} cy={WIRE.y} r="3.5" />
-      <T x={8} y={14} c="ga-tb">power lines</T>
+      <T x={6} y={46} c="ga-tb">power</T>
+      <T x={6} y={60} c="ga-tb">lines</T>
       {Object.entries(SPOTS).map(([id, p]) => (
         <>
-          <path class={picked === id ? `${tone} ga-thick` : 'ga-w ga-thin'} d={`M${p.x} ${GROUND}V${GROUND - H}M${p.x - 8} ${GROUND - H + 4}H${p.x + 8}`} />
+          <path class={picked === id ? `${tone} ga-thick` : 'ga-w'} d={`M${p.x} ${GROUND}V${GROUND - H}M${p.x - 7} ${GROUND - H + 4}H${p.x + 7}`} />
           <T x={p.x} y={134} a="middle" c={picked === id ? 'ga-tb' : 'ga-tm'}>{id.toUpperCase()}</T>
         </>
       ))}
       {s && <path class={`${tone} ga-dash ga-thin`} d={`M${s.x} ${GROUND - H}A${H} ${H} 0 0 0 ${s.x - H} ${GROUND}`} />}
       {s && s.tone === 'hit' && <circle class="ga-bad ga-thick" cx={WIRE.x} cy={WIRE.y} r="9" />}
-      {gap && <path class={`${tone} ga-thick`} d={gap} />}
-      {s && <T x={146} y={60} c="ga-tb">{s.line1}</T>}
-      {s && <T x={146} y={76} c="ga-tb">{s.line2}</T>}
-      {!s && <T x={146} y={52} c="ga-tm">if it fell,</T>}
-      {!s && <T x={146} y={68} c="ga-tm">where would</T>}
-      {!s && <T x={146} y={84} c="ga-tm">it land?</T>}
+      {gap && <Arrow x1={gap.x} y1={gap.y} x2={WIRE.x + 4} y2={WIRE.y - 2} c={tone} h={5} both />}
+      {s && <T x={158} y={60} c="ga-tb">{s.line1}</T>}
+      {s && <T x={158} y={76} c="ga-tb">{s.line2}</T>}
+      {!s && <T x={158} y={52} c="ga-tm">if it fell,</T>}
+      {!s && <T x={158} y={68} c="ga-tm">where would</T>}
+      {!s && <T x={158} y={84} c="ga-tm">it land?</T>}
       {onPick && Object.keys(SPOTS).map((id) => (
-        <rect x={SPOTS[id].x - 16} y={GROUND - H - 4} width="32" height={H + 24} style={hit} onClick={() => onPick(id)} />
+        <rect x={SPOTS[id].x - 14} y={GROUND - H - 4} width="28" height={H + 22} style={hit} onClick={() => onPick(id)} />
       ))}
     </Art>
   );
@@ -204,14 +204,14 @@ export const T0B_TOWER_SAFETY: Lesson = {
       picture: { art: 'bonding' },
       heading: 'Give lightning many paths into the earth',
       text: [
-        'A tower is the tallest thing around, so it must be grounded to carry lightning into the earth. A proper method is a separate eight-foot ground rod for each tower leg, bonded to the tower and to each other.',
+        'A tall metal tower is a likely path for lightning, so it must be grounded to carry that current into the earth. A proper method is a separate eight-foot ground rod for each tower leg, bonded to the tower and to each other.',
         'The grounding requirements for your tower or antenna are set by your local electrical codes, not by the FCC rules in Part 97.',
       ],
       interaction: {
         kind: 'choice',
         prompt: 'Which of these is a proper way to ground a tower?',
         options: [
-          { id: 'one', label: 'One four-foot rod next to the base', why: 'Not enough. A single short rod is far too little earth contact to carry lightning current safely.' },
+          { id: 'one', label: 'One four-foot rod next to the base', why: 'Not safe. A single short rod is far too little earth contact to carry lightning current safely.' },
           { id: 'pipe', label: 'A wire from the tower to a cold-water pipe', why: 'Dangerous. A water pipe is not a proper tower ground, and it would lead lightning into the house.' },
           { id: 'rods', label: 'An eight-foot rod at each leg, all bonded together', right: true, why: 'Right. Several bonded rods spread the lightning current into the earth by several paths.' },
         ],
@@ -255,8 +255,8 @@ export const T0B_TOWER_SAFETY: Lesson = {
           review: 'helper',
           covers: ['T0B03'],
           choices: [
-            { label: 'Yes, if the job is quick', why: 'A fall takes a second. How long the job takes does not make climbing alone safe.' },
-            { label: 'Yes, if they wear a harness', why: 'A harness is required, but it does not replace a helper who can assist and call for help.' },
+            { label: 'Yes, if the job is quick', why: 'Dangerous. A fall takes a second, and nobody would be there to help. A short job does not make climbing alone safe.' },
+            { label: 'Yes, if they wear a harness', why: 'Not safe. A harness is required, but it does not replace a helper who can assist and call for help.' },
             { label: 'No. Nobody should climb without a helper or observer', right: true, why: 'It is never safe to climb a tower without a helper or observer.' },
           ],
         },
@@ -265,7 +265,7 @@ export const T0B_TOWER_SAFETY: Lesson = {
           review: 'power-lines',
           covers: ['T0B06'],
           choices: [
-            { label: 'The mast must not touch the wires while it is standing', why: 'Not enough. Picture it falling: no part may then come within 10 feet of the wires.' },
+            { label: 'The mast must not touch the wires while it is standing', why: 'Dangerous. A mast that clears the wires standing up can still fall onto them. If it fell, no part may come within 10 feet.' },
             { label: 'If it fell, no part could come within 10 feet of the wires', right: true, why: 'That is the minimum safe distance.' },
             { label: 'Half a wavelength at your operating frequency', why: 'Wavelength has nothing to do with it. What matters is where the antenna could land if it fell.' },
           ],
@@ -275,7 +275,7 @@ export const T0B_TOWER_SAFETY: Lesson = {
           review: 'crank-up',
           covers: ['T0B07'],
           choices: [
-            { label: 'Any time, if you are tied off', why: 'Tie-off does not stop the sections sliding down if the cable fails.' },
+            { label: 'Any time, if you are tied off', why: 'Dangerous. Tie-off does not stop the sections sliding down and crushing you if the cable fails.' },
             { label: 'Only once it is retracted, or has safety locks installed', right: true, why: 'Then the sections cannot slide down and crush you.' },
           ],
         },

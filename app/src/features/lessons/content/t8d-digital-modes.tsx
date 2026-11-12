@@ -30,9 +30,9 @@ function AnalogDigital() {
 }
 
 const ROWS = [
-  { id: 'a', y: 30, name: 'steady carrier' },
-  { id: 'b', y: 72, name: 'CW: on and off' },
-  { id: 'c', y: 114, name: 'PSK: phase flips' },
+  { id: 'a', y: 32, name: 'steady carrier' },
+  { id: 'b', y: 76, name: 'CW: on and off' },
+  { id: 'c', y: 120, name: 'PSK: phase flips' },
 ] as const;
 
 /** Three signals: a steady carrier, CW keyed on and off, and PSK with phase flips. Rows can be tapped. T8D06, T8D09 */
@@ -44,19 +44,19 @@ function Keying({ picked, solved, onPick }: PicProps) {
   return (
     <Art label="Three signals. Line A is a steady wave. Line B is the same wave switched on and off in bursts, which is CW. Line C stays on but its wave flips over at two points, which is a phase shift: PSK.">
       {ROWS.map((r) => <T x={8} y={r.y + 5} c={tone(r.id)}>{r.id.toUpperCase()}</T>)}
-      <path class="ga-s" d={fineWave(30, 228, y('a'), 12, 9)} />
+      <path class="ga-s" d={fineWave(30, 228, y('a'), 20, 8)} />
       <path class="ga-w ga-thin ga-dash" d={`M30 ${y('b')}H228`} />
-      {on.map(([x0, x1]) => <path class="ga-s" d={fineWave(x0, x1, y('b'), 12, 9)} />)}
-      <path class="ga-s" d={fineWave(30, 90, y('c'), 12, 9)} />
-      <path class="ga-s" d={fineWave(90, 150, y('c'), 12, -9)} />
-      <path class="ga-s" d={fineWave(150, 228, y('c'), 12, 9)} />
+      {on.map(([x0, x1]) => <path class="ga-s" d={fineWave(x0, x1, y('b'), 20, 8)} />)}
+      <path class="ga-s" d={fineWave(30, 90, y('c'), 20, 8)} />
+      <path class="ga-s" d={fineWave(90, 150, y('c'), 20, -8)} />
+      <path class="ga-s" d={fineWave(150, 228, y('c'), 20, 8)} />
       {solved && (
         <>
-          {ROWS.map((r) => <T x={232} y={r.y - 14} a="end" c="ga-tk">{r.name}</T>)}
-          <path class="ga-k ga-thick" d={`M90 ${y('c') - 13}V${y('c') + 13}M150 ${y('c') - 13}V${y('c') + 13}`} />
+          {ROWS.map((r) => <T x={232} y={r.y - 12} a="end" c="ga-tk">{r.name}</T>)}
+          <path class="ga-k ga-thick" d={`M90 ${y('c') - 10}V${y('c') + 10}M150 ${y('c') - 10}V${y('c') + 10}`} />
         </>
       )}
-      {onPick && ROWS.map((r) => <rect x="2" y={r.y - 18} width="236" height="36" style={hit} onClick={() => onPick(r.id)} />)}
+      {onPick && ROWS.map((r) => <rect x="2" y={r.y - 20} width="236" height="40" style={hit} onClick={() => onPick(r.id)} />)}
     </Art>
   );
 }
@@ -66,7 +66,7 @@ function TimeSlots({ solved }: PicProps) {
   const n = 8;
   const w = 212 / n;
   return (
-    <Art label="One 12.5 kilohertz repeater channel drawn as a strip over time. It is cut into short turns that alternate: slot 1, slot 2, slot 1, slot 2. Doug's conversation uses slot 1 and a second conversation uses slot 2.">
+    <Art label="One 12.5 kilohertz repeater channel drawn as a strip over time. It is cut into short turns that alternate: slot 1, slot 2, slot 1, slot 2. Doug's conversation uses slot 1, and slot 2 is free for a second conversation.">
       <T x={120} y={18} a="middle" c="ga-tm">one 12.5 kHz repeater channel</T>
       {Array.from({ length: n }, (_, i) => (
         <>
@@ -79,7 +79,7 @@ function TimeSlots({ solved }: PicProps) {
       <rect class="ga-fk" x={14} y={104} width={12} height={12} rx={2} />
       <T x={32} y={115} c="ga-tk ga-tb">slot 1: Doug</T>
       <rect class="ga-fs" x={122} y={104} width={12} height={12} rx={2} />
-      <T x={140} y={115} c="ga-ts ga-tb">slot 2: Jeff</T>
+      <T x={140} y={115} c="ga-ts ga-tb">{solved ? 'slot 2: Jeff' : 'slot 2: ?'}</T>
       {solved && <T x={120} y={134} a="middle" c="ga-tk">two conversations, taking turns</T>}
     </Art>
   );
@@ -213,7 +213,7 @@ export const T8D_DIGITAL_MODES: Lesson = {
       picture: { art: 'wsjt-x' },
       heading: 'FT8 reads signals the ear cannot hear',
       text: [
-        'FT8 is a digital mode for weak signals. It sends very short, fixed messages, like call signs and signal reports, in timed 15-second slots, and a computer decodes them. It works at a low signal-to-noise ratio: the signal can be fainter than the noise and still be read.',
+        'FT8 is a digital mode for weak signals. A computer sends and decodes very short messages, like call signs and signal reports. It works at a low signal-to-noise ratio: the signal can be fainter than the noise and still be read.',
         'FT8 is part of the WSJT-X software suite. Other modes in it handle Earth-Moon-Earth (bouncing signals off the Moon), meteor scatter and weak signal propagation beacons.',
       ],
       interaction: {
@@ -313,8 +313,8 @@ export const T8D_DIGITAL_MODES: Lesson = {
           review: 'keying',
           covers: ['T8D06'],
           choices: [
-            { label: 'Its phase', right: true, why: 'PSK is Phase Shift Keying: data rides on shifts in phase.' },
             { label: 'Whether it is on or off', why: 'Switching on and off is CW, Morse code.' },
+            { label: 'Its phase', right: true, why: 'PSK is Phase Shift Keying: data rides on shifts in phase.' },
             { label: 'The repeater it goes through', why: 'PSK is a way of keying a signal, not a choice of repeater.' },
           ],
         },

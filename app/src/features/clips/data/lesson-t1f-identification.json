@@ -6,7 +6,7 @@
   "groups": ["T1F"],
   "questionIds": ["T1F01", "T1F02", "T1F03", "T1F04", "T1F05", "T1F08", "T1F09", "T1F10", "T1F11"],
   "lines": [
-    { "caption": "Every station must say who it is. Give your call sign at least every ten minutes, and at the end of the contact.", "art": "station-identification", "label": "every 10 minutes", "questionIds": ["T1F03"] },
+    { "caption": "Every station must say who it is. Give your call sign at least every ten minutes, and at the end of the contact.", "art": "station-identification", "label": "who is on the air", "questionIds": ["T1F03"] },
     { "caption": "A tactical name like Race Headquarters helps at events, but it never replaces your call sign.", "art": "tactical-call-sign", "label": "still your call sign", "questionIds": ["T1F02"] },
     { "caption": "On voice, say your call sign in English, or send it in Morse code.", "art": "phone", "label": "English, or Morse code", "questionIds": ["T1F04", "T1F05"] },
     { "caption": "When you pass a message on behalf of someone else, that person is a third party.", "art": "third-party-communications", "label": "a third party", "questionIds": ["T1F08"] },
