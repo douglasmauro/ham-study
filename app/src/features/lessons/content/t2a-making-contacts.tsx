@@ -50,13 +50,13 @@ function RepeaterPath() {
     <Art label="Doug's handheld radio and a repeater tower. Doug transmits up to the repeater on its input frequency, 600 kilohertz below. The repeater sends his signal back out on its output frequency, 146.940 megahertz.">
       <path class="ga-w ga-thin" d="M8 116H232" />
       <HT x={30} y={84} c="ga-k" />
-      <Tower x={196} base={116} h={70} />
-      <Arrow x1={44} y1={78} x2={178} y2={46} c="ga-s" />
-      <Arrow x1={180} y1={64} x2={48} y2={96} c="ga-k" />
-      <T x={100} y={36} a="middle" c="ga-ts ga-tb">input: 600 kHz lower</T>
-      <T x={112} y={106} a="middle" c="ga-tk ga-tb">output: 146.940 MHz</T>
+      <Tower x={200} base={116} h={74} />
+      <Arrow x1={44} y1={76} x2={186} y2={44} c="ga-s ga-thick" />
+      <Arrow x1={186} y1={86} x2={46} y2={102} c="ga-k ga-thick" />
+      <T x={108} y={40} a="middle" c="ga-ts ga-tb">input: 600 kHz lower</T>
+      <T x={118} y={84} a="middle" c="ga-tk ga-tb">output: 146.940 MHz</T>
       <T x={30} y={132} a="middle" c="ga-tm">Doug</T>
-      <T x={196} y={132} a="middle" c="ga-tm">repeater</T>
+      <T x={200} y={132} a="middle" c="ga-tm">repeater</T>
     </Art>
   );
 }
@@ -80,7 +80,7 @@ function OffsetSizes({ solved }: PicProps) {
       <path class={`${hi} ga-thick`} d={`M${r1(a2)} 92V114M${r1(b2)} 92V114`} />
       <path class={`${hi} ga-thin`} d={`M${r1(a2)} 118v4H${r1(b2)}v-4`} />
       <T x={r1((a2 + b2) / 2)} y={135} a="middle" c={solved ? 'ga-tk ga-tb' : 'ga-tm'}>{solved ? '5 MHz' : '?'}</T>
-      <T x={12} y={135} c="ga-tm">wider band, wider gap</T>
+      <T x={12} y={135} c="ga-tm">each bar is one whole band</T>
     </Art>
   );
 }
@@ -191,8 +191,8 @@ const LESSON: Lesson = {
         rounds: [
           {
             prompt: 'The repeater transmits on 146.940 MHz and listens 600 kHz lower. What frequency must Doug transmit on?',
-            left: 'MHz',
-            top: '146.940 − 0.6',
+            left: 'input',
+            top: '146.94 − 0.6',
             bottom: '',
             accept: [146.335, 146.345],
             traps: [
@@ -351,7 +351,7 @@ const LESSON: Lesson = {
         },
         {
           q: 'Doug hears "CQ CQ CQ, this is K7DEF." What does that call mean?',
-          review: 'answering',
+          review: 'cq',
           covers: ['T2A08', 'T2A05'],
           choices: [
             { label: 'K7DEF would like a contact with any station', right: true, why: 'CQ means calling any station. Doug may answer: "K7DEF, this is KJ7ABC."' },
