@@ -13,6 +13,9 @@ export const LIVE_LESSONS = new Set<string>([
   't7a-station-equipment', 't8a-modes',
   't4a-station-setup', 't4b-operating-controls', 't9a-antennas', 't9b-feed-lines', 't7c-swr',
   't2a-making-contacts', 't2b-repeaters', 't2c-nets-emergencies', 't8b-satellites', 't8c-activities', 't8d-digital-modes',
+  't7b-problems', 't7d-test-instruments',
+  't1a-purpose-terms', 't1b-bands-privileges', 't1c-licenses', 't1d-transmissions', 't1e-control-operator', 't1f-identification',
+  't0a-electrical-safety', 't0b-tower-safety', 't0c-rf-exposure',
 ]);
 
 /** Live lessons in teaching order. */

@@ -9,7 +9,7 @@
     { "caption": "Amateur radio is a licensed service. Part of its purpose is to grow your skill at building radios and at using them.", "art": "amateur-radio-service", "label": "why it exists", "questionIds": ["T1A01"] },
     { "caption": "One agency writes and enforces the rules: the FCC, the Federal Communications Commission.", "say": "One agency writes and enforces the rules: the F C C, the Federal Communications Commission.", "art": "fcc", "label": "the rule maker", "questionIds": ["T1A02"] },
     { "caption": "Your license is real once it shows up in the FCC's online license database, the ULS.", "say": "Your license is real once it shows up in the F C C's online license database, the U L S.", "art": "uls", "label": "proof of your license", "questionIds": ["T1A05"] },
-    { "caption": "Hams share the air. Local volunteers sort out repeater channels, and nobody may interfere on purpose.", "art": "frequency-coordinator", "label": "sharing the air", "questionIds": ["T1A08", "T1A11"] },
+    { "caption": "Hams share the air. Local volunteers recommend repeater channels, and nobody may interfere on purpose.", "art": "frequency-coordinator", "label": "sharing the air", "questionIds": ["T1A08", "T1A11"] },
     { "caption": "Some stations are special. A ham station more than fifty kilometers up is a space station.", "art": "space-station", "label": "more than 50 km up", "questionIds": ["T1A07"] },
     { "caption": "Now meet each rule in a small situation.", "questionIds": [] }
   ]

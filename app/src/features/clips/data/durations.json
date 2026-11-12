@@ -29,6 +29,50 @@
       5956
     ]
   },
+  "lesson-t1a-purpose-terms": {
+    "title": 1750,
+    "lines": [
+      6426,
+      5538,
+      6087,
+      6400,
+      4859,
+      2560
+    ]
+  },
+  "lesson-t1b-bands-privileges": {
+    "title": 1541,
+    "lines": [
+      6870,
+      6609,
+      7079,
+      6896,
+      4571,
+      2220
+    ]
+  },
+  "lesson-t1c-licenses": {
+    "title": 1881,
+    "lines": [
+      5616,
+      6217,
+      5616,
+      4780,
+      4310,
+      3135
+    ]
+  },
+  "lesson-t1d-transmissions": {
+    "title": 2064,
+    "lines": [
+      4650,
+      4467,
+      5799,
+      5146,
+      5460,
+      3318
+    ]
+  },
   "lesson-t1e-control-operator": {
     "title": 1306,
     "lines": [
@@ -177,6 +221,28 @@
       3187,
       3866,
       6609
+    ]
+  },
+  "lesson-t7b-problems": {
+    "title": 2064,
+    "lines": [
+      5277,
+      7576,
+      6975,
+      5669,
+      7393,
+      4049
+    ]
+  },
+  "lesson-t7d-test-instruments": {
+    "title": 1724,
+    "lines": [
+      7732,
+      4023,
+      5120,
+      4833,
+      5094,
+      6949
     ]
   },
   "lesson-t8a-modes": {
