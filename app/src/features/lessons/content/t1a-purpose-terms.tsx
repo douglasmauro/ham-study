@@ -225,7 +225,7 @@ export const T1A_PURPOSE_TERMS: Lesson = {
     {
       type: 'check',
       id: 'check',
-      covers: ['T1A02', 'T1A05', 'T1A03', 'T1A07', 'T1A09'],
+      covers: ['T1A02', 'T1A04', 'T1A05', 'T1A07', 'T1A08', 'T1A09'],
       questions: [
         {
           q: 'Jeff tells Doug that his ham club enforces the radio rules. Who really does?',

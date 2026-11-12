@@ -6,10 +6,10 @@
   "groups": ["T2C"],
   "questionIds": ["T2C02", "T2C03", "T2C05", "T2C06", "T2C08", "T2C09"],
   "lines": [
-    { "caption": "When a storm takes down power and phones, hams can still talk by radio.", "art": "emergency-communications", "label": "when the phones go down", "questionIds": ["T2C09"] },
+    { "caption": "When a storm takes down the phones, hams can still call for help. If a life is in danger, you may even go outside your privileges.", "art": "emergency-communications", "label": "when the phones go down", "questionIds": ["T2C09"] },
     { "caption": "Volunteers in ARES have signed up ahead of time, with their skills and their radios.", "art": "ares", "label": "volunteers ready", "questionIds": ["T2C06"] },
     { "caption": "They meet in a net. One station, net control, runs it and says who talks next.", "art": "net-control-station", "label": "net control runs the net", "questionIds": ["T2C02"] },
-    { "caption": "Messages on a net are called traffic. Each one is written on a form, so it arrives exactly.", "art": "traffic", "label": "traffic means messages", "questionIds": ["T2C05"] },
+    { "caption": "Formal messages passed on a net are called traffic. Each one follows a set form.", "art": "traffic", "label": "traffic means messages", "questionIds": ["T2C05"] },
     { "caption": "Hard words are spelled with the phonetic alphabet. Alfa, Bravo, Charlie.", "art": "phonetic-alphabet", "label": "spell it out", "questionIds": ["T2C03"] },
     { "caption": "And Winlink can even send email by radio. Now follow Doug through one stormy night.", "art": "winlink", "label": "email by radio", "questionIds": ["T2C08"] }
   ]
