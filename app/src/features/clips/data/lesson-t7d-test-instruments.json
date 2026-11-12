@@ -1,0 +1,16 @@
+{
+  "id": "lesson-t7d-test-instruments",
+  "title": "Test instruments and soldering",
+  "blurb": "The big idea before the cards.",
+  "sub": "T7",
+  "groups": ["T7D"],
+  "questionIds": ["T7D01", "T7D02", "T7D03", "T7D04", "T7D05", "T7D07", "T7D08", "T7D09", "T7D11"],
+  "lines": [
+    { "caption": "Each basic meter is named after what it measures. A voltmeter measures volts: the electrical push, also called electric potential.", "art": "electric-potential", "label": "volts: the push", "questionIds": ["T7D01"] },
+    { "caption": "A voltmeter connects in parallel, with one lead on each end of the part.", "art": "parallel-connection", "label": "voltmeter: in parallel", "questionIds": ["T7D02"] },
+    { "caption": "An ammeter measures current. It connects in series, so the current flows right through it.", "art": "ammeter", "label": "ammeter: in series", "questionIds": ["T7D03", "T7D04"] },
+    { "caption": "An ohmmeter measures resistance with its own small current, so the circuit must be switched off.", "art": "ohmmeter", "label": "power off", "questionIds": ["T7D05", "T7D11"] },
+    { "caption": "A multimeter does all three jobs in one box: voltage, current and resistance.", "art": "multimeter", "label": "three meters in one", "questionIds": ["T7D07"] },
+    { "caption": "When you solder, use rosin-core solder, never acid-core. A good joint is bright and shiny, not rough and lumpy.", "art": "acid-core-solder", "label": "rosin core only", "questionIds": ["T7D08", "T7D09"] }
+  ]
+}

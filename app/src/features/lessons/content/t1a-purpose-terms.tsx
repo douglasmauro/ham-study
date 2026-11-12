@@ -24,7 +24,7 @@ function SpaceHeight({ value = 10, solved }: PicProps) {
       <T x={10} y={line - 6} c="ga-tb">50 km up</T>
       <T x={10} y={20} c={above ? 'ga-tk ga-tb' : 'ga-tm'}>{above ? 'space station' : 'not a space station'}</T>
       <path class="ga-w ga-thin" d={`M204 124V${(y + 2).toFixed(1)}M200 ${(y + 2).toFixed(1)}H208`} />
-      <T x={198} y={(y + 124) / 2 + 4} a="end" c="ga-tm">{`${value} km`}</T>
+      <T x={198} y={y + 4} a="end" c="ga-tm">{`${value} km`}</T>
       <rect class={c} x={120} y={y - 6} width={20} height={12} rx={2} />
       <path class={c} d={`M110 ${y}H120M140 ${y}H150`} />
       <rect class="ga-w ga-thin" x={98} y={y - 4} width={12} height={8} />
@@ -189,10 +189,10 @@ export const T1A_PURPOSE_TERMS: Lesson = {
         kind: 'slider',
         prompt: 'Raise the amateur station until it counts as a space station.',
         label: 'Height',
-        min: 0,
+        min: 10,
         max: 100,
         step: 10,
-        start: 10,
+        start: 20,
         readouts: (v) => [{ label: 'Height', value: `${v} km` }, { label: 'Space station', value: v > 50 ? 'yes' : 'no' }],
         goal: (v) => v > 50,
         hint: (v) => (v === 50 ? 'Exactly 50 km is not enough. It must be more than 50 km up.' : `${v} km is too low. Raise it above 50 km.`),

@@ -191,8 +191,8 @@ const LESSON: Lesson = {
         rounds: [
           {
             prompt: 'The repeater transmits on 146.940 MHz and listens 600 kHz lower. What frequency must Doug transmit on?',
-            left: 'input',
-            top: '146.94 − 0.6',
+            left: 'in',
+            top: '146.94−0.6',
             bottom: '',
             accept: [146.335, 146.345],
             traps: [
