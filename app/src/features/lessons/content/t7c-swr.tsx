@@ -33,12 +33,12 @@ function MatchMeter({ value = 200, solved }: PicProps) {
   const tone = solved ? 'ga-good' : 'ga-k';
   return (
     <Art label={`An SWR meter reading ${ratio(s)}. Below it, forward power travels from the transmitter along a 50 ohm feed line to a ${value} ohm antenna. ${pct === 0 ? 'No power is reflected.' : `${pct} percent of the power is reflected back.`}`}>
-      <rect class="ga-w" x="62" y="6" width="116" height="78" rx="6" />
+      <rect class="ga-w" x="48" y="6" width="144" height="78" rx="6" />
       <path class="ga-w ga-thin" d={`M${at(150, 38).map((n) => n.toFixed(1)).join(' ')}A38 38 0 0 1 ${at(30, 38).map((n) => n.toFixed(1)).join(' ')}`} />
       {marks.map(({ m, deg }) => {
         const [a, b] = at(deg, 34);
         const [c, d] = at(deg, 42);
-        const [tx, ty] = at(deg, 51);
+        const [tx, ty] = at(deg, m === 1 || m === 4 ? 58 : 51);
         return (
           <>
             <path class="ga-w ga-thin" d={`M${a.toFixed(1)} ${b.toFixed(1)}L${c.toFixed(1)} ${d.toFixed(1)}`} />
@@ -54,7 +54,7 @@ function MatchMeter({ value = 200, solved }: PicProps) {
       <Arrow x1={60} y1={104} x2={180} y2={104} />
       <T x={120} y={99} a="middle" c="ga-ts">forward</T>
       {back > 0 && <Arrow x1={180} y1={119} x2={180 - back} y2={119} c="ga-bad" />}
-      <T x={60} y={134} c={solved ? 'ga-tk ga-tb' : 'ga-tm'}>{pct === 0 ? 'nothing reflected' : `reflected: ${pct}%`}</T>
+      <T x={46} y={134} c={solved ? 'ga-tk ga-tb' : 'ga-tm'}>{pct === 0 ? 'none reflected' : `reflected: ${pct}%`}</T>
       <T x={232} y={134} a="end" c="ga-tm">{`antenna ${value} Ω`}</T>
     </Art>
   );
@@ -75,7 +75,7 @@ function Foldback({ solved }: PicProps) {
       <T x={206} y={20} a="middle" c="ga-tb">SWR 4:1</T>
       <Arrow x1={114} y1={46} x2={solved ? 150 : 190} y2={46} c={solved ? 'ga-s' : 'ga-s ga-thick'} h={solved ? 6 : 8} />
       <Arrow x1={190} y1={68} x2={solved ? 164 : 114} y2={68} c={solved ? 'ga-bad' : 'ga-bad ga-thick'} h={solved ? 6 : 8} />
-      <T x={150} y={90} a="middle" c="ga-tm">{solved ? 'less comes back' : 'reflected power'}</T>
+      <T x={162} y={90} a="middle" c="ga-tm">{solved ? 'less comes back' : 'reflected power'}</T>
       <T x={120} y={124} a="middle" c={solved ? 'ga-tk ga-tb' : 'ga-tb'}>{solved ? 'power turned down: transistors safe' : 'full power into a bad match'}</T>
     </Art>
   );
@@ -138,7 +138,7 @@ const LESSON: Lesson = {
       picture: { draw: MatchMeter },
       heading: 'SWR tells you how good the match is',
       text: [
-        'Impedance is how strongly a cable or an antenna opposes radio-frequency current. It is measured in ohms. Most ham feed lines are 50 ohms. If the antenna is 50 ohms too, the two are matched and the antenna takes all the power.',
+        'Impedance is how strongly a cable or an antenna opposes radio-frequency current, measured in ohms. Most ham feed lines are 50 ohms. If the antenna is 50 ohms too, the two are matched and the antenna takes all the power.',
         'If they differ, part of the power is reflected back toward the radio. SWR, the standing wave ratio, measures this. A reading of 1:1 is a perfect match. A higher first number, such as 4:1, means an impedance mismatch.',
       ],
       interaction: {
@@ -336,8 +336,8 @@ const LESSON: Lesson = {
           review: 'dummy',
           covers: ['T7C01'],
           choices: [
-            { label: 'Into a dummy load', right: true, why: 'A dummy load takes the power in place of the antenna and turns it into heat, so nothing goes over the air.' },
             { label: 'Into the antenna, at low power', why: 'Low power is still a signal on the air. A dummy load keeps the test off the air.' },
+            { label: 'Into a dummy load', right: true, why: 'A dummy load takes the power in place of the antenna and turns it into heat, so nothing goes over the air.' },
             { label: 'Into an antenna analyzer', why: 'An analyzer is a measuring instrument for antennas. It is not built to absorb transmitter power.' },
           ],
         },
