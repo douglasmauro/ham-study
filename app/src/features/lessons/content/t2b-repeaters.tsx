@@ -37,7 +37,7 @@ const Cross = ({ x, y }: { x: number; y: number }) => <path class="ga-bad ga-thi
 
 /** Doug hears the repeater, but it ignores him. Three settings to check. T2B04 */
 function CantGetIn({ solved }: PicProps) {
-  const chips = [['offset', 14], ['CTCSS tone', 88], ['DCS code', 162]] as const;
+  const chips = [['offset', 12], ['CTCSS', 86], ['DCS', 160]] as const;
   return (
     <Art label="Doug hears the repeater's output clearly, but his own signal does not get in: the repeater ignores him. Three settings to check: the offset, the CTCSS tone and the DCS code.">
       <path class="ga-w ga-thin" d="M8 96H232" />
@@ -50,8 +50,8 @@ function CantGetIn({ solved }: PicProps) {
       <T x={100} y={70} a="middle" c="ga-ts">it ignores Doug</T>
       {chips.map(([label, x]) => (
         <>
-          <rect class={solved ? 'ga-good' : 'ga-w ga-thin'} x={x} y="106" width="64" height="24" rx="5" />
-          <T x={x + 32} y={122} a="middle" c={solved ? 'ga-tb' : 'ga-tm'}>{label}</T>
+          <rect class={solved ? 'ga-good' : 'ga-w ga-thin'} x={x} y="104" width="68" height="26" rx="5" />
+          <T x={x + 34} y={121} a="middle" c={solved ? 'ga-tb' : 'ga-tm'}>{label}</T>
         </>
       ))}
     </Art>
@@ -70,7 +70,7 @@ function ReverseCheck({ solved }: PicProps) {
       <T x={210} y={36} a="end" c="ga-ts ga-tb">input</T>
       <T x={30} y={36} c="ga-tm">output</T>
       <Arrow x1={200} y1={92} x2={42} y2={92} c={`${solved ? 'ga-good' : 'ga-k'} ga-dash ga-thick`} />
-      <T x={120} y={84} a="middle" c="ga-tk ga-tb">reverse: heard directly</T>
+      <T x={120} y={80} a="middle" c="ga-tk ga-tb">reverse: heard directly</T>
       <T x={26} y={118} a="middle" c="ga-tm">Doug</T>
       <T x={214} y={118} a="middle" c="ga-tm">Jeff</T>
       <T x={120} y={134} a="middle" c={solved ? 'ga-tk ga-tb' : 'ga-tm'}>{solved ? 'so they can use simplex' : 'Doug hears Jeff directly'}</T>

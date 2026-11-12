@@ -246,7 +246,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
           covers: ['T1D11'],
           choices: [
             { label: 'Yes, like any other transmission', why: 'Signals that control a model craft are excused from on-air identification.' },
-            { label: 'No. Model craft control signals need no on-air identification', right: true, why: 'Right. This is the exception to the identification rule.' },
+            { label: 'No. Model craft control signals need no on-air identification', right: true, why: 'Right. Control signals for a model craft are excused from on-air identification.' },
           ],
         },
       ],
