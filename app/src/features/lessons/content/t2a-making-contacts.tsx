@@ -360,11 +360,11 @@ const LESSON: Lesson = {
           ],
         },
         {
-          q: 'Who decides that one part of the 2 meter band is for simplex and another for repeaters?',
+          q: 'Who sets aside a group of 2 meter channels for FM simplex?',
           review: 'band-plan',
           covers: ['T2A10'],
           choices: [
-            { label: 'The FCC, by law', why: 'The FCC sets what is legal. Where each activity goes is a voluntary agreement on top of that.' },
+            { label: 'The FCC, by law', why: 'The FCC sets what is legal. Simplex channels are set aside by a voluntary agreement on top of that.' },
             { label: 'Hams themselves, in a voluntary band plan', right: true, why: 'A band plan is a voluntary guideline for where modes and activities go in a band.' },
             { label: 'Each repeater owner, for their own area', why: 'A band plan is a shared guideline for everyone, not one owner\'s or one club\'s plan.' },
           ],

@@ -1,4 +1,26 @@
 {
+  "lesson-t1e-control-operator": {
+    "title": 1306,
+    "lines": [
+      5590,
+      6661,
+      5068,
+      5355,
+      5982,
+      5669
+    ]
+  },
+  "lesson-t1f-identification": {
+    "title": 1724,
+    "lines": [
+      6504,
+      5198,
+      3997,
+      4310,
+      6426,
+      6609
+    ]
+  },
   "lesson-t2c-nets-emergencies": {
     "title": 1515,
     "lines": [
@@ -136,6 +158,28 @@
       4467,
       5538,
       4258
+    ]
+  },
+  "lesson-t8c-activities": {
+    "title": 1515,
+    "lines": [
+      5433,
+      4728,
+      4415,
+      4702,
+      3291,
+      5120
+    ]
+  },
+  "lesson-t8d-digital-modes": {
+    "title": 1019,
+    "lines": [
+      6348,
+      5590,
+      5773,
+      6348,
+      4389,
+      3944
     ]
   },
   "lesson-t9a-antennas": {

@@ -70,7 +70,7 @@ const IconTen = () => (
     <path class="ls-ms ls-mthin" d="M27 28C28 14 34 14 35 28" />
   </Mini>
 );
-const IconEdge = () => <Mini><path class="ls-mk" d="M34 6V42" /><path class="ls-ms" d="M10 40C14 14 22 14 26 40" /><path class="ls-mw ls-mthin" d="M4 40H44" /></Mini>;
+const IconSat = () => <Mini><rect class="ls-mk" x="12" y="18" width="12" height="10" rx="1" /><path class="ls-mk" d="M6 23H12M24 23H30" /><path class="ls-ms ls-mthin" d="M38 42L30 30" /></Mini>;
 const IconCw = () => <Mini><path class="ls-ms" d="M4 24H10M14 24H26M30 24H34M38 24H44" /><path class="ls-mk ls-mthin" d="M4 34H44" /></Mini>;
 const IconPower = () => <Mini><rect class="ls-mk" x="8" y="28" width="10" height="14" /><rect class="ls-ms" x="28" y="8" width="10" height="34" /></Mini>;
 const IconShare = () => <Mini><rect class="ls-mw" x="4" y="16" width="40" height="16" rx="2" /><path class="ls-mk" d="M30 16V32" /></Mini>;
@@ -324,9 +324,9 @@ export const T1B_BANDS_PRIVILEGES: Lesson = {
       covers: ['T1B01', 'T1B02', 'T1B03', 'T1B04', 'T1B05', 'T1B06', 'T1B07', 'T1B08', 'T1B09', 'T1B10', 'T1B11', 'T1B12'],
       facts: [
         { icon: IconBands, text: '6 meters is 50 to 54 MHz, so 52.525 MHz is in it. 2 meters is 144 to 148 MHz, so 146.52 MHz is in it.', covers: ['T1B03', 'T1B04'] },
-        { icon: IconTen, text: 'Technician voice on HF is on 10 meters only, 28.300 to 28.500 MHz. Below that, 28.000 to 28.300 is CW and data.', covers: ['T1B01', 'T1B06'] },
-        { icon: IconEdge, text: 'Stay off the exact band edge: display error, sidebands and drift could put part of your signal outside.', covers: ['T1B09'] },
-        { icon: IconCw, text: 'Above 50 MHz: 50.0 to 50.1 and 144.0 to 144.1 MHz are CW only, and every band has some SSB phone segment. Data like FT8 works on 10, 6 and 2 meters. Any Technician may contact the ISS on VHF.', covers: ['T1B02', 'T1B05', 'T1B07', 'T1B10'] },
+        { icon: IconTen, text: 'Technician voice on HF: 10 meters only, 28.300 to 28.500 MHz. Stay a little inside every edge, for display error, sidebands and drift.', covers: ['T1B01', 'T1B06', 'T1B09'] },
+        { icon: IconCw, text: 'The bottom 100 kHz of 6 and 2 meters, 50.0 to 50.1 and 144.0 to 144.1 MHz, is CW only. Every band above 50 MHz has some SSB phone segment.', covers: ['T1B07', 'T1B10'] },
+        { icon: IconSat, text: 'Technicians may use FT8 and other data on 10, 6 and 2 meters, and any Technician may contact the ISS on VHF.', covers: ['T1B02', 'T1B05'] },
         { icon: IconPower, text: 'Technician power: 200 watts PEP in the HF segments, 1500 watts PEP above 30 MHz apart from some restrictions.', covers: ['T1B11', 'T1B12'] },
         { icon: IconShare, text: 'Where amateurs are secondary, expect non-amateur stations and avoid interfering with them.', covers: ['T1B08'] },
       ],

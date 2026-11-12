@@ -255,7 +255,7 @@ export const T0C_RF_EXPOSURE: Lesson = {
       picture: { art: 'rf-exposure-evaluation' },
       heading: 'Checking your station is your job',
       text: [
-        'You, the station licensee, must make sure no one is exposed to RF above the FCC limits. The FCC sets the limits but does not check your station. Check it by calculation based on FCC OET Bulletin 65, by computer modeling, or by measuring field strength with calibrated equipment.',
+        'You, the station licensee, must make sure no one is exposed to RF above the FCC limits. The FCC sets the limits, but meeting them is up to you. Check your station by calculation based on FCC OET Bulletin 65, by computer modeling, or by measuring field strength with calibrated equipment.',
         'A check is only good for the station as it was. Change anything in the transmitter or antenna system and the fields change too.',
       ],
       interaction: {
@@ -331,7 +331,7 @@ export const T0C_RF_EXPOSURE: Lesson = {
           review: 'evaluate',
           covers: ['T0C13'],
           choices: [
-            { label: 'The FCC\'s', why: 'The FCC sets the limits, but it does not check each station.' },
+            { label: 'The FCC\'s', why: 'The FCC sets the limits, but keeping your station within them is not its job.' },
             { label: 'The neighbor\'s', why: 'The neighbor cannot know when or how you transmit. It is not their job.' },
             { label: 'Yours, as the station licensee', right: true, why: 'The licensee controls the station, so the licensee is responsible.' },
           ],

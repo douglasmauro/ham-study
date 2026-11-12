@@ -161,7 +161,7 @@ export const T0B_TOWER_SAFETY: Lesson = {
       heading: 'Stay well clear of power lines',
       text: [
         'If a tower, mast, antenna or wire touches an overhead power line, it becomes live, and anyone touching it can be electrocuted. Before you put anything up, look for overhead wires and stay clear of them. Never attach an antenna to a utility pole: it could contact the high-voltage lines.',
-        'How far is far enough? Picture the antenna falling over. It must be far enough away that if it falls, no part of it can come within 10 feet of the power wires.',
+        'How far is far enough? Picture the antenna falling over. It must be far enough away that if it falls, no part of it can come within 10 feet (about 3 meters) of the power wires.',
       ],
       interaction: {
         kind: 'choice',

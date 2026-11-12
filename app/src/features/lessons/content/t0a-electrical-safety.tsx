@@ -138,7 +138,7 @@ export const T0A_ELECTRICAL_SAFETY: Lesson = {
       heading: 'Know which wire is hot',
       text: [
         'A US 120 volt AC cable has three wires. Black is the hot wire: it carries the 120 volts from the panel, and it is the one that can shock you. White is the neutral, the return path.',
-        'Green, or bare copper, is the equipment ground: a safety wire tied to the metal case of the equipment. Treat every wire as live until the power is off.',
+        'Green, or bare copper, is the equipment ground: a safety wire tied to the metal case of the equipment. Treat every wire as live. Leave mains wiring to someone qualified.',
       ],
       interaction: {
         kind: 'sort',
@@ -309,7 +309,7 @@ export const T0A_ELECTRICAL_SAFETY: Lesson = {
           ],
         },
         {
-          q: 'You open a 120 volt cable and see a black, a white and a green wire. Which one carries the 120 volts?',
+          q: 'A 120 volt cable has a black, a white and a green wire. Which one carries the 120 volts?',
           review: 'wires',
           covers: ['T0A03'],
           choices: [
