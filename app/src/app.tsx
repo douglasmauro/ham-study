@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { lazy, Suspense } from 'preact/compat';
 import { Exams } from './ui/Exams';
+import { WhatsNew } from './ui/WhatsNew';
 import { Glossary } from './ui/Glossary';
 import { GlossaryGallery } from './ui/GlossaryArt';
 import { Home } from './ui/Home';
@@ -60,6 +61,8 @@ export function App() {
       return <Session key={key} kind="term" target={arg} />;
     case 'exams':
       return <Exams />;
+    case 'whats-new':
+      return <WhatsNew />;
     case 'map':
       return <MapView />;
     case 'settings':

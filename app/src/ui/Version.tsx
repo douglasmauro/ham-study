@@ -60,6 +60,7 @@ export function Version() {
       {!newer && state !== 'checking' && (
         <button class="toggle" onClick={check}>Check for update</button>
       )}
+      <a class="small" href="#/whats-new" style={{ fontWeight: 600, minHeight: '32px', display: 'inline-flex', alignItems: 'center' }}>What's new in each version</a>
     </div>
   );
 }

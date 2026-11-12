@@ -1,6 +1,7 @@
 import { DAY, localDay } from '../lib/engine';
 import { TERMS } from '../lib/glossary';
 import { finishedLessons, nextLesson } from '../lib/lessons';
+import { RELEASES, seenRelease } from '../lib/releases';
 import { POOL, TOPICS } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { useData } from '../lib/store';
@@ -40,11 +41,11 @@ function Step({ n, done, current, label, title, sub }: { n: number; done: boolea
   );
 }
 
-function MoreRow({ href, title, sub }: { href: string; title: string; sub: string }) {
+function MoreRow({ href, title, sub, dot }: { href: string; title: string; sub: string; dot?: boolean }) {
   return (
     <a href={href} class="row" style={{ textDecoration: 'none', color: 'var(--text)', gap: '12px', minHeight: '52px', padding: '0 4px', borderBottom: '1px solid var(--surface)' }}>
       <span class="grow stack" style={{ gap: 0 }}>
-        <span style={{ fontSize: '16px', fontWeight: 500 }}>{title}</span>
+        <span class="row" style={{ gap: '8px', fontSize: '16px', fontWeight: 500 }}>{title}{dot && <span class="dot" aria-label="new" style={{ background: 'var(--accent)' }} />}</span>
         <span style={{ fontSize: '12px', color: 'var(--muted)' }}>{sub}</span>
       </span>
       <Icon name="chevron" size={18} color="var(--muted)" />
@@ -172,6 +173,7 @@ export function Home() {
         <MoreRow href="#/report" title="Weekly report" sub="What improved, what is weak" />
         <MoreRow href={`#/examsim?${now}`} title="Exam-day simulation" sub="Timed, real layout, no hints" />
         <MoreRow href="#/exams" title="How the exams work" sub="Three levels, fees, retakes" />
+        <MoreRow href="#/whats-new" title="What's new" sub={`Version ${RELEASES[0].version}: ${RELEASES[0].title}`} dot={seenRelease() < RELEASES[0].version} />
       </div>
 
       <Version />
