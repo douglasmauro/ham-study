@@ -139,7 +139,7 @@ export const T7B_PROBLEMS: Lesson = {
       picture: { art: 'swr' },
       heading: 'Symptom: your radio puts out less power than it should',
       text: [
-        'Most radios today are solid-state: built with transistors instead of vacuum tubes. SWR, standing wave ratio, shows how well your antenna system is matched to the radio. Low SWR is a good match. High SWR means much of the power bounces back.',
+        'Most radios today are solid-state: built with transistors instead of vacuum tubes. SWR, standing wave ratio, shows how well your antenna system is matched to the radio. Low SWR is a good match. High SWR means more of the power bounces back.',
         'Reflected power can damage the final transistors, so a solid-state radio protects itself by turning its own output down. Low power is often the radio telling you to check the antenna and feed line.',
       ],
       interaction: {

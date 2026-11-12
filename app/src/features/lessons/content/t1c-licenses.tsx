@@ -184,7 +184,7 @@ export const T1C_LICENSES: Lesson = {
       heading: 'Your call sign has a shape',
       text: [
         'With the grant comes a call sign, KJ7ABC: two letters, a digit, then three letters. That 2 by 3 shape is called Group D, and Technicians can be given it. The shortest shapes, like one letter, a digit and two letters, are kept for Amateur Extra.',
-        'Jeff picked K7DEF himself. A call sign you choose is a vanity call sign, and any licensed amateur may apply for one. Your license class only limits which shapes you may pick.',
+        'Jeff, who holds an Advanced license, picked K7DEF himself. A call sign you choose is a vanity call sign, and any licensed amateur may apply for one. Your license class only limits which shapes you may pick.',
       ],
       interaction: {
         kind: 'choice',
@@ -214,7 +214,7 @@ export const T1C_LICENSES: Lesson = {
         options: [
           { id: 'none', label: 'Nothing. Email is optional', why: 'Email is not optional. You must keep a valid address on file with the FCC.' },
           { id: 'fine', label: 'A fine, and nothing more', why: 'The rule does not describe a fine. It describes action against the license itself.' },
-          { id: 'rev', label: 'His station license may be revoked, or his operator license suspended', right: true, why: 'Right. If FCC mail cannot reach you, the station license may be revoked or the operator license suspended.' },
+          { id: 'rev', label: 'His station license may be revoked, or his operator license suspended', right: true, why: 'Right. If FCC email cannot reach you, the station license may be revoked or the operator license suspended.' },
         ],
       },
       remember: 'If the FCC cannot reach you by email, your station license may be revoked or your operator license suspended.',

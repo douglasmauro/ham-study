@@ -49,7 +49,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
       heading: 'Who you may talk to',
       text: [
         'Doug hears a ham calling from another country. Can he answer? Almost always. There is one limit, and it is set between governments.',
-        'The ITU, the International Telecommunication Union, is the United Nations agency that coordinates radio between countries. If a country\'s government tells the ITU it objects to contacts with US hams, US hams may not exchange communications with that country.',
+        'The ITU, the International Telecommunication Union, is the United Nations agency that coordinates radio between countries. If a country\'s government tells the ITU it objects to amateur contacts with other countries, US hams may not exchange communications with that country.',
       ],
       interaction: {
         kind: 'choice',
@@ -84,7 +84,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
           { id: 'cw', label: 'Morse practice', slot: 'ok', why: 'Allowed. One-way code practice is one of the listed exceptions.' },
           { id: 'show', label: 'Talk show for all', slot: 'no', why: 'Not allowed. A talk show for anyone who tunes in is meant for the general public, so it is broadcasting.' },
           { id: 'news', label: 'Ham event notice', slot: 'ok', why: 'Allowed. A notice about a ham radio event is a bulletin for hams, not broadcasting.' },
-          { id: 'tlm', label: 'Balloon readings', slot: 'ok', why: 'Allowed. Readings sent down from a weather balloon are telemetry, a one-way signal from a device.' },
+          { id: 'tlm', label: 'Balloon readings', slot: 'ok', why: 'Allowed. Readings sent down from a ham\'s high-altitude balloon are telemetry, a one-way signal from a device.' },
         ],
       },
       remember: 'Broadcasting means transmissions intended for the general public, and it is prohibited. Code practice, bulletins for hams, telecommand and telemetry are allowed.',
@@ -119,7 +119,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
       picture: { art: 'music' },
       heading: 'No music, no help for the news, with one exception each',
       text: [
-        'Music is not allowed on the air, however short the clip or clean the signal. The one exception: music that happens to be in an authorized retransmission of manned spacecraft communications, such as a relay of astronauts in space.',
+        'Music is not allowed on the air, however short the clip or clean the signal. The one exception: music that happens to be in an authorized retransmission of manned spacecraft communications, such as a relay of astronauts talking from space.',
         'Hams also may not help broadcasting, program production or news gathering, except when it is directly about the immediate safety of human life or protection of property, and nothing else is available.',
       ],
       interaction: {
@@ -191,7 +191,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
       heading: 'Say who you are, even on a quick test',
       text: [
         'Almost everything you send must carry your call sign, so listeners know which station is on the air. A test is still a transmission: when Doug checks his new antenna for a few seconds, he still identifies as KJ7ABC.',
-        'One exception to know: the signals that steer a radio-controlled model plane, boat or car. They are only control pulses, and they need no on-air identification.',
+        'One exception to know: the signals that steer a radio-controlled model plane, boat or car. They are only control pulses, and they need no on-air identification. Instead, a label with the call sign is fixed to the transmitter.',
       ],
       interaction: {
         kind: 'choice',
@@ -227,7 +227,7 @@ export const T1D_TRANSMISSIONS: Lesson = {
           choices: [
             { label: 'Yes, if it is under a minute', why: 'There is no time allowance. Short clips of music are not allowed either.' },
             { label: 'Yes, if his signal is clean', why: 'A clean signal does not make music allowed.' },
-            { label: 'No. Music is only allowed inside a relay of manned spacecraft communications', right: true, why: 'A birthday song is not part of an authorized spacecraft relay, so it is not allowed.' },
+            { label: 'No. Music is only allowed when incidental to an authorized relay of manned spacecraft communications', right: true, why: 'A birthday song is not part of an authorized spacecraft relay, so it is not allowed.' },
           ],
         },
         {

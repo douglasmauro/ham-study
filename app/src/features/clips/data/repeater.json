@@ -39,13 +39,15 @@
       "caption": "On the 2 meter band, a common offset is plus or minus 600 kHz.",
       "questionIds": [
         "T2A01"
-      ]
+      ],
+      "say": "On the 2 meter band, a common offset is plus or minus 600 kilohertz."
     },
     {
       "caption": "On the 70 centimeter band, a common offset is plus or minus 5 MHz.",
       "questionIds": [
         "T2A03"
-      ]
+      ],
+      "say": "On the 70 centimeter band, a common offset is plus or minus 5 megahertz."
     },
     {
       "caption": "Many repeaters also want a tone. CTCSS is a sub-audible tone, sent along with your voice, that opens the repeater's squelch.",

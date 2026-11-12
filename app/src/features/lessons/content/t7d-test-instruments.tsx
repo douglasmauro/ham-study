@@ -91,8 +91,8 @@ function CapCharge({ value = 0, solved }: PicProps) {
       <Meter x={40} y={48}>Ω</Meter>
       <path class="ga-w ga-thick" d="M136 38H164M136 52Q150 44 164 52" />
       <T x={140} y={92} a="middle" c="ga-tm">capacitor</T>
-      {i > 0.03 && <path class="ga-s" d={`M62 26H${(70 + 60 * i).toFixed(1)}M${(64 + 60 * i).toFixed(1)} 21L${(70 + 60 * i).toFixed(1)} 26L${(64 + 60 * i).toFixed(1)} 31`} />}
-      <T x={62} y={46} c="ga-ts">{i > 0.03 ? 'current' : 'no current'}</T>
+      {i > 0.02 && <path class="ga-s" d={`M62 26H${(70 + 60 * i).toFixed(1)}M${(64 + 60 * i).toFixed(1)} 21L${(70 + 60 * i).toFixed(1)} 26L${(64 + 60 * i).toFixed(1)} 31`} />}
+      <T x={62} y={46} c="ga-ts">{i > 0.02 ? 'current' : 'no current'}</T>
       <rect class="ga-w" x="206" y="22" width="16" height="50" rx="2" />
       <rect class="ga-fk" x="207" y={(71 - fillH).toFixed(1)} width="14" height={fillH.toFixed(1)} />
       <T x={214} y={88} a="middle" c="ga-tm">charge</T>
@@ -213,7 +213,7 @@ export const T7D_TEST_INSTRUMENTS: Lesson = {
       heading: 'An ohmmeter brings its own current, so switch the power off',
       text: [
         'An ohmmeter has its own battery inside. It sends a small current through the part and measures the voltage that results. From the two it works out the resistance, using Ohm\'s law: resistance equals voltage divided by current.',
-        'Any other voltage in the circuit would spoil that sum and could damage the meter. So before measuring resistance on a circuit board, make sure the circuit is not powered.',
+        'Any other voltage in the circuit would spoil that reading and could damage the meter. So before measuring resistance on a circuit board, make sure the circuit is not powered.',
       ],
       interaction: {
         kind: 'choice',
@@ -234,7 +234,7 @@ export const T7D_TEST_INSTRUMENTS: Lesson = {
       picture: { art: 'multimeter' },
       heading: 'A multimeter: three meters in one box',
       text: [
-        'A multimeter has a dial that picks the job: voltage, current or resistance. It cannot measure radio signals, such as signal strength or impedance at radio frequencies. Those need other instruments.',
+        'A multimeter has a dial that picks the job: voltage, current or resistance. It is not the tool for signal strength, noise, impedance or reactance. Those need other instruments.',
         'Set the dial before you touch the probes. On the resistance setting the meter sends out its own small current and expects a dead circuit. Touching a live voltage on that setting can damage the meter.',
       ],
       interaction: {
