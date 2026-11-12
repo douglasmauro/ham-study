@@ -1,4 +1,34 @@
 {
+  "lesson-t0a-electrical-safety": {
+    "title": 1358,
+    "lines": [
+      5277,
+      5251,
+      5277,
+      6740,
+      5224
+    ]
+  },
+  "lesson-t0b-tower-safety": {
+    "title": 1646,
+    "lines": [
+      6087,
+      4754,
+      7288,
+      5120,
+      5982
+    ]
+  },
+  "lesson-t0c-rf-exposure": {
+    "title": 1411,
+    "lines": [
+      7497,
+      6296,
+      7576,
+      4754,
+      5956
+    ]
+  },
   "lesson-t1e-control-operator": {
     "title": 1306,
     "lines": [
