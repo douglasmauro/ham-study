@@ -1,4 +1,4 @@
-import { DAY, localDay } from '../lib/engine';
+import { DAY, isSettled, localDay } from '../lib/engine';
 import { TERMS } from '../lib/glossary';
 import { finishedLessons, nextLesson, practiceAvailable } from '../lib/lessons';
 import { POOL, TOPICS } from '../lib/pool';
@@ -85,7 +85,7 @@ export function Home() {
 
   const weak = s.weakest;
   const wt = weak ? TOPICS[weak.id] : null;
-  const misses = new Set(data.events.filter((e) => !e.correct && e.t >= now - 7 * DAY).map((e) => e.q)).size;
+  const misses = [...new Set(data.events.filter((e) => !e.correct && e.t >= now - 7 * DAY).map((e) => e.q))].filter((id) => !isSettled(s.states[id])).length;
   const lessonsDone = finishedLessons(data).size;
   const needBackup = data.events.length >= 50 && now - (data.settings.lastBackup ?? 0) > 7 * DAY;
 

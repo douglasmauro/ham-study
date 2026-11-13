@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   applyEvent, buildDrill, buildExam, buildStates, canShuffleChoices, DAY, groupP,
-  passProbability, pCorrect, seededRng, streak, type AnswerEvent,
+  isSettled, passProbability, pCorrect, seededRng, streak, type AnswerEvent,
 } from './engine';
 import { explanationFor } from './explain';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID } from './pool';
@@ -120,5 +120,27 @@ describe('streaks', () => {
     expect(streak(events, T0, 10)).toBe(3);
     expect(streak(events, T0 + DAY, 10)).toBe(3);
     expect(streak(events, T0 + 2 * DAY, 10)).toBe(0);
+  });
+});
+
+describe('settled questions', () => {
+  it('are settled after two clean right answers in a row, and unsettled by a miss', () => {
+    const s1 = buildStates([ev('T3B05', false, T0), ev('T3B05', true, T0 + 1), ev('T3B05', true, T0 + 2)]);
+    expect(isSettled(s1.T3B05)).toBe(true);
+    const s2 = buildStates([ev('T3B05', true, T0), ev('T3B05', true, T0 + 1), ev('T3B05', false, T0 + 2)]);
+    expect(isSettled(s2.T3B05)).toBe(false);
+    const s3 = buildStates([ev('T3B05', true, T0), ev('T3B05', true, T0 + 1, { hint: 1 })]);
+    expect(isSettled(s3.T3B05)).toBe(false);
+  });
+  it('are not used to top up a short drill', () => {
+    const qs = QUESTIONS_BY_GROUP.T3B;
+    // Every question seen; one settled, the rest missed once and not due yet.
+    const events = qs.flatMap((q, i) => (i === 0
+      ? [ev(q.id, true, T0), ev(q.id, true, T0 + 1)]
+      : [ev(q.id, false, T0 + 2)]));
+    const states = buildStates(events);
+    const ids = buildDrill(qs, states, T0 + 3, { size: qs.length, newCount: 0, rng: seededRng(1) });
+    expect(ids).not.toContain(qs[0].id);
+    expect(ids.length).toBe(qs.length - 1);
   });
 });

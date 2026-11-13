@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import { buildDrill, buildExam, DAY, pCorrect, seededRng, type Mode } from '../lib/engine';
+import { buildDrill, buildExam, DAY, isSettled, pCorrect, seededRng, type Mode } from '../lib/engine';
 import { TERMS_BY_ID } from '../lib/glossary';
 import { lockedGroups, nextLesson } from '../lib/lessons';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID, TOPICS, topicOf } from '../lib/pool';
@@ -34,7 +34,8 @@ function plan(kind: SessionKind, target: string | undefined): { ids: string[]; t
     }
     case 'review': {
       const since = now - 7 * DAY;
-      const missed = [...new Set(data.events.filter((e) => !e.correct && e.t >= since).map((e) => e.q))];
+      const missed = [...new Set(data.events.filter((e) => !e.correct && e.t >= since).map((e) => e.q))]
+        .filter((id) => !isSettled(stats.states[id]));
       return { ids: missed.slice(-20).reverse(), title: 'Review my misses' };
     }
     case 'term': {
@@ -47,7 +48,7 @@ function plan(kind: SessionKind, target: string | undefined): { ids: string[]; t
       // and not yet mastered. Weakest first, up to 20 per session.
       const trouble = new Set(data.events.filter((e) => !e.correct || e.hint > 0 || e.guess).map((e) => e.q));
       const ids = [...trouble]
-        .filter((id) => (stats.states[id]?.box ?? 0) < 3)
+        .filter((id) => (stats.states[id]?.box ?? 0) < 3 && !isSettled(stats.states[id]))
         .sort((a, b) => pCorrect(stats.states[a]) - pCorrect(stats.states[b]));
       return { ids: ids.slice(0, 20), title: 'Notebook drill' };
     }

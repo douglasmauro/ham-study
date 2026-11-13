@@ -82,6 +82,15 @@ export function pCorrect(s: QState | undefined): number {
   return p;
 }
 
+/**
+ * Answered right twice in a row with no hint or guess. A settled question leaves miss lists
+ * and top-ups and waits for its normal review date, so other questions get the time.
+ */
+export function isSettled(s: QState | undefined): boolean {
+  if (!s || s.recent.length < 2) return false;
+  return s.recent[s.recent.length - 1] && s.recent[s.recent.length - 2];
+}
+
 export function isMastered(s: QState | undefined): boolean {
   return !!s && s.box >= 3;
 }
@@ -207,7 +216,7 @@ export function buildDrill(
   const chosen = new Set([...reviews, ...news]);
   if (opts.pad !== false && chosen.size < opts.size) {
     const weakest = questions
-      .filter((q) => states[q.id] && !chosen.has(q.id))
+      .filter((q) => states[q.id] && !chosen.has(q.id) && !isSettled(states[q.id]))
       .sort((a, b) => pCorrect(states[a.id]) - pCorrect(states[b.id]))
       .map((q) => q.id);
     for (const id of weakest) {

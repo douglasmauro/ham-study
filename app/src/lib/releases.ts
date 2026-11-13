@@ -24,6 +24,7 @@ export const RELEASES: Release[] = [
       { kind: 'fixed', text: 'Practice no longer repeats the same few questions to fill the session when you have run out of new ones.' },
       { kind: 'improved', text: 'When you have practiced everything you have learned, the app says so and sends you to the next lesson to unlock more questions.' },
       { kind: 'improved', text: "The home screen's practice step shows only what you can actually practice right now." },
+      { kind: 'improved', text: 'Once you get a question right twice in a row, it leaves Review misses and stops coming back early. It returns only on its normal review date, making room for other questions.' },
     ],
   },
   {
