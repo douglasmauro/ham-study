@@ -1,7 +1,7 @@
 import { useState } from 'preact/hooks';
 import { buildDrill, buildExam, DAY, pCorrect, seededRng, type Mode } from '../lib/engine';
 import { TERMS_BY_ID } from '../lib/glossary';
-import { lockedGroups } from '../lib/lessons';
+import { lockedGroups, nextLesson } from '../lib/lessons';
 import { ALL_GROUPS, POOL, QUESTIONS_BY_GROUP, QUESTIONS_BY_ID, TOPICS, topicOf } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { addEvent, getData, markGuess, newId } from '../lib/store';
@@ -56,7 +56,7 @@ function plan(kind: SessionKind, target: string | undefined): { ids: string[]; t
       const locked = lockedGroups(data);
       const open = POOL.questions.filter((q) => stats.states[q.id] || !locked.has(q.group));
       return {
-        ids: buildDrill(open, stats.states, now, { size: data.settings.dailyGoal, newCount: stats.newToday, rng }),
+        ids: buildDrill(open, stats.states, now, { size: data.settings.dailyGoal, newCount: stats.newToday, rng, pad: false }),
         title: "Today's drill",
       };
     }
@@ -73,6 +73,16 @@ export function Session({ kind, target }: { kind: SessionKind; target?: string }
   const settings = getData().settings;
   const mode: Mode = kind === 'exam' ? 'exam' : kind === 'review' || kind === 'notebook' ? 'review' : 'drill';
 
+  if (!queue.length && kind === 'drill') {
+    return (
+      <div class="screen">
+        <div class="topbar"><a class="iconbtn" href="#/" aria-label="Home"><Icon name="back" /></a><h1>{title}</h1></div>
+        <CaughtUp empty />
+        <a class="btn secondary block" href="#/">Back home</a>
+      </div>
+    );
+  }
+
   if (!queue.length) {
     return (
       <div class="screen">
@@ -85,7 +95,7 @@ export function Session({ kind, target }: { kind: SessionKind; target?: string }
   if (index >= queue.length) {
     return kind === 'exam'
       ? <ExamReport results={results} />
-      : <Summary title={title} results={results} startReadiness={startReadiness} />;
+      : <Summary title={title} results={results} startReadiness={startReadiness} caughtUp={kind === 'drill' && initial.length < settings.dailyGoal} />;
   }
 
   const q = QUESTIONS_BY_ID[queue[index]];
@@ -126,7 +136,23 @@ export function Session({ kind, target }: { kind: SessionKind; target?: string }
   );
 }
 
-function Summary({ title, results, startReadiness }: { title: string; results: Result[]; startReadiness: number }) {
+/** Shown when the daily drill has run out of material: nothing due and no new questions left. */
+function CaughtUp({ empty }: { empty?: boolean }) {
+  const lesson = nextLesson(getData());
+  return (
+    <div class="card stack" style={{ border: '2px solid var(--accent)', gap: '10px' }}>
+      <h2 style={{ margin: 0 }}>{empty ? 'You are all caught up' : 'That is everything for now'}</h2>
+      <span style={{ color: 'var(--text-2)', lineHeight: 1.45 }}>
+        {lesson
+          ? `You have practiced everything from the lessons you have finished. New questions unlock with your next lesson: ${lesson.title}.`
+          : 'You have practiced everything due today. Questions come back for review as they come due.'}
+      </span>
+      {lesson && <a class="btn primary block" href={`#/do/lessons/${lesson.id}?${Date.now()}`}>Start the next lesson</a>}
+    </div>
+  );
+}
+
+function Summary({ title, results, startReadiness, caughtUp }: { title: string; results: Result[]; startReadiness: number; caughtUp?: boolean }) {
   const stats = computeStats(getData());
   const right = results.filter((r) => r.correct).length;
   const delta = Math.round((stats.readiness - startReadiness) * 100);
@@ -141,8 +167,9 @@ function Summary({ title, results, startReadiness }: { title: string; results: R
           <span class="chip">Readiness {Math.round(stats.readiness * 100)}% {delta !== 0 && <span style={{ color: delta > 0 ? 'var(--good)' : 'var(--bad)' }}>{delta > 0 ? `+${delta}` : delta}</span>}</span>
         </div>
       </div>
+      {caughtUp && <CaughtUp />}
       <Misses results={results} />
-      <a class="btn primary block" href="#/">Back home</a>
+      <a class={`btn ${caughtUp ? 'secondary' : 'primary'} block`} href="#/">Back home</a>
     </div>
   );
 }

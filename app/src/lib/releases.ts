@@ -17,6 +17,16 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
+    version: 60,
+    date: '2026-11-13T16:30:00Z',
+    title: 'No more practice loops',
+    changes: [
+      { kind: 'fixed', text: 'Practice no longer repeats the same few questions to fill the session when you have run out of new ones.' },
+      { kind: 'improved', text: 'When you have practiced everything you have learned, the app says so and sends you to the next lesson to unlock more questions.' },
+      { kind: 'improved', text: "The home screen's practice step shows only what you can actually practice right now." },
+    ],
+  },
+  {
     version: 58,
     date: '2026-11-12T14:30:00Z',
     title: 'Release notes',

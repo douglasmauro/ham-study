@@ -1,6 +1,6 @@
 import { DAY, localDay } from '../lib/engine';
 import { TERMS } from '../lib/glossary';
-import { finishedLessons, nextLesson } from '../lib/lessons';
+import { finishedLessons, nextLesson, practiceAvailable } from '../lib/lessons';
 import { POOL, TOPICS } from '../lib/pool';
 import { computeStats } from '../lib/stats';
 import { useData } from '../lib/store';
@@ -65,7 +65,10 @@ export function Home() {
   const lessonDoneToday = (data.activities ?? []).some((a) => a.area === 'lessons' && localDay(a.t) === today);
   const hasLessonStep = !!lesson || lessonDoneToday;
   const lessonStepDone = lessonDoneToday;
-  const practiceDone = s.todayCount >= goal;
+  const avail = practiceAvailable(data, s.states, now, s.newToday);
+  // Nothing due and no new questions until the next lesson: practice is done for now.
+  const caughtUp = avail.due + avail.fresh === 0;
+  const practiceDone = s.todayCount >= goal || (caughtUp && s.todayCount > 0);
   const steps = (hasLessonStep ? 1 : 0) + 1;
   const stepsDone = (hasLessonStep && lessonStepDone ? 1 : 0) + (practiceDone ? 1 : 0);
   const lessonIsNext = !!lesson && !lessonStepDone;
@@ -74,8 +77,10 @@ export function Home() {
   const minutes = (lessonIsNext ? lesson!.minutes : 0) + practiceMinutes;
   const cta = lessonIsNext
     ? { href: `#/do/lessons/${lesson!.id}?${now}`, text: 'Start the lesson' }
-    : practiceDone
-      ? { href: `#/drill?${now}`, text: 'Done for today. Do more?' }
+    : caughtUp && lesson
+      ? { href: `#/do/lessons/${lesson.id}?${now}`, text: 'Start the next lesson' }
+      : practiceDone
+      ? { href: `#/drill?${now}`, text: caughtUp ? 'All caught up' : 'Done for today. Do more?' }
       : { href: `#/drill?${now}`, text: s.todayCount > 0 ? 'Continue practice' : 'Start practice' };
 
   const weak = s.weakest;
@@ -115,11 +120,11 @@ export function Home() {
         {hasLessonStep && (
           <Step n={1} done={lessonStepDone} current={lessonIsNext} label={`Learn${lesson && !lessonStepDone ? ` · ${lesson.minutes} min` : ''}`}
             title={lessonStepDone ? 'Lesson finished' : lesson!.title}
-            sub={lessonStepDone ? (lesson ? `Next up tomorrow: ${lesson.title}` : 'You have finished every lesson') : 'A short clip, cards, then a check'} />
+            sub={lessonStepDone ? (lesson ? (caughtUp ? `Next up: ${lesson.title}` : `Next up tomorrow: ${lesson.title}`) : 'You have finished every lesson') : 'A short clip, cards, then a check'} />
         )}
         <Step n={hasLessonStep ? 2 : 1} done={practiceDone} current={!lessonIsNext && !practiceDone} label="Practice"
-          title={practiceDone ? `${s.todayCount} questions answered` : `${s.dueCount} to review and ${s.newToday} new`}
-          sub={practiceDone ? 'Come back tomorrow, or keep going' : `${Math.min(s.todayCount, goal)} of ${goal} done today`} />
+          title={caughtUp ? (s.todayCount > 0 ? 'All caught up' : 'Nothing to practice yet') : practiceDone ? `${s.todayCount} questions answered` : `${avail.due} to review and ${avail.fresh} new`}
+          sub={caughtUp ? (lesson ? 'More questions unlock with your next lesson' : 'Reviews come back as they come due') : practiceDone ? 'Come back tomorrow, or keep going' : `${Math.min(s.todayCount, goal)} of ${goal} done today`} />
         <a class="btn primary block" href={cta.href} style={{ minHeight: '56px', fontFamily: 'var(--display)', fontSize: '18px' }}>{cta.text}</a>
       </div>
 

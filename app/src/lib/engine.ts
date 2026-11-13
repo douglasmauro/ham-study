@@ -155,6 +155,8 @@ export interface DrillOptions {
   size: number; // questions in the session
   newCount: number; // new questions to introduce
   rng: Rng;
+  /** Top up a short session with already-seen questions (default true). */
+  pad?: boolean;
 }
 
 /**
@@ -203,7 +205,7 @@ export function buildDrill(
 
   // Not enough due work: fill with the weakest seen questions.
   const chosen = new Set([...reviews, ...news]);
-  if (chosen.size < opts.size) {
+  if (opts.pad !== false && chosen.size < opts.size) {
     const weakest = questions
       .filter((q) => states[q.id] && !chosen.has(q.id))
       .sort((a, b) => pCorrect(states[a.id]) - pCorrect(states[b.id]))

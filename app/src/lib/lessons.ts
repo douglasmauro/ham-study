@@ -1,3 +1,4 @@
+import { POOL } from './pool';
 import { LESSONS, type LessonInfo } from '../features/lessons/manifest';
 import type { Data } from './store';
 
@@ -39,4 +40,21 @@ export function nextLesson(data: Data): LessonInfo | null {
 export function lockedGroups(data: Data): Set<string> {
   const done = finishedLessons(data);
   return new Set(ALL_LESSONS.filter((l) => !done.has(l.id)).flatMap((l) => l.groups));
+}
+
+/**
+ * What the daily drill can offer right now: questions due for review, and new questions from
+ * finished lessons (up to today's allowance). When both are zero there is nothing to practice
+ * until the next lesson or the next review comes due.
+ */
+export function practiceAvailable(data: Data, states: Record<string, unknown>, now: number, newToday: number): { due: number; fresh: number } {
+  const locked = lockedGroups(data);
+  let due = 0;
+  let open = 0;
+  for (const q of POOL.questions) {
+    const st = states[q.id] as { due: number } | undefined;
+    if (st) { if (st.due <= now) due++; }
+    else if (!locked.has(q.group)) open++;
+  }
+  return { due, fresh: Math.min(newToday, open) };
 }
